@@ -1,1 +1,9 @@
-example text
+<style>{
+    body {background-color: rgb(240,240,240);
+
+    }
+    .color-me {
+        background-color:rgb(80, 46, 80);
+    }
+
+}
