@@ -1,9 +1,9 @@
-<style>{
-    body {background-color: rgb(240,240,240);
-
-    }
-    .color-me {
-        background-color:rgb(80, 46, 80);
-    }
-
+body {
+    margin: 0px;
+    padding: 10px;
+    background-color: #fc3bb6
+}
+.color-me {
+    background-color:purple;
+    font-size:1.5em;
 }
