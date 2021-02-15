@@ -1,9 +1,14 @@
+#eventual-headline {
+    background-color:rgb(151, 144, 135)
+}
 body {
     margin: 0px;
     padding: 10px;
-    background-color: #201b20
+    background-color: rgb(255, 239, 232);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 .color-me {
-    background-color:rgb(28, 35, 39);
     font-size:1.5em;
+    color:#554e46;
 }
