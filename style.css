@@ -1,5 +1,11 @@
 #eventual-headline {
-    background-color:rgb(151, 144, 135)
+    background-color:rgb(230, 210, 197);
+    color:rgb(151,144,135);
+}
+#eventual-headline-dos {
+    background-color:rgb(107, 90, 79);
+    color:rgb(192, 183, 170);
+    font-size:0.5em;
 }
 body {
     margin: 0px;
