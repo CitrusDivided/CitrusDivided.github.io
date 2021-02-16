@@ -1,20 +1,36 @@
+.styling-about-me{
+    position:relative;
+    left: 50px;
+    background-color:rgb(35, 70, 67);
+    width:50%;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    
+}
+.about-me{
+    color:aqua;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
 #eventual-headline {
-    background-color:rgb(230, 210, 197);
-    color:rgb(151,144,135);
+    background-color:rgba(230, 210, 197, 0.068);
+    color:rgb(143, 211, 160);
 }
 #eventual-headline-dos {
-    background-color:rgb(107, 90, 79);
+    background-color:rgba(131, 88, 88, 0.26);
     color:rgb(192, 183, 170);
     font-size:0.5em;
 }
 body {
     margin: 0px;
     padding: 10px;
-    background-color: rgb(255, 239, 232);
+    background-color: rgb(37, 22, 22);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .color-me {
     font-size:1.5em;
-    color:#554e46;
+    color:rgb(143, 211, 160);
 }
