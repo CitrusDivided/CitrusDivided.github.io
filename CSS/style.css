@@ -13,7 +13,8 @@
     position:relative;
     border: 3px dotted rgba(0, 0, 0, 0.171);
     border-bottom: 3px dotted rgba(0, 0, 0, 0.253);
-    margin: 100px;
+    margin:auto;
+    margin-top:55px;
     background-color:rgba(20, 7, 7, 0.267);
     width:50%;
     padding: 100px;
