@@ -58,3 +58,12 @@ body {
     font-size:1.5em;
     color:rgb(42, 255, 148);
 }
+a:link{
+    color:rgb(221, 161, 161)
+}
+footer {
+    border: 2px double rgba(148, 50, 50, 0.24);
+    margin: auto;
+    margin-top: 300px;
+    color:rgb(42, 255, 148);
+}
