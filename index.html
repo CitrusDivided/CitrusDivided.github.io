@@ -5,8 +5,26 @@
         <title>ModernPancakes - Trying to make a change. :\</title>
         <link rel="shortcut icon" type="image/jpg" href="/Images/favicon/favicon.ico"/>
         <link rel="stylesheet" type="text/css" href="/CSS/style.css" media="all">
+        <script type="javascript/text" src="/js/script.js"></script>
+        <script>
+            window.onload = function() {
+                var canvas = document.getElementById("myCanvis");
+                var ctx = canvas.getContext("2d");
+                ctx.fillstyle = "green";
+                ctx.fillRect(400,10,10,35);
+            };
+        </script>
+        
+
     </head>
     <body>
+<canvas
+        id="myCanvis"
+        width="850"
+        height="40"
+        style="background-color:aliceblue"
+        
+></canvas>
         <h1 id="eventual-headline">Modernized. Pancakes.</h1>
         <h2 id="eventual-headline-dos">**There is no promise as to the modernization of said pancakes.</h1>
         <p class="color-me">This is a paragraph. And <em>this is emphasized text.</em> And <strong>this is a bold emphasis. Like mustard on eggs.</strong> (JSINPUTMEPLS)</p>
