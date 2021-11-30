@@ -101,12 +101,13 @@ a:link{
 }
 footer {
     border: 1.9px dotted rgba(173, 136, 36, 0.233);
-    border-radius: 120px;
-    background: repeating-linear-gradient( 120deg, #886c38, #6b623bd7 0.5px, #8a743a94 0.5px, #ffcc6e5e 5px); height: auto; width: auto;
-    box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 15px 12px #ffd8915e inset;
+    /* old - concept border-radius: 120px; */
+    background: repeating-linear-gradient( 120deg, #ff000036, #4d0000d7 0.5px, #42050594 0.5px, #ff02021e 5px); height: auto; width: auto;
     margin: auto;
+    box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 15px 12px #ff64645e inset;
     margin-top: 300px;
-    color:rgb(248, 255, 208);
+    color:rgb(255, 208, 208);
     text-shadow: 1px 1px 2px #00000093;
+    text-align: center;
     
 }
