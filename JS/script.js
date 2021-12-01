@@ -1,8 +1,8 @@
 var canvas = document.querySelector('canvas')
 ;
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+//canvas.width = window.innerWidth;
+//canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
 c.fillStyle = "#2AFF94";
@@ -25,4 +25,4 @@ c.stroke();
 c.fillStyle = "#2AFF94";
 c.font = '28px serif';
 c.textAlign = 'center';
-c.fillText('Testing',820,155);empty
+c.fillText('Testing',820,155);
