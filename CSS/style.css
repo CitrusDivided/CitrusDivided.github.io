@@ -1,7 +1,10 @@
 .grid-container {
     display: grid;
     grid-template-columns: [About-me-left] 50% [Qualification-right] 50%;
-    grid-gap: 0.5%; /*avoid using, find alternative*/
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 0.5%;
+    row-gap: 0.5%; /*avoid using grid-gap, find alternative*/
     grid-template-rows: [row1-start] 35%;
 
 }
