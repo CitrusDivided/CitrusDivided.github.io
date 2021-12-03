@@ -1,8 +1,9 @@
 .grid-container {
     display: grid;
-    grid-template-columns: [About-me-left] 1fr [Qualification-right] 1fr 0px;
-    grid-template-rows: [row1-start] 30%;
-    /*grid-gap: 20px */
+    grid-template-columns: [About-me-left] 50% [Qualification-right] 50%;
+    grid-gap: 0.5%; /*avoid using, find alternative*/
+    grid-template-rows: [row1-start] 35%;
+
 }
 
 .styling-about-me{
