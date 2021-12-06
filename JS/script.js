@@ -8,7 +8,7 @@ canvas.height = 480
 var c = canvas.getContext('2d');
 c.fillStyle = "#2AFF94";
 c.fillRect(100, 115, 100, 100);
-c.fillRect(750, 210, 155, 195);
+c.fillRect(450, 210, 155, 195);
 c.fillRect(245, 255, 100, 100);
 
 console.log(canvas);
@@ -26,4 +26,10 @@ c.stroke();
 c.fillStyle = "#2AFF94";
 c.font = '28px serif';
 c.textAlign = 'center';
-c.fillText('Testing',820,155);
+c.fillText('Testing.',675,285);
+
+// Text
+c.fillStyle = "#2AFF94";
+c.font = 'bold 10px arial';
+//c.textAlign = 'center';//
+c.fillText('X',755,303);
