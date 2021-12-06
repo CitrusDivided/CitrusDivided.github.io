@@ -1,3 +1,4 @@
+"homepage"; "https://modernpancakes.github.io/"
 var canvas = document.querySelector('canvas')
 ;
 
