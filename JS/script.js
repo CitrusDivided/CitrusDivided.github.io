@@ -2,11 +2,11 @@
 var canvas = document.querySelector('canvas')
 ;
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = 800;
+canvas.height = 480
 
 var c = canvas.getContext('2d');
-c.fillStyle = "#2B3F94";
+c.fillStyle = "#2AFF94";
 c.fillRect(100, 115, 100, 100);
 c.fillRect(750, 210, 155, 195);
 c.fillRect(245, 255, 100, 100);
