@@ -1,8 +1,8 @@
 var canvas = document.querySelector('canvas')
 ;
 
-//canvas.width = window.innerWidth;
-//canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
 c.fillStyle = "#2B3F94";
