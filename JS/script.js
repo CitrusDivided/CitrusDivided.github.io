@@ -36,11 +36,14 @@ c.fillText('X',755,303);
 
 // Circle Creation Test //
 
-for (var i = 0; i <3; i++) {
+for (var i = 0; i <6; i++) {
     var x = Math.random() * 800;
     var y = Math.random() * 480;
+    var z = Math.random() * 98;
     c.beginPath();
-    c.arc(x,y,30,0, Math.PI * 2, false);
+    c.fillStyle = "rgb(255,165,235)";
+    c.arc(x,y,z,0, Math.PI * 2, false);
     c.strokeStyle = 'red';
     c.stroke();
+    c.fill();
 }
