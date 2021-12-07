@@ -5,7 +5,7 @@
     align-items: stretch;
     column-gap: 0.5%;
     row-gap: 0.5%; /*avoid using grid-gap, find alternative*/
-    grid-template-rows: [row1-start] 25%;
+    grid-template-rows: [row1-start] 30%;
     grid-auto-rows: max-content;
 
 }
@@ -157,7 +157,7 @@ footer {
     grid-area: 2 / span 2;
     width:30px;
     height:30px;
-    
+    margin-top: -1.9em;
     border: 1.9px dotted rgba(173, 136, 36, 0.233);
     /* old - concept border-radius: 120px; */
     background: repeating-linear-gradient( 120deg, #ff000036, #4d0000d7 0.5px, #42050594 0.5px, #ff02021e 5px); height: auto; width: auto;
