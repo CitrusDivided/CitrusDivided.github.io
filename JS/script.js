@@ -29,7 +29,18 @@ c.textAlign = 'center';
 c.fillText('Testing.',675,285);
 
 // Text
-c.fillStyle = "#2AFF94";
+c.fillStyle = "red";
 c.font = 'bold 10px arial';
 //c.textAlign = 'center';//
 c.fillText('X',755,303);
+
+// Circle Creation Test //
+
+for (var i = 0; i <3; i++) {
+    var x = Math.random() * 800;
+    var y = Math.random() * 480;
+    c.beginPath();
+    c.arc(x,y,30,0, Math.PI * 2, false);
+    c.strokeStyle = 'red';
+    c.stroke();
+}
