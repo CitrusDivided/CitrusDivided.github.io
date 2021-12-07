@@ -1,12 +1,13 @@
 .grid-container {
     display: grid;
-    grid-template-columns: [About-me-left] 50% [Qualification-right] 50%;
+    grid-template-columns: [About-me-left] 49% [Qualification-right] 49%;
     justify-items: stretch;
     align-items: stretch;
-    column-gap: 0.5%;
+    column-gap: 30px;
     row-gap: 0.5%; /*avoid using grid-gap, find alternative*/
     grid-template-rows: [row1-start] 30%;
     grid-auto-rows: max-content;
+    
 
 }
 
