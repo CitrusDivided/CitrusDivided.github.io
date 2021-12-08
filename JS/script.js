@@ -27,10 +27,10 @@ c.lineTo(750, 300);
 c.stroke();
 
 // Text
-c.fillStyle = "#2AFF94";
-c.font = '28px serif';
-c.textAlign = 'center';
-c.fillText('Testing.',675,285);
+c.fillStyle = "rgb(255,255,255,0.3)";
+c.font = '12px serif';
+c.textAlign = 'left';
+c.fillText('Testing - 0.3',25,35);
 
 // Text
 c.fillStyle = "red";
@@ -80,7 +80,7 @@ var radius = 30
     //Animation arc//
         c.beginPath();
         c.arc(t,300,radius,0, Math.PI * 2, false);
-        c.strokeStyle = "rgb(242,255,148)";
+        c.strokeStyle = "rgb(242,255,148,0.3)";
         c.stroke();
         if (t + radius > 800 || t - radius <0){
             tx = -tx;
