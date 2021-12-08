@@ -71,6 +71,7 @@ for (var i = 0; i <25; i++) {
 //Animation side
 var t = 200;
 var tx = 1
+var radius = 30
     //Testing of Animation 
     function animate() {
         requestAnimationFrame(animate);
@@ -80,7 +81,7 @@ var tx = 1
         c.arc(t,200,30,0, Math.PI * 2, false);
         c.strokeStyle = 'red';
         c.stroke();
-        if (t > 800){
+        if (t + radius > 800 || t - radius <0){
             tx = -tx;
         
         }
