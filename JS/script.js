@@ -56,12 +56,7 @@ for (var i = 0; i <25; i++) {
     
     c.fillStyle = gradient;
     
-    //Testing of Animation 
-    function animate(){
-        requestAnimationFrame(animate);
-        c.clearRect(0,0,800,480);
-    }
-    //End of animation test
+
     c.arc(x,y,z,0, Math.PI * 2, false);
 
     // Shadow
@@ -73,3 +68,23 @@ for (var i = 0; i <25; i++) {
     c.stroke();
     c.fill();
 }
+//Animation side
+var t = 200;
+var tx = 1
+    //Testing of Animation 
+    function animate() {
+        requestAnimationFrame(animate);
+        //c.clearRect(0,0,800,480); -- this layer overwrites, or clears the canvas, essentially//
+
+        c.beginPath();
+        c.arc(t,200,30,0, Math.PI * 2, false);
+        c.strokeStyle = 'red';
+        c.stroke();
+        if (t > 800){
+            tx = -tx;
+        
+        }
+        t += tx;
+    }
+    animate();
+    //End of animation test
