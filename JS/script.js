@@ -61,7 +61,7 @@ c.fillText('X',755,303);
         //imput previous, space//
         // Circle Creation Test //
 
-for (var i = 0; i <25; i++) {
+for (var i = 0; i <2; i++) {
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 60;
@@ -79,7 +79,7 @@ for (var i = 0; i <25; i++) {
     c.fillStyle = gradient;
     
 
-    c.arc(x,y,z,0, Math.PI * 2, false);
+    c.arc(t,tx,95,0, Math.PI * 2, false);
 
     // Shadow
     c.shadowBlur = 15;
