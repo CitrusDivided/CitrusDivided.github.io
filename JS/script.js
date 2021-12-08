@@ -7,10 +7,7 @@ canvas.height = 480
 
 var c = canvas.getContext('2d');
 
-// Shadow
-c.shadowBlur = 15;
-c.shadowColor = 'yellow';
-c.shadowOffsetY = 2
+
 
 // Rectangle
 c.fillStyle = "#2AFF94";
@@ -38,28 +35,34 @@ c.fillText('Testing.',675,285);
 // Text
 c.fillStyle = "red";
 c.font = 'bold 10px arial';
-//c.textAlign = 'center';//
 c.fillText('X',755,303);
 
 // Circle Creation Test //
 
-for (var i = 0; i <6; i++) {
+for (var i = 0; i <25; i++) {
     var x = Math.random() * 800;
     var y = Math.random() * 480;
-    var z = Math.random() * 98;
+    var z = Math.random() * 60;
     var k = Math.random() * 255;
-    var gradient = c.createRadialGradient(110,90,30, 100,100,70);
+    var gradient = c.createRadialGradient(x,y,3, x,y,7);
 
     c.beginPath();
     //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
+    
     // Gradient learning
-    gradient.addColorStop(0, 'yellow');
-    gradient.addColorStop(.9, 'white');
-    gradient.addColorStop(.5, 'green');
+    gradient.addColorStop(.3, 'white');
+    gradient.addColorStop(.25, 'yellow');
+    gradient.addColorStop(.1, 'white');
     
     c.fillStyle = gradient;
     
     c.arc(x,y,z,0, Math.PI * 2, false);
+
+    // Shadow
+    c.shadowBlur = 15;
+    c.shadowColor = 'yellow';
+    c.shadowOffsetY = 2
+
     c.strokeStyle = "rgb(242,255,148)";
     c.stroke();
     c.fill();
