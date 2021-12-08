@@ -70,15 +70,16 @@ for (var i = 0; i <25; i++) {
 }
 //Animation related variables
 var t = 200;
-var tx = 10
+var tx = 1
 var radius = 30
     //Animation start
     function animate() {
         requestAnimationFrame(animate);
         //c.clearRect(0,0,800,480); -- this layer overwrites, or clears the canvas, essentially//
-
+        
+    //Animation arc//
         c.beginPath();
-        c.arc(t,300,30,0, Math.PI * 2, false);
+        c.arc(t,300,radius,0, Math.PI * 2, false);
         c.strokeStyle = "rgb(242,255,148)";
         c.stroke();
         if (t + radius > 800 || t - radius <0){
