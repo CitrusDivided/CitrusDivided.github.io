@@ -9,13 +9,23 @@ var c = canvas.getContext('2d');
 
 
 
+
+//Animation related variables
+var t = 200;
+var tx = 1
+var radius = 30
+    //Animation start
+    function animate() {
+        requestAnimationFrame(animate);
+        c.clearRect(0,0,800,480);
+        //Stage input(?)//
+        //Previous Stage Start (Unanimated)//
 // Rectangle
 c.fillStyle = "#2AFF94";
 c.fillRect(100, 115, 100, 100);
 c.fillRect(450, 210, 155, 195);
 c.fillRect(245, 255, 100, 100);
 
-console.log(canvas);
 
 // Line
 c.beginPath();
@@ -36,8 +46,20 @@ c.fillText('Testing - 0.3',25,35);
 c.fillStyle = "red";
 c.font = 'bold 10px arial';
 c.fillText('X',755,303);
-
-// Circle Creation Test //
+//Stage End (Unanimated)//
+        
+    //Animation arc//
+        c.beginPath();
+        c.arc(t,300,radius,0, Math.PI * 2, false);
+        c.strokeStyle = "rgb(242,255,148,0.3)";
+        c.stroke();
+        if (t + radius > 800 || t - radius <0){
+            tx = -tx;
+        
+        }
+        t += tx;
+        //imput previous, space//
+        // Circle Creation Test //
 
 for (var i = 0; i <25; i++) {
     var x = Math.random() * 800;
@@ -68,25 +90,6 @@ for (var i = 0; i <25; i++) {
     c.stroke();
     c.fill();
 }
-//Animation related variables
-var t = 200;
-var tx = 1
-var radius = 30
-    //Animation start
-    function animate() {
-        requestAnimationFrame(animate);
-        //c.clearRect(0,0,800,480); -- this layer overwrites, or clears the canvas, essentially//
-        
-    //Animation arc//
-        c.beginPath();
-        c.arc(t,300,radius,0, Math.PI * 2, false);
-        c.strokeStyle = "rgb(242,255,148,0.3)";
-        c.stroke();
-        if (t + radius > 800 || t - radius <0){
-            tx = -tx;
-        
-        }
-        t += tx;
     }
     animate();
     //End of animation test
