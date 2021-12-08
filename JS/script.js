@@ -41,9 +41,9 @@ for (var i = 0; i <6; i++) {
     var y = Math.random() * 480;
     var z = Math.random() * 98;
     c.beginPath();
-    c.fillStyle = "rgb(255,165,235)";
+    c.fillStyle = "rgb(42,255,148)";
     c.arc(x,y,z,0, Math.PI * 2, false);
-    c.strokeStyle = 'red';
+    c.strokeStyle = "rgb(242,255,148)";
     c.stroke();
     c.fill();
 }
