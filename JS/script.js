@@ -68,18 +68,18 @@ for (var i = 0; i <25; i++) {
     c.stroke();
     c.fill();
 }
-//Animation side
+//Animation related variables
 var t = 200;
-var tx = 1
+var tx = 10
 var radius = 30
-    //Testing of Animation 
+    //Animation start
     function animate() {
         requestAnimationFrame(animate);
         //c.clearRect(0,0,800,480); -- this layer overwrites, or clears the canvas, essentially//
 
         c.beginPath();
-        c.arc(t,200,30,0, Math.PI * 2, false);
-        c.strokeStyle = 'red';
+        c.arc(t,300,30,0, Math.PI * 2, false);
+        c.strokeStyle = "rgb(242,255,148)";
         c.stroke();
         if (t + radius > 800 || t - radius <0){
             tx = -tx;
