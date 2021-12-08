@@ -6,9 +6,13 @@ canvas.width = 800;
 canvas.height = 480
 
 var c = canvas.getContext('2d');
+
+// Shadow
 c.shadowBlur = 15;
 c.shadowColor = 'yellow';
 c.shadowOffsetY = 2
+
+// Rectangle
 c.fillStyle = "#2AFF94";
 c.fillRect(100, 115, 100, 100);
 c.fillRect(450, 210, 155, 195);
@@ -43,8 +47,18 @@ for (var i = 0; i <6; i++) {
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 98;
+    var k = Math.random() * 255;
+    var gradient = c.createRadialGradient(110,90,30, 100,100,70);
+
     c.beginPath();
-    c.fillStyle = "rgb(42,255,148)";
+    //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
+    // Gradient learning
+    gradient.addColorStop(0, 'yellow');
+    gradient.addColorStop(.9, 'white');
+    gradient.addColorStop(.5, 'green');
+    
+    c.fillStyle = gradient;
+    
     c.arc(x,y,z,0, Math.PI * 2, false);
     c.strokeStyle = "rgb(242,255,148)";
     c.stroke();
