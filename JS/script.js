@@ -6,6 +6,9 @@ canvas.width = 800;
 canvas.height = 480
 
 var c = canvas.getContext('2d');
+c.shadowBlur = 15;
+c.shadowColor = 'yellow';
+c.shadowOffsetY = 2
 c.fillStyle = "#2AFF94";
 c.fillRect(100, 115, 100, 100);
 c.fillRect(450, 210, 155, 195);
@@ -46,4 +49,5 @@ for (var i = 0; i <6; i++) {
     c.strokeStyle = "rgb(242,255,148)";
     c.stroke();
     c.fill();
+    
 }
