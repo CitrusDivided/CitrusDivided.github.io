@@ -50,7 +50,7 @@ for (var i = 0; i <25; i++) {
     //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
     
     // Gradient learning
-    gradient.addColorStop(.3, 'white');
+    gradient.addColorStop(.3, "rgb(255,255,255,0.5");
     gradient.addColorStop(.25, 'yellow');
     gradient.addColorStop(.1, 'white');
     
@@ -64,7 +64,7 @@ for (var i = 0; i <25; i++) {
     c.shadowColor = 'yellow';
     c.shadowOffsetY = 2
 
-    c.strokeStyle = "rgb(242,255,148)";
+    c.strokeStyle = "rgb(242,255,148,0.5)";
     c.stroke();
     c.fill();
 }
