@@ -56,6 +56,12 @@ for (var i = 0; i <25; i++) {
     
     c.fillStyle = gradient;
     
+    //Testing of Animation 
+    function animate(){
+        requestAnimationFrame(animate);
+        c.clearRect(0,0,800,480);
+    }
+    //End of animation test
     c.arc(x,y,z,0, Math.PI * 2, false);
 
     // Shadow
@@ -66,5 +72,4 @@ for (var i = 0; i <25; i++) {
     c.strokeStyle = "rgb(242,255,148)";
     c.stroke();
     c.fill();
-    
 }
