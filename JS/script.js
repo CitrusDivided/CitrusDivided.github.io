@@ -26,7 +26,7 @@ var box = c.createLinearGradient(5,180,0,480,);
         
         // Gradient "Box" -- which is the linear gradients for the rectangles//
         box.addColorStop(.5, "rgb(255,255,255,0.1");
-        box.addColorStop(.5, 'brown');
+        box.addColorStop(.5, 'white');
         box.addColorStop(.3, "rgb(255,255,255,0.9");
         
         
@@ -54,10 +54,21 @@ c.font = '12px serif';
 c.textAlign = 'left';
 c.fillText('Testing - 0.3',25,35);
 
-// Text
-c.fillStyle = "red";
+// -- Text "Character stand in" Keyboard imp -- //
+c.fillStyle = "white";
 c.font = 'bold 10px arial';
-c.fillText('X',755,303);
+c.textAlign = 'center'
+c.fillText('X',755,300);
+
+// Arc around text "Bubble"//
+c.beginPath();
+c.arc(754,297, 15,0, Math.PI * 2, false)
+c.strokeStyle = "rgb(242,255,148,0.3"
+c.fillStyle = "rgb(255,200,255,0.9";
+c.stroke();
+c.fill();
+
+
 //Stage End (Unanimated)//
         
     //Animation arc//
