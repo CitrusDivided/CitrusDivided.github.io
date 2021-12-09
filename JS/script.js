@@ -15,13 +15,30 @@ var c = canvas.getContext('2d');
 var t = 200;
 var tx = 1
 var radius = 30
+var box = c.createLinearGradient(200,200,3,200,200,7);
     //Animation start
     function animate() {
         requestAnimationFrame(animate);
         c.clearRect(0,0,800,480);
         //Previous Stage Start (Unanimated)//
-// Rectangle
-c.fillStyle = "#2AFF94";
+
+        // Briging Rectangle Gradients//
+
+        
+
+        
+        //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
+        
+        // Gradient learning
+        box.addColorStop(.3, "rgb(255,255,255,0.5");
+        box.addColorStop(.25, 'yellow');
+        box.addColorStop(.1, 'white');
+        
+        
+
+        // Rectangle
+        c.beginPath();
+        c.fillStyle = box;
 c.fillRect(100, 115, 100, 100);
 c.fillRect(450, 210, 155, 195);
 c.fillRect(245, 255, 100, 100);
