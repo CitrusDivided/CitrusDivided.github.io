@@ -15,7 +15,7 @@ var c = canvas.getContext('2d');
 var t = 200;
 var tx = 1
 var radius = 30
-var box = c.createLinearGradient(0,0,120,120,120,7);
+var box = c.createLinearGradient(5,180,0,480,);
     //Animation start
     function animate() {
         requestAnimationFrame(animate);
@@ -23,16 +23,11 @@ var box = c.createLinearGradient(0,0,120,120,120,7);
         //Previous Stage Start (Unanimated)//
 
         // Briging Rectangle Gradients//
-
         
-
-        
-        //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
-        
-        // Gradient learning
-        box.addColorStop(.3, "rgb(255,255,255,0.5");
-        box.addColorStop(.25, 'yellow');
-        box.addColorStop(.1, 'white');
+        // Gradient "Box" -- which is the linear gradients for the rectangles//
+        box.addColorStop(.5, "rgb(255,255,255,0.1");
+        box.addColorStop(.5, 'brown');
+        box.addColorStop(.3, "rgb(255,255,255,0.9");
         
         
 
@@ -46,7 +41,7 @@ c.fillRect(245, 255, 100, 100);
 
 // Line
 c.beginPath();
-c.strokeStyle = '#2AFF94'
+c.strokeStyle = 'white'
 c.moveTo(200,165);
 c.lineTo(300,165);
 c.lineTo(300,300);
