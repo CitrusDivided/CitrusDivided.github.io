@@ -15,7 +15,7 @@ var c = canvas.getContext('2d');
 var t = 200;
 var tx = 1
 var radius = 30
-var box = c.createLinearGradient(200,200,3,200,200,7);
+var box = c.createLinearGradient(0,0,120,120,120,7);
     //Animation start
     function animate() {
         requestAnimationFrame(animate);
