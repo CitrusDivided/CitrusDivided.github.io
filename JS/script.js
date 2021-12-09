@@ -1,5 +1,6 @@
 "homepage"; "https://modernpancakes.github.io/"
 var canvas = document.querySelector('canvas')
+
 ;
 
 canvas.width = 800;
@@ -18,7 +19,6 @@ var radius = 30
     function animate() {
         requestAnimationFrame(animate);
         c.clearRect(0,0,800,480);
-        //Stage input(?)//
         //Previous Stage Start (Unanimated)//
 // Rectangle
 c.fillStyle = "#2AFF94";
@@ -30,7 +30,7 @@ c.fillRect(245, 255, 100, 100);
 // Line
 c.beginPath();
 c.strokeStyle = '#2AFF94'
-c.moveTo(150,165);
+c.moveTo(200,165);
 c.lineTo(300,165);
 c.lineTo(300,300);
 c.lineTo(750, 300);
