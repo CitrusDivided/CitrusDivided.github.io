@@ -216,8 +216,8 @@ c.fill();
         
     //Animation arc//
         c.beginPath();
-        c.arc(fsx,300,radius,0, Math.PI * 2, false);
-        c.strokeStyle = "rgb(242,255,148,0.3)";
+        c.arc(t,300,radius,0, Math.PI * 2, false);
+        c.strokeStyle = "rgb(242,255,148,0.6)";
         c.stroke();
         if (t + radius > 800 || t - radius <0){
             tx = -tx;
