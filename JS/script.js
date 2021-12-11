@@ -15,6 +15,10 @@ var c = canvas.getContext('2d');
 var t = 200;
 var tx = 1
 var radius = 30
+//Falling Skies Variables
+var fs = 180;
+var fsx = 3;
+//Gradient Box Creation - Staging
 var box = c.createLinearGradient(5,180,0,480,);
     //Animation start
     function animate() {
@@ -125,8 +129,16 @@ for (var i = 0; i <2; i++) {
     c.stroke();
     c.fill();
 
+    //Falling Skies Movements
+
+    if (fs + radius > 800 || fs - radius <0){
+        fsx = -fsx;
+    
+    }
+    fs += fsx;
+
     //The Falling Skies
-    c.arc(200,100,5,0, Math.PI * 2, false);
+    c.arc(fs,fsx,5,0, Math.PI * 2, false);
 
     // Shadow
     c.shadowBlur = 15;
