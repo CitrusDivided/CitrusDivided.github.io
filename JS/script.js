@@ -34,7 +34,7 @@ var box = c.createLinearGradient(5,180,0,480,);
         // Rectangle
         c.beginPath();
         c.fillStyle = box;
-c.fillRect(100, 115, 100, 100);
+c.fillRect(t, 115, 100, 100);
 c.fillRect(450, 210, 155, 195);
 c.fillRect(245, 255, 100, 100);
 
@@ -43,7 +43,7 @@ c.fillRect(245, 255, 100, 100);
 c.beginPath();
 c.strokeStyle = 'white'
 c.moveTo(200,165);
-c.lineTo(300,165);
+c.lineTo(t,165);
 c.lineTo(300,300);
 c.lineTo(750, 300);
 c.stroke();
