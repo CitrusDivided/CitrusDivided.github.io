@@ -154,22 +154,17 @@ for (var i = 0; i <2; i++) {
     animate();
 
     //Falling Skies -----------------------------------------------------------------------//
-var fs = 180;
-var fsx = 3;
+var fs = 400;
+var fsx = -3;
     function animate() {
         requestAnimationFrame(animate);
         c.clearRect(0,0,800,480);
         //Previous Stage Start (Unanimated)//
-
-        // Briging Rectangle Gradients//
         
         // Gradient "Box" -- which is the linear gradients for the rectangles//
         box.addColorStop(.5, "rgb(255,255,255,0.1");
         box.addColorStop(.5, 'white');
         box.addColorStop(.3, "rgb(255,255,255,0.9");
-        
-        
-
         // Rectangle
         c.beginPath();
         c.fillStyle = box;
@@ -186,9 +181,6 @@ c.fillRect(0, 147, 15, 35);
 c.beginPath();
 c.fillStyle = "rgb(255,255,255,";
 c.fillRect(0, 380, 800, 100);
-
-//Stage Falling Skies
-
 
 // Line
 c.beginPath();
@@ -224,7 +216,7 @@ c.fill();
         
     //Animation arc//
         c.beginPath();
-        c.arc(t,300,radius,0, Math.PI * 2, false);
+        c.arc(fsx,300,radius,0, Math.PI * 2, false);
         c.strokeStyle = "rgb(242,255,148,0.3)";
         c.stroke();
         if (t + radius > 800 || t - radius <0){
@@ -273,7 +265,7 @@ for (var i = 0; i <2; i++) {
     fs += fsx;
 
     //The Falling Skies
-    c.arc(fs,fsx,5,0, Math.PI * 2, false);
+    c.arc(100,fs,5,0, Math.PI * 2, false);
 
     // Shadow
     c.shadowBlur = 15;
