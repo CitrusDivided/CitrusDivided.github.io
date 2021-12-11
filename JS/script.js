@@ -37,6 +37,7 @@ var box = c.createLinearGradient(5,180,0,480,);
 c.fillRect(t, 115, 100, 100);
 c.fillRect(450, 210, 155, 195);
 c.fillRect(245, 255, 100, 100);
+c.fillRect(0, 380, 800, 100);
 
 
 // Line
