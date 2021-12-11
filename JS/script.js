@@ -68,7 +68,7 @@ c.stroke();
 c.fillStyle = "rgb(255,255,255,0.3)";
 c.font = '12px serif';
 c.textAlign = 'left';
-c.fillText('Testing - 0.3',25,35);
+c.fillText('Testing - 0.5',25,35);
 
 // -- Text "Character stand in" Keyboard imp -- //
 c.fillStyle = "white";
@@ -195,7 +195,7 @@ c.stroke();
 c.fillStyle = "rgb(255,255,255,0.3)";
 c.font = '12px serif';
 c.textAlign = 'left';
-c.fillText('Testing - 0.3',25,35);
+c.fillText('Testing - 0.5b',25,35);
 
 // -- Text "Character stand in" Keyboard imp -- //
 c.fillStyle = "white";
@@ -227,7 +227,7 @@ c.fill();
         //imput previous, space//
         // Circle Creation Test //
 
-for (var i = 0; i <2; i++) {
+for (var fi = 0; fi <2; i++) {
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 60;
