@@ -16,11 +16,11 @@ var t = 200;
 var tx = 1
 var radius = 30
 //Falling Skies Variables
-var fs = 180;
-var fsx = 3;
+var fs = 1;
+var fsx = 1;
 //Gradient Box Creation - Staging
 var box = c.createLinearGradient(5,180,0,480,);
-var falling = c.arc(300,300,30,0, Math.PI * 2, false);
+var falling = c.arc(300,300,50,0, Math.PI * 2, false);
     //Animation start
     function animate() {
         requestAnimationFrame(animate);
@@ -129,12 +129,13 @@ for (var i = 0; i <2; i++) {
     c.strokeStyle = "rgb(242,255,148,0.5)";
     c.stroke();
     c.fill();
+    c.closePath();
 
 
     
 }
     //Falling Skies Movements
-    for (var falling = 0; falling <2; falling++) {
+    for (var falling = 0; falling <20; falling++) {
     if (fs + radius > 800 || fs - radius <0){
         fsx = -fsx;
     
@@ -142,7 +143,8 @@ for (var i = 0; i <2; i++) {
     fs += fsx;
 
     //The Falling Skies
-    c.falling = c.arc(300,300,90,0,Math.PI *2,false)
+    c.beginPath();
+    c.falling = c.arc(k,y,z,0,Math.PI *2,false);
 
     // Shadow
     c.shadowBlur = 15;
