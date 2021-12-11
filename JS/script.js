@@ -37,13 +37,24 @@ var box = c.createLinearGradient(5,180,0,480,);
 c.fillRect(t, 115, 100, 100);
 c.fillRect(450, 210, 155, 195);
 c.fillRect(245, 255, 100, 100);
+
+//Exit Door
+c.beginPath();
+//Styling additions to happen here
+c.fillRect(0, 147, 15, 35);
+
+//Stage Flooring
+c.beginPath();
+c.fillStyle = "rgb(255,255,255,";
 c.fillRect(0, 380, 800, 100);
+
+//Stage Falling Skies
 
 
 // Line
 c.beginPath();
 c.strokeStyle = 'white'
-c.moveTo(200,165);
+c.moveTo(0,165);
 c.lineTo(t,165);
 c.lineTo(300,300);
 c.lineTo(750, 300);
@@ -102,7 +113,7 @@ for (var i = 0; i <2; i++) {
     
     c.fillStyle = gradient;
     
-
+    // The Sun
     c.arc(t,tx,95,0, Math.PI * 2, false);
 
     // Shadow
@@ -113,6 +124,19 @@ for (var i = 0; i <2; i++) {
     c.strokeStyle = "rgb(242,255,148,0.5)";
     c.stroke();
     c.fill();
+
+    //The Falling Skies
+    c.arc(200,100,5,0, Math.PI * 2, false);
+
+    // Shadow
+    c.shadowBlur = 15;
+    c.shadowColor = 'yellow';
+    c.shadowOffsetY = 2
+
+    c.strokeStyle = "rgb(242,255,148,0.5)";
+    c.stroke();
+    c.fill();
+    
 }
     }
     animate();
