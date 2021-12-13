@@ -135,13 +135,13 @@ for (var i = 0; i <2; i++) {
     
 }
     //Falling Skies Movements
-    for (var falling = 0; falling <20; falling++) {
+    for (var falling = 0; falling <2; falling++) {
     if (fs + radius > 800 || fs - radius <0){
         fsx = -fsx;
     
     }
     fs += fsx;
-    falling += x;
+    falling += t;
 
     //The Falling Skies
     c.beginPath();
