@@ -135,7 +135,7 @@ for (var i = 0; i <2; i++) {
     
 }
     //Falling Skies Movements
-    for (var falling = 0; falling <2; falling++) {
+    for (var falling = 0; falling <200; falling++) {
     if (fs + radius > 800 || fs - radius <0){
         fsx = -fsx;
     
@@ -146,7 +146,7 @@ for (var i = 0; i <2; i++) {
     //The Falling Skies
     c.beginPath();
     c.falling = c.arc(falling,falling,radius,0,Math.PI *2,false);
-    c.falling = c.arc(x,y,radius,0,Math.PI *2,false);
+    c.falling = c.arc(t,tx,40,0,Math.PI *2,false);
 
     // Shadow
     c.shadowBlur = 15;
