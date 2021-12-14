@@ -18,7 +18,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_radius = ssi_radius; //Draw-radius//
 
     this.draw = function(){
-        c.arc(200,200, 30, 0, Math.PI * 2, false);
+        c.arc(x,y, 30, 0, Math.PI * 2, false);
         c.strokeStyle = 'red';
         c.stroke();
     }
@@ -43,13 +43,23 @@ var snow = new Snow (200, 200);
 var snowArray = [];
 
 
-for (var i = 0; i < 100; i++){
+for (var i = 0; i < 10; i++){
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 60;
     var k = Math.random() * 255;
+    //Animation related variables
+    var t = 200;
+    var tx = 1
+    var radius = 30
+    //Falling Skies Variables
+    var fs = 200;
+    var fsx = 1;
+    //Gradient Box Creation - Staging
+    var box = c.createLinearGradient(5,180,0,480,);
+    var falling = c.arc(10,10,50,0, Math.PI * 2, false);
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
-    snowArray.push(new Snow(x,y,z,));
+    snowArray.push(new Snow(300,y,z,));
     var snow = new Snow(200,200,3,3,30);
     
 }
@@ -57,16 +67,7 @@ for (var i = 0; i < 100; i++){
 //Snow SKies Imp. End ---------------------------------------------->//
 
 
-//Animation related variables
-var t = 200;
-var tx = 1
-var radius = 30
-//Falling Skies Variables
-var fs = 200;
-var fsx = 1;
-//Gradient Box Creation - Staging
-var box = c.createLinearGradient(5,180,0,480,);
-var falling = c.arc(10,10,50,0, Math.PI * 2, false);
+
     //Animation start
     function animate() {
         requestAnimationFrame(animate);
