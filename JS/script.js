@@ -72,7 +72,10 @@ var falling = c.arc(10,10,50,0, Math.PI * 2, false);
         requestAnimationFrame(animate);
         c.clearRect(0,0,800,480);
         //Snow Skies Imp.//
-        
+        for (var i=0; i < snowArray.length; i++){
+            snowArray[i].update();
+            
+        }
         snow.draw();
         
 
