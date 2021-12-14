@@ -8,7 +8,21 @@ canvas.height = 480
 
 var c = canvas.getContext('2d');
 
+//Snow Skies Imp.
 
+function Snow (x, y){
+    this.x = x;
+    this.y = y;
+
+    this.draw = function(){
+        console.log('testing');
+    }
+}
+
+var snow = new Snow (200, 200);
+snow.draw();
+
+//Snow SKies Imp. End ---------------------------------------------->//
 
 
 //Animation related variables
