@@ -15,12 +15,14 @@ function Snow (x, y){
     this.y = y;
 
     this.draw = function(){
-        console.log('testing');
+        c.arc(200,200, 30, 0, Math.PI * 2, false);
+        c.strokeStyle = 'red';
+        c.stroke();
     }
 }
 
 var snow = new Snow (200, 200);
-snow.draw();
+
 
 //Snow SKies Imp. End ---------------------------------------------->//
 
@@ -39,9 +41,13 @@ var falling = c.arc(10,10,50,0, Math.PI * 2, false);
     function animate() {
         requestAnimationFrame(animate);
         c.clearRect(0,0,800,480);
-        //Previous Stage Start (Unanimated)//
+        //Snow Skies Imp.//
+        
+        snow.draw();
 
-        // Briging Rectangle Gradients//
+        //Snow Skies Imp. End ------------------------------------>//
+
+        //Rectangle Gradients//
         
         // Gradient "Box" -- which is the linear gradients for the rectangles//
         box.addColorStop(.5, "rgb(255,255,255,0.1");
@@ -50,7 +56,7 @@ var falling = c.arc(10,10,50,0, Math.PI * 2, false);
         
         
 
-        // Rectangle
+        //Rectangles
         c.beginPath();
         c.fillStyle = box;
 c.fillRect(t, 115, 100, 100);
