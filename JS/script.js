@@ -42,15 +42,16 @@ var snow = new Snow (200, 200);
 //Array creation//
 var snowArray = [];
 
+
 for (var i = 0; i < 100; i++){
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 60;
     var k = Math.random() * 255;
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
-    snowArray.push(new Snow())
+    snowArray.push(new Snow(x,y,z,));
     var snow = new Snow(200,200,3,3,30);
-
+    
 }
 
 //Snow SKies Imp. End ---------------------------------------------->//
