@@ -39,6 +39,15 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
 
 var snow = new Snow (200, 200);
 
+//Array creation//
+var snowArray = [];
+
+for (var i = 0; i < 100; i++){
+
+    snowArray.push(new Snow())
+    var snow = new Snow(200,200,3,3,30);
+
+}
 
 //Snow SKies Imp. End ---------------------------------------------->//
 
@@ -60,6 +69,7 @@ var falling = c.arc(10,10,50,0, Math.PI * 2, false);
         //Snow Skies Imp.//
         
         snow.draw();
+        
 
         //Snow Skies Imp. End ------------------------------------>//
 
@@ -137,39 +147,7 @@ c.fill();
         //imput previous, space//
         // Circle Creation Test //
 
-for (var i = 0; i <2; i++) {
-    var x = Math.random() * 800;
-    var y = Math.random() * 480;
-    var z = Math.random() * 60;
-    var k = Math.random() * 255;
-    var gradient = c.createRadialGradient(x,y,3, x,y,7);
 
-    c.beginPath();
-    //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
-    
-    // Gradient learning
-    gradient.addColorStop(.3, "rgb(255,255,255,0.5");
-    gradient.addColorStop(.25, 'yellow');
-    gradient.addColorStop(.1, 'white');
-    
-    c.fillStyle = gradient;
-    
-    // The Sun
-    c.arc(t,tx,95,0, Math.PI * 2, false);
-
-    // Shadow
-    c.shadowBlur = 15;
-    c.shadowColor = 'yellow';
-    c.shadowOffsetY = 2
-
-    c.strokeStyle = "rgb(242,255,148,0.5)";
-    c.stroke();
-    c.fill();
-    c.closePath();
-
-
-    
-}
     //Falling Skies Movements
     for (var falling = 0; falling <200; falling++) {
     if (fs + radius > 800 || fs - radius <0){
