@@ -18,7 +18,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_radius = ssi_radius; //Draw-radius//
 
     this.draw = function(){
-        c.arc(x,y, 30, 0, Math.PI * 2, false);
+        c.arc(tx,y, 30, 0, Math.PI * 2, false);
         c.strokeStyle = 'red';
         c.stroke();
     }
@@ -77,6 +77,24 @@ for (var i = 0; i < 10; i++){
             snowArray[i].update();
             
         }
+        //-----------------------//
+        //Falling Skies Movements//
+        for (var falling = 0; falling <200; falling++) {
+        if (fs + radius > 800 || fs - radius <0){
+            fsx = -fsx;
+        
+        }
+        fs += fsx;
+        falling += t;
+        
+        //------------------------//
+        //Original Track Movements//
+        if (t + radius > 800 || t - radius <0){
+            tx = -tx;
+        
+        }
+        t += tx;
+
         snow.draw();
         
 
@@ -170,23 +188,12 @@ c.fill();
         c.arc(t,300,radius,0, Math.PI * 2, false);
         c.strokeStyle = "rgb(242,255,148,0.3)";
         c.stroke();
-        if (t + radius > 800 || t - radius <0){
-            tx = -tx;
-        
-        }
-        t += tx;
+
         //imput previous, space//
         // Circle Creation Test //
 
 
-    //Falling Skies Movements
-    for (var falling = 0; falling <200; falling++) {
-    if (fs + radius > 800 || fs - radius <0){
-        fsx = -fsx;
-    
-    }
-    fs += fsx;
-    falling += t;
+
 
     //The Falling Skies
     c.beginPath();
