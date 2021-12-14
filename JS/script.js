@@ -10,11 +10,12 @@ var c = canvas.getContext('2d');
 
 //Snow Skies Imp.
 
-function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy){
+function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_x = ssi_x;         //Draw-x-Position//
     this.ssi_y = ssi_y;         //Draw-y-Position//
     this.ssi_dx = ssi_dx;       //Draw-x-velecocity-position//
     this.ssi_dy = ssi_dy;       //Draw-y-velecocity-position//
+    this.ssi_radius = ssi_radius; //Draw-radius//
 
     this.draw = function(){
         c.arc(200,200, 30, 0, Math.PI * 2, false);
