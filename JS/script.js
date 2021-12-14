@@ -43,7 +43,11 @@ var snow = new Snow (200, 200);
 var snowArray = [];
 
 for (var i = 0; i < 100; i++){
-
+    var x = Math.random() * 800;
+    var y = Math.random() * 480;
+    var z = Math.random() * 60;
+    var k = Math.random() * 255;
+    var gradient = c.createRadialGradient(x,y,3, x,y,7);
     snowArray.push(new Snow())
     var snow = new Snow(200,200,3,3,30);
 
@@ -72,7 +76,29 @@ var falling = c.arc(10,10,50,0, Math.PI * 2, false);
         
 
         //Snow Skies Imp. End ------------------------------------>//
-
+        c.beginPath();
+        //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
+        
+        // Gradient learning
+        gradient.addColorStop(.3, "rgb(255,255,255,0.5");
+        gradient.addColorStop(.25, 'yellow');
+        gradient.addColorStop(.1, 'white');
+        
+        c.fillStyle = gradient;
+        
+        // The Sun
+        c.arc(t,tx,95,0, Math.PI * 2, false);
+    
+        // Shadow
+        c.shadowBlur = 15;
+        c.shadowColor = 'yellow';
+        c.shadowOffsetY = 2
+    
+        c.strokeStyle = "rgb(242,255,148,0.5)";
+        c.stroke();
+        c.fill();
+        c.closePath();
+        
         //Rectangle Gradients//
         
         // Gradient "Box" -- which is the linear gradients for the rectangles//
