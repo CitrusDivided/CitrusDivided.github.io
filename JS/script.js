@@ -19,6 +19,19 @@ function Snow (x, y){
         c.strokeStyle = 'red';
         c.stroke();
     }
+    this.update = function(){
+        if (this.ssi_x + this.ssi_radius > 800 ||
+            this.ssi_x - this.ssi_radius <0){
+                this.ssi_dx = -this.ssi_dx;
+            }
+        if (this.ssi_y + this.ssi_radius > 480 ||
+            this.ssi_y - this.ssi_radius < 0) {
+                this.ssi_dy = -this.ssi_dy;
+            }
+
+            this.ssi_x += this.ssi_dx;
+            this.ssi_y += this.ssi_dy;
+    }
 }
 
 var snow = new Snow (200, 200);
