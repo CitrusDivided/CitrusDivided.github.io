@@ -215,7 +215,7 @@ c.fill();
 
     // Shadow
     c.shadowBlur = 15;
-    c.shadowColor = 'yellow';
+    c.shadowColor = 'black';
     c.shadowOffsetY = 2
 
     c.strokeStyle = "gray";
