@@ -49,7 +49,7 @@ for (var i = 0; i < 10; i++){
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 60;
-    var k = Math.random() * 255;
+    var k = Math.random() * 800;
     //Animation related variables
     var t = 200;
     var tx = 1
@@ -58,7 +58,7 @@ for (var i = 0; i < 10; i++){
     var ssi_y = Math.random() * 400
     var ssi_dx = (Math.random() - 0.5) * 3;
     var ssi_dy = (Math.random() - 0.5) * 3;
-    var ssi_radius = Math.random()* 7;
+    var ssi_radius = Math.random()* 17;
     //Array Variables -- Snow, end ------//
 
     var radius = 30
@@ -211,7 +211,7 @@ c.fill();
 
     
     c.fillStyle = "rgb(255,0,0,0.2";
-    c.falling = c.arc(falling,falling,ssi_radius,0,Math.PI *2,false);
+    c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(-2,-2,0,0,Math.PI *2,false);
 
     // Shadow
