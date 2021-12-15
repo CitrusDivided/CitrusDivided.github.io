@@ -107,7 +107,19 @@ for (var i = 0; i < 10; i++){
         }
         t += tx;
 
+        //------------------------//
+        //Snow Fall Track//
+        if (ssi_dx + ssi_radius > 800 || ssi_dx - ssi_radius <0){
+            ssi_dx = -ssi_dx;
         
+        }
+        ssi_dy += ssi_dy;
+
+        if (ssi_dy + ssi_radius > 800 || ssi_dy - ssi_radius <0){
+            ssi_dy = -ssi_dy;
+        
+        }
+        ssi_dy += ssi_dy;       
         
 
         //Snow Skies Imp. End ------------------------------------>//
