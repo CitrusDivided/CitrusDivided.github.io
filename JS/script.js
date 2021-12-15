@@ -18,7 +18,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_radius = ssi_radius; //Draw-radius//
 
     this.draw = function(){
-        c.arc(400,0, ssi_radius, 0, Math.PI * 2, false);
+        c.arc(400,0, 200, 0, Math.PI * 2, false);
         c.strokeStyle = 'white';
         c.fill()
         c.stroke();
@@ -171,10 +171,10 @@ c.lineTo(750, 300);
 c.stroke();
 
 // Text
-c.fillStyle = "rgb(255,255,255,0.3)";
+c.fillStyle = "rgb(0,0,0,0.3)";
 c.font = '12px serif';
 c.textAlign = 'left';
-c.fillText('Testing - 0.5',25,35);
+c.fillText('Testing - 0.8b',25,35);
 
 // -- Text "Character stand in" Keyboard imp -- //
 c.fillStyle = "white";
