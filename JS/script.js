@@ -48,7 +48,7 @@ var snowArray = [];
 for (var i = 0; i < 10; i++){
     var x = Math.random() * 800;
     var y = Math.random() * 480;
-    var z = Math.random() * 60;
+    var z = Math.random() * 8;
     var k = Math.random() * 800;
     //Animation related variables
     var t = 200;
@@ -88,6 +88,7 @@ for (var i = 0; i < 10; i++){
             snowArray[i].update();
             
         }
+
         //-----------------------//
         //Falling Skies Movements//
         for (var falling = 0; falling <3; falling++) {
@@ -106,7 +107,7 @@ for (var i = 0; i < 10; i++){
         }
         t += tx;
 
-        snow.draw();
+        
         
 
         //Snow Skies Imp. End ------------------------------------>//
@@ -211,9 +212,10 @@ c.fill();
 
     
     c.fillStyle = "rgb(255,0,0,0.2";
+    snow.draw();
     c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(-2,-2,0,0,Math.PI *2,false);
-    c.falling = c.arc(ssi_x,falling,ssi_radius,0,Math.PI *2,false);
+    c.falling = c.arc(ssi_x,falling,z,0,Math.PI *2,false);
 
     // Shadow
     c.shadowBlur = 10;
