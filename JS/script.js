@@ -69,7 +69,7 @@ for (var i = 0; i < 10; i++){
     var box = c.createLinearGradient(5,180,0,480,);
     var falling = c.arc(ssi_dy,ssi_dx,50,0, Math.PI * 2, false);
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
-    snowArray.push(new Snow(x,y,z,));
+    snowArray.push(new Snow(ssi_x,ssi_y,ssi_radius,));
     var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
     
     
@@ -211,7 +211,7 @@ c.fill();
 
     
     c.fillStyle = "rgb(255,0,0,0.2";
-    c.falling = c.arc(ssi_x,falling,ssi_radius,0,Math.PI *2,false);
+    c.falling = c.arc(falling,falling,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(-2,-2,0,0,Math.PI *2,false);
 
     // Shadow
