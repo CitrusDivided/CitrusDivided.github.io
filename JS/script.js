@@ -57,7 +57,7 @@ for (var i = 0; i < 100; i++){
     var ssi_y = Math.random() * 400
     var ssi_dx = Math.random() * 0.5;
     var ssi_dy = Math.random() * 0.5;
-    var ssi_radius = Math.random()* 5;
+    var ssi_radius = Math.random()* 8;
     //Array Variables -- Snow, end ------//
 
     var radius = 30
