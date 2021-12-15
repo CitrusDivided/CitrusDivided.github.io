@@ -19,7 +19,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
 
     this.draw = function(){
         c.arc(400,0, ssi_radius, 0, Math.PI * 2, false);
-        c.strokeStyle = 'red';
+        c.strokeStyle = 'white';
         c.fill()
         c.stroke();
     }
