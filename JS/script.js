@@ -213,6 +213,7 @@ c.fill();
     c.fillStyle = "rgb(255,0,0,0.2";
     c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(-2,-2,0,0,Math.PI *2,false);
+    c.falling = c.arc(ssi_x,falling,ssi_radius,0,Math.PI *2,false);
 
     // Shadow
     c.shadowBlur = 10;
@@ -222,6 +223,7 @@ c.fill();
     c.strokeStyle = "gray";
     c.stroke();
     c.fill();
+    
 }
     }
     animate();
