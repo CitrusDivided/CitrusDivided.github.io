@@ -18,7 +18,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_radius = ssi_radius; //Draw-radius//
 
     this.draw = function(){
-        c.arc(ssi_x,y, 100, 0, Math.PI * 2, false);
+        c.arc(ssi_x,ssi_y, ssi_radius, 0, Math.PI * 2, false);
         c.strokeStyle = 'red';
         c.fill()
         c.stroke();
@@ -52,7 +52,14 @@ for (var i = 0; i < 100; i++){
     //Animation related variables
     var t = 200;
     var tx = 1
-    var ssi_x = Math.random() * 0.5;
+    //Array
+    var ssi_x = Math.random() * 800;
+    var ssi_y = Math.random() * 400
+    var ssi_dx = Math.random() * 0.5;
+    var ssi_dy = Math.random() * 0.5;
+    var ssi_radius = 30;
+    //Array Variables -- Snow, end ------//
+
     var radius = 30
     //Falling Skies Variables
     var fs = 200;
@@ -62,7 +69,7 @@ for (var i = 0; i < 100; i++){
     var falling = c.arc(x,10,50,0, Math.PI * 2, false);
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
     snowArray.push(new Snow(x,y,z,));
-    var snow = new Snow(200,200,3,3,30);
+    var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,30);
     
 }
 
