@@ -57,7 +57,7 @@ for (var i = 0; i < 100; i++){
     var ssi_y = Math.random() * 400
     var ssi_dx = Math.random() * 0.5;
     var ssi_dy = Math.random() * 0.5;
-    var ssi_radius = 30;
+    var ssi_radius = Math.random()* 5;
     //Array Variables -- Snow, end ------//
 
     var radius = 30
@@ -66,7 +66,7 @@ for (var i = 0; i < 100; i++){
     var fsx = 1;
     //Gradient Box Creation - Staging
     var box = c.createLinearGradient(5,180,0,480,);
-    var falling = c.arc(x,10,50,0, Math.PI * 2, false);
+    var falling = c.arc(ssi_dy,10,50,0, Math.PI * 2, false);
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
     snowArray.push(new Snow(x,y,z,));
     var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,30);
@@ -88,7 +88,7 @@ for (var i = 0; i < 100; i++){
         }
         //-----------------------//
         //Falling Skies Movements//
-        for (var falling = 0; falling <20; falling++) {
+        for (var falling = 0; falling <5; falling++) {
         if (fs + radius > 800 || fs - radius <0){
             fsx = -fsx;
         
