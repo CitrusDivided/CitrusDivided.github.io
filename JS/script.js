@@ -90,7 +90,7 @@ for (var i = 0; i < 10; i++){
         }
         //-----------------------//
         //Falling Skies Movements//
-        for (var falling = 0; falling <300; falling++) {
+        for (var falling = 0; falling <3; falling++) {
         if (fs + radius > 800 || fs - radius <0){
             fsx = -fsx;
         
