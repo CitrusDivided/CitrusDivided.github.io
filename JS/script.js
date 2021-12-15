@@ -206,7 +206,7 @@ c.fill();
 
     //The Falling Skies
     c.beginPath();
-    c.falling = c.arc(ssi_x,falling,radius,0,Math.PI *2,false);
+    c.falling = c.arc(ssi_x,falling,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(ssi_x,ssi_y,ssi_radius,0,Math.PI *2,false);
 
     // Shadow
