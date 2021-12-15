@@ -207,14 +207,14 @@ c.fill();
     //The Falling Skies
     c.beginPath();
     c.falling = c.arc(ssi_x,falling,ssi_radius,0,Math.PI *2,false);
-    c.falling = c.arc(ssi_x,ssi_y,ssi_radius,0,Math.PI *2,false);
+    c.falling = c.arc(0,0,ssi_radius,0,Math.PI *2,false);
 
     // Shadow
     c.shadowBlur = 15;
     c.shadowColor = 'yellow';
     c.shadowOffsetY = 2
 
-    c.strokeStyle = "rgb(242,255,148,0.5)";
+    c.strokeStyle = "gray";
     c.stroke();
     c.fill();
 }
