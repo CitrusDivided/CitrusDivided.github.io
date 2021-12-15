@@ -71,6 +71,7 @@ for (var i = 0; i < 100; i++){
     snowArray.push(new Snow(x,y,z,));
     var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
     
+    
 }
 
 //Snow SKies Imp. End ---------------------------------------------->//
@@ -206,6 +207,9 @@ c.fill();
 
     //The Falling Skies
     c.beginPath();
+
+    
+    c.fillStyle = "rgb(255,0,0,0.1";
     c.falling = c.arc(ssi_x,falling,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(-2,-280,ssi_radius,0,Math.PI *2,false);
 
