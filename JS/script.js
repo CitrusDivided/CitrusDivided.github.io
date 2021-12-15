@@ -36,6 +36,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
             this.ssi_x += this.ssi_dx;
             this.ssi_y += this.ssi_dy;
     }
+
 }
 
 var snow = new Snow (200, 200);
@@ -44,7 +45,7 @@ var snow = new Snow (200, 200);
 var snowArray = [];
 
 
-for (var i = 0; i < 100; i++){
+for (var i = 0; i < 10; i++){
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 60;
@@ -211,7 +212,7 @@ c.fill();
     
     c.fillStyle = "rgb(255,0,0,0.2";
     c.falling = c.arc(ssi_x,falling,ssi_radius,0,Math.PI *2,false);
-    c.falling = c.arc(-2,-280,ssi_radius,0,Math.PI *2,false);
+    c.falling = c.arc(-2,ssi_y,ssi_radius,0,Math.PI *2,false);
 
     // Shadow
     c.shadowBlur = 10;
