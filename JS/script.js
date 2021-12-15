@@ -214,7 +214,7 @@ c.fill();
     c.falling = c.arc(-2,-280,ssi_radius,0,Math.PI *2,false);
 
     // Shadow
-    c.shadowBlur = 15;
+    c.shadowBlur = 10;
     c.shadowColor = 'black';
     c.shadowOffsetY = 2
 
