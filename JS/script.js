@@ -90,8 +90,8 @@ for (var i = 0; i < 10; i++){
         }
         //-----------------------//
         //Falling Skies Movements//
-        for (var falling = 0; falling <5; falling++) {
-        if (fs + radius > 80 || fs - radius <80){
+        for (var falling = 0; falling <300; falling++) {
+        if (fs + radius > 800 || fs - radius <0){
             fsx = -fsx;
         
         }
@@ -212,7 +212,7 @@ c.fill();
     
     c.fillStyle = "rgb(255,0,0,0.2";
     c.falling = c.arc(ssi_x,falling,ssi_radius,0,Math.PI *2,false);
-    c.falling = c.arc(-2,ssi_y,ssi_radius,0,Math.PI *2,false);
+    c.falling = c.arc(-2,-2,0,0,Math.PI *2,false);
 
     // Shadow
     c.shadowBlur = 10;
