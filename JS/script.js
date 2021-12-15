@@ -18,7 +18,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_radius = ssi_radius; //Draw-radius//
 
     this.draw = function(){
-        c.arc(ssi_x,ssi_y, ssi_radius, 0, Math.PI * 2, false);
+        c.arc(400,0, ssi_radius, 0, Math.PI * 2, false);
         c.strokeStyle = 'red';
         c.fill()
         c.stroke();
@@ -66,7 +66,7 @@ for (var i = 0; i < 100; i++){
     var fsx = 1;
     //Gradient Box Creation - Staging
     var box = c.createLinearGradient(5,180,0,480,);
-    var falling = c.arc(ssi_dy,10,50,0, Math.PI * 2, false);
+    var falling = c.arc(ssi_dy,ssi_dx,50,0, Math.PI * 2, false);
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
     snowArray.push(new Snow(x,y,z,));
     var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
