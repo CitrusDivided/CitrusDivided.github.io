@@ -209,7 +209,7 @@ c.fill();
     c.beginPath();
 
     
-    c.fillStyle = "rgb(255,0,0,0.1";
+    c.fillStyle = "rgb(255,0,0,0.2";
     c.falling = c.arc(ssi_x,falling,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(-2,-280,ssi_radius,0,Math.PI *2,false);
 
