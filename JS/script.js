@@ -18,7 +18,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_radius = ssi_radius; //Draw-radius//
 
     this.draw = function(){
-        c.arc(400,0, 200, 0, Math.PI * 2, false);
+        c.arc(ssi_dx,ssi_dy, ssi_radius, 0, Math.PI * 2, false);
         c.strokeStyle = 'white';
         c.fill()
         c.stroke();
@@ -70,7 +70,7 @@ for (var i = 0; i < 10; i++){
     //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
     snowArray.push(new Snow(ssi_dx,ssi_dy,ssi_radius,));
-    var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
+    //var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
     
     
 }
@@ -86,6 +86,7 @@ for (var i = 0; i < 10; i++){
         //Snow Skies Imp.//
         for (var i=0; i < snowArray.length; i++){
             snowArray[i].update();
+            snow.draw();
             
         }
 
@@ -225,6 +226,7 @@ c.fill();
     
    // c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(fs,fs,ssi_radius,0,Math.PI *2,false);
+
     c.falling = c.arc(fs,ssi_y,ssi_radius,0,Math.PI *2,false);
    
     
