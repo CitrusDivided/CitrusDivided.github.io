@@ -56,8 +56,8 @@ for (var i = 0; i < 10; i++){
     //Array
     var ssi_x = Math.random() * 800;
     var ssi_y = Math.random() * 400
-    var ssi_dx = (Math.random() - 3.1) * 0.5;
-    var ssi_dy = (Math.random() - 3.1) * 0.5;
+    var ssi_dx = (Math.random() - 0.5);
+    var ssi_dy = (Math.random() - 0.5);
     var ssi_radius = Math.random()* 17;
     //Array Variables -- Snow, end ------//
 
@@ -115,7 +115,7 @@ for (var i = 0; i < 10; i++){
         }
         ssi_dx += ssi_dx;
 
-        if (ssi_dy + ssi_radius > 800 || ssi_dy - ssi_radius <0){
+        if (ssi_dy + ssi_radius > 480 || ssi_dy - ssi_radius <0){
             ssi_dy = -ssi_dy;
         
         }
@@ -220,15 +220,16 @@ c.fill();
 
 
     //The Falling Skies
+    
     c.beginPath();
 
-    
+    //snow.draw();
     c.fillStyle = "rgb(255,0,0,0.2";
     
    // c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
-    c.falling = c.arc(ssi_dx,ssi_dy,300,0,Math.PI *2,false);
+    c.falling = c.arc(fs,fs,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(ssi_x,falling,z,0,Math.PI *2,false);
-   // snow.draw();
+   
     
    // Shadow
     c.shadowBlur = 10;
