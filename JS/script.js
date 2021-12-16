@@ -56,8 +56,8 @@ for (var i = 0; i < 10; i++){
     //Array
     var ssi_x = Math.random() * 800;
     var ssi_y = Math.random() * 400
-    var ssi_dx = (Math.random() - 3.1) * 1;
-    var ssi_dy = (Math.random() - 3.1) * 1;
+    var ssi_dx = (Math.random() - 3.1) * 0.5;
+    var ssi_dy = (Math.random() - 3.1) * 0.5;
     var ssi_radius = Math.random()* 17;
     //Array Variables -- Snow, end ------//
 
@@ -69,7 +69,7 @@ for (var i = 0; i < 10; i++){
     var box = c.createLinearGradient(5,180,0,480,);
     //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
-    snowArray.push(new Snow(ssi_x,ssi_y,ssi_radius,));
+    snowArray.push(new Snow(ssi_dx,ssi_dy,ssi_radius,));
     var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
     
     
@@ -113,7 +113,7 @@ for (var i = 0; i < 10; i++){
             ssi_dx = -ssi_dx;
         
         }
-        ssi_dy += ssi_dy;
+        ssi_dx += ssi_dx;
 
         if (ssi_dy + ssi_radius > 800 || ssi_dy - ssi_radius <0){
             ssi_dy = -ssi_dy;
@@ -226,7 +226,7 @@ c.fill();
     c.fillStyle = "rgb(255,0,0,0.2";
     
    // c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
-    c.falling = c.arc(ssi_dx,ssi_dy,ssi_radius,0,Math.PI *2,false);
+    c.falling = c.arc(ssi_dx,ssi_dy,300,0,Math.PI *2,false);
     c.falling = c.arc(ssi_x,falling,z,0,Math.PI *2,false);
    // snow.draw();
     
