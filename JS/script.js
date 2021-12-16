@@ -91,13 +91,10 @@ for (var i = 0; i < 10; i++){
 
         //-----------------------//
         //Falling Skies Movements//
-        for (var falling = 0; falling <3; falling++) {
-        if (fs + radius > 800 || fs - radius <0){
-            fsx = -fsx;
-        
-        }
+        for (var falling = 0; falling <300; falling++) {
+
         fs += fsx;
-        falling += t;
+        falling += ssi_dx;
         
         //------------------------//
         //Original Track Movements//
@@ -228,7 +225,7 @@ c.fill();
     
    // c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(fs,fs,ssi_radius,0,Math.PI *2,false);
-    c.falling = c.arc(ssi_x,falling,z,0,Math.PI *2,false);
+    c.falling = c.arc(fs,ssi_y,ssi_radius,0,Math.PI *2,false);
    
     
    // Shadow
