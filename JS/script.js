@@ -56,8 +56,8 @@ for (var i = 0; i < 10; i++){
     //Array
     var ssi_x = Math.random() * 800;
     var ssi_y = Math.random() * 400
-    var ssi_dx = (Math.random() - 0.5) * 3;
-    var ssi_dy = (Math.random() - 0.5) * 3;
+    var ssi_dx = (Math.random() - 3.1) * 1;
+    var ssi_dy = (Math.random() - 3.1) * 1;
     var ssi_radius = Math.random()* 17;
     //Array Variables -- Snow, end ------//
 
@@ -67,7 +67,7 @@ for (var i = 0; i < 10; i++){
     var fsx = 1;
     //Gradient Box Creation - Staging
     var box = c.createLinearGradient(5,180,0,480,);
-    var falling = c.arc(ssi_y,ssi_dx,50,0, Math.PI * 2, false);
+    //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
     snowArray.push(new Snow(ssi_x,ssi_y,ssi_radius,));
     var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
@@ -224,17 +224,18 @@ c.fill();
 
     
     c.fillStyle = "rgb(255,0,0,0.2";
-    snow.draw();
-    c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
-    c.falling = c.arc(-2,-2,0,0,Math.PI *2,false);
+    
+   // c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
+    c.falling = c.arc(ssi_dx,ssi_dy,ssi_radius,0,Math.PI *2,false);
     c.falling = c.arc(ssi_x,falling,z,0,Math.PI *2,false);
-
-    // Shadow
+   // snow.draw();
+    
+   // Shadow
     c.shadowBlur = 10;
     c.shadowColor = 'black';
     c.shadowOffsetY = 2
 
-    c.strokeStyle = "gray";
+    c.strokeStyle = "rgba(1,1,1,0";
     c.stroke();
     c.fill();
     
