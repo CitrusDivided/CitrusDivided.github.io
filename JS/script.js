@@ -19,7 +19,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
 
     this.draw = function(){
         c.beginPath();
-        c.arc(this.ssi_x,ssi_y, 10, 0, Math.PI * 2, false);
+        c.arc(this.ssi_x,this.ssi_y, this.ssi_radius, 0, Math.PI * 2, false);
         c.strokeStyle = "rgba(255,255,255,0.2";
         c.fill()
         c.stroke();
@@ -48,7 +48,7 @@ var snow = new Snow (200, 200, 3, 3, 30); //These are coordinates for first orbc
 var snowArray = [];
 
 
-for (var i = 0; i < 146; i++){
+for (var i = 0; i < 300; i++){
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 8;
@@ -59,9 +59,9 @@ for (var i = 0; i < 146; i++){
     //Array
     var ssi_x = Math.random() * 800;
     var ssi_y = Math.random() * 400;
-    var ssi_dx = (Math.random() * 1) *30;
-    var ssi_dy = Math.random()  *300;
-    var ssi_radius = Math.random()* 1;
+    var ssi_dx = (Math.random() -0.5) *30;
+    var ssi_dy = (Math.random() -0.5)  *3;
+    var ssi_radius = Math.random()* 30;
     //Array Variables -- Snow, end ------//
 
     var radius = 30
@@ -72,8 +72,8 @@ for (var i = 0; i < 146; i++){
     var box = c.createLinearGradient(5,180,0,480,);
     //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
-    snowArray.push(new Snow(tx,ssi_dy,ssi_radius,));
-    //var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
+    snowArray.push(new Snow(ssi_x,ssi_y,ssi_dx, ssi_dy,ssi_radius));
+    var snow = new Snow(ssi_x,ssi_y,ssi_dx,ssi_dy);
     
     
 }
@@ -89,7 +89,7 @@ for (var i = 0; i < 146; i++){
         //Snow Skies Imp.//
         for (var i=0; i < snowArray.length; i++){
             snowArray[i].update();
-            
+            snow.draw();
             //c.arc(200,ssi_dy,ssi_radius,0,Math.PI * 2, false)
         
         }
