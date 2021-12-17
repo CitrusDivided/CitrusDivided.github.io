@@ -74,7 +74,7 @@ for (var i = 0; i < 300; i++){
     //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
     snowArray.push(new Snow(ssi_y,ssi_x,ssi_dx, ssi_dy,ssi_radius));
-    var snow = new Snow(ssi_x,ssi_y,ssi_dx,ssi_dy);
+    var snow = new Snow(ssi_y,ssi_x,ssi_dx,ssi_dy);
     
     
 }
