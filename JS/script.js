@@ -242,7 +242,7 @@ c.fill();
     c.strokeStyle = "rgba(1,1,1,0";
     //snow.draw();
     c.stroke();
-    //c.fillStyle = "rgba(66,55,44,0.3";
+    c.fillStyle = "rgba(55,55,55,0.3";
     c.fill();
     
 }
