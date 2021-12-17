@@ -4,7 +4,7 @@ var canvas = document.querySelector('canvas')
 ;
 
 canvas.width = 800;
-canvas.height = 480
+canvas.height = 480;
 
 var c = canvas.getContext('2d');
 
@@ -41,7 +41,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
 
 }
 
-var snow = new Snow (400, 400,); //These are coordinates for first orbcation
+var snow = new Snow (400, -25,); //These are coordinates for first orbcation
 
 //Array creation//
 var snowArray = [];
@@ -58,7 +58,7 @@ for (var i = 0; i < 6; i++){
     //Array
     var ssi_x = Math.random() * 800;
     var ssi_y = Math.random() * 400;
-    var ssi_dx = (Math.random() - 11) *1;
+    var ssi_dx = (Math.random() * 1) *300;
     var ssi_dy = Math.random()  *300;
     var ssi_radius = Math.random()* 17;
     //Array Variables -- Snow, end ------//
@@ -90,7 +90,7 @@ for (var i = 0; i < 6; i++){
             snowArray[i].update();
             
             //c.arc(200,ssi_dy,ssi_radius,0,Math.PI * 2, false)
-            
+        
         }
 
         //-----------------------//
@@ -226,10 +226,10 @@ c.fill();
     
     c.beginPath();
 
-    //snow.draw();
+    snow.draw();
     c.fillStyle = "rgb(255,0,0,0.2";
     
-   // c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
+   c.falling = c.arc(t,t,ssi_radius,0,Math.PI *2,false);
     
 // c.arc(ssi_x,ssi_y,ssi_radius,0,Math.PI *2,false);
    
@@ -240,8 +240,9 @@ c.fill();
     c.shadowOffsetY = 2
 
     c.strokeStyle = "rgba(1,1,1,0";
-    snow.draw();
+    //snow.draw();
     c.stroke();
+    //c.fillStyle = "rgba(66,55,44,0.3";
     c.fill();
     
 }
