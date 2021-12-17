@@ -41,7 +41,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
 
 }
 
-var snow = new Snow (900, 900);
+var snow = new Snow (400, 400,); //These are coordinates for first orbcation
 
 //Array creation//
 var snowArray = [];
@@ -58,7 +58,7 @@ for (var i = 0; i < 6; i++){
     //Array
     var ssi_x = Math.random() * 800;
     var ssi_y = Math.random() * 400;
-    var ssi_dx = (Math.random()) *1;
+    var ssi_dx = (Math.random() - 11) *1;
     var ssi_dy = Math.random()  *300;
     var ssi_radius = Math.random()* 17;
     //Array Variables -- Snow, end ------//

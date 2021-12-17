@@ -1,249 +1,179 @@
-"homepage"; "https://modernpancakes.github.io/"
-var canvas = document.querySelector('canvas')
-
-;
-
-canvas.width = 800;
-canvas.height = 480
-
-var c = canvas.getContext('2d');
-
-//Snow Skies Imp.
-
-function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
-    this.ssi_x = ssi_x;         //Draw-x-Position//
-    this.ssi_y = ssi_y;         //Draw-y-Position//
-    this.ssi_dx = ssi_dx;       //Draw-x-velecocity-position//
-    this.ssi_dy = ssi_dy;       //Draw-y-velecocity-position//
-    this.ssi_radius = ssi_radius; //Draw-radius//
-
-    this.draw = function(){
-        c.arc(ssi_x,ssi_y, 10, 0, Math.PI * 2, false);
-        c.strokeStyle = 'red';
-        c.fill()
-        c.stroke();
-    }
-    this.update = function(){
-        if (this.ssi_x + this.ssi_radius > 800 ||
-            this.ssi_x - this.ssi_radius <0){
-                this.ssi_dx = -this.ssi_dx;
-            }
-        if (this.ssi_y + this.ssi_radius > 480 ||
-            this.ssi_y - this.ssi_radius < 0) {
-                this.ssi_dy = -this.ssi_dy;
-            }
-
-            this.ssi_x += this.ssi_dx;
-            this.ssi_y += this.ssi_dy;
-
-            this.draw();
-    }
+.grid-container {
+    display: grid;
+    grid-template-columns: [About-me-left] 50% [Qualification-right] 50%;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 0.5%;
+    row-gap: 0.5%; /*avoid using grid-gap, find alternative*/
+    grid-template-rows: [row1-start] 30%;
+    grid-auto-rows: max-content;
+    
 
 }
 
-var snow = new Snow (400, 400,); //These are coordinates for first orbcation
+.styling-about-me{
+    /*display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position:static;
+    left:auto;*/
+    border: 1.5px dotted rgba(28, 31, 78, 0.452);
+    /*box-shadow: 0px 0.5px 2px #000000, -0.1px 0.1px 15px 1px #393c5025 inset;*/
+    background: repeating-linear-gradient( 120deg, #1600da36, #130066d7 0.5px, #05064294 0.5px, #00000c 5px); height: auto; width: auto;
+    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #2e396b5e inset;
+    border-color:rgb(16, 8, 54);
+    border-radius: 3px;
+    max-height:300px;
+/*    width:100%;*/
+    overflow-y: hidden;
+    /*width:50%;*/
+    padding: 20px;
+    color:rgb(255, 218, 153);
+    text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
 
-//Array creation//
-var snowArray = [];
-
-
-for (var i = 0; i < 6; i++){
-    var x = Math.random() * 800;
-    var y = Math.random() * 480;
-    var z = Math.random() * 8;
-    var k = Math.random() * 800;
-    //Animation related variables
-    var t = 200;
-    var tx = 1
-    //Array
-    var ssi_x = Math.random() * 800;
-    var ssi_y = Math.random() * 400;
-    var ssi_dx = (Math.random()) *1;
-    var ssi_dy = Math.random()  *300;
-    var ssi_radius = Math.random()* 17;
-    //Array Variables -- Snow, end ------//
-
-    var radius = 30
-    //Falling Skies Variables
-    var fs = 200;
-    var fsx = 1;
-    //Gradient Box Creation - Staging
-    var box = c.createLinearGradient(5,180,0,480,);
-    //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
-    var gradient = c.createRadialGradient(x,y,3, x,y,7);
-    snowArray.push(new Snow(ssi_dx,ssi_dy,ssi_radius,));
-    //var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
-    
     
 }
-
-//Snow SKies Imp. End ---------------------------------------------->//
-
-
-
-    //Animation start
-    function animate() {
-        requestAnimationFrame(animate);
-        c.clearRect(0,0,800,480);
-        //Snow Skies Imp.//
-        for (var i=0; i < snowArray.length; i++){
-            snowArray[i].update();
-            
-            //c.arc(200,ssi_dy,ssi_radius,0,Math.PI * 2, false)
-            
-        }
-
-        //-----------------------//
-        //Falling Skies Movements//
-        for (var falling = 0; falling <3; falling++) {
-
-        fs += fsx;
-        falling += 3;
-        
-        //------------------------//
-        //Original Track Movements//
-        if (t + radius > 800 || t - radius <0){
-            tx = -tx;
-        
-        }
-        t += tx;
-
-        //------------------------//
-        //Snow Fall Track//
-        //if (ssi_dx + ssi_radius > 800 || ssi_dx - ssi_radius <0){
-        //    ssi_dx = -ssi_dx;
-        
-        //}
-        //ssi_dx += ssi_dx;
-
-        //if (ssi_dy + ssi_radius > 480 || ssi_dy - ssi_radius <0){
-        //    ssi_dy = -ssi_dy;
-        
-        //}
-       //ssi_dy += ssi_dy;       
-        
-
-        //Snow Skies Imp. End ------------------------------------>//
-        c.beginPath();
-        //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
-        
-        // Gradient learning
-        gradient.addColorStop(.3, "rgb(255,255,255,0.5");
-        gradient.addColorStop(.25, 'yellow');
-        gradient.addColorStop(.1, 'white');
-        
-        c.fillStyle = gradient;
-        
-        // The Sun
-        c.arc(t,tx,95,0, Math.PI * 2, false);
-    
-        // Shadow
-        c.shadowBlur = 15;
-        c.shadowColor = 'yellow';
-        c.shadowOffsetY = 2
-    
-        c.strokeStyle = "rgb(242,255,148,0.5)";
-        c.stroke();
-        c.fill();
-        c.closePath();
-        
-        //Rectangle Gradients//
-        
-        // Gradient "Box" -- which is the linear gradients for the rectangles//
-        box.addColorStop(.5, "rgb(255,255,255,0.1");
-        box.addColorStop(.5, 'white');
-        box.addColorStop(.3, "rgb(255,255,255,0.9");
-        
-        
-
-        //Rectangles
-        c.beginPath();
-        c.fillStyle = box;
-c.fillRect(t, 115, 100, 100);
-c.fillRect(450, 210, 155, 195);
-c.fillRect(245, 255, 100, 100);
-
-//Exit Door
-c.beginPath();
-//Styling additions to happen here
-c.fillRect(0, 147, 15, 35);
-
-//Stage Flooring
-c.beginPath();
-c.fillStyle = "rgb(255,255,255,";
-c.fillRect(0, 380, 800, 100);
-
-//Stage Falling Skies
-
-
-// Line
-c.beginPath();
-c.strokeStyle = 'white'
-c.moveTo(0,165);
-c.lineTo(t,165);
-c.lineTo(300,300);
-c.lineTo(750, 300);
-c.stroke();
-
-// Text
-c.fillStyle = "rgb(0,0,0,0.3)";
-c.font = '12px serif';
-c.textAlign = 'left';
-c.fillText('Testing - 0.8b',25,35);
-
-// -- Text "Character stand in" Keyboard imp -- //
-c.fillStyle = "white";
-c.font = 'bold 10px arial';
-c.textAlign = 'center'
-c.fillText('X',755,300);
-
-// Arc around text "Bubble"//
-c.beginPath();
-
-c.arc(754,297, 15,0, Math.PI * 2, false)
-c.strokeStyle = "rgb(242,255,148,0.3"
-c.fillStyle = "rgb(255,200,255,0.9";
-c.stroke();
-c.fill();
-
-
-//Stage End (Unanimated)//
-        
-    //Animation arc//
-    
-        c.beginPath();
-        c.arc(t,300,radius,0, Math.PI * 2, false);
-        c.strokeStyle = "rgb(242,255,148,0.3)";
-        c.stroke();
-
-        //imput previous, space//
-        // Circle Creation Test //
-
-
-
-
-    //The Falling Skies
-    
-    c.beginPath();
-
-    //snow.draw();
-    c.fillStyle = "rgb(255,0,0,0.2";
-    
-   // c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
-    
-// c.arc(ssi_x,ssi_y,ssi_radius,0,Math.PI *2,false);
-   
-    
-   // Shadow
-    c.shadowBlur = 10;
-    c.shadowColor = 'black';
-    c.shadowOffsetY = 2
-
-    c.strokeStyle = "rgba(1,1,1,0";
-    snow.draw();
-    c.stroke();
-    c.fill();
+.styling-about-me2{
+/*    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position:static;
+    left: auto;
+    left:auto;
+    bottom: -5px;**/
+    border: 1.5px dotted rgba(13, 0, 44, 0.452);
+    box-shadow: 0px 0.5px 2px #000000;
+    background-color:rgb(61, 45, 0);
+    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #886f425e inset;
+    border-color:rgb(16, 8, 54);
+    padding: 20px;
+    max-height:300px;
+   /* width:100%;*/
+    overflow-y: hidden;
+    /*width:30%;*/
+    color:rgb(255, 220, 160);
+    text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
     
 }
-    }
-    animate();
+.design-thing{
+    /*position:absolute;*/
+    display: grid;
+    grid-row: content 1 / span 2;
+    min-width: 810px;
+    border: 1.9px dotted rgba(173, 136, 36, 0.233);
+    border-bottom: 2.5px dotted rgba(235, 73, 73, 0.253);
+    /*margin: 35%;*/
+    margin-top:5px;
+    background: repeating-linear-gradient( 120deg, #ff000036, #4d0000d7 0.5px, #42050594 0.5px, #ff02021e 5px); height: auto; width: auto;
+    box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 15px 12px #ff64645e inset;
+    /*top: 60em;*/
+    width:100%;
+    padding: 100px;
+    color:rgb(42, 255, 148);
+    text-align: center;
+    text-shadow: 1px 1px #00000063;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.about-me{
+    color:rgb(42, 255, 148);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-me2{
+    color:rgb(42, 255, 148);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.quali-info{
+    color:rgb(209, 255, 136);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-design{
+    color:rgb(255, 220, 160);
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#eventual-headline {
+    background-color:rgb(0, 17, 26);
+    background: repeating-linear-gradient( 180deg, #000000c9, #d400ff02 1px, #00ffea17 5px, #193580 5px);
+    text-align:center;
+    font-size: 5em;
+    color:rgb(42, 255, 148);
+    text-shadow: 1px 1px #00000063;
+    border-bottom: 15px double rgba(42, 255, 149, 0.651);
+    border-radius: 5px;
+    margin:0px;
+    padding: 15%;
+}
+
+/*#eventual-headline-dos {
+    background-color:rgb(80, 0, 32);
+    color:rgb(192, 183, 170);
+    border-radius: 15px;
+    font-size:0.5em;
+    text-align: center;
+}*/
+body {
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(26, 0, 15);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.charity-css{
+    column-width: 30px;
+    max-width: 510px;
+    border: 1.5px dotted rgba(13, 0, 44, 0.452);
+    box-shadow: 0px 0.5px 2px #000000;
+    background-color:rgb(38, 25, 70);
+    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #6c42885e inset;
+    border-color:rgb(16, 8, 54);
+    padding: 20px;
+    /*width:30%;*/
+    color:rgb(255, 220, 160);
+    text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
+}
+#charity-sub-css{
+    background:rgb(0, 0, 0);
+    grid-row: 4;
+    grid-area: span 1/3;
+    grid-column: span 1/2;
+    
+}
+.color-me {
+    font-size:1.3em;
+    color:rgb(42, 255, 148);
+    text-align: center;
+    text-shadow: 1px 1px #00000063;
+    background: repeating-linear-gradient( 120deg, #ff000036, #4d0000d7 0.5px, #42050594 0.5px, #ff02021e 5px); height: auto; width: auto;
+    box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 15px 12px #ff64645e inset;
+    padding: 20px;
+    border: 1.8px dotted rgba(75, 61, 61, 0.438);
+    border-radius: 3px;
+    border-color: rgb(94, 6, 6);
+    /*box-shadow: 0px 0.5px 2px #000000; -- previous*/
+}
+.copyright-etc{
+    color:rgba(255, 0, 0, 0.247);
+    font-size: 0.5em;
+
+}
+a:link{
+    color:rgb(255, 245, 191)
+}
+footer {
+    grid-area: 2 / span 2;
+    width:30px;
+    height:30px;
+    margin-top: -1.9em;
+    border: 1.9px dotted rgba(173, 136, 36, 0.233);
+    /* old - concept border-radius: 120px; */
+    background: repeating-linear-gradient( 120deg, #ff000036, #4d0000d7 0.5px, #42050594 0.5px, #ff02021e 5px); height: auto; width: auto;
+    border-radius: 30px;
+    box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 15px 12px #ff64645e inset;
+    color:rgb(255, 208, 208);
+    text-shadow: 1px 1px 2px #00000093;
+    text-align: center;
+    
+}
