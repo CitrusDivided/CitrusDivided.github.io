@@ -57,7 +57,7 @@ for (var i = 0; i < 300; i++){
     var t = 200;
     var tx = 1
     //Array
-    var ssi_x = Math.random() * 200;
+    var ssi_x = Math.random() * 8;
     var ssi_y = Math.random() * 400;
     var ssi_dx = (Math.random() -0.5) *3;
     var ssi_dy = (Math.random() -0.5)  *3;
