@@ -48,7 +48,7 @@ var snow = new Snow (200, 200, 3, 3, 30); //These are coordinates for first orbc
 var snowArray = [];
 
 
-for (var i = 0; i < 6; i++){
+for (var i = 0; i < 146; i++){
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 8;
@@ -227,10 +227,10 @@ c.fill();
     
     c.beginPath();
 
-    snow.draw();
+    //snow.draw();
     c.fillStyle = "rgb(255,0,0,0.2";
     
-   c.falling = c.arc(t,t,ssi_radius,0,Math.PI *2,false);
+  // c.falling = c.arc(t,t,ssi_radius,0,Math.PI *2,false);
     
 // c.arc(ssi_x,ssi_y,ssi_radius,0,Math.PI *2,false);
    
