@@ -61,7 +61,7 @@ for (var i = 0; i < 300; i++){
     var ssi_y = Math.random() * 400;
     var ssi_dx = (Math.random() -0.5) *3;
     var ssi_dy = (Math.random() -0.5)  *3;
-    var ssi_radius = Math.random()* 30;
+    var ssi_radius = Math.random()* 8;
     //Array Variables -- Snow, end ------//
 
     var radius = 30
@@ -72,7 +72,7 @@ for (var i = 0; i < 300; i++){
     var box = c.createLinearGradient(5,180,0,480,);
     //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
-    snowArray.push(new Snow(ssi_x,ssi_y,ssi_dx, ssi_dy,ssi_radius));
+    snowArray.push(new Snow(ssi_y,ssi_x,ssi_dx, ssi_dy,ssi_radius));
     var snow = new Snow(ssi_x,ssi_y,ssi_dx,ssi_dy);
     
     
