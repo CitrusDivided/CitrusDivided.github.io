@@ -18,8 +18,8 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_radius = ssi_radius; //Draw-radius//
 
     this.draw = function(){
-        c.arc(ssi_dx,ssi_dy, ssi_radius, 0, Math.PI * 2, false);
-        c.strokeStyle = 'white';
+        c.arc(ssi_x,ssi_y, ssi_radius, 0, Math.PI * 2, false);
+        c.strokeStyle = 'red';
         c.fill()
         c.stroke();
     }
@@ -56,8 +56,8 @@ for (var i = 0; i < 10; i++){
     //Array
     var ssi_x = Math.random() * 800;
     var ssi_y = Math.random() * 400;
-    var ssi_dx = (Math.random() - 0.5);
-    var ssi_dy = (Math.random() - 0.5);
+    var ssi_dx = (Math.random() - 8.5) *1;
+    var ssi_dy = (Math.random() - 0.5) *1;
     var ssi_radius = Math.random()* 17;
     //Array Variables -- Snow, end ------//
 
@@ -87,6 +87,7 @@ for (var i = 0; i < 10; i++){
         for (var i=0; i < snowArray.length; i++){
             snowArray[i].update();
             snow.draw();
+            c.arc(ssi_dx,ssi_dy,ssi_radius,0,Math.PI * 2, false)
             
         }
 
@@ -196,6 +197,7 @@ c.fillText('X',755,300);
 
 // Arc around text "Bubble"//
 c.beginPath();
+
 c.arc(754,297, 15,0, Math.PI * 2, false)
 c.strokeStyle = "rgb(242,255,148,0.3"
 c.fillStyle = "rgb(255,200,255,0.9";
@@ -206,6 +208,7 @@ c.fill();
 //Stage End (Unanimated)//
         
     //Animation arc//
+    
         c.beginPath();
         c.arc(t,300,radius,0, Math.PI * 2, false);
         c.strokeStyle = "rgb(242,255,148,0.3)";
@@ -225,9 +228,8 @@ c.fill();
     c.fillStyle = "rgb(255,0,0,0.2";
     
    // c.falling = c.arc(k,falling,ssi_radius,0,Math.PI *2,false);
-    c.falling = c.arc(fs,fs,ssi_radius,0,Math.PI *2,false);
-
-    c.falling = c.arc(ssi_x,ssi_y,ssi_radius,0,Math.PI *2,false);
+    
+// c.arc(ssi_x,ssi_y,ssi_radius,0,Math.PI *2,false);
    
     
    // Shadow
