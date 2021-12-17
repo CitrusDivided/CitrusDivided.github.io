@@ -57,7 +57,7 @@ for (var i = 0; i < 10; i++){
     var ssi_x = Math.random() * 800;
     var ssi_y = Math.random() * 400;
     var ssi_dx = (Math.random() - 8.5) *1;
-    var ssi_dy = (Math.random() - 0.5) *1;
+    var ssi_dy = (Math.random() - 8.5) *1;
     var ssi_radius = Math.random()* 17;
     //Array Variables -- Snow, end ------//
 
@@ -93,10 +93,10 @@ for (var i = 0; i < 10; i++){
 
         //-----------------------//
         //Falling Skies Movements//
-        for (var falling = 0; falling <300; falling++) {
+        for (var falling = 0; falling <3; falling++) {
 
         fs += fsx;
-        falling += ssi_dx;
+        falling += 3;
         
         //------------------------//
         //Original Track Movements//
