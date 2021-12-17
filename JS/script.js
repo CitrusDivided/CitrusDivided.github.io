@@ -21,6 +21,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
         c.beginPath();
         c.arc(this.ssi_x,this.ssi_y, this.ssi_radius, 0, Math.PI * 2, false);
         c.strokeStyle = "rgba(255,255,255,0.2";
+        c.fillStyle = "rgb(255,255,255,0.2";
         c.fill()
         c.stroke();
     }
