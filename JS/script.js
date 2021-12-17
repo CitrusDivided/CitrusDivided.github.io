@@ -18,8 +18,8 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_radius = ssi_radius; //Draw-radius//
 
     this.draw = function(){
-        c.arc(ssi_x,ssi_y, ssi_radius, 0, Math.PI * 2, false);
-        c.strokeStyle = 'red';
+        c.arc(ssi_x,ssi_y, 90, 0, Math.PI * 2, false);
+        c.strokeStyle = 'white';
         c.fill()
         c.stroke();
     }
@@ -45,7 +45,7 @@ var snow = new Snow (200, 200);
 var snowArray = [];
 
 
-for (var i = 0; i < 10; i++){
+for (var i = 0; i < 12; i++){
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 8;
@@ -69,7 +69,7 @@ for (var i = 0; i < 10; i++){
     var box = c.createLinearGradient(5,180,0,480,);
     //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
-    snowArray.push(new Snow(ssi_x,ssi_y,ssi_radius,));
+    snowArray.push(new Snow(ssi_dx,ssi_dy,ssi_radius,));
     //var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
     
     
@@ -87,7 +87,7 @@ for (var i = 0; i < 10; i++){
         for (var i=0; i < snowArray.length; i++){
             snowArray[i].update();
             snow.draw();
-            c.arc(ssi_dx,ssi_dy,ssi_radius,0,Math.PI * 2, false)
+            //c.arc(200,ssi_dy,ssi_radius,0,Math.PI * 2, false)
             
         }
 
@@ -108,17 +108,17 @@ for (var i = 0; i < 10; i++){
 
         //------------------------//
         //Snow Fall Track//
-        if (ssi_dx + ssi_radius > 800 || ssi_dx - ssi_radius <0){
-            ssi_dx = -ssi_dx;
+        //if (ssi_dx + ssi_radius > 800 || ssi_dx - ssi_radius <0){
+        //    ssi_dx = -ssi_dx;
         
-        }
-        ssi_dx += ssi_dx;
+        //}
+        //ssi_dx += ssi_dx;
 
-        if (ssi_dy + ssi_radius > 480 || ssi_dy - ssi_radius <0){
-            ssi_dy = -ssi_dy;
+        //if (ssi_dy + ssi_radius > 480 || ssi_dy - ssi_radius <0){
+        //    ssi_dy = -ssi_dy;
         
-        }
-        ssi_dy += ssi_dy;       
+        //}
+       //ssi_dy += ssi_dy;       
         
 
         //Snow Skies Imp. End ------------------------------------>//
