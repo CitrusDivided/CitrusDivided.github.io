@@ -18,7 +18,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_radius = ssi_radius; //Draw-radius//
 
     this.draw = function(){
-        c.arc(ssi_x,ssi_y, 8, 0, Math.PI * 2, false);
+        c.arc(ssi_x,ssi_y, 100, 0, Math.PI * 2, false);
         c.strokeStyle = 'blue';
         c.fill()
         c.stroke();
@@ -47,7 +47,7 @@ var snow = new Snow (200, 200);
 var snowArray = [];
 
 
-for (var i = 0; i < 1; i++){
+for (var i = 0; i < 11; i++){
     var x = Math.random() * 800;
     var y = Math.random() * 480;
     var z = Math.random() * 8;
@@ -71,7 +71,7 @@ for (var i = 0; i < 1; i++){
     var box = c.createLinearGradient(5,180,0,480,);
     //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
-    snowArray.push(new Snow(ssi_x,ssi_y,ssi_radius,));
+    snowArray.push(new Snow(ssi_x,ssi_y,20,));
     //var snow = new Snow(ssi_x,ssi_y,ssi_radius,3,300);
     
     
