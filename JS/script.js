@@ -29,10 +29,10 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
             this.ssi_x - this.ssi_radius <0){
                 this.ssi_dx = -this.ssi_dx;
             }
-        if (this.ssi_y + this.ssi_radius > 480 ||
-            this.ssi_y - this.ssi_radius < 0) {
-                this.ssi_dy = -this.ssi_dy;
-            }
+ //       if (this.ssi_y + this.ssi_radius > 480 ||
+ //           this.ssi_y - this.ssi_radius < 0) {
+ //               this.ssi_dy = -this.ssi_dy;
+ //           }
 
             this.ssi_x += this.ssi_dx;
             this.ssi_y += this.ssi_dy;
@@ -49,7 +49,7 @@ var snowArray = [];
 
 
 for (var i = 0; i < 300; i++){
-    var x = Math.random() * 800;
+    var x = Math.random() * 1800;
     var y = Math.random() * 480;
     var z = Math.random() * 8;
     var k = Math.random() * 800;
@@ -58,9 +58,9 @@ for (var i = 0; i < 300; i++){
     var tx = 1
     //Array
     var ssi_x = Math.random() * 8;
-    var ssi_y = Math.random() * 400;
-    var ssi_dx = (Math.random() -0.5) *3;
-    var ssi_dy = (Math.random() -0.5)  *3;
+    var ssi_y = Math.random() * 60;
+    var ssi_dx = (Math.random() -0.5) *8;
+    var ssi_dy = (Math.random() -0.1)  *1;
     var ssi_radius = Math.random()* 8;
     //Array Variables -- Snow, end ------//
 
