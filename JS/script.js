@@ -20,7 +20,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.draw = function(){
         c.beginPath();
         c.arc(this.ssi_x,ssi_y, 10, 0, Math.PI * 2, false);
-        c.strokeStyle = 'red';
+        c.strokeStyle = "rgba(255,255,255,0.2";
         c.fill()
         c.stroke();
     }
@@ -59,9 +59,9 @@ for (var i = 0; i < 146; i++){
     //Array
     var ssi_x = Math.random() * 800;
     var ssi_y = Math.random() * 400;
-    var ssi_dx = (Math.random() * 1) *300;
+    var ssi_dx = (Math.random() * 1) *30;
     var ssi_dy = Math.random()  *300;
-    var ssi_radius = Math.random()* 17;
+    var ssi_radius = Math.random()* 1;
     //Array Variables -- Snow, end ------//
 
     var radius = 30
