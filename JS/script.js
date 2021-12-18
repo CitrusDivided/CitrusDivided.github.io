@@ -59,9 +59,9 @@ for (var i = 0; i < 300; i++){
     var tx = 1
     //Array
     var ssi_x = Math.random() * 8;
-    var ssi_y = Math.random() * 60;
-    var ssi_dx = (Math.random() -0.5) *8;
-    var ssi_dy = (Math.random() -0.1)  *1;
+    var ssi_y = Math.random() * 600;
+    var ssi_dx = (Math.random() -0.5) *8;   //Adjusts the speed vert. entry speed//
+    var ssi_dy = (Math.random() -0.1)  *1;  //Adjusts the speed hori. entry speed//
     var ssi_radius = Math.random()* 8;
     //Array Variables -- Snow, end ------//
 
