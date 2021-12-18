@@ -131,8 +131,8 @@ for (var i = 0; i < 300; i++){
         
         // Gradient learning
         gradient.addColorStop(.3, "rgb(255,255,255,0.9");
-        gradient.addColorStop(.25, 'yellow');
-        gradient.addColorStop(.1, 'white');
+        gradient.addColorStop(.3, "rgba(255,55,255,0.9");
+        gradient.addColorStop(.3, 'white');
         
         c.fillStyle = gradient;
         
@@ -230,10 +230,17 @@ c.fill();
 
     //snow.draw();
     c.fillStyle = "rgb(255,0,0,0.2";
+//Sand
+c.fillRect(0, 475, 800, 10);
+c.fillRect(0, 400, 190, 1.3);
+c.fillRect(290, 420, 90, 2.5);
+c.fillRect(40, 420, 90, 1.8);
+c.fillRect(0, 475, 800, 10);
+c.fillRect(0, 400, 190, 1.3);
+c.fillRect(411, 469, 90, 2.1);
+c.fillRect(40, 420, 90, 1.8);
     
-  // c.falling = c.arc(t,t,ssi_radius,0,Math.PI *2,false);
-    
-// c.arc(ssi_x,ssi_y,ssi_radius,0,Math.PI *2,false);
+ c.arc(falling,ssi_y,falling,0,Math.PI *2,false);
    
     
    // Shadow
