@@ -215,7 +215,7 @@ c.fill();
     
         c.beginPath();
         c.arc(t,300,radius,0, Math.PI * 2, false);
-        c.strokeStyle = "rgb(242,255,148,0.3)";
+        c.strokeStyle = "rgb(242,255,148,0.9)";
         c.stroke();
 
         //imput previous, space//
