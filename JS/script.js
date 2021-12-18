@@ -130,7 +130,7 @@ for (var i = 0; i < 300; i++){
         //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
         
         // Gradient learning
-        gradient.addColorStop(.3, "rgb(255,255,255,0.5");
+        gradient.addColorStop(.3, "rgb(255,255,255,0.9");
         gradient.addColorStop(.25, 'yellow');
         gradient.addColorStop(.1, 'white');
         
@@ -188,10 +188,10 @@ c.lineTo(750, 300);
 c.stroke();
 
 // Text
-c.fillStyle = "rgb(0,0,0,0.3)";
+c.fillStyle = "rgb(0,0,0,0.1)";
 c.font = '12px serif';
 c.textAlign = 'left';
-c.fillText('Testing - 0.8b',25,35);
+c.fillText('Testing - 0.9a',25,35);
 
 // -- Text "Character stand in" Keyboard imp -- //
 c.fillStyle = "white";
