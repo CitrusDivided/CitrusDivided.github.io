@@ -30,10 +30,10 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
             this.ssi_x - this.ssi_radius <0){
                 this.ssi_dx = -this.ssi_dx;
             }
- //       if (this.ssi_y + this.ssi_radius > 480 ||
- //           this.ssi_y - this.ssi_radius < 0) {
- //               this.ssi_dy = -this.ssi_dy;
- //           }
+//DELETION       if (this.ssi_y + this.ssi_radius > 480 ||
+//DELETION           this.ssi_y - this.ssi_radius < 0) {
+//DELETION               this.ssi_dy = -this.ssi_dy;
+//DELETION           }
 
             this.ssi_x += this.ssi_dx;
             this.ssi_y += this.ssi_dy;
@@ -112,22 +112,22 @@ for (var i = 0; i < 300; i++){
 
         //------------------------//
         //Snow Fall Track//
-        //if (ssi_dx + ssi_radius > 800 || ssi_dx - ssi_radius <0){
-        //    ssi_dx = -ssi_dx;
-        
-        //}
-        //ssi_dx += ssi_dx;
+//DELETION         //if (ssi_dx + ssi_radius > 800 || ssi_dx - ssi_radius <0){
+//DELETION         //    ssi_dx = -ssi_dx;
+//DELETION         
+//DELETION         //}
+//DELETION         //ssi_dx += ssi_dx;
+//DELETION 
+//DELETION         //if (ssi_dy + ssi_radius > 480 || ssi_dy - ssi_radius <0){
+//DELETION         //    ssi_dy = -ssi_dy;
+//DELETION      
+//DELETION       //}
+//DELETION      //ssi_dy += ssi_dy;       
+//DELETION       
+//Snow Skies Imp. End ------------------------------------>//
 
-        //if (ssi_dy + ssi_radius > 480 || ssi_dy - ssi_radius <0){
-        //    ssi_dy = -ssi_dy;
-        
-        //}
-       //ssi_dy += ssi_dy;       
-        
-
-        //Snow Skies Imp. End ------------------------------------>//
         c.beginPath();
-        //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
+//DELETION         //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
         
         // Gradient learning
         gradient.addColorStop(.3, "rgb(255,255,255,0.9");
@@ -161,6 +161,7 @@ for (var i = 0; i < 300; i++){
         //Rectangles
         c.beginPath();
         c.fillStyle = box;
+
 c.fillRect(t, 115, 100, 100);
 c.fillRect(450, 210, 155, 195);
 c.fillRect(245, 255, 100, 100);
