@@ -49,11 +49,12 @@ var snow = new Snow (200, 200, 3, 3, 30); //These are coordinates for first orbc
 var snowArray = [];
 
 
-for (var i = 0; i < 300; i++){
-    var x = Math.random() * 1800;
-    var y = Math.random() * 480;
-    var z = Math.random() * 8;
-    var k = Math.random() * 800;
+for (var i = 0; i < 400; i++){
+    var x = Math.random() * 1800;   //DELETION
+    var y = Math.random() * 480;    //DELETION
+    var z = Math.random() * 8;      //DELETION 
+    var k = Math.random() * 800;    //DELETION 
+    
     //Animation related variables
     var t = 200;
     var tx = 1
@@ -67,8 +68,8 @@ for (var i = 0; i < 300; i++){
 
     var radius = 30
     //Falling Skies Variables
-    var fs = 200;
-    var fsx = 1;
+    var fs = 200;   //DELETION 
+    var fsx = 1;    //DELETION 
     //Gradient Box Creation - Staging
     var box = c.createLinearGradient(5,180,0,480,);
     //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
@@ -91,7 +92,7 @@ for (var i = 0; i < 300; i++){
         for (var i=0; i < snowArray.length; i++){
             snowArray[i].update();
             snow.draw();
-            //c.arc(200,ssi_dy,ssi_radius,0,Math.PI * 2, false)
+            //c.arc(200,ssi_dy,ssi_radius,0,Math.PI * 2, false) //DELETION 
         
         }
 
