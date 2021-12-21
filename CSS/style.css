@@ -164,12 +164,12 @@ body {
     color:rgb(42, 255, 148);
     text-align: center;
     text-shadow: 1px 1px #00000063;
-    background: repeating-linear-gradient( 120deg, #ff000036, #4d0000d7 0.5px, #42050594 0.5px, #ff02021e 5px); height: auto; width: auto;
-    box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 15px 12px #ff64645e inset;
+    background: repeating-linear-gradient( 120deg, #3d0909, #4d0000d7 0.5px, #42050594 0.5px, #ff02021e 5px); height: auto; width: auto;
+    box-shadow: 0px 0.5px 3.8px 1px #00000063, -0.1px 0.1px 15px 10px #b14343 inset;
     padding: 20px;
-    border: 1.8px dotted rgba(75, 61, 61, 0.438);
+    border: 1px solid rgba(255,255,255, 1);
     border-radius: 3px;
-    border-color: rgb(94, 6, 6);
+    border-color: rgb(150, 0, 0);
     /*box-shadow: 0px 0.5px 2px #000000; -- previous*/
 }
 .copyright-etc{
