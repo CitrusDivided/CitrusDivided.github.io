@@ -59,18 +59,18 @@
     left: auto;
     left:auto;
     bottom: -5px;**/
-    border: 1.5px dotted rgba(13, 0, 44, 0.452);
+    border: 1.5px solid rgb(243, 255, 131);
     box-shadow: 0px 0.5px 2px #000000;
-    background-color:rgb(61, 45, 0);
-    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #886f425e inset;
+    background-color:rgb(165, 146, 92);
+    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 10px 3px #ffea73 inset;
     border-color:rgb(16, 8, 54);
     padding: 20px;
     max-height:300px;
    /* width:100%;*/
     overflow-y: hidden;
     /*width:30%;*/
-    color:rgb(255, 220, 160);
-    text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
+    color:rgb(37, 5, 5);
+    text-shadow: 1px 1px 2.2px rgb(211, 192, 129);
     
 }
 .design-thing{
@@ -103,7 +103,8 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .quali-info{
-    color:rgb(209, 255, 136);
+    color:rgb(116, 8, 8);
+
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .about-design{
@@ -114,24 +115,22 @@
 }
 #eventual-headline {
     background-color:rgb(0, 17, 26);
-    background: rgb(0, 0, 0);
+    background: rgb(34, 19, 20);
     text-align:center;
     font-size: 5em;
     color:rgb(246, 255, 122);
     text-shadow: 1px 1px #00000063;
-    border-bottom: 15px dotted rgb(49, 30, 12);;
+    border-bottom: 2px dashed rgb(49, 30, 12);;
     border-radius: 5px;
     margin:0px;
     padding: 15%;
 }
 /*^^Into Eventual-headline, we'll be adding an svg stage.*/
-/*#eventual-headline-dos {
-    background-color:rgb(80, 0, 32);
-    color:rgb(192, 183, 170);
-    border-radius: 15px;
-    font-size:0.5em;
-    text-align: center;
-}*/
+#eventual-headline:hover{
+    background: rgb(0, 17, 26);
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.548);
+
+}
 body {
     margin: 0px;
     padding: 10px;
