@@ -1,6 +1,9 @@
 #_x3C_Slice_x3E_{
     fill: rgba(0, 0, 0, 0.548);
 }
+#_x3C_Slice_x3E_:hover{
+    fill:rgb(134, 25, 25)
+}
 #Curtain {
     float: left;
     margin: 0,15px,0,0;
