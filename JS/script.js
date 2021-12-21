@@ -174,7 +174,7 @@ c.fillRect(0, 147, 15, 35);
 
 //Stage Flooring
 c.beginPath();
-c.fillStyle = "rgb(255,255,255,";
+c.fillStyle = "rgb(255,255,255,0.8";
 c.fillRect(0, 380, 800, 100);
 
 //Stage Falling Skies
