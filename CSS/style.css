@@ -47,7 +47,7 @@
 /*    width:100%;*/
     overflow-y: hidden;
     /*width:50%;*/
-    padding: 20px;
+    padding: 22px;
     color:rgb(255, 218, 153);
     text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
 
@@ -62,11 +62,11 @@
     left:auto;
     bottom: -5px;**/
     border: 1.5px solid rgb(243, 255, 131);
-    box-shadow: 0px 0.5px 2px #000000;
+    box-shadow: 0px 0.5px 1px #000000;
     background-color:rgb(165, 146, 92);
     box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 10px 3px #ffea73 inset;
     border-color:rgb(16, 8, 54);
-    padding: 20px;
+    padding: 22px;
     max-height:335px;
    /* width:100%;*/
     overflow-y: hidden;
@@ -90,10 +90,11 @@
     color:rgb(42, 255, 148);
     text-align: center;
     text-shadow: 1px 1px #00000063;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
     
 }
+
 .about-me{
     color:rgb(42, 255, 148);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -189,7 +190,6 @@ footer {
     grid-area: 2 / span 2;
     width:30px;
     height:30px;
-    margin-bottom: -3.8px;
     border: 1.9px dotted rgba(173, 136, 36, 0.233);
     /* old - concept border-radius: 120px; */
     background: repeating-linear-gradient( 120deg, #ff000036, #4d0000d7 0.5px, #42050594 0.5px, #ff02021e 5px); height: auto; width: auto;
