@@ -80,6 +80,7 @@
     display: grid;
     grid-row: content 1 / span 2;
     min-width: 810px;
+    padding: 3rem;
     border: 1.9px dotted rgba(173, 136, 36, 0.233);
     border-bottom: 2.5px dotted rgba(235, 73, 73, 0.253);
     /*margin: 35%;*/
@@ -116,10 +117,10 @@
     color:rgb(255, 220, 160);
     text-align:center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background:rgb(16, 8, 54);
-    border: 1px dotted rgb(58, 43, 82);
-    border-radius: 5px;
-    padding: 1.2%;
+    background:rgba(175, 158, 255, 0.199);
+    border: 1px dotted rgba(51, 44, 61, 0.63);
+    border-radius: 3rem;
+    padding: 1.1%;
     box-shadow: 0px 0.5px 2px 1px #00000063, -0.1px 0.1px 15px 12px #2e396b5e inset;
 
 }
