@@ -80,7 +80,7 @@
     display: grid;
     grid-row: content 1 / span 2;
     min-width: 810px;
-    padding: 3rem;
+    padding: 1.2rem;
     border: 1.9px dotted rgba(173, 136, 36, 0.233);
     border-bottom: 2.5px dotted rgba(235, 73, 73, 0.253);
     /*margin: 35%;*/
