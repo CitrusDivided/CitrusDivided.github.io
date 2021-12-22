@@ -187,6 +187,9 @@ body {
 a:link{
     color:rgb(255, 245, 191)
 }
+a:hover{
+    color:rgb(42, 255, 148);
+}
 footer {
     grid-area: 2 / span 2;
     width:30px;
