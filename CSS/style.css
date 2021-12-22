@@ -104,7 +104,11 @@
 }
 .quali-info{
     color:rgb(116, 8, 8);
-
+    border:1.5px #810000;
+    background: #4427104d;
+    box-shadow: 0px 1px rgba(255, 255, 255, 0.137);
+    padding: 1.2%;
+    border-radius: 2.3px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .about-design{
