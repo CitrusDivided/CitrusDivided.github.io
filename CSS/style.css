@@ -43,11 +43,11 @@
     box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #2e396b5e inset;
     border-color:rgb(16, 8, 54);
     border-radius: 3px;
-    max-height:335px;
+    max-height:580px;
 /*    width:100%;*/
     overflow-y: hidden;
     /*width:50%;*/
-    padding: 22px;
+    padding: 1.3rem;
     color:rgb(255, 218, 153);
     text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
 
@@ -66,8 +66,8 @@
     background-color:rgb(165, 146, 92);
     box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 10px 3px #ffea73 inset;
     border-color:rgb(16, 8, 54);
-    padding: 22px;
-    max-height:335px;
+    padding: 1.3rem;
+    max-height:580px;
    /* width:100%;*/
     overflow-y: hidden;
     /*width:30%;*/
