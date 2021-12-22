@@ -113,6 +113,11 @@
     color:rgb(255, 220, 160);
     text-align:center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:rgb(16, 8, 54);
+    border: 1px dotted rgb(58, 43, 82);
+    border-radius: 5px;
+    padding: 1.2%;
+    box-shadow: 0px 0.5px 2px 1px #00000063, -0.1px 0.1px 15px 12px #2e396b5e inset;
 
 }
 #eventual-headline {
