@@ -104,6 +104,10 @@
     color:rgb(42, 255, 148);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.title-expansion{
+    font-size: 1.8em;
+    color:#5e1a1a
+}
 .quali-info{
     color:rgb(116, 8, 8);
     border:1.2px solid #8a3b3b;
