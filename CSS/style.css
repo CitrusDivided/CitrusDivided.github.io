@@ -84,8 +84,8 @@
     border-bottom: 2.5px dotted rgba(235, 73, 73, 0.253);
     /*margin: 35%;*/
     margin-top:5px;
-    background: repeating-linear-gradient( 120deg, #ff000036, #4d0000d7 0.5px, #42050594 0.5px, #ff02021e 5px); height: auto; width: auto;
-    box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 15px 12px #ff64645e inset;
+    background: rgba(0, 0, 0, 0.178);
+    box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 8px 2px #ff64645e inset;
     /*top: 60em;*/
     width:100%;
     padding: 15px;
