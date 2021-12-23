@@ -34,12 +34,12 @@
 .styling-about-me{
     display: grid;
     grid-row: content 1 / span 2;
-    border: 1.5px dotted rgba(28, 31, 78, 0.452);
+    border: 1.5px solid rgba(28, 31, 78, 0.452);
     /*box-shadow: 0px 0.5px 2px #000000, -0.1px 0.1px 15px 1px #393c5025 inset;*/
     background: repeating-linear-gradient( 120deg, #42006e, #460066d7 0.5px, #130227 0.5px, #0a000c 5px); height: auto; width: auto;
     box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #6b2e57 inset;
     border-color:rgb(138, 81, 135);
-    border-radius: 3px;
+    border-radius: 0.3rem;
     min-width: 380px;
     max-height:780px;
 /*    width:100%;*/
@@ -57,18 +57,19 @@
     grid-row: content 1 / span 2;
 
     bottom: -5px;
-    border: 1.5px dotted rgb(250, 255, 206);
+    border: 1.5px solid rgb(255, 226, 95);
     background: repeating-linear-gradient( 120deg, #6e5d00, #aa7864 0.5px, #b39b77 0.5px, #a77c4c 4px); height: auto; width: auto;
     box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 10px 3px #ffb980 inset;
     border-color:rgb(16, 8, 54);
     padding: 1.4rem;
     min-width: 380px;
     max-height: 780px;
+    border-radius: 0.3rem;
    /* width:100%;*/
     overflow-y: hidden;
     /*width:30%;*/
     color:rgb(90, 33, 0);
-    text-shadow: 0.5px 0.5px 2.5px rgb(211, 192, 129);
+    text-shadow: 0.5px 0.5px 0px rgba(255, 255, 255, 0.219);
     line-height: 20pt;
     
 }
