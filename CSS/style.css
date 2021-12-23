@@ -125,6 +125,13 @@
     border-radius: 0.3rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+ul{
+    list-style: none;
+}
+.list-specific{
+    text-align: center;
+
+}
 .about-design{
     color:rgb(255, 220, 160);
     text-align:center;
