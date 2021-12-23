@@ -105,6 +105,11 @@ display: grid;
     color:#5e1a1a;
     
 }
+.title-expansion-2{
+    font-size: 1.8em;
+    color:rgb(42, 255, 148);
+    
+}
 .quali-info{
     color:rgb(105, 17, 17);
     border:1.2px solid #8a3b3b;
