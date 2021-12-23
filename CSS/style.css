@@ -57,7 +57,7 @@ grid-column: 1;
 grid-row: content 1 / span 2;
 
     bottom: -5px;
-    border: 1.5px solid rgb(243, 255, 131);
+    border: 1.5px dotted rgb(250, 255, 206);
     box-shadow: 0px 0.5px 1px #000000;
     background-color:rgb(165, 146, 92);
     box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 10px 3px #ffea73 inset;
