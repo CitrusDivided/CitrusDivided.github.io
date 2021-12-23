@@ -58,9 +58,8 @@
 
     bottom: -5px;
     border: 1.5px dotted rgb(250, 255, 206);
-    box-shadow: 0px 0.5px 1px #000000;
-    background-color:rgb(165, 146, 92);
-    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 10px 3px #ffea73 inset;
+    background: repeating-linear-gradient( 120deg, #6e5d00, #aa7864 0.5px, #b39b77 0.5px, #a77c4c 4px); height: auto; width: auto;
+    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 10px 3px #ffb980 inset;
     border-color:rgb(16, 8, 54);
     padding: 1.4rem;
     min-width: 380px;
@@ -119,10 +118,11 @@
     display: grid;
     color:rgb(105, 17, 17);
     border:1.4px solid #8a3b3b;
-    background: #ffc39588;
+    background: #ffdec5;
     box-shadow: 0px 1.1px 1px 1px rgba(0, 0, 0, 0.404), -0.1px 0.1px 1px 1px #ffffff4f inset;
     padding: 1.3%;
     border-radius: 0.3rem;
+    padding-left: 1rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 ul{
