@@ -116,6 +116,7 @@
     
 }
 .quali-info{
+    display: grid;
     color:rgb(105, 17, 17);
     border:1.4px solid #8a3b3b;
     background: #ffc39588;
