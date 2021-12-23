@@ -24,7 +24,7 @@
     justify-items: stretch;
     align-items: stretch;
     column-gap: 1.5rem;
-    row-gap: 0.7%; /*avoid using grid-gap, find alternative*/
+    row-gap: 0.1rem; /*avoid using grid-gap, find alternative*/
     grid-template-rows: [row1-start] 0%;
     grid-auto-rows: max-content;
     
@@ -112,7 +112,7 @@ grid-row: content 1 / span 2;
 .title-expansion-2{
     font-size: 1.8em;
     color:rgb(42, 255, 148);
-    margin: 5.5rem;
+    margin: 7rem;
     
 }
 .quali-info{
