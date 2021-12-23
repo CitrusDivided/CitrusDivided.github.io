@@ -36,9 +36,9 @@
     grid-row: content 1 / span 2;
     border: 1.5px dotted rgba(28, 31, 78, 0.452);
     /*box-shadow: 0px 0.5px 2px #000000, -0.1px 0.1px 15px 1px #393c5025 inset;*/
-    background: repeating-linear-gradient( 120deg, #1600da36, #130066d7 0.5px, #05064294 0.5px, #00000c 5px); height: auto; width: auto;
-    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #2e396b5e inset;
-    border-color:rgb(16, 8, 54);
+    background: repeating-linear-gradient( 120deg, #42006e, #460066d7 0.5px, #130227 0.5px, #0a000c 5px); height: auto; width: auto;
+    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #6b2e57 inset;
+    border-color:rgb(138, 81, 135);
     border-radius: 3px;
     min-width: 380px;
     max-height:780px;
