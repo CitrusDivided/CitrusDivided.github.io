@@ -77,7 +77,7 @@
 .design-thing{
     /*position:absolute;*/
     display: grid;
-    grid-row: content 3 / span 3;
+    grid-row: content 5;
     min-width: 810px;
     padding: 1.2rem;
     border: 1.9px dotted rgba(173, 136, 36, 0.233);
@@ -213,8 +213,8 @@ a:hover{
 }
 footer {
     display: grid;
-    grid-row: 8 / 8;
-    grid-column: 1 /span ;
+    grid-column: 1 /span 2;
+    grid-row: content 3 / span 2;
     width:300px;
     height:300px;
     border: 1.9px dotted rgba(173, 136, 36, 0.233);
