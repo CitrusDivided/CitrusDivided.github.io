@@ -80,11 +80,11 @@
     grid-row: content 5;
     min-width: 810px;
     padding: 1.2rem;
-    border: 1.9px dotted rgba(173, 136, 36, 0.233);
+    border: 1.9px dotted rgb(134, 49, 49);
     border-bottom: 2.5px dotted rgba(235, 73, 73, 0.253);
     /*margin: 35%;*/
     margin-top:5px;
-    background: rgba(0, 0, 0, 0.178);
+    background: radial-gradient(closest-side, #ff3636, #000000);
     box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 8px 2px #ff64645e inset;
     /*top: 60em;*/
     color:rgb(42, 255, 148);
@@ -164,7 +164,7 @@ ul{
 
 }
 #eventual-headline {
-    background: linear-gradient( #000000, #0d241e);
+    background: linear-gradient( #000000, #180f1d);
     text-align:center;
     font-size: 5em;
     color:rgb(246, 255, 122);
@@ -176,10 +176,11 @@ ul{
 }
 /*^^Into Eventual-headline, we'll be adding an svg stage.*/
 #eventual-headline:hover{
-    background: linear-gradient( #000000, #180f1d);
+    background: linear-gradient( #000000, #31004b);
     text-shadow: 3px 3px rgba(0, 0, 0, 0.548);
 
 }
+/*Potential addin of canvas animated on hover*/
 body {
     background-color: rgb(26, 0, 0);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
