@@ -154,14 +154,14 @@ ul{
 }
 .about-design{
     display: grid;
-    color:rgb(255, 220, 160);
+    color:rgb(255, 199, 102);
     text-align:center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background:rgba(0, 0, 0, 0.199);
     border: 1px dotted rgba(51, 44, 61, 0.63);
     border-radius: 8rem;
     padding: 1%;
-    box-shadow: 0px 0.5px 2px 1px #00000063, -0.1px 0.1px 15px 12px #7023235e inset;
+    box-shadow: 0px 0.5px 2px 1px #00000063, -0.1px 0.1px 5px 3px #7023235e inset;
     line-height: 23pt;
 
 }
@@ -170,7 +170,7 @@ ul{
     text-align:center;
     font-size: 5em;
     color:rgb(246, 255, 122);
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.548);
+    text-shadow: 3px 3px rgb(0, 0, 0);
     border-bottom: 2px dashed rgb(49, 30, 12);;
     border-radius: 5px;
     margin:0px;
@@ -209,7 +209,7 @@ body {
 
 }
 a:link{
-    color:rgb(255, 245, 191)
+    color:rgb(246, 255, 122);
 }
 a:hover{
     color:rgb(42, 255, 148);
@@ -224,7 +224,7 @@ footer {
     border: 1.9px dotted rgba(173, 136, 36, 0.233);
     background: repeating-linear-gradient( 120deg, #ff000036, #4d0000d7 0.5px, #42050594 0.5px, #ff02021e 5px); height: auto; width: auto;
     border-radius: 30px;
-    box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 15px 12px #ff64645e inset;
+    box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 9px 10px #ff64645e inset;
     color:rgb(255, 208, 208);
     text-shadow: 1px 1px 2px #00000093;
     text-align: center;
