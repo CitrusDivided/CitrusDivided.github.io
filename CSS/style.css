@@ -153,14 +153,16 @@ ul{
 
 }
 .about-design{
+    display: grid;
     color:rgb(255, 220, 160);
     text-align:center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background:rgba(175, 158, 255, 0.199);
+    background:rgba(0, 0, 0, 0.199);
     border: 1px dotted rgba(51, 44, 61, 0.63);
-    border-radius: 3rem;
-    padding: 1.1%;
-    box-shadow: 0px 0.5px 2px 1px #00000063, -0.1px 0.1px 15px 12px #2e396b5e inset;
+    border-radius: 8rem;
+    padding: 1%;
+    box-shadow: 0px 0.5px 2px 1px #00000063, -0.1px 0.1px 15px 12px #7023235e inset;
+    line-height: 23pt;
 
 }
 #eventual-headline {
