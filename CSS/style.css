@@ -59,9 +59,9 @@
 
     bottom: -5px;
     border: 1.5px solid rgb(255, 226, 95);
-    background: repeating-linear-gradient( 120deg, #6e5d00, #aa7864 0.5px, #b39b77 0.5px, #a77c4c 4px); height: auto; width: auto;
-    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 10px 3px #ffb980 inset;
-    border-color:rgb(16, 8, 54);
+    background: repeating-linear-gradient( 120deg, #ce7272, #ff6060 0.5px, #ff8b8b 0.5px, #ff9271 4px); height: auto; width: auto;
+    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 10px 3px #ff5050 inset;
+    border-color:rgb(255, 75, 75);
     padding: 1.4rem;
     min-width: 380px;
     max-height: 780px;
