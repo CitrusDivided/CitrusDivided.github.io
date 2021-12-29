@@ -76,6 +76,7 @@
     /*position:absolute;*/
     display: grid;
     grid-row: content 5;
+    grid-column: 1 / span 2;
     min-width: 810px;
     padding: 1.2rem;
     border: 1.9px dotted rgb(134, 49, 49);
