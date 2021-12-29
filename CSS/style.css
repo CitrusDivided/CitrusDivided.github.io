@@ -87,6 +87,7 @@
     box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 8px 2px #ff64645e inset;
     /*top: 60em;*/
     color:rgb(42, 255, 148);
+    padding: 4rem;
     text-align: center;
     text-shadow: 1px 1px #00000063;
     border-top-left-radius: 3px;
