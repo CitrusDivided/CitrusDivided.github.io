@@ -162,7 +162,7 @@ ul{
     color:rgb(255, 199, 102);
     text-align:center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background:rgba(0, 0, 0, 0.514);
+    background: linear-gradient(#3d103d, #7e39398e);
     border: 1px dotted rgba(51, 44, 61, 0.63);
     border-radius: 10rem;
     padding: 1rem;
