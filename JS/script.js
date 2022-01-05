@@ -38,8 +38,8 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
         c.stroke();
     }
     this.update = function(){
-        if (this.ssi_x + this.ssi_radius > 800 ||
-            this.ssi_x - this.ssi_radius <0){
+        if (this.ssi_x + this.ssi_radius > 900 ||
+            this.ssi_x - this.ssi_radius <-100){
                 this.ssi_dx = -this.ssi_dx;
             }
 //DELETION       if (this.ssi_y + this.ssi_radius > 480 ||
@@ -66,7 +66,7 @@ var snow = new Snow (200, 200, 3, 3, 30); //These are coordinates for first orbc
 var snowArray = [];
 
 
-for (var i = 0; i < 400; i++){
+for (var i = 0; i < 500; i++){
     var x = Math.random() * 1800;   //DELETION
     var y = Math.random() * 480;    //DELETION
     var z = Math.random() * 8;      //DELETION 
@@ -79,7 +79,7 @@ for (var i = 0; i < 400; i++){
     var ssi_x = Math.random() * 8;
     var ssi_y = Math.random() * 600;
     var ssi_dx = (Math.random() -0.5) *8;   //Adjusts the speed vert. entry speed//
-    var ssi_dy = (Math.random() -0.1)  *1;  //Adjusts the speed hori. entry speed//
+    var ssi_dy = (Math.random() -0.3)  *1;  //Adjusts the speed hori. entry speed//
     var ssi_radius = Math.random()* 8;
     //Array Variables -- Snow, end ------//
 
