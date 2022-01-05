@@ -9,10 +9,18 @@ canvas.height = 480;
 var c = canvas.getContext('2d');
 // Interaction //
 
-window.addEventListener('mousemove', function(){
-    console.log('testing');
-})
+var mouse={
+    x: undefined,
+    y: undefined
+}
 
+window.addEventListener('mousemove',
+    function(event) {
+        mouse.x = event.x;
+        mouse.y = event.y;
+    console.log(mouse);
+})
+// Interaction Set -- END //
 //Snow Skies Imp.
 
 function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
