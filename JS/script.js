@@ -190,7 +190,7 @@ c.lineTo(750, 300);
 c.stroke();
 
 // Text
-c.fillStyle = "rgb(0,0,0,0.1)";
+c.fillStyle = "rgb(255,255,255,0.2)";
 c.font = '12px serif';
 c.textAlign = 'left';
 c.fillText('Testing - 0.9a',25,35);
