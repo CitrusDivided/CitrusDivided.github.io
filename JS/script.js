@@ -18,7 +18,6 @@ window.addEventListener('mousemove',
     function(event) {
         mouse.x = event.x;
         mouse.y = event.y;
-    console.log(mouse);
 })
 // Interaction Set -- END //
 //Snow Skies Imp.
@@ -50,6 +49,11 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
 
             this.ssi_x += this.ssi_dx;
             this.ssi_y += this.ssi_dy;
+
+            // Interactivity --- Imp. //
+//            if (mouse.x - this.ssi_x < 50 && mouse.x - this.ssi_x > -50 && mouse.y - this.ssi_y < 50 && mouse.y - this.ssi_y > -50 ){
+//               this.ssi_radius +=1;
+//            }
 
             this.draw();
     }
