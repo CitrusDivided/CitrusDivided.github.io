@@ -51,9 +51,14 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
             this.ssi_y += this.ssi_dy;
 
             // Interactivity --- Imp. //
-//            if (mouse.x - this.ssi_x < 50 && mouse.x - this.ssi_x > -50 && mouse.y - this.ssi_y < 50 && mouse.y - this.ssi_y > -50 ){
-//               this.ssi_radius +=1;
-//            }
+            if (mouse.x - this.ssi_x < 50 && mouse.x - this.ssi_x > -50 && mouse.y - this.ssi_y <500 && mouse.y - this.ssi_y > -500 )
+            {
+                if (this.ssi_radius <40){
+               this.ssi_radius +=1;
+                }
+            } else if (this.ssi_radius >5){
+                this.ssi_radius -= 1;
+            }
 
             this.draw();
     }
@@ -66,7 +71,7 @@ var snow = new Snow (200, 200, 3, 3, 30); //These are coordinates for first orbc
 var snowArray = [];
 
 
-for (var i = 0; i < 500; i++){
+for (var i = 0; i < 600; i++){
     var x = Math.random() * 1800;   //DELETION
     var y = Math.random() * 480;    //DELETION
     var z = Math.random() * 8;      //DELETION 
@@ -78,9 +83,9 @@ for (var i = 0; i < 500; i++){
     //Array
     var ssi_x = Math.random() * 8;
     var ssi_y = Math.random() * 600;
-    var ssi_dx = (Math.random() -0.5) *8;   //Adjusts the speed vert. entry speed//
-    var ssi_dy = (Math.random() -0.3)  *1;  //Adjusts the speed hori. entry speed//
-    var ssi_radius = Math.random()* 8;
+    var ssi_dx = (Math.random() -0.5) *2;   //Adjusts the speed vert. entry speed//
+    var ssi_dy = (Math.random() -0.5)  *1;  //Adjusts the speed hori. entry speed//
+    var ssi_radius = Math.random()* 5;
     //Array Variables -- Snow, end ------//
 
     var radius = 30
