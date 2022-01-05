@@ -7,6 +7,11 @@ canvas.width = 800;
 canvas.height = 480;
 
 var c = canvas.getContext('2d');
+// Interaction //
+
+window.addEventListener('mousemove', function(){
+    console.log('testing');
+})
 
 //Snow Skies Imp.
 
