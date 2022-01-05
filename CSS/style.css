@@ -21,7 +21,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: [About-me-left] 50% [Qualification-right] 50%;
-    justify-items: stretch;
+    justify-items:center;
     align-items: stretch;
     column-gap: 1.5rem;
     row-gap: 0.1rem; /*avoid using grid-gap, find alternative*/
