@@ -58,9 +58,9 @@
     grid-row: content 1 / span 2;
     border: 1.5px solid rgba(28, 31, 78, 0.452);
     /*box-shadow: 0px 0.5px 2px #000000, -0.1px 0.1px 15px 1px #393c5025 inset;*/
-    background: repeating-linear-gradient( 120deg, #046e00, #036600d7 0.5px, #022704 0.5px, #164618 5px); height: auto; width: auto;
-    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #2e6b31 inset;
-    border-color:rgb(81, 138, 93);
+    background: repeating-linear-gradient( 120deg, #cfad3c, #ffe6b1d7 0.5px, #bba337 0.5px, #727016 2.2px); height: auto; width: auto;
+    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #ffd86c inset;
+    border-color:rgb(255, 245, 104);
     border-radius: 0.3rem;
     min-width: 380px;
     max-height:780px;
@@ -103,7 +103,7 @@
 }
 .title-expansion{
     font-size: 1.8em;
-    color:#ffd68b;
+    color:#fff9d9;
     margin: 5.5rem;
 
     
@@ -118,7 +118,7 @@
     display: grid;
     color:rgb(255, 255, 255);
     border:1.4px solid #c3d655;
-    background: linear-gradient(#336b3f, #acb34d);
+    background: linear-gradient(#334b6b, #acb34d);
     box-shadow: 0px 1.1px 1px 1px rgba(0, 0, 0, 0.404), -0.1px 0.1px 1px 1px #b9ff91a6 inset;
     padding: 1.3%;
     padding-bottom: 1rem;
