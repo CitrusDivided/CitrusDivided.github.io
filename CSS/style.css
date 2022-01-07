@@ -17,10 +17,13 @@
     margin: 0,15px,0,0;
     fill:red;
 }
-
+:root{
+    --spacing: 24px;
+    --mincard-width: 250px;
+}
 .grid-container {
     display: grid;
-    grid-template-columns: [About-me-left] 50% [Qualification-right] 50%;
+    grid-template-columns: [About-me-left] minmax(30, 1fr) 300px [Qualification-right] minmax(30, 2fr) 300px;
     justify-items:center;
     align-items: stretch;
     column-gap: 0.8rem;
@@ -33,18 +36,16 @@
 
 .styling-about-me{
     display: grid;
+    grid-column: 2;
     grid-row: content 1 / span 2;
     border: 1.5px solid rgba(28, 31, 78, 0.452);
-    /*box-shadow: 0px 0.5px 2px #000000, -0.1px 0.1px 15px 1px #393c5025 inset;*/
     background: repeating-linear-gradient( 120deg, #42006e, #460066d7 0.5px, #130227 0.5px, #0a000c 5px); height: auto; width: auto;
     box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #6b2e57 inset;
     border-color:rgb(138, 81, 135);
     border-radius: 0.3rem;
     min-width: 380px;
     max-height:780px;
-/*    width:100%;*/
     overflow-y: hidden;
-    /*width:50%;*/
     padding: 1.3rem;
     color:rgb(255, 218, 153);
     text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
@@ -57,20 +58,20 @@
     grid-column: 1;
     grid-row: content 1 / span 2;
     border: 1.5px solid rgba(28, 31, 78, 0.452);
-    background: repeating-linear-gradient( 120deg, #ff9191, #ffb1b1d7 0.5px, #bb3737 0.5px, #ffc2c2 2.2px); height: auto; width: auto;
-    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #ffaeae inset;
-    border-color:rgb(255, 104, 104);
+    background: repeating-linear-gradient( 90deg, #ff9191, #ff9191 0.5px, #ff8585 0.5px, #ff9e9e 2.2px); height: auto; width: auto;
+    box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #ff5f5f inset;
+    border-color:rgb(255, 54, 54);
     border-radius: 0.3rem;
     min-width: 380px;
     max-height:780px;
     overflow-y: hidden;
     padding: 1.3rem;
+    margin-left: 1rem;
     text-shadow: 0px 1px 1px rgba(255, 183, 183, 0.548);
     line-height: 20pt;
     
 }
 .design-thing{
-    /*position:absolute;*/
     display: grid;
     grid-row: content 5;
     grid-column: 1 / span 2;
@@ -78,17 +79,16 @@
     padding: 1.2rem;
     border: 1.9px solid rgb(87, 5, 5);
     border-bottom: 2.5px dotted rgba(235, 73, 73, 0.253);
-    /*margin: 35%;*/
     margin-top:5px;
     background: radial-gradient( #3a0101, #000000);
     box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 8px 2px #b93d3d inset;
-    /*top: 60em;*/
     color:rgb(255, 243, 205);
     padding: 4rem;
     text-align: center;
     text-shadow: 1px 1px 3px #00000063;
     border-top-left-radius: 0.2rem;
     border-top-right-radius: 0.2rem;
+    margin-left: 1rem;
     
 }
 
