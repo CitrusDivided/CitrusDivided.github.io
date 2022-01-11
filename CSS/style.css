@@ -63,8 +63,8 @@
     grid-template-columns: [About-me-left] minmax(30, 1fr) 300px [Qualification-right] minmax(30, 2fr) 300px;
     justify-items:center;
     align-items: stretch;
-    column-gap: 0.8rem;
-    row-gap: 0.1rem; /*avoid using grid-gap, find alternative*/
+    column-gap: 1.2rem;
+    row-gap: 0.1rem;
     grid-template-rows: [row1-start] 0%;
     grid-auto-rows: max-content;
 }
@@ -78,7 +78,7 @@
     box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #6b2e57 inset;
     border-color:rgb(138, 81, 135);
     border-radius: 0.3rem;
-    min-width: 380px;
+    min-width: 300px;
     max-height:780px;
     overflow-y: hidden;
     padding: 1.3rem;
@@ -95,7 +95,7 @@
     box-shadow: 0px 0.5px 8px 10px #00000063, -0.1px 0.1px 15px 12px #ff5f5f inset;
     border-color:rgb(255, 54, 54);
     border-radius: 0.3rem;
-    min-width: 380px;
+    min-width: 300px;
     max-height:780px;
     overflow-y: hidden;
     padding: 1.3rem;
