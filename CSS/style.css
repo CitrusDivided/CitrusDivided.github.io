@@ -224,7 +224,7 @@ ul {
 }
 /*Potential addin of canvas animated on hover*/
 body {
-    background: repeating-linear-gradient( 120deg, #2b0606, #250303 1px, #1b0000 1px, #ff02021e 2px); height: auto; width: auto;
+        background: repeating-linear-gradient( 120deg, #3d0909, #3d0404 1px, #42050594 1px, #ff02021e 2px); height: auto; width: auto;
 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
