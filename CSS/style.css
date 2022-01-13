@@ -1,5 +1,5 @@
 .curtainLeft{
-    position: absolute;
+    position: fixed;
     z-index: 1;
     border: red;
     background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22));
@@ -8,12 +8,29 @@
     box-shadow: 1px 1px 1px 1px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
 .curtainRight{
-    position: absolute;
+    position: fixed;
     right: 0rem;
     border: red;
     background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22));
     width: 8%;
     height: 650px;
+    box-shadow: 1px 1px 1px 1px #0a000c71, 0px 0px 1px #ff5f5f inset;
+}
+.curtainBottomLeft{
+    position: fixed;
+    border: red;
+    background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black);
+    width: 3%;
+    height: 100%;
+    box-shadow: 1px 1px 1px 1px #0a000c71, 0px 0px 1px #ff5f5f inset;
+}
+.curtainBottomRight{
+    position: fixed;
+    right: 0rem;
+    border: red;
+    background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22));
+    width: 3%;
+    height: 100%;
     box-shadow: 1px 1px 1px 1px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
 #pageSubHeadBar{
