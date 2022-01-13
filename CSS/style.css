@@ -33,7 +33,7 @@
     background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black);
     width: 3%;
     height: 95%;
-    box-shadow: 1px 1px 1px 1px #0a000c71, 0px 0px 1px #ff5f5f inset;
+    box-shadow: 1px 1px 14px 20px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
 .curtainBottomRight{
     position: fixed;
@@ -43,7 +43,7 @@
     background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black);
     width: 3%;
     height: 95%;
-    box-shadow: 1px 1px 1px 1px #0a000c71, 0px 0px 1px #ff5f5f inset;
+    box-shadow: 1px 1px 14px 24px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
 #pageSubHeadBar{
     border: #ff5f5f;
