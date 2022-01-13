@@ -60,19 +60,6 @@
     margin-bottom: -0.9rem;
     
 }
-#_x3C_Slice_x3E_{
-    fill: rgba(110, 24, 24, 0.678);
-}
-#_x3C_Slice_x3E_:hover{
-    fill:rgb(134, 25, 25)
-}
-#Curtain {
-    float: left;
-    padding-right: 15px;
-    margin: 0,15px,0,0;
-    fill:red;
-    
-}
 .resumeIcon{
     color:red;
     border: 1px solid red;
