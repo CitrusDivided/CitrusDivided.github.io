@@ -298,7 +298,7 @@ a:hover{
 }
 footer:hover{
     border: 1.9px solid rgb(49, 218, 119);
-    background: repeating-linear-gradient( 120deg, #093d14, #043d17 1px, #05421e94 1px, #02ff561e 2px); height: auto; width: auto;
+    background: repeating-linear-gradient( 120deg, #175525, #093d14 1px, #093d14 1px, #175525 2px); height: auto; width: auto;
     box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 8px 6px #49ff8fc0 inset;
 }
 footer {
