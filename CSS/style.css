@@ -338,11 +338,10 @@ footer:hover{
 }
 footer {
     display: grid;
-    grid-row:  10 / 10;
-    grid-column: span 5 / 5;
-    margin: 1.3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    grid-row:  5 / 5;
+    grid-column:  span 3;
+    margin: 1.2rem;
+    min-width:80%;
     border: 1.9px solid rgba(197, 51, 51, 0.897);
     background: repeating-linear-gradient( 120deg, #3d0909, #3d0404 1px, #42050594 1px, #ff02021e 2px); height: auto; width: auto;
     border-radius: 3px;
