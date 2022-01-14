@@ -339,7 +339,7 @@ footer:hover{
 footer {
     display: grid;
     grid-row:  5 / 5;
-    grid-column:  span 3;
+    grid-column:  span 2/ 3;
     margin-top: 0.7rem;
     margin-bottom: 0.5rem;
     min-width:80%;
