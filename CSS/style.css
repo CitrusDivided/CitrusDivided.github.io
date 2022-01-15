@@ -101,7 +101,9 @@
     grid-template-rows: [row1-start] 0%;
     grid-auto-rows: max-content;
 }
-
+.aboutMeCardBase:hover{
+    z-index: 3;
+}
 .aboutMeCardBase {
     display: grid;
     grid-column: 2;
@@ -120,11 +122,11 @@
     text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
     line-height: 20pt;
 }
+
 .qualificationInfoCardBase {
     display: grid;
     grid-column: 1;
     grid-row: content 1 / span 2;
-    z-index: -2;
     border: 1.5px solid rgba(235, 100, 100, 0.452);
     background: repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff5f5f inset;
@@ -138,6 +140,9 @@
     margin-left: 1rem;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.548);
     line-height: 20pt;
+}
+.qualificationInfoCardBase:hover {
+    z-index: 0;
 }
 .designThing {
     display: grid;
