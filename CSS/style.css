@@ -244,6 +244,12 @@
     color:rgb(255, 115, 145);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#aboutMeSocialSpan {
+    color:rgb(255, 115, 145);
+    text-align: left;
+    font-size: 1.2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .aboutMeSubCard {
     display: grid;
     color:rgb(161, 255, 181);
