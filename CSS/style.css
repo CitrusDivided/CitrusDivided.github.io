@@ -254,7 +254,7 @@ ul {
 }
 .aboutDesign {
     display: grid;
-    color:rgb(255, 199, 102);
+    color:#ffe159;
     text-align:center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: repeating-linear-gradient( 120deg, #3d0909, #3d0404 1px, #42050594 1px, #ff02021e 2px); height: auto; width: auto;
@@ -295,9 +295,9 @@ body {
 }
 .subHeader {
     font-size:1.2em;
-    color:rgb(42, 255, 148);
+    color:#ffeb93;
     text-align: center;
-    text-shadow: 1px 1px #00000063;
+    text-shadow: 2px 2px 2px #00000063;
     background: repeating-linear-gradient( 120deg, #3d0909, #421919 1px, #420505 1px, #520000 9px); height: auto; width: auto;
     box-shadow: 0px 0.5px 3.8px 1px #00000063, -0.1px 0.1px 15px 10px #b14343 inset;
     padding: 20px;
@@ -333,7 +333,7 @@ body {
 
 }
 a:link{
-    color:rgb(246, 255, 122);
+    color:#ffe159;
 }
 a:hover{
     color:rgb(42, 255, 148);
@@ -371,7 +371,7 @@ footer {
     background: repeating-linear-gradient( 120deg, #490c0c, #270606 1px, #270606 1px, #490c0c 2px); height: auto; width: auto;
     border-radius: 3px;
     box-shadow: 0px 3px 4px 3px #00000063, -0.1px 0.1px 4px 4px #c24f4f7e inset;
-    color:rgb(255, 208, 208);
+    color:#ffe159;
     text-shadow: 1px 1px 2px #00000093;
     text-align: center;
     
