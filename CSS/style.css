@@ -372,6 +372,16 @@ footer:hover{
     background: repeating-linear-gradient( 120deg, #175525, #093d14 1px, #093d14 1px, #175525 2px); height: auto; width: auto;
     box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 8px 6px #49ff8fc0 inset;
 }
+.triangleLeft{
+    display: grid;
+    grid-column: 1;
+    grid-row: 5;
+    width: 0; 
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid rgb(131, 57, 57);
+      }
 footer {
     display: grid;
     grid-row:  5 / 5;
