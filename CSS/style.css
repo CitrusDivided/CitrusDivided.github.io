@@ -267,19 +267,22 @@ ul {
     margin-bottom: 1.2rem;
 }
 #pageHeadline {
-    background: linear-gradient( #000000, #180f1d);
+    background: linear-gradient( #001e25, #923838);
     text-align:center;
     font-size: 5em;
     color:rgb(246, 255, 122);
-    text-shadow: 3px 3px rgb(0, 0, 0);
+    text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
     border-bottom: 2px dashed rgb(49, 30, 12);;
     border-radius: 5px;
+    box-shadow: 50px 50px 200px rgba(0, 0, 0, 0.692) inset;
     margin:0px;
     padding: 15%;
 }
 #pageHeadline:hover {
-    background: linear-gradient( #000000, #31004b);
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.548);
+    background: linear-gradient( #001e25, #a82d2d);
+    text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
+    box-shadow: 50px 50px 200px rgba(0, 0, 0, 0.692) inset;
+
 
 }
 body {
