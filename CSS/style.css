@@ -281,7 +281,7 @@ ul {
 #pageHeadline:hover {
     background: linear-gradient( #001e25, #a82d2d);
     text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
-    box-shadow: 50px 50px 200px rgba(0, 0, 0, 0.692) inset;
+    box-shadow: 50px 50px 200px rgba(26, 13, 13, 0.767) inset;
 
 
 }
