@@ -178,6 +178,8 @@
 }
 
 .qualificationInfoCardTitle {
+    display: grid;
+    grid-row: 1;
     font-size: 1.2rem;
     color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
@@ -188,13 +190,15 @@
     box-shadow: 0px 1px 1px #ff5f5f2d;
     text-shadow: 1px 1px 1px white inset;
     background-clip: reverse text;
-    margin: 8rem;    
+    text-align: center;
 }
 .qualificationInfoCategorySpan {
     color:rgb(122, 0, 0);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .aboutMeCardTitle {
+    display: grid;
+    grid-row: 2;
     font-size: 1.2rem;
     color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
@@ -205,7 +209,7 @@
     box-shadow: 0px 1px 1px #ff5f5f2d;
     text-shadow: 1px 1px 1px white inset;
     background-clip: reverse text;
-    margin: 8rem;
+    text-align: center;
 }
 /*.qualificationInfoSubCard {
     display: grid;
