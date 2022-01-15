@@ -112,7 +112,7 @@
     grid-auto-rows: max-content;
 }
 .aboutMeCardBase:hover{
-    z-index: 3;
+    z-index: 0;
 }
 .aboutMeCardBase {
     display: grid;
