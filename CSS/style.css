@@ -313,10 +313,14 @@ body {
 }
 .shufffleSubCardBase{
     display: grid;
-    background-image: linear-gradient(white, black);
+    color:rgb(255, 225, 161);
+    text-shadow: 1px 2px 2px black;
+    border:1.1px dotted #a11b1b;
+    background: linear-gradient(#180000, #2e0000);
+    box-shadow: 0px 0px 2px 1px #ff5f5f, 0px 0px 15px 12px #000000 inset;
     height: 200px;
     width: 100%;
-    border: 1px solid ivory;
+    
 }
 .subHeader {
     font-size:1.2em;
