@@ -306,9 +306,9 @@ body {
 .subTextBox {
     display: grid;
     margin: 1rem;
-    background: rgba(3, 3, 3, 0.452);
+    background: linear-gradient(#000000, #00032e);
     padding: 1.5rem;
-    box-shadow: 0px 0px 0px 1px #ffcfaf1c, 0px 0px 0px 3px #000000 inset;
+    box-shadow: 0px 0px 0px 1px #ffcfaf38, 0px 0px 0px 3px #000000 inset;
 
 }
 .subHeader {
