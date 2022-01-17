@@ -313,6 +313,8 @@ body {
 }
 .shufffleSubCardBase{
     display: grid;
+    grid-row: initial;
+    grid-column: 0;
     color:rgb(255, 225, 161);
     text-shadow: 1px 2px 2px black;
     border:1.1px dotted #a11b1b;
@@ -321,6 +323,7 @@ body {
     height: 200px;
     margin: 0.3rem;
     width: 100%;
+    
     
 }
 .subHeader {
