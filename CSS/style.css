@@ -420,7 +420,7 @@ body {
 }
 #pageBottomBar{
     display: grid;
-    grid-row:  10 / 10;
+    grid-row:  14 / 14;
     grid-column: span 5 / 5;
     border: 1px solid #5e23233a;
     width: 100%;
@@ -430,9 +430,9 @@ body {
 }
 #bottomInnerBar{
     display: grid;
-    grid-row:  10 / 10;
+    grid-row:  15 / 15;
     grid-column: span 5 / 5;
-    border: 1px solid #4b2626;
+    border: 1px solid #ff5555;
     height: 100%;
     width: 35%;
     background: linear-gradient(#00000000, #6e181867);
