@@ -392,28 +392,33 @@ a:link{
 a:hover{
     color:rgb(42, 255, 148);
 }
-footer:hover{
+/*footer:hover{
+    border: 1.9px solid rgb(49, 218, 119);
+    background: repeating-linear-gradient( 120deg, #175525, #093d14 1px, #093d14 1px, #175525 2px); height: auto; width: auto;
+    box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 8px 6px #49ff8fc0 inset;
+}*/
+.drawInq:hover{
     border: 1.9px solid rgb(49, 218, 119);
     background: repeating-linear-gradient( 120deg, #175525, #093d14 1px, #093d14 1px, #175525 2px); height: auto; width: auto;
     box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 8px 6px #49ff8fc0 inset;
 }
-.triangleLeft:hover{
-    border-left: 10px solid white;
-}
-.triangleLeft{
+.drawInq{
     display: grid;
-    grid-column: initial;
-    margin-left: 25rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    grid-row: 5;
-    width: 0; 
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid rgb(131, 57, 57);
+    grid-row:  5 / 5;
+    grid-column:  span 2/ 3;
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+    min-width:80%;
+    padding-bottom: 4px;
+    border: 1.9px solid rgba(197, 51, 51, 0.897);
+    background: repeating-linear-gradient( 120deg, #490c0c, #270606 1px, #270606 1px, #490c0c 2px); height: auto; width: auto;
+    border-radius: 3px;
+    box-shadow: 0px 3px 4px 3px #00000063, -0.1px 0.1px 4px 4px #c24f4f7e inset;
+    color:#ffe159;
+    text-shadow: 1px 1px 2px #00000093;
+    text-align: center;
       }
-footer {
+/*footer {
     display: grid;
     grid-row:  5 / 5;
     grid-column:  span 2/ 3;
@@ -429,7 +434,7 @@ footer {
     text-shadow: 1px 1px 2px #00000093;
     text-align: center;
     
-}
+}*/
 #canvasCardBase{
     display: grid;
     grid-row: 7;
