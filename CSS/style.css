@@ -197,6 +197,23 @@
     margin-left: 1rem;
 
 }
+/*BRING INTO UNIFICATION FOLD, wrap all sunken titles */
+.drawInstructionTitle {
+    display: grid;
+    grid-row: 1;
+    font-size: 1.1rem;
+    color:#ffe159;
+    background: rgba(0, 0, 0, 0.329);
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    border-radius: 2rem;
+    box-shadow: 0px 1px 1px #ff5f5f2d;
+    text-shadow: 1px 1px 1px white inset;
+    background-clip: reverse text;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
 .drawInstructionBase{
     display: grid;
     grid-row: content 5;
@@ -328,8 +345,6 @@ ul {
 }
 .aboutDesign {
     display: grid;
-    color:#ffe159;
-    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.568);
     text-align:center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(255, 225, 161);
@@ -338,7 +353,7 @@ ul {
     background: linear-gradient(#180000, #2e0000);
     box-shadow: 0px 0px 2px 1px #ff5f5f, -0.1px 0.1px 5px 2px #000000 inset;
     padding: 1rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;;
 }
 #pageHeadline {
     background: linear-gradient( #001e25, #923838);
