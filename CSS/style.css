@@ -160,8 +160,8 @@
 }
 .designThing {
     display: grid;
-    grid-row: content 5;
-    grid-column: 1 / span 2;
+    grid-row: content 6;
+    grid-column: 1 / span 3;
     min-width: 810px;
     padding: 1.2rem;
     border: 1.9px solid rgb(87, 5, 5);
@@ -326,8 +326,16 @@ body {
     
     
 }
+#projectSelectOne{
+    display: grid;
+    grid-row: 9
+}
 #projectSelectOne:hover{
     background: rgba(255, 160, 122, 0.288);
+}
+#projectSelectTwo{
+    display: grid;
+    grid-row: 10;
 }
 #projectSelectTwo:hover{
     background: rgba(255, 122, 215, 0.288);
@@ -422,4 +430,9 @@ footer {
     display: grid;
     grid-row: 7;
     background: #001e25;
+}
+.shuffleProjectSeperator{
+    display: grid;
+    background: #17552562;
+    grid-row: 8;
 }
