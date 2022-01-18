@@ -340,6 +340,10 @@ body {
 #projectSelectTwo:hover{
     background: rgba(255, 122, 215, 0.288);
 }
+#projectSelectThree{
+    display: grid;
+    grid-row: 12;
+}
 #projectSelectThree:hover{
     background: rgba(122, 255, 144, 0.288);
 }
@@ -434,5 +438,4 @@ footer {
 .shuffleProjectSeperator{
     display: grid;
     background: #17552562;
-    grid-row: 8;
 }
