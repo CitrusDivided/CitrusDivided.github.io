@@ -219,7 +219,7 @@
 }
 .drawProjectShuffleBase{
     display: grid;
-    grid-row: content 8;
+    grid-row: content 6;
     grid-column: 1 / span 3;
     min-width: 810px;
     padding: 1.2rem;
