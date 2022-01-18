@@ -434,8 +434,8 @@ body {
 }
 #pageBottomBar{
     display: grid;
-    grid-row:  14 / 14;
-    grid-column: span 5 / 5;
+    grid-row:  11 / 11;
+    grid-column: span 1;
     border: 1px solid #5e23233a;
     width: 100%;
     background: linear-gradient(#00000000, #411919f5);
@@ -445,7 +445,7 @@ body {
 #bottomInnerBar{
     display: grid;
     grid-row:  15 / 15;
-    grid-column: span 5 / 5;
+    grid-column: span 1;
     border: 1px solid #ff5555;
     height: 100%;
     width: 35%;
