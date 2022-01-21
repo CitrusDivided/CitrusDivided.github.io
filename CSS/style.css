@@ -59,13 +59,13 @@
 .feltCardBackground{
     display: grid;
     grid-row: 1 / span 4;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
     z-index: -4;
     background-color: rgba(0, 0, 0, 0.678);
     border: 1px dotted rgb(112, 4, 4);
     padding: 1rem;
     width: 100%;
-    margin-left: 1rem;
+    padding-left: 25%;
     margin-top: -1rem;
     margin-bottom: -3rem;
     box-shadow: 0px 1px 1px rgb(0, 0, 0), 0px 1px 12px rgb(134, 44, 44) inset;
