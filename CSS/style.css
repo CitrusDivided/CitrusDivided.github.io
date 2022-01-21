@@ -433,24 +433,15 @@ body {
     border-radius: 3px;
     border-color: rgb(150, 0, 0);
 }
-#pageBottomBar{
-    display: grid;
-    grid-row:  11 / 11;
-    grid-column: span 1;
-    border: 1px solid #5e23233a;
-    width: 100%;
-    background: linear-gradient(#00000000, #411919f5);
-    box-shadow: 0px 1px 0px 0px #472121, 0px 1px 0px 0px #ffc3c342 inset;
-    
-}
+
 #bottomInnerBar{
     display: grid;
-    grid-row:  15 / 15;
-    grid-column: span 1;
-    border: 1px solid #ff5555;
+    grid-row:  11 / 11;
+    grid-column: 1 / span 2;
+    border: 1px solid #330c0c;
     height: 100%;
-    width: 35%;
-    background: linear-gradient(#00000000, #6e181867);
+    width: 100%;
+    background: linear-gradient(#00000000, #c0212167);
     box-shadow: 0px 1px 0px 0px #472121, 0px 1px 0px 0px #ffc3c342 inset;
     
     
