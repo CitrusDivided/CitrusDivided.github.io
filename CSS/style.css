@@ -234,6 +234,13 @@
     border-top-right-radius: 0.2rem;
 
 }
+#projectShuffleTitle{
+    display: grid;
+    grid-row: content 6;
+    grid-column: 1 / span 3;
+    text-align: center;
+    border: 1px solid white;
+}
 .drawProjectShuffleBase{
     display: grid;
     grid-row: content 6;
@@ -247,9 +254,9 @@
     color:rgb(255, 243, 205);
     text-align: center;
     text-shadow: 1px 1px 3px #00000063;
-    border-top-left-radius: 0.2rem;
-    border-top-right-radius: 0.2rem;
+    border-radius: 0.2rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
 .qualificationInfoCardTitle {
@@ -509,5 +516,5 @@ a:hover{
     display: grid;
     width: 35%;
     padding: 1rem;
-    background: #942f7e36;
+    background: #ff6cdf36;
 }
