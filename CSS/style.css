@@ -107,7 +107,6 @@
     align-items: stretch;
     column-gap: 0.1rem;
     row-gap: 0.1rem;
-    border: 1px solid white;;
     grid-template-rows: [row1-start] 0%;
     grid-auto-rows: max-content;
 }
@@ -437,10 +436,10 @@ body {
 #bottomInnerBar{
     display: grid;
     grid-row:  11 / 11;
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 3;
     border: 1px solid #330c0c;
     height: 100%;
-    width: 100%;
+    width: 110%;
     background: linear-gradient(#00000000, #c0212167);
     box-shadow: 0px 1px 0px 0px #472121, 0px 1px 0px 0px #ffc3c342 inset;
     
@@ -457,11 +456,6 @@ a:link{
 a:hover{
     color:rgb(42, 255, 148);
 }
-/*footer:hover{
-    border: 1.9px solid rgb(49, 218, 119);
-    background: repeating-linear-gradient( 120deg, #175525, #093d14 1px, #093d14 1px, #175525 2px); height: auto; width: auto;
-    box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 8px 6px #49ff8fc0 inset;
-}*/
 .drawInq:hover{
     border: 1.9px solid rgb(49, 218, 119);
     background: repeating-linear-gradient( 120deg, #175525, #093d14 1px, #093d14 1px, #175525 2px); height: auto; width: auto;
@@ -482,24 +476,8 @@ a:hover{
     color:#ffe159;
     text-shadow: 1px 1px 2px #00000093;
     text-align: center;
-      }
-/*footer {
-    display: grid;
-    grid-row:  5 / 5;
-    grid-column:  span 2/ 3;
-    margin-top: 0.7rem;
-    margin-bottom: 0.5rem;
-    min-width:80%;
-    padding-bottom: 4px;
-    border: 1.9px solid rgba(197, 51, 51, 0.897);
-    background: repeating-linear-gradient( 120deg, #490c0c, #270606 1px, #270606 1px, #490c0c 2px); height: auto; width: auto;
-    border-radius: 3px;
-    box-shadow: 0px 3px 4px 3px #00000063, -0.1px 0.1px 4px 4px #c24f4f7e inset;
-    color:#ffe159;
-    text-shadow: 1px 1px 2px #00000093;
-    text-align: center;
-    
-}*/
+}
+
 #canvasCardBase{
     display: grid;
     grid-row: 6;
