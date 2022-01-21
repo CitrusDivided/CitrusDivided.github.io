@@ -58,14 +58,14 @@
 
 .feltCardBackground{
     display: grid;
-    grid-row: 1 / span 4;
-    grid-column: 1 / span 2;
+    grid-row: 1 / 10;
+    grid-column: 1 / 3;
     z-index: -4;
     background-color: rgba(0, 0, 0, 0.678);
     border: 1px dotted rgb(112, 4, 4);
     padding: 1rem;
+    padding-left: 15%;
     width: 100%;
-    padding-left: 25%;
     margin-top: -1rem;
     margin-bottom: -3rem;
     box-shadow: 0px 1px 1px rgb(0, 0, 0), 0px 1px 12px rgb(134, 44, 44) inset;
@@ -108,7 +108,7 @@
     align-items: stretch;
     column-gap: 0.2rem;
     row-gap: 0.1rem;
-    grid-template-rows: [row1-start] 0%;
+    grid-template-rows: 0%;
     grid-auto-rows: max-content;
 }
 .aboutMeCardBase:hover{
@@ -463,7 +463,7 @@ a:hover{
 .drawRes{
     display: grid;
     grid-row:  5 / 5;
-    grid-column:  inherit / inherit;
+    grid-column:  1 / 2;
     margin-top: 0.7rem;
     margin-bottom: 0.5rem;
     min-width:80%;
@@ -490,7 +490,7 @@ a:hover{
 .drawInq{
     display: grid;
     grid-row:  5 / 5;
-    grid-column:  inherit / inherit;
+    grid-column:  2 / 3;
     margin-top: 0.7rem;
     margin-bottom: 0.5rem;
     min-width:80%;
