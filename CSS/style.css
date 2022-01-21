@@ -64,7 +64,7 @@
     background-color: rgba(0, 0, 0, 0.678);
     border: 1px dotted rgb(112, 4, 4);
     padding: 1rem;
-    width: 105%;
+    width: 100%;
     margin-left: 1rem;
     margin-top: -1rem;
     margin-bottom: -3rem;
@@ -438,12 +438,13 @@ body {
 #bottomInnerBar{
     display: grid;
     grid-row:  11 / 11;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 6;
     border: 1px solid #330c0c;
     height: 100%;
-    width: 110%;
+    width: 100%;
     background: linear-gradient(#00000000, #c0212167);
     box-shadow: 0px 1px 0px 0px #472121, 0px 1px 0px 0px #ffc3c342 inset;
+
     
     
 }
