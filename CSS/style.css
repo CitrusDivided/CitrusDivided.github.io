@@ -402,6 +402,7 @@ body {
     grid-row: 9
 }
 #projectSelectOne:hover{
+    border: 1.5px solid rgba(255, 160, 122, 0.918);
     background: rgba(255, 160, 122, 0.918);
 }
 #projectSelectTwo{
@@ -409,6 +410,7 @@ body {
     grid-row: 10;
 }
 #projectSelectTwo:hover{
+    border: 1.5px solid rgba(255, 122, 215, 0.932) ;
     background: rgba(255, 122, 215, 0.932);
 }
 #projectSelectThree{
@@ -416,6 +418,7 @@ body {
     grid-row: 12;
 }
 #projectSelectThree:hover{
+    border: 1.5px solid rgba(122, 255, 144, 0.712) ;
     background: rgba(122, 255, 144, 0.712);
 }
 .subHeader {
