@@ -21,7 +21,6 @@ window.addEventListener('mousemove',
 })
 // Interaction Set -- END //
 //Snow Skies Imp.
-
 function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.ssi_x = ssi_x;         //Draw-x-Position//
     this.ssi_y = ssi_y;         //Draw-y-Position//
@@ -42,11 +41,6 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
             this.ssi_x - this.ssi_radius <-100){
                 this.ssi_dx = -this.ssi_dx;
             }
-//DELETION       if (this.ssi_y + this.ssi_radius > 480 ||
-//DELETION           this.ssi_y - this.ssi_radius < 0) {
-//DELETION               this.ssi_dy = -this.ssi_dy;
-//DELETION           }
-
             this.ssi_x += this.ssi_dx;
             this.ssi_y += this.ssi_dy;
 
@@ -64,18 +58,14 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     }
 
 }
-
 var snow = new Snow (200, 200, 3, 3, 30); //These are coordinates for first orbcation
-
 //Array creation//
 var snowArray = [];
-
-
 for (var i = 0; i < 600; i++){
-    var x = Math.random() * 1800;   //DELETION
-    var y = Math.random() * 480;    //DELETION
-    var z = Math.random() * 8;      //DELETION 
-    var k = Math.random() * 800;    //DELETION 
+    var x = Math.random() * 1800;
+    var y = Math.random() * 480;
+    var z = Math.random() * 8;
+    var k = Math.random() * 800;
     
     //Animation related variables
     var t = 200;
@@ -87,11 +77,10 @@ for (var i = 0; i < 600; i++){
     var ssi_dy = (Math.random() -0.5)  *1;  //Adjusts the speed hori. entry speed//
     var ssi_radius = Math.random()* 5;
     //Array Variables -- Snow, end ------//
-
     var radius = 30
     //Falling Skies Variables
-    var fs = 200;   //DELETION 
-    var fsx = 1;    //DELETION 
+    var fs = 200;
+    var fsx = 1;
     //Gradient Box Creation - Staging
     var box = c.createLinearGradient(5,180,0,480,);
     //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
@@ -101,11 +90,7 @@ for (var i = 0; i < 600; i++){
     
     
 }
-
 //Snow SKies Imp. End ---------------------------------------------->//
-
-
-
     //Animation start
     function animate() {
         requestAnimationFrame(animate);
@@ -113,9 +98,7 @@ for (var i = 0; i < 600; i++){
         //Snow Skies Imp.//
         for (var i=0; i < snowArray.length; i++){
             snowArray[i].update();
-            snow.draw();
-            //c.arc(200,ssi_dy,ssi_radius,0,Math.PI * 2, false) //DELETION 
-        
+            snow.draw();        
         }
 
         //-----------------------//
@@ -132,26 +115,8 @@ for (var i = 0; i < 600; i++){
         
         }
         t += tx;
-
-        //------------------------//
-        //Snow Fall Track//
-//DELETION         //if (ssi_dx + ssi_radius > 800 || ssi_dx - ssi_radius <0){
-//DELETION         //    ssi_dx = -ssi_dx;
-//DELETION         
-//DELETION         //}
-//DELETION         //ssi_dx += ssi_dx;
-//DELETION 
-//DELETION         //if (ssi_dy + ssi_radius > 480 || ssi_dy - ssi_radius <0){
-//DELETION         //    ssi_dy = -ssi_dy;
-//DELETION      
-//DELETION       //}
-//DELETION      //ssi_dy += ssi_dy;       
-//DELETION       
 //Snow Skies Imp. End ------------------------------------>//
-
-        c.beginPath();
-//DELETION         //c.fillStyle = "rgb(42,255,148)"; -- Older color method//
-        
+        c.beginPath();        
         // Gradient learning
         gradient.addColorStop(.3, "rgb(255,255,255,0.9");
         gradient.addColorStop(.3, "rgba(255,55,255,0.9");
