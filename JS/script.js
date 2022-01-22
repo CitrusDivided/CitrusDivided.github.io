@@ -87,8 +87,6 @@ for (var i = 0; i < 600; i++){
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
     snowArray.push(new Snow(ssi_y,ssi_x,ssi_dx, ssi_dy,ssi_radius));
     var snow = new Snow(ssi_y,ssi_x,ssi_dx,ssi_dy);
-    
-    
 }
 //Snow SKies Imp. End ---------------------------------------------->//
     //Animation start
@@ -144,8 +142,6 @@ for (var i = 0; i < 600; i++){
         box.addColorStop(.5, 'white');
         box.addColorStop(.3, "rgb(255,255,255,0.9");
         
-        
-
         //Rectangles
         c.beginPath();
         c.fillStyle = box;
@@ -165,7 +161,6 @@ c.fillStyle = "rgb(255,255,255,0.8";
 c.fillRect(0, 380, 800, 100);
 
 //Stage Falling Skies
-
 
 // Line
 c.beginPath();
@@ -197,26 +192,14 @@ c.fillStyle = "rgb(255,200,255,0.9";
 c.stroke();
 c.fill();
 
-
 //Stage End (Unanimated)//
-        
     //Animation arc//
-    
         c.beginPath();
         c.arc(t,300,radius,0, Math.PI * 2, false);
         c.strokeStyle = "rgb(242,255,148,0.9)";
         c.stroke();
-
-        //imput previous, space//
-        // Circle Creation Test //
-
-
-
-
     //The Falling Skies
-    
     c.beginPath();
-
     //snow.draw();
     c.fillStyle = "rgb(255,0,0,0.2";
 //Sand
@@ -230,8 +213,6 @@ c.fillRect(411, 469, 90, 2.1);
 c.fillRect(40, 420, 90, 1.8);
     
  c.arc(falling,ssi_y,falling,0,Math.PI *2,false);
-   
-    
    // Shadow
     c.shadowBlur = 10;
     c.shadowColor = "rgba(255,255,255,0.1";
@@ -241,8 +222,7 @@ c.fillRect(40, 420, 90, 1.8);
     //snow.draw();
     c.stroke();
     c.fillStyle = "rgba(55,55,55,0.3";
-    c.fill();
-    
+    c.fill();   
 }
     }
     animate();
