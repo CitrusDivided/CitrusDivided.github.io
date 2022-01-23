@@ -532,9 +532,9 @@ a:hover{
 }
 .shuffleProjectSeperator{
     display: grid;
-    width: 35%;
     padding: 1rem;
     padding-right: 1.8rem;
     margin-top: 0rem;
-    background: #69385f36;
+    margin: 1rem;
+    background: #2c0e2636;
 }
