@@ -414,14 +414,14 @@ body {
 #projectSelectOne{
     display: grid;
     grid-row: 9;
-    background: repeating-linear-gradient( 120deg, #362000, #221c00 0.5px, #221c00 0.5px, #362000 2.2px); height: auto; width: auto;
-    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 10px 3px #eecd61 inset;
-    border:1.5px solid rgb(255, 218, 54);
+    background: repeating-linear-gradient( 120deg, #2d0036, #220020 0.5px, #220020 0.5px, #2d0036 2.2px); height: auto; width: auto;
+    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 10px 3px #c161ee inset;
+    border:1.5px solid rgb(215, 54, 255);
 }
 #projectSelectOne:hover{
-    background: repeating-linear-gradient( 120deg, #362000, #221c00 0.5px, #221c00 0.5px, #362000 2.2px); height: auto; width: auto;
-    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #eecd61 inset;
-    border:1.5px solid rgb(255, 230, 117);
+    background: repeating-linear-gradient( 120deg, #2d0036, #220020 0.5px, #220020 0.5px, #2d0036 2.2px); height: auto; width: auto;
+    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #c161ee inset;
+    border:1.5px solid rgb(230, 132, 255);
 }
 #projectSelectTwo{
     display: grid;
@@ -445,7 +445,7 @@ body {
 #projectSelectThree:hover{
     background: repeating-linear-gradient( 120deg, #003612, #002207 0.5px, #002207 0.5px, #003612 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #3fff7f inset;
-    border: 1.5px solid rgba(158, 255, 174, 0.712);
+    border: 1.5px solid rgba(197, 255, 206, 0.712);
 }
 .subHeader {
     font-size:1.2em;
