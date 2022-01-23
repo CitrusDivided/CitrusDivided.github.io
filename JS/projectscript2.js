@@ -67,9 +67,9 @@ c.fillText('Hematological models snippet',25,35);
 
 // Hb Descriptor
 c.beginPath();
-c.strokeStyle = "rgb(255,0,0,1";
-c.moveTo(500,105);
-c.lineTo(350,135);
+c.strokeStyle = "rgb(255,255,255,0.5";
+c.moveTo(470,135);
+c.lineTo(353,135);
 c.stroke();
 
 
