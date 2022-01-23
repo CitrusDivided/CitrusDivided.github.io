@@ -30,12 +30,12 @@ c.beginPath();
 c.strokeStyle = "rgb(255,0,0,1";
 c.fillStyle = 'red';
 c.arc(200,300, 55,0, Math.PI * 2, false)
-c.arc(320,300, 55,0, Math.PI * 2, false)
-
+c.arc(320,180, 55,0, Math.PI * 2, false)
 c.stroke();
 c.fill();
 c.beginPath();
-c.arc(320,180, 55,0, Math.PI * 2, false)
+c.fillStyle = 'purple';
+c.arc(320,300, 55,0, Math.PI * 2, false)
 c.arc(200,180, 55,0, Math.PI * 2, false)
 c.stroke();
 c.fill();
