@@ -12,8 +12,8 @@ var c = canvas.getContext('2d');
 var gradient = c.createRadialGradient(300,300,55, 400,15,500);
 
 // Text
-c.fillStyle = "rgb(255,55,55,0.2)";
-c.font = '18px serif';
+c.fillStyle = "rgb(255,55,55,1)";
+c.font = '18px Arial';
 c.textAlign = 'left';
 c.fillText('Hematological models snippet',25,35);
 
@@ -26,7 +26,7 @@ c.fillText('Hematological models snippet',25,35);
 // Alpha (α) polypeptide chains
     // Headline Description
     c.fillStyle = "rgb(255,55,55,1)";
-    c.font = '14px serif';
+    c.font = '14px Arial';
     c.textAlign = 'center';
     c.fillText('Second (α) Polypeptide chain',380,400);
     c.fillText('First (α) Polypeptide chain',145,400);
@@ -44,17 +44,20 @@ c.fillText('Hematological models snippet',25,35);
 
 
 // Beta (β) polypeptide chains
-    // Headline Description
-    c.fillStyle = "rgb(255,55,55,1)";
-    c.font = '14px serif';
-    c.textAlign = 'center';
-    c.fillText('Second (β) Polypeptide chain',380,85);
-    c.fillText('First (β) Polypeptide chain',145,80);
         // β Shadow
         c.shadowBlur = 15;
         c.shadowColor = 'purple';
         c.shadowOffsetY = 2
         c.strokeStyle = "rgb(255,0,255,1";
+    
+        // Headline Description
+    c.fillStyle = "purple";
+    c.font = '14px Arial';
+    c.textAlign = 'center';
+    c.fillText('Second (β) Polypeptide chain',380,85);
+    c.fillText('First (β) Polypeptide chain',145,80);
+    
+    //Core Heme
     c.beginPath();
     c.fillStyle = 'purple';
     c.arc(320,180, 55,0, Math.PI * 2, false)
