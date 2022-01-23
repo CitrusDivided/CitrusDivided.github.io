@@ -9,7 +9,7 @@ canvas.height = 480;
 var c = canvas.getContext('2d');
 
 // Hb Gradient Set
-var gradient = c.createRadialGradient(400,400,55, 100,100,50);
+var gradient = c.createRadialGradient(300,300,55, 400,15,500);
 
 // Text
 c.fillStyle = "rgb(255,55,55,0.2)";
@@ -18,15 +18,18 @@ c.textAlign = 'left';
 c.fillText('Hematological models snippet',25,35);
 
 // Heme (Hb)
-        // Gradient Subset
-        gradient.addColorStop(.3, "rgb(255,255,255,0.9");
-        gradient.addColorStop(.3, "rgba(255,0,0,0.9");
+        // Gradient Subset Close Up
+        gradient.addColorStop(.3, "rgb(255,0,0,0.9");
+        gradient.addColorStop(.3, "rgba(10,0,0,0.1");
 ;
 c.beginPath();
+        // Shadow
+        c.shadowBlur = 15;
+        c.shadowColor = 'red';
+        c.shadowOffsetY = 2
 c.strokeStyle = "rgb(255,0,0,1";
-c.fillStyle = gradient;
+c.fillStyle = 'red';
 c.arc(200,300, 55,0, Math.PI * 2, false)
-c.fillStyle = gradient;
 c.arc(320,300, 55,0, Math.PI * 2, false)
 
 c.stroke();
