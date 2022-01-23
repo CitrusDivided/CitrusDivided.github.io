@@ -16,6 +16,9 @@ c.fillText('Hematological models snippet',25,35);
 
 // Heme (Hb)
 c.arc(200,300, 55,0, Math.PI * 2, false)
+c.arc(320,300, 55,0, Math.PI * 2, false)
+c.arc(320,180, 55,0, Math.PI * 2, false)
+c.arc(200,180, 55,0, Math.PI * 2, false)
 c.strokeStyle = "rgb(255,1,148,1";
 c.fillStyle = "rgb(255,100,100,0.9";
 c.stroke();
