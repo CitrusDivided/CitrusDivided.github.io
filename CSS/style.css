@@ -415,7 +415,7 @@ body {
     display: grid;
     grid-row: 9;
     background: repeating-linear-gradient( 120deg, #362000, #221c00 0.5px, #221c00 0.5px, #362000 2.2px); height: auto; width: auto;
-    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #bda969 inset;
+    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 10px 3px #eecd61 inset;
     border:1.5px solid rgb(255, 218, 54);
 }
 #projectSelectOne:hover{
@@ -426,10 +426,14 @@ body {
 #projectSelectTwo{
     display: grid;
     grid-row: 10;
+    background: repeating-linear-gradient( 120deg, #360000, #4e0000 0.5px, #4e0000 0.5px, #360000 2.2px); height: auto; width: auto;
+    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff3636 inset;
+    border:1.5px solid rgb(255, 54, 54);
 }
 #projectSelectTwo:hover{
-    border: 1.5px solid rgba(255, 122, 215, 0.932) ;
-    background: rgba(255, 122, 215, 0.932);
+    background: repeating-linear-gradient( 120deg, #360000, #4e0000 0.5px, #4e0000 0.5px, #360000 2.2px); height: auto; width: auto;
+    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff3636 inset;
+    border:1.5px solid rgb(255, 54, 54);
 }
 #projectSelectThree{
     display: grid;
@@ -526,6 +530,7 @@ a:hover{
     display: grid;
     width: 35%;
     padding: 1rem;
+    padding-right: 1.8rem;
     margin-top: 0rem;
-    background: #ff6cdf36;
+    background: #69385f36;
 }
