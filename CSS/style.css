@@ -414,14 +414,14 @@ body {
 #projectSelectOne{
     display: grid;
     grid-row: 9;
-    background: repeating-linear-gradient( 120deg, #220000, #ff6767 0.5px, #ff6767 0.5px, #220000 2.2px); height: auto; width: auto;
-    border: 1.5px solid rgba(255, 160, 122, 0.918);
-
+    background: repeating-linear-gradient( 120deg, #362000, #221c00 0.5px, #221c00 0.5px, #362000 2.2px); height: auto; width: auto;
+    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #bda969 inset;
+    border:1.5px solid rgb(255, 218, 54);
 }
 #projectSelectOne:hover{
-    border: 1.5px solid rgba(255, 160, 122, 0.918);
-    background: repeating-linear-gradient( 120deg, #220000, #ff6767 0.5px, #ff6767 0.5px, #220000 2.2px); height: auto; width: auto;
-    box-shadow: 0px 0px 2px 1px #ff5f5f, 0px 0px 15px 12px #ffffff3d inset;
+    background: repeating-linear-gradient( 120deg, #362000, #221c00 0.5px, #221c00 0.5px, #362000 2.2px); height: auto; width: auto;
+    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #eecd61 inset;
+    border:1.5px solid rgb(255, 218, 54);
 }
 #projectSelectTwo{
     display: grid;
