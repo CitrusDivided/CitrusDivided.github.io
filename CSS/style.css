@@ -239,13 +239,11 @@
     grid-row: content 1;
     grid-column: 1 / span 3;
     text-align: center;
-    border: 1.5px solid rgba(235, 100, 100, 0.452);
-    border-radius: 2rem;
+    border-radius: 0.1rem;
     padding: 1rem;
     background: repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px); height: auto; width: auto;
-    box-shadow: 0px 2px 8px 3px #000000d8, -0.1px 0.1px 25px 1px #ff5f5f inset;
-    border-color:rgb(255, 54, 54);
-    color:rgb(255, 243, 205);
+    box-shadow: 0px 2px 3px 0px #000000d8, -0.1px 0.1px 25px 1px #ff5f5f inset;
+    border:1.5px solid rgb(226, 72, 72);
 }
 .drawProjectShuffleBase{
     display: grid;
