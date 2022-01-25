@@ -24,7 +24,7 @@ c.fillText('Hematological models snippet',400,35);
     c.fillStyle = "rgb(255,55,55,1)";
     c.font = '14px Arial';
     c.fillText('Second (α) Polypeptide chain',380,400);
-    c.fillText('First (α) Polypeptide chain',145,400);
+    c.fillText('First (α) Polypeptide chain',120,400);
         // α Shadow
         c.shadowBlur = 15;
         c.shadowColor = 'red';
@@ -33,8 +33,8 @@ c.fillText('Hematological models snippet',400,35);
     // Base (α) polypeptide representation
     c.beginPath();
     c.fillStyle = 'red';
-    c.arc(200,300, 55,0, Math.PI * 2, false)
-    c.arc(320,300, 55,0, Math.PI * 2, false)
+    c.arc(canvas.width/4,canvas.height/1.6, 55,0, Math.PI * 2, false)
+    c.arc(canvas.width/2.5,canvas.height/1.6, 55,0, Math.PI * 2, false)
     c.stroke();
     c.fill();
 
@@ -54,8 +54,8 @@ c.fillText('Hematological models snippet',400,35);
     // Base (β) polypeptide representations
     c.beginPath();
     c.fillStyle = 'purple';
-    c.arc(320,180, 55,0, Math.PI * 2, false)
-    c.arc(200,180, 55,0, Math.PI * 2, false)
+    c.arc(canvas.width/2.5,canvas.height/2.65, 55,0, Math.PI * 2, false)
+    c.arc(canvas.width/4,canvas.height/2.65, 55,0, Math.PI * 2, false)
     c.stroke();
     c.fill();
 
