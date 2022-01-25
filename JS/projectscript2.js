@@ -62,8 +62,8 @@ c.fillText('Hematological models snippet',400,35);
 // HEME Descriptor
 c.beginPath();
 c.strokeStyle = "rgb(255,255,255,0.5";
-c.moveTo(470,135);
-c.lineTo(353,135);
+c.moveTo(canvas.width/2,canvas.width/6);
+c.lineTo(canvas.width/1.4,canvas.width/6);
 c.stroke();
 
     // Fe + 
