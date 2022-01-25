@@ -11,10 +11,10 @@ var canvas = document.querySelector('canvas');
         gradient.addColorStop(.3, "rgba(10,0,0,0.1");
 
 // Text
-c.fillStyle = "rgb(255,55,55,1)";
+c.fillStyle = "rgb(255,55,55,0.1)";
 c.font = '18px Arial';
-c.textAlign = 'left';
-c.fillText('Hematological models snippet',25,35);
+c.textAlign = 'center';
+c.fillText('Hematological models snippet',400,35);
 
 // Heme (Hb)
 
@@ -23,7 +23,6 @@ c.fillText('Hematological models snippet',25,35);
     // Headline Description
     c.fillStyle = "rgb(255,55,55,1)";
     c.font = '14px Arial';
-    c.textAlign = 'center';
     c.fillText('Second (α) Polypeptide chain',380,400);
     c.fillText('First (α) Polypeptide chain',145,400);
         // α Shadow
@@ -49,10 +48,8 @@ c.fillText('Hematological models snippet',25,35);
     
         // Headline Description
     c.fillStyle = "purple";
-    c.font = '14px Arial';
-    c.textAlign = 'center';
     c.fillText('Second (β) Polypeptide chain',380,85);
-    c.fillText('First (β) Polypeptide chain',145,80);
+    c.fillText('First (β) Polypeptide chain',145,85);
     
     // Base (β) polypeptide representations
     c.beginPath();
@@ -68,6 +65,8 @@ c.strokeStyle = "rgb(255,255,255,0.5";
 c.moveTo(470,135);
 c.lineTo(353,135);
 c.stroke();
-    // Fe + 
 
+    // Fe + 
+    c.fillStyle = 'white';
+    c.fillText('At the center of every Hemoglobin lies four Polypeptide chains of protein. Each alpha and beta chain contain a single iron deposit...', 440, 120, 1000,);
 
