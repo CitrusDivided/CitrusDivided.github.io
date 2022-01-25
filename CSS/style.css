@@ -19,7 +19,7 @@
 }
 .curtainLeft{
     position: fixed;
-    z-index: inherit;
+    z-index: 1;
     border: red;
     background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22));
     width: 8%;
@@ -28,7 +28,7 @@
 }
 .curtainRight{
     position: fixed;
-    z-index: inherit;
+    z-index: 1;
     right: 0rem;
     border: red;
     background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22));
@@ -38,7 +38,7 @@
 }
 .curtainBottomLeft{
     position: fixed;
-    z-index: 0;
+    z-index: 2;
     border: red;
     background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black);
     width: 3%;
@@ -47,7 +47,7 @@
 }
 .curtainBottomRight{
     position: fixed;
-    z-index: inherit;
+    z-index: 2;
     right: 0rem;
     border: red;
     background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black);
@@ -60,7 +60,7 @@
     display: grid;
     grid-row: 1 / 10;
     grid-column: 1 / 3;
-    z-index: -4;
+    z-index: -3;
     background-color: rgba(0, 0, 0, 0.678);
     border: 1px dotted rgb(112, 4, 4);
     padding: 1rem;
@@ -249,7 +249,7 @@
 /*/ Banner ripples /*/
 #topArrowLeft{
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     margin-top: -0.7rem;
     margin-left: -1rem;
         width: 0; 
@@ -261,7 +261,7 @@
     }
     #bottomArrowLeft{
         position: absolute;
-        z-index: -1;
+        z-index: 0;
         margin-top: 1rem;
         margin-left: -1rem;
             width: 0; 
@@ -273,7 +273,7 @@
         }
         #topArrowRight{
             position: absolute;
-            z-index: -1;
+            z-index: 0;
             margin-top: -0.7rem;
             margin-left: 55.7rem;
                 width: 0; 
@@ -285,7 +285,7 @@
             }
             #bottomArrowRight{
                 position: absolute;
-                z-index: -1;
+                z-index: 0;
                 margin-top: 14px;
                 margin-left: 55.7rem;
                     width: 0; 
