@@ -48,8 +48,8 @@ c.fillText('Hematological models snippet',400,35);
     
         // Headline Description
     c.fillStyle = "purple";
-    c.fillText('Second (β) Polypeptide chain',380,85);
-    c.fillText('First (β) Polypeptide chain',120,65);
+    c.fillText('Second (β) Polypeptide chain',canvas.width/2,canvas.height/7.4);
+    c.fillText('First (β) Polypeptide chain',canvas.width/6.5,canvas.height/7.4);
     
     // Base (β) polypeptide representations
     c.beginPath();
