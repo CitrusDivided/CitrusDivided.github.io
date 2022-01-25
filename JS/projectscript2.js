@@ -68,5 +68,4 @@ c.stroke();
 
     // Fe + 
     c.fillStyle = 'white';
-    c.fillText('At the center of every Hemoglobin lies four Polypeptide chains of protein. Each alpha and beta chain contain a single iron deposit...', 440, 120, 1000,);
-
+    c.fillText('At the center of every Hemoglobin lies four Polypeptide chains of protein. Each alpha and beta chain contain a single iron deposit...', canvas.width/2, canvas.height/4.3, 900,);
