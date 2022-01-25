@@ -23,8 +23,8 @@ c.fillText('Hematological models snippet',400,35);
     // Headline Description
     c.fillStyle = "rgb(255,55,55,1)";
     c.font = '14px Arial';
-    c.fillText('Second (α) Polypeptide chain',380,400);
-    c.fillText('First (α) Polypeptide chain',120,400);
+    c.fillText('Second (α) Polypeptide chain',canvas.width/2,canvas.height/1.2);
+    c.fillText('First (α) Polypeptide chain',canvas.width/6.5,canvas.height/1.2);
         // α Shadow
         c.shadowBlur = 15;
         c.shadowColor = 'red';
