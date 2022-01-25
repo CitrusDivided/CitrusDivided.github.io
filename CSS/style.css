@@ -248,18 +248,20 @@
 }
 /*/ Banner ripples /*/
 #topArrowLeft{
-    margin-top: -4.2rem;
+    position: absolute;
+    margin-top: -0.7rem;
     margin-left: -1rem;
         width: 0; 
         height: 0;
-        border-top: px solid transparent;
+        border-top: 0px solid transparent;
         border-bottom: 15px solid transparent; 
         border-right:15px solid rgb(126, 0, 0);
         box-shadow: 0px 2px 3px 0px #00000000, 1px 1px 1px 1px #ffbdbd inset;
     }
     #bottomArrowLeft{
-        margin-top: -2.5rem;
-        margin-left: -13.4rem;
+        position: absolute;
+        margin-top: 1rem;
+        margin-left: -1rem;
             width: 0; 
             height: 0;
             border-top: 15px solid transparent;
@@ -267,6 +269,28 @@
             border-right:15px solid rgb(126, 0, 0);
             box-shadow: 0px 2px 3px 0px #00000000, 1px 1px 1px 1px #ffbdbd inset;
         }
+        #topArrowRight{
+            position: absolute;
+            margin-top: -0.7rem;
+            margin-left: 55.7rem;
+                width: 0; 
+                height: 0;
+                border-top: 0px solid transparent;
+                    border-bottom: 15px solid transparent; 
+                    border-left: 15px solid rgb(126, 0, 0);
+                box-shadow: 0px 2px 3px 0px #00000000, 1px 1px 1px 1px #ffbdbd inset;
+            }
+            #bottomArrowRight{
+                position: absolute;
+                margin-top: 14px;
+                margin-left: 55.7rem;
+                    width: 0; 
+                    height: 0;
+                    border-top: 15px solid transparent;
+                    border-bottom: 0px solid transparent; 
+                    border-left:15px solid rgb(126, 0, 0);
+                    box-shadow: 0px 2px 3px 0px #00000000, 1px 1px 1px 1px #ffbdbd inset;
+                }
 .drawProjectShuffleBase{
     display: grid;
     grid-row: content 6;
