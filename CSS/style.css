@@ -458,6 +458,7 @@ body {
     radial-gradient(ellipse at bottom, #000000, transparent);
 }
 .shuffleSubCardBase{
+    transition: 1s;
     display: grid;
     color:rgb(255, 225, 161);
     text-decoration: none;
@@ -628,4 +629,8 @@ a:last-child{
     margin-top: 0rem;
     margin: 1rem;
     background: #2c0e2636;
+}
+.shuffleSubCardBase:hover{
+    transition-delay:1s;
+    padding-bottom: 30%;
 }
