@@ -301,6 +301,7 @@
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff5f5f inset;
     border: 1.5px solid rgb(255, 54, 54);
     color:rgb(255, 243, 205);
+    text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 3px #00000063;
     border-radius: 0.2rem;
@@ -385,7 +386,7 @@
 
 .frameVersion {
     text-align: left;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     color:rgba(255, 255, 255, 0.192)
 }
 ul {
@@ -439,13 +440,23 @@ body {
     box-shadow: 0px 0px 0px 1px #ffcfaf38, 0px 0px 0px 3px #000000 inset;
 
 }
+#projectThreeTitle{
+    color:rgba(0, 0, 0, 0.267);
+    text-align: left;
+    margin-top: -1rem;
+    background: linear-gradient(black, rgba(255, 255, 255, 0.336));
+    margin-bottom: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.438);
+}
 .shuffleSubCardBase{
     display: grid;
     color:rgb(255, 225, 161);
+    text-decoration: none;
     text-shadow: 1px 2px 2px black;
-    border:1.1px solid #0c0606;
-    background: repeating-linear-gradient( 120deg, #0c060683, #502b2b81 0.5px, #502b2b81 0.5px, #0c060683 2.2px); height: auto; width: auto;
-    box-shadow: 0px 0px 2px 1px #85292998, 0px 0px 3px 3px #0c0606 inset;
+    border:1.5px solid #0c0606;
+    background: radial-gradient(ellipse at top, #ff878775, transparent),
+    radial-gradient(ellipse at bottom, #000000, transparent);
+    box-shadow: 0px 0px 2px 1px #ffa3a3a8, 0px 0px 1px 1px #0c0606 inset;
     height: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -457,6 +468,7 @@ body {
 #projectSelectOne{
     display: grid;
     grid-row: 9;
+    text-decoration: none;
     background: repeating-linear-gradient( 120deg, #2d0036, #220020 0.5px, #220020 0.5px, #2d0036 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 10px 3px #c161ee inset;
     border:1.5px solid rgb(215, 54, 255);
@@ -491,7 +503,7 @@ body {
     border: 1.5px solid rgba(197, 255, 206, 0.712);
 }
 .subHeader {
-    font-size:1.2em;
+    font-size:1.2rem;
     color:#ffeb93;
     text-align: center;
     text-shadow: 2px 2px 2px #00000063;
@@ -516,15 +528,25 @@ body {
 }
 .copyRightEtc{
     color:rgba(255, 0, 0, 0.247);
-    font-size: 0.5em;
+    font-size: 0.5rem;
 
 }
 a:link{
     color:#ffe159;
 }
+a:visted{
+    color:#d859ff;
+}
 a:hover{
     color:rgb(42, 255, 148);
 }
+a:active{
+    color:rgb(27, 204, 115);
+}
+a:last-child{
+    text-decoration: none;
+}
+
 .drawRes{
     display: grid;
     grid-row:  5 / 5;
@@ -575,6 +597,7 @@ a:hover{
 }
 .shuffleProjectSeperator{
     display: grid;
+    text-decoration: none;
     padding: 1rem;
     padding-right: 1.8rem;
     margin-top: 0rem;
