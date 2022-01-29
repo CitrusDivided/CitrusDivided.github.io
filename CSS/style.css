@@ -681,6 +681,6 @@ a:last-child{
     background: #2c0e2636;
 }
 .shuffleSubCardBase:hover{
-    transition-delay:0.5s;
+    transition-delay:0.2s;
     padding-bottom: 30%;
 }
