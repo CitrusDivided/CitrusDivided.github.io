@@ -554,6 +554,16 @@ body {
     background: repeating-linear-gradient( 120deg, #175525, #093d14 1px, #093d14 1px, #175525 2px); height: auto; width: auto;
     box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 8px 6px #49ff8fc0 inset;
 }
+#startButtonOne{
+    border: 1.5px solid rgb(218, 49, 210);
+    background: repeating-linear-gradient( 120deg, #3e1755, #3d093a 1px, #3d093a 1px, #3e1755 2px); height: auto; width: auto;
+    box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 8px 6px #f049ffc0 inset;
+}
+#startButtonTwo{
+    border: 1.5px solid rgb(218, 49, 49);
+    background: repeating-linear-gradient( 120deg, #551717, #3d0909 1px, #3d0909 1px, #551717 2px); height: auto; width: auto;
+    box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 8px 6px #ff4949c0 inset;
+}
 .subHeader {
     font-size:1.2rem;
     color:#ffeb93;
