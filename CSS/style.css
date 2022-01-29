@@ -414,7 +414,8 @@ ul {
     margin-bottom: 1rem;;
 }
 #pageHeadline {
-    background: linear-gradient( #001e25, #923838);
+    transition: 0.5s;
+    background: radial-gradient( ellipse at top, #a82d2d, #030013);
     text-align:center;
     font-size: 5em;
     color:rgb(246, 255, 122);
@@ -426,11 +427,10 @@ ul {
     padding: 15%;
 }
 #pageHeadline:hover {
-    background: linear-gradient( #001e25, #a82d2d);
+    transition-delay: 0s;
+    background: radial-gradient( closest side, #da2b2b, #af2121);
     text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
     box-shadow: 50px 50px 200px rgba(26, 13, 13, 0.767) inset;
-
-
 }
 body {
     background: radial-gradient(rgb(65, 0, 0), black);
@@ -620,6 +620,7 @@ a:last-child{
 }
 
 .drawRes{
+    transition: 0.2s;
     display: grid;
     grid-row:  5 / 5;
     grid-column:  1 / 2;
@@ -637,16 +638,19 @@ a:last-child{
     text-align: center;
 }
 .drawRes:hover{
+    transition-delay: 0ms;
     border: 1.5px solid rgb(49, 218, 119);
     background: repeating-linear-gradient( 120deg, #175525, #093d14 1px, #093d14 1px, #175525 2px); height: auto; width: auto;
     box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 8px 6px #49ff8fc0 inset;
 }
 .drawInq:hover{
+    transition-delay: 0ms;
     border: 1.5px solid rgb(49, 218, 119);
     background: repeating-linear-gradient( 120deg, #175525, #093d14 1px, #093d14 1px, #175525 2px); height: auto; width: auto;
     box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 8px 6px #49ff8fc0 inset;
 }
 .drawInq{
+    transition: 0.2s;
     display: grid;
     grid-row:  5 / 5;
     grid-column:  2 / 3;
