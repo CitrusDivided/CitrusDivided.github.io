@@ -602,10 +602,7 @@ body {
     font-size: 0.5rem;
 
 }
-a:link{
-    color:#ffe159;
-}
-a:visted{
+a, a:visited{
     color:#ffe159;
 }
 a:hover{
