@@ -47,7 +47,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
             // Interactivity --- Imp. //
             if (mouse.x - this.ssi_x < 50 && mouse.x - this.ssi_x > -50 && mouse.y - this.ssi_y <500 && mouse.y - this.ssi_y > -500 )
             {
-                if (this.ssi_radius <40){
+                if (this.ssi_radius <20){
                this.ssi_radius +=1;
                 }
             } else if (this.ssi_radius >5){
@@ -61,7 +61,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
 var snow = new Snow (200, 200, 3, 3, 30); //These are coordinates for first orbcation
 //Array creation//
 var snowArray = [];
-for (var i = 0; i < 600; i++){
+for (var i = 0; i < 666; i++){
     var x = Math.random() * 1800;
     var y = Math.random() * 480;
     var z = Math.random() * 8;
