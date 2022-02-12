@@ -224,7 +224,7 @@
     grid-column: 1 / span 3;
     min-width: 810px;
     padding: 1.2rem;
-    border-bottom: 2.5px dotted rgba(235, 73, 73, 0.253);
+    border-bottom: 2.5px dotted rgba(36, 0, 0, 0.253);
     margin-top:-55px;
     border: 1.5px solid rgba(235, 100, 100, 0.452);
     background: repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px); height: auto; width: auto;
@@ -420,7 +420,7 @@ ul {
     font-size: 5em;
     color:rgb(246, 255, 122);
     text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
-    border-bottom: 2px dashed rgb(49, 30, 12);;
+    border-bottom: 1px dashed rgb(110, 0, 0);;
     border-radius: 5px;
     box-shadow: 50px 50px 200px rgba(0, 0, 0, 0.692) inset;
     margin:0px;
