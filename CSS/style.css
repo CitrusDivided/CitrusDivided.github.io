@@ -699,9 +699,13 @@ a:last-child{
     .drawRes{
         display: grid;
         grid-row:  5 / 5;
-        grid-column:   1;
+        grid-column:   1 / span 3;
     }
-    
+    .drawInq{
+        display: grid;
+        grid-row:  8 / 8;
+        grid-column:  2 / 3;
+    }
 }
 
 @media (min-width: 700px) {
@@ -719,6 +723,11 @@ a:last-child{
         display: grid;
         grid-row:  5 / 5;
         grid-column:  1 / 2;
+    }
+    .drawInq{
+        display: grid;
+        grid-row:  5 / 5;
+        grid-column:  2 / 3;
     }
     
 }
