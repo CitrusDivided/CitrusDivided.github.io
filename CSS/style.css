@@ -703,12 +703,17 @@ a:last-child{
     }
     .drawInq{
         display: grid;
-        grid-row:  8 / 8;
-        grid-column:  2 / 3;
+        grid-row:  8;
+        grid-column:  1 / span 3;
     }
     #canvasCardBase{
         display: grid;
         grid-row: 9;
+    }
+    .drawInstructionBase{
+        display: grid;
+        grid-row: content 8;
+        grid-column: 1 / span 3;
     }
 }
 
@@ -736,6 +741,11 @@ a:last-child{
     #canvasCardBase{
         display: grid;
         grid-row: 6;
+    }
+    .drawInstructionBase{
+        display: grid;
+        grid-row: content 5;
+        grid-column: 1 / span 3;
     }
     
 }
