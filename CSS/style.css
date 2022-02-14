@@ -684,3 +684,19 @@ a:last-child{
     transition-delay:0.2s;
     padding-bottom: 30%;
 }
+
+@media (min-width: 500px) {
+    .qualificationInfoCardBase{
+        display: grid;
+        grid-row: 1 / span 4;
+        grid-column: 1 / span 3;
+    }
+}
+
+@media (min-width: 700px) {
+    .qualificationInfoCardBase{
+        display: grid;
+        grid-row: 1 / span 4;
+        grid-column: 1 / span 1;
+    }
+}
