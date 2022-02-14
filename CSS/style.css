@@ -715,6 +715,11 @@ a:last-child{
         grid-row: content 8;
         grid-column: 1 / span 3;
     }
+    .drawProjectShuffleBase{
+        display: grid;
+        grid-row: content 9;
+        grid-column: 1 / span 3;
+    }
 }
 
 @media (min-width: 700px) {
@@ -745,6 +750,11 @@ a:last-child{
     .drawInstructionBase{
         display: grid;
         grid-row: content 5;
+        grid-column: 1 / span 3;
+    }
+    .drawProjectShuffleBase{
+        display: grid;
+        grid-row: content 6;
         grid-column: 1 / span 3;
     }
     
