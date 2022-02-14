@@ -694,7 +694,7 @@ a:last-child{
     .aboutMeCardBase {
     display: grid;
     grid-row: 6;
-    grid-column: 1;
+    grid-column: 2;
     }
     .drawRes{
         display: grid;
@@ -705,6 +705,10 @@ a:last-child{
         display: grid;
         grid-row:  8 / 8;
         grid-column:  2 / 3;
+    }
+    #canvasCardBase{
+        display: grid;
+        grid-row: 9;
     }
 }
 
@@ -728,6 +732,10 @@ a:last-child{
         display: grid;
         grid-row:  5 / 5;
         grid-column:  2 / 3;
+    }
+    #canvasCardBase{
+        display: grid;
+        grid-row: 6;
     }
     
 }
