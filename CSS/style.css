@@ -203,7 +203,7 @@
     display: grid;
     grid-row: content 5;
     grid-column: 1 / span 3;
-    min-width: 810px;
+    width: 810px;
     padding: 1.2rem;
     border-bottom: 2.5px dotted rgba(36, 0, 0, 0.253);
     margin-top:-55px;
@@ -667,6 +667,9 @@ a:last-child{
 }
 
 @media (min-width: 500px) {
+    .drawInstructionBase{
+        width: 50%;
+    }
     canvas{
         margin-bottom: -4.5rem;
         margin-top: -8rem;
@@ -709,6 +712,9 @@ a:last-child{
 }
 
 @media (min-width: 700px) {
+    .drawInstructionBase{
+        width: 100%;
+    }
     canvas{
         margin-top: 0rem;
         margin-bottom: 0rem;
