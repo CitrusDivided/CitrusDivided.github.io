@@ -204,7 +204,6 @@
     grid-row: content 5;
     grid-column: 1 / span 3;
     width: 810px;
-    padding: 1.2rem;
     border-bottom: 2.5px dotted rgba(36, 0, 0, 0.253);
     margin-top:-55px;
     border: 1.5px solid rgba(235, 100, 100, 0.452);
@@ -212,7 +211,7 @@
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff5f5f inset;
     border-color:rgb(255, 54, 54);
     color:rgb(255, 243, 205);
-    padding: 1.5rem;
+    padding: 1.1rem;
     text-align: center;
     text-shadow: 1px 1px 3px #00000063;
     border-top-left-radius: 0.2rem;
@@ -392,6 +391,9 @@ ul {
     background: linear-gradient(#180000, #2e0000);
     box-shadow: 0px 0px 2px 1px #ff5f5f, -0.1px 0.1px 5px 2px #000000 inset;
     padding: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 1rem;;
 }
 #pageHeadline {
