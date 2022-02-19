@@ -668,6 +668,7 @@ a:last-child{
 
 @media (min-width: 500px) {
     canvas{
+        margin-bottom: -4.5rem;
         margin-top: -8rem;
         transform: scale(70%)
     }
@@ -710,6 +711,7 @@ a:last-child{
 @media (min-width: 700px) {
     canvas{
         margin-top: 0rem;
+        margin-bottom: 0rem;
         transform: scale(1)
     }
     .qualificationInfoCardBase{
