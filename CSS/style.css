@@ -667,6 +667,9 @@ a:last-child{
 }
 
 @media (min-width: 500px) {
+    canvas{
+        transform: scale(70%)
+    }
     .qualificationInfoCardBase{
         display: grid;
         grid-row: 1 / span 4;
@@ -704,6 +707,9 @@ a:last-child{
 }
 
 @media (min-width: 700px) {
+    canvas{
+        transform: scale(1)
+    }
     .qualificationInfoCardBase{
         display: grid;
         grid-row: 1 / span 4;
