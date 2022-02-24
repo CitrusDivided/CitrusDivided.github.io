@@ -311,7 +311,7 @@
     display: grid;
     grid-row: content 6;
     grid-column: 1 / span 3;
-    min-width: 810px;
+    width: 810px;
     padding: 1.2rem;
     background: repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff5f5f inset;
@@ -752,6 +752,20 @@ a:last-child{
         margin-top: 1rem;;
         padding: 1rem;
     }
+    .drawProjectShuffleBase{
+        width: 650px;
+    }
+    #topArrowRight{
+        margin-top: -0.7rem;
+        margin-left: 40.7rem;
+
+        }
+        #bottomArrowRight{
+            margin-top: 14px;
+            margin-left: 40.7rem;
+
+            }
+
 }
 
 @media (min-width: 900px) {
@@ -803,6 +817,16 @@ a:last-child{
         display: grid;
         grid-row: content 6;
         grid-column: 1 / span 3;
+        width: 810px;
     }
-    
+    #topArrowRight{
+        margin-top: -0.7rem;
+        margin-left: 50.7rem;
+
+        }
+        #bottomArrowRight{
+            margin-top: 14px;
+            margin-left: 50.7rem;
+
+            }
 }
