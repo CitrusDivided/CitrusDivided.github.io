@@ -433,6 +433,7 @@ ul {
 }
 #pageHeadline {
     transition: 0.5s;
+    mix-blend-mode:exclusion;
     background: radial-gradient( ellipse at top, #a82d2d, #030013);
     text-align:center;
     font-size: 5em;
@@ -440,7 +441,7 @@ ul {
     text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
     border-bottom: 1px dashed rgb(110, 0, 0);;
     border-radius: 5px;
-    box-shadow: 50px 50px 200px rgba(0, 0, 0, 0.692) inset;
+    box-shadow: 50px 500px 50px 20px rgb(26, 13, 13) inset;
     margin:0px;
     padding: 15%;
 }
@@ -448,7 +449,7 @@ ul {
     transition-delay: 0s;
     background: radial-gradient( closest side, #da2b2b, #af2121);
     text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
-    box-shadow: 50px 50px 200px rgba(26, 13, 13, 0.767) inset;
+    box-shadow: 50px 50px 50px 20px rgba(0, 0, 0, 0.692) inset;
 }
 body {
     background: radial-gradient(rgb(65, 0, 0), black);
