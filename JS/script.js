@@ -1,4 +1,4 @@
-"homepage"; "https://modernpancakes.github.io/"
+"homepage"; "https://citrusdivided.github.io/"
 var canvas = document.querySelector('canvas')
 
 ;
