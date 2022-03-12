@@ -66,15 +66,16 @@
       rgb(95, 22, 22),
       rgb(95, 22, 22),
       black 20px,
-      black 30px /* determines size */
+      black 5px,
+      rgb(95, 22, 22) 40px /* determines size */
     );
     width: 100%;
     height: 30%;
     box-shadow: 1px 1px 14px 24px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
-.curtainCenterMass:hover{
+/*.curtainCenterMass:hover{
     height: 10%;
-}
+}*/
 
 .feltCardBackground{
     display: grid;

@@ -1,7 +1,10 @@
 "homepage"; "https://citrusdivided.github.io/"
-var canvas = document.querySelector('canvas')
-
-;
+$(document).ready(function(){
+    $(".curtainCenterMass").hover(function(){
+        $(this).css("width", "30%")
+    })
+})
+var canvas = document.querySelector('canvas');
 
 canvas.width = 800;
 canvas.height = 480;
