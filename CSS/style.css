@@ -73,9 +73,10 @@
     height: 30%;
     box-shadow: 1px 1px 14px 24px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
-/*.curtainCenterMass:hover{
-    height: 10%;
-}*/
+.curtainCenterMass:hover{
+    transition: 2s;
+    height: 2%;
+}
 
 .feltCardBackground{
     display: grid;
