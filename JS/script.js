@@ -4,7 +4,7 @@ $(document).ready(function(){
         $(this).css("height", "2%")
     })
 
-    $(".drawRes").click(function() {
+    $(".drawRes, .drawInq").click(function() {
         alert("Testing button window pop up");
     })
 })
