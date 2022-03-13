@@ -1,13 +1,15 @@
 "homepage"; "https://citrusdivided.github.io/"
 $(document).ready(function(){
-    $(".curtainCenterMass").hover(function(){
-        $(this).css("height", "2%")
-    })
+    $(".curtainCenterMass").click(function(){
+        $(this).filter(':not(:animated)').animate({height:'2%'},'slow')
+    });
+    }, function() {
+    $(".curtainCenterMass").animate({height: '30%'});
+});
 
     $(".drawRes, .drawInq").click(function() {
         alert("Testing button window pop up");
     })
-})
 var canvas = document.querySelector('canvas');
 
 canvas.width = 800;
