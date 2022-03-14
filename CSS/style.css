@@ -60,7 +60,6 @@
     position: absolute;
     z-index: 1;
     right: 0rem;
-    border: red;
     background-image: 
     repeating-linear-gradient(
       90deg,
@@ -69,6 +68,25 @@
       black 20px,
       black 5px,
       rgb(95, 22, 22) 40px /* determines size */
+    );
+    width: 100%;
+    height: 30%;
+    box-shadow: 50px 50px 50px 20px rgba(0, 0, 0, 0.692), 1px 15px 1px 2px rgba(255, 74, 74, 0.329) inset;
+    border-bottom: 0.1px solid rgb(95, 22, 22);
+}
+.curtainCenterMassHighlight{
+    position: absolute;
+    z-index: 1;
+    right: 0rem;
+    mix-blend-mode: hard-light;
+    background-image: 
+    repeating-linear-gradient(
+      90deg,
+      rgb(95, 22, 22),
+      rgba(255, 155, 155, 0.281),
+      black 20px,
+      black 5px,
+      rgb(95, 22, 22) 30px /* determines size */
     );
     width: 100%;
     height: 30%;
