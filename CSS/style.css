@@ -20,6 +20,7 @@
 .curtainLeft{
     position: fixed;
     z-index: 1;
+    transform: skew(1turn, -18deg);
     border: red;
     background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22));
     width: 8%;
@@ -71,7 +72,7 @@
     );
     width: 100%;
     height: 30%;
-    box-shadow: 1px 1px 14px 24px #0a000c71, 0px 0px 1px #ff5f5f inset;
+    box-shadow: 50px 50px 50px 20px rgba(0, 0, 0, 0.692) ;
 }
 /*.curtainCenterMass:hover{
     transition: 2s;
@@ -454,7 +455,6 @@ ul {
     margin-bottom: 1rem;;
 }
 #pageHeadline {
-    transition: 0.5s;
     mix-blend-mode:exclusion;
     background: radial-gradient( ellipse at top, #a82d2d, #030013);
     text-align:center;
@@ -463,16 +463,11 @@ ul {
     text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
     border-bottom: 1px dashed rgb(110, 0, 0);;
     border-radius: 5px;
-    box-shadow: 50px 500px 50px 20px rgb(26, 13, 13) inset;
+    box-shadow: 50px 50px 50px 20px rgba(0, 0, 0, 0.692) inset;
     margin:0px;
     padding: 15%;
 }
-#pageHeadline:active {
-    transition-delay: 0s;
-    background: radial-gradient( closest side, #da2b2b, #af2121);
-    text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
-    box-shadow: 50px 50px 50px 20px rgba(0, 0, 0, 0.692) inset;
-}
+
 body {
     background: radial-gradient(rgb(65, 0, 0), black);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
