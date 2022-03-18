@@ -3,8 +3,9 @@ $(document).ready(function(){
     $(".curtainCenterMass").hover(function(){
         $(this).filter(':not(:animated)').animate({height:'2%'},'slow')
     });
-    }, function() {
-    $(".curtainCenterMass").animate({height: '30%'});
+    $(document).click(function(){
+        $(".curtainCenterMass").animate({height:'30%'}, 'slow')
+    })
 });
 
     $(".drawRes, .drawInq").click(function() {
