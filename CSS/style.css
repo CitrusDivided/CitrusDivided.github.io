@@ -57,7 +57,8 @@
     box-shadow: 1px 1px 14px 24px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
 #pageHeadline {
-    background: radial-gradient( ellipse at top, #a82d2d, #030013);
+    background-image:repeating-linear-gradient(90deg, rgb(255, 255, 255) 1px, rgba(107, 44, 44, 0.623) 1px, rgba(0, 72, 100, 0.966) 4px),
+    radial-gradient( ellipse at top, #791a1a, #7c65ff);
     text-align:center;
     font-size: 4.5rem;
     color:rgb(246, 255, 122);
