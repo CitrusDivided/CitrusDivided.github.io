@@ -32,11 +32,29 @@
     z-index: 1;
     transform: skew(1turn, 18deg);
     right: 0rem;
-    border: red;
-    background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22));
+    border: 1px solid rgb(255, 119, 119);
+    background-image: 
+    repeating-linear-gradient(
+      90deg,
+      rgb(95, 22, 22),
+      rgba(204, 90, 90, 0.342),
+      rgb(0, 0, 0) 20px,
+      black 3px,
+      rgb(95, 22, 22) 40px /* determines size */
+    ),
+    repeating-linear-gradient(
+        120deg,
+        rgb(180, 52, 52),
+        rgb(196, 73, 73),
+        rgb(143, 0, 0) 3px,
+        rgb(143, 0, 0) 1px,
+        rgb(255, 190, 190) 2px
+    ),
+    linear-gradient(rgba(0, 0, 0, 0.699) 90%, rgb(133, 45, 45));
+    background-blend-mode: hard-light;
     width: 8%;
     height: 650px;
-    box-shadow: 1px 1px 1px 1px #0a000c71, 0px 0px 1px #ff5f5f inset;
+    box-shadow: 1px 1px 1px 1px #0a000c71, 0px 0px 30px  #ff3f3f inset;
 }
 .curtainBottomLeft{
     position: fixed;
@@ -75,15 +93,6 @@
     position: absolute;
     z-index: 1;
     right: 0rem;
-    background-image: 
-    repeating-linear-gradient(
-      90deg,
-      rgb(95, 22, 22),
-      rgb(95, 22, 22),
-      black 20px,
-      black 5px,
-      rgb(95, 22, 22) 40px /* determines size */
-    );
     width: 100%;
     height: 30%;
     box-shadow: 50px 50px 50px 20px rgba(0, 0, 0, 0.692), 1px 15px 1px 2px rgba(255, 74, 74, 0.329) inset;
