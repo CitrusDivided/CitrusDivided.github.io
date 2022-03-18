@@ -4,7 +4,9 @@ $(document).ready(function(){
         $(this).filter(':not(:animated)').animate({height:'2%'},'slow')
     });
     $(document).click(function(){
-        $(".curtainCenterMass").animate({height:'30%'}, 'slow')
+        $(".curtainCenterMass").animate({
+            "height" :"30%",
+            "width" : "10%"}, 'slow')
     })
 });
 
