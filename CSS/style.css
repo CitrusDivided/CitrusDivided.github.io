@@ -94,7 +94,7 @@
     box-shadow: 1px 1px 14px 24px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
 #imageDec{
-    position:fixed;
+    position:absolute;
     top:3.5rem;
     left: 42%;
     max-width: 15%;
