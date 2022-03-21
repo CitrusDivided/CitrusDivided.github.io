@@ -96,7 +96,7 @@
 #imageDec{
     position:absolute;
     top:7.5%;
-    left: 42%;
+    margin: auto;
     max-width: 15%;
     border-radius: 50%;
 }
@@ -120,10 +120,9 @@ border: 1px solid rgb(43, 0, 0);
 box-shadow: 1px 1px 1px rgba(255, 253, 253, 0.171);
 }
 #h1Name{
-    position:absolute;
-    padding-top: 15%;
-    margin-left: -15%;
-    width:30rem;
+    position:relative;
+    top: 60%;
+    width:3rem;
     background: rgba(53, 15, 15, 0.315);
 }
 .curtainCenterMass{
