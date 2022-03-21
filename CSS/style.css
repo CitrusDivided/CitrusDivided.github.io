@@ -94,10 +94,11 @@
     box-shadow: 1px 1px 14px 24px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
 #imageDec{
-    position:absolute;
-    top:7.5%;
-    margin: auto;
-    max-width: 15%;
+    position:fixed;
+    top: 3%;
+    left:40%;
+    max-width: 350px;
+    max-height: 200px;
     border-radius: 50%;
 }
 #pageHeadline {
