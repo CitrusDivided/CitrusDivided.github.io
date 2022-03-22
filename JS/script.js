@@ -4,7 +4,7 @@ $(document).ready(function(){
         $(this).filter(':not(:animated)').animate({
             "height":"3%",
         },'slow')
-        $(this).css('box-shadow', '50px 50px 50px 20px #000, 1px 20px 10px 2px #ff4a4a4f inset').animate({}),'slow';
+
     });
     $(document).click(function(){
         $(".curtainCenterMass, .curtainSlate").animate({
