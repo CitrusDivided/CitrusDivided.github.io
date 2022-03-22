@@ -117,16 +117,19 @@
     margin:0px;
 }
 hr{
-border: 1px solid rgb(43, 0, 0);
-box-shadow: 1px 1px 1px rgba(255, 253, 253, 0.171);
+    padding-bottom: 3px;
+    background: rgba(29, 0, 0, 0.555);
+    border: 1px solid rgb(43, 0, 0);
+    box-shadow: 1px 1px 1px rgba(255, 253, 253, 0.171), 0px 0px 0px 1px rgba(126, 36, 36, 0.308) inset;
 }
 #h1Name{
     position:sticky;
     display: block;
     top: 60%;
     padding-top: 15%;
+    padding-bottom: 5%;
     width:100%;
-    background: rgba(53, 15, 15, 0.315);
+    background: rgba(116, 0, 0, 0.205);
 }
 .curtainCenterMass{
     position: absolute;
