@@ -114,7 +114,6 @@
     text-align:center;
     font-size: 4rem;
     color:rgb(255, 235, 122);
-    text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
     border-bottom: 1px dashed rgb(110, 0, 0);;
     border-radius: 5px;
     box-shadow: 50px 50px 50px 20px rgba(0, 0, 0, 0.692) inset;
@@ -125,6 +124,15 @@ hr{
     background: rgba(100, 0, 0, 0.356);
     border: 1px solid rgb(43, 0, 0);
     box-shadow: 1px 1px 1px rgba(255, 253, 253, 0.171), 0px 0px 0px 1px rgba(126, 36, 36, 0.308) inset;
+}
+.h1Sheen{
+    color: rgb(102, 18, 18);
+    background-color: rgb(255, 107, 107);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(red, white);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.377);;
 }
 #h1Name{
     position:sticky;
