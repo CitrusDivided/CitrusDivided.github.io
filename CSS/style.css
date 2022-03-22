@@ -99,10 +99,10 @@
     margin-bottom: -15%;
     max-width: 350px;
     max-height: 200px;
-    border-bottom: 1rem solid rgba(75, 23, 23, 0.459);
+    border-bottom: 1rem solid rgba(255, 113, 113, 0.596);
     box-shadow: 0px 10px 1px 1px rgba(255, 0, 0, 0.295);
     border-radius: 50%;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: lighten;
 }
 #pageHeadline {
     position: inherit;
@@ -112,7 +112,7 @@
     radial-gradient( ellipse at top, #00c3ff, #000000);
     text-align:center;
     font-size: 4rem;
-    color:rgb(246, 255, 122);
+    color:rgb(255, 235, 122);
     text-shadow: 3px 3px rgb(0, 0, 0), 0px 3px 3px rgb(134, 119, 29);
     border-bottom: 1px dashed rgb(110, 0, 0);;
     border-radius: 5px;
@@ -133,6 +133,7 @@ hr{
     padding-bottom: 5%;
     width:100%;
 }
+
 .curtainCenterMass{
     position: absolute;
     z-index: 2;
