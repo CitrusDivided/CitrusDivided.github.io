@@ -94,9 +94,9 @@
     box-shadow: 1px 1px 14px 24px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
 #imageDec{
-    position:absolute;
-    top: 3%;
-    left:40%;
+    position:static;
+    padding-top: 8%;
+    margin-bottom: -100px;
     max-width: 350px;
     max-height: 200px;
     border-radius: 50%;
@@ -129,7 +129,6 @@ hr{
     padding-top: 15%;
     padding-bottom: 5%;
     width:100%;
-    background: rgba(116, 0, 0, 0.205);
 }
 .curtainCenterMass{
     position: absolute;
