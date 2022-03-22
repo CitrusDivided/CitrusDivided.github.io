@@ -145,7 +145,7 @@ hr{
     repeating-linear-gradient(
       90deg,
       rgb(95, 22, 22),
-      rgba(85, 3, 3, 0.342),
+      rgba(255, 162, 162, 0.342),
       rgb(0, 0, 0) 20px,
       black 5px,
       rgb(95, 22, 22) 30px /* determines size */
@@ -158,8 +158,8 @@ hr{
         rgb(143, 0, 0) 1px,
         rgb(255, 190, 190) 2px
     ),
-    radial-gradient(farthest-corner at 0px 0px, white, black),
-    radial-gradient(farthest-corner at 1000px 0px, white, black);
+    radial-gradient(farthest-corner at 0px 0px, rgb(255, 189, 189), rgb(37, 0, 0)),
+    radial-gradient(farthest-corner at 1000px 0px, white, rgb(49, 0, 0));
     width: 100%;
     height: 30%;
     border: 1px outset rgb(124, 16, 16);
