@@ -109,13 +109,13 @@
     position: inherit;
     width: 100%;
     background-image:
-    repeating-linear-gradient(90deg, rgb(255, 255, 255) 1px, rgba(107, 44, 44, 0.623) 1px, rgb(54, 20, 20) 3px),
+    repeating-linear-gradient(90deg, rgb(255, 255, 255) 1px, rgba(44, 107, 86, 0.623) 1px, rgb(54, 20, 20) 3px),
     radial-gradient( ellipse at bottom, #00c3ff, #000000);
     text-align:center;
     font-size: 4rem;
     border-bottom: 1px dashed rgb(110, 0, 0);;
     border-radius: 5px;
-    box-shadow: 50px 50px 50px 20px rgba(0, 0, 0, 0.692) inset;
+    box-shadow: 50px 10px 30px 20px rgba(0, 0, 0, 0.692) inset;
     margin:0px;
 }
 hr{
