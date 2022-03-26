@@ -335,8 +335,8 @@ hr{
 .aboutMeCardBase:hover{
     z-index: 4;
     transition-delay: 0s;
-    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 17px 7px #bc6aff inset;
-    border-color:rgb(214, 124, 255);
+    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #bc6aff inset;
+    border-color:rgb(165, 80, 204);
 
 }
 .aboutMeCardBase {
