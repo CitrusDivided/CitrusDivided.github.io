@@ -6,10 +6,15 @@ $(document).ready(function(){
         },'slow')
 
     });
-    $(document).click(function(){
+    $(document).ready(function(){
         $(".curtainCenterMass, .curtainSlate").animate({
             "height" : "30%",
             "width" : "10%"}, 'slow')
+    })
+    $(document).ready(function(){
+        $("#pageHeadlineHoloSheen").animate({
+            "top" : "30%",
+            }, 'slow')
     })
 });
 

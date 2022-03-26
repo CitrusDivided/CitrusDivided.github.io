@@ -127,7 +127,10 @@
     background-blend-mode: soft-light;
     mix-blend-mode: color-dodge;
 }
-
+/*#pageHeadlineHoloSheen:hover{
+    animation:infinite;
+    top: 4rem;
+}*/
 
 hr{
     padding-bottom: 3px;
