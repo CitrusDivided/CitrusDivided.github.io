@@ -12,9 +12,16 @@ $(document).ready(function(){
             "width" : "10%"}, 'slow')
     })
     $(document).ready(function(){
-        $("#pageHeadlineHoloSheen").animate({
-            "top" : "30%",
-            }, 'slow')
+        function loop(){
+            $('#pageHeadlineHoloSheen').css({top:0});
+            $('#pageHeadlineHoloSheen').animate ({
+                top: '+=400',
+            }, 5000, 'linear', function(){
+                loop();
+            });
+            
+        }
+            loop();
     })
 });
 
