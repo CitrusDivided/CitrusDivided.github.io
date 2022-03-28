@@ -1,6 +1,6 @@
 "homepage"; "https://citrusdivided.github.io/"
 $(document).ready(function(){
-    $(".curtainCenterMass, .curtainSlate").hover(function(){
+    $(".curtainCenterMass, .curtainSlate").click(function(){
         $(this).filter(':not(:animated)').animate({
             "height":"3%",
         },'slow')
