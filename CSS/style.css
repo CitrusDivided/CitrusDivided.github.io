@@ -133,6 +133,7 @@
     box-shadow: 1px 1px 14px 24px #0a000c71, 0px 0px 1px #ff5f5f inset;
 }
 #imageDec{
+    transition: 2s;
     position:static;
     z-index: 1;
     padding-top: 8%;
@@ -148,6 +149,7 @@
 #imageDec:hover{
     transition: 2s;
     transform: scale(2);
+    margin-bottom: 5%;
 }
 #pageHeadline {
     position: inherit;
