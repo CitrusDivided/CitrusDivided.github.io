@@ -13,9 +13,9 @@ $(document).ready(function(){
     })
     $(document).ready(function(){
         function loop(){
-            $('#pageHeadlineHoloSheen').css({top:0});
+            $('#pageHeadlineHoloSheen').css({top:-100});
             $('#pageHeadlineHoloSheen').animate ({
-                top: '+=400',
+                top: '+=200',
             }, 5000, 'linear', function(){
                 loop();
             });
