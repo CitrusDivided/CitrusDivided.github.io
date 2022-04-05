@@ -630,6 +630,7 @@ ul {
     list-style: none;
 }
 .listSpecific {
+    line-height: 1.8;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -660,7 +661,7 @@ body {
 .subTextBox {
     display: grid;
     margin: 1rem;
-    background: repeating-linear-gradient(120deg, #ffffff65, #00032e, rgba(255, 255, 255, 0.308), rgba(0, 0, 0, 0.575));
+    background: repeating-linear-gradient(120deg, #ffffff65 20px, #00032e 5px, rgba(255, 255, 255, 0.308) 20px, rgba(0, 0, 0, 0.575));
     padding: 1.5rem;
     box-shadow: 0px 0px 0px 1px #ffcfaf38, 0px 0px 0px 3px #000000 inset;
 
