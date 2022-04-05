@@ -660,7 +660,6 @@ body {
 }
 .subTextBox {
     display: grid;
-    margin: 1rem;
     background: repeating-linear-gradient(120deg, #ffffff65 20px, #00032e 5px, rgba(255, 255, 255, 0.308) 20px, rgba(0, 0, 0, 0.575));
     padding: 1.5rem;
     box-shadow: 0px 0px 0px 1px #ffcfaf38, 0px 0px 0px 3px #000000 inset;
