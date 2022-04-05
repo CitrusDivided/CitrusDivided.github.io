@@ -597,12 +597,10 @@ hr{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #aboutMeSocialSpan {
-    float:left;
-    margin: 0 5px;
+    margin: 0px;
     color:rgb(255, 115, 145);
-    text-align: left;
-    font-size: 1.2em;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 1rem;
 }
 .aboutMeSubCard {
     display: grid;
