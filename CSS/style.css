@@ -597,7 +597,7 @@ hr{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #aboutMeSocialSpan {
-    margin: 0px;
+    margin-top: 0rem;
     color:rgb(255, 115, 145);
     text-align: center;
     font-size: 1rem;
