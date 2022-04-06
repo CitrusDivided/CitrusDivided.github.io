@@ -659,8 +659,8 @@ body {
 }
 .subTextBox {
     display: grid;
-    background: repeating-linear-gradient(135deg, #00174225 150px, #00032e 5px, rgba(255, 255, 255, 0.062) 20px, rgba(0, 0, 0, 0.575)),
-    radial-gradient(farthest-side, rgba(255, 0, 0, 0.411), rgba(255, 255, 255, 0.301));
+    background: repeating-linear-gradient( 120deg, #00174225 1px, #00032e 1px, rgba(255, 255, 255, 0.062) 1px, rgba(0, 0, 0, 0.575) 1px),
+    radial-gradient(ellipse at bottom, rgba(255, 0, 0, 0.411), rgba(255, 255, 255, 0.301));
     padding: 1.5rem;
     box-shadow: 0px 0px 0px 1px #ffcfaf38, 0px 0px 0px 3px #000000 inset;
 
