@@ -561,8 +561,9 @@ hr{
 .qualificationInfoCategorySpan {
     display: grid;
     border: 1px solid rgba(255, 255, 255, 0.041);
-    margin-top: -1.8rem;
-    margin-bottom: 2.5rem;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
     color:rgb(177, 59, 59);
 }
 .aboutMeCardTitle {
