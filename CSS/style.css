@@ -675,10 +675,11 @@ body {
     grid-template-columns: 50px 50px 50px;
     row-gap: 10px;
     column-gap: 40px;
-    background: repeating-linear-gradient( 120deg, #00174225 1px, #00032e 1px, rgba(255, 255, 255, 0.062) 1px, rgba(0, 0, 0, 0.575) 1px),
-    radial-gradient(ellipse at bottom, rgba(255, 0, 0, 0.411), rgba(255, 255, 255, 0.301));
+    border-radius: 0.2rem;
+    background: repeating-linear-gradient( 120deg, #ffffff25 1px, #ffffff 1px, rgb(255, 255, 255) 1px, rgba(0, 0, 0, 0.575) 1px),
+    radial-gradient(circle at bottom, rgb(247, 25, 255), rgba(255, 255, 255, 0.301));
     padding: 1.5rem;
-    box-shadow: 0px 0px 0px 1px #ffcfaf38, 0px 0px 0px 3px #000000 inset;
+    box-shadow: 0px 1px 3px 1px #ffaff459, 0px 0px 0px 3px #000000 inset;
 
 }
 #projectThreeTitle{
@@ -816,6 +817,7 @@ body {
 }
 .subHeader {
     font-size:1.2rem;
+    border: 1px solid rgba(255, 46, 46, 0.452);
     color:#ffeb93;
     text-align: center;
     text-shadow: 2px 2px 2px #00000063;
