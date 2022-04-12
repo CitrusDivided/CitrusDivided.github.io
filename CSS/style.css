@@ -547,6 +547,7 @@ hr{
 .qualificationInfoCardTitle {
     display: grid;
     grid-row: 1;
+    margin-top: -1rem;
     font-size: 1.2rem;
     color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
@@ -570,6 +571,7 @@ hr{
 .aboutMeCardTitle {
     display: grid;
     grid-row: 2;
+    margin-top: -1rem;
     font-size: 1.2rem;
     color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
@@ -605,7 +607,7 @@ hr{
 }
 #aboutMeSocialSpan {
     margin-top: 0rem;
-    color:rgba(255, 255, 255, 0.37);
+    color:rgba(103, 241, 212, 0.37);
     text-align: left;
     font-size: 1rem;
 }
@@ -668,6 +670,7 @@ svg{
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     padding: 1rem;
+    padding-bottom: 3rem;
     margin-left: 3rem;
     border: 1px rgba(255, 255, 255, 0.103) solid;
 }
