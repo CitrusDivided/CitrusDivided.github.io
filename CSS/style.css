@@ -672,7 +672,7 @@ svg{
     gap: 1rem;
     padding: 1rem;
     padding-right: 10rem;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
     border: 1px rgba(255, 255, 255, 0.192) solid;
     border-radius: 0.1rem;
 }
@@ -693,7 +693,6 @@ body {
     display: grid;
     grid-template-columns: 50px 50px ;
     row-gap: 1px;
-    margin-left: -2rem;
     column-gap: 7rem;
     border-radius: 0.2rem;
     background: repeating-linear-gradient( 120deg, #ffffff25 1px, #ffffff 1px, rgb(255, 255, 255) 1px, rgba(0, 0, 0, 0.575) 1px),
