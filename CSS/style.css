@@ -638,6 +638,7 @@ ul {
     list-style: none;
 }
 .listSpecific {
+    
     line-height: 1.8;
     text-align: center;
     padding-top: 1rem;
@@ -866,6 +867,7 @@ body {
 
 }
 a, a:visited{
+    text-decoration: none;
     color:#ffe159;
 }
 a:hover{
