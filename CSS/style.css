@@ -605,9 +605,11 @@ hr{
     color:rgb(243, 115, 255);
 }
 #aboutMeSocialSpan {
+    display: grid;
+    column-gap: 10rem;
     margin-top: 0rem;
-    color:rgba(103, 241, 212, 0.37);
-    text-align: center;
+    color:rgb(237, 255, 136);
+    text-align: left;
     font-size: 1rem;
 }
 .aboutMeSubCard {
@@ -669,14 +671,20 @@ svg{
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     padding: 1rem;
-    padding-right: 8rem;
-    padding-bottom: 1rem;
-    margin-left: 1rem;
-    border: 1px rgba(255, 255, 255, 0.103) solid;
+    padding-right: 10rem;
+    margin-left: 2rem;
+    border: 1px rgba(255, 255, 255, 0.192) solid;
+    border-radius: 0.1rem;
 }
-svg:hover{
+.socialMediaSubGrid:hover{
+    animation: 1s;
     transform: scale(1.2);
+    background: rgba(255, 255, 255, 0.781);
+    border: 1px rgba(255, 255, 255, 0.466) solid;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.452), 0px 0px 3px 1px white inset;
+
 }
+
 body {
     background: radial-gradient(rgb(65, 0, 0), black);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
