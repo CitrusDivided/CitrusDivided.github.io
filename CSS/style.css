@@ -68,7 +68,7 @@
       rgba(204, 90, 90, 0.342),
       rgb(0, 0, 0) 20px,
       black 3px,
-      rgb(95, 22, 22) 40px /* determines size */
+      rgb(95, 22, 22) 30px /* determines size */
     ),
     repeating-linear-gradient(
         120deg,
@@ -604,12 +604,42 @@ hr{
 }
 #aboutMeSocialSpan {
     display: grid;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(0, 170, 65, 0.301);
+    background-blend-mode: soft-light;
     column-gap: 10rem;
     margin-top: 0rem;
-    color:rgb(237, 255, 136);
     text-align: left;
     font-size: 1rem;
+    line-height: 1rem;
 }
+#aboutMeSocialSpan:hover{
+    animation-name: social-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes social-color {
+    0%{
+        background-color: rgba(0, 170, 65, 0.301);
+    }
+    25%{
+        background-color: rgba(235, 87, 255, 0.301);
+    }
+    50%{
+        background-color: rgba(87, 126, 255, 0.301);
+    }
+    51%{
+        background-color: rgba(87, 126, 255, 0.301);
+    }
+    75%{
+        background-color: rgba(235, 87, 255, 0.301);
+    }
+    100%{
+        background-color: rgba(0, 170, 65, 0.301);
+    }
+    
+}
+
 .aboutMeSubCard {
     display: grid;
     color:rgb(161, 255, 181);
