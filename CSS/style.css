@@ -89,7 +89,7 @@
     z-index: 2;
     transform: skew(1turn, 18deg);
     right: 0rem;
-    border: 1px solid rgb(255, 119, 119);
+    border: 1px solid rgb(219, 61, 61);
     background-image: 
     repeating-linear-gradient(
       90deg,
@@ -107,11 +107,11 @@
         rgb(143, 0, 0) 1px,
         rgb(255, 190, 190) 2px
     ),
-    linear-gradient(rgba(0, 0, 0, 0.699) 90%, rgb(133, 45, 45));
+    linear-gradient(rgba(0, 0, 0, 0.699), rgb(133, 45, 45), rgba(0, 0, 0, 0.575));
     background-blend-mode: hard-light;
     width: 8%;
     height: 650px;
-    box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.692), 1px 2px 30px 2px rgba(255, 74, 74, 0.774) inset;
+    box-shadow: 0px 0px 40px 25px rgba(0, 0, 0, 0.767), 1px 2px 30px 2px rgba(255, 74, 74, 0.774) inset;
 }
 .curtainBottomLeft{
     position: fixed;
@@ -194,13 +194,11 @@
     width: 100%;
     height: 20%;
     background: repeating-linear-gradient(rgb(81, 206, 255) 20%, rgba(255, 255, 255, 0) 20%, rgb(81, 206, 255), rgba(255, 255, 255, 0.021) 20%, rgba(0, 255, 255, 0.212) 20%, rgba(255, 255, 255, 0.349)),
-    linear-gradient(rgba(255, 255, 255, 0.192), red);
+    linear-gradient(rgba(255, 255, 255, 0.192), rgb(255, 0, 0));
     background-blend-mode: soft-light;
     mix-blend-mode: color-dodge;
     box-shadow: 0px 0px 6px 3px rgba(116, 255, 236, 0.205), 0px 0px 10px 15px rgba(0, 0, 0, 0.952) inset;
 }
-
-
 hr{
     padding-bottom: 3px;
     background: rgba(100, 0, 0, 0.356);
@@ -209,7 +207,6 @@ hr{
 }
 .h1Sheen{
     color: rgb(29, 255, 59);
-    background-color: rgba(107, 184, 255, 0.664);
     text-shadow: 0px 0px 5px  #80ffbf;
     background-clip: text;
     -webkit-background-clip: text;
@@ -268,7 +265,6 @@ hr{
     width: 100%;
     height: 30%;
     box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.692), 1px 2px 30px 2px rgba(255, 74, 74, 0.774) inset;
-
     border-bottom: 0.1px solid rgb(95, 22, 22);
 }
 .feltCardBackground{

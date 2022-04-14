@@ -8,7 +8,7 @@ $(document).ready(function(){
     });
     $(document).ready(function(){
         $(".curtainCenterMass, .curtainSlate").animate({
-            "height" : "30%",
+            "height" : "28%",
             "width" : "10%"}, 'slow')
     })
     $(document).ready(function(){
