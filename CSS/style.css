@@ -667,9 +667,8 @@ ul {
     list-style: none;
 }
 .listSpecific {
-    
     line-height: 1.8;
-    text-align: center;
+    text-align: left;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -698,21 +697,22 @@ svg{
 .socialMediaSubGrid{
     animation: 1s;
     display:grid;
-    background-image: linear-gradient(rgb(56, 0, 78), rgba(114, 0, 143, 0.979));
+    background-image: radial-gradient(closest-corner,rgba(255, 255, 255, 0.445), rgba(53, 7, 51, 0.425)), linear-gradient(rgb(56, 0, 78), rgba(196, 130, 212, 0.692))
+    ;
     box-shadow: 0px 1px 3px 1px black, 0px 0px 2px 0px rgb(71, 197, 255) inset;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    text-align: center;
     padding: 1rem;
     padding-right: 10rem;
-    margin-left: 0.5rem;
-    border: 1px rgb(116, 0, 139) solid;
+    border: 1px rgb(146, 79, 160) solid;
     border-radius: 0.2rem;
 }
 .socialMediaSubGrid:hover{
     animation: 1s;
     transform: scale(1.2);
-    background-image: linear-gradient(rgba(114, 0, 143, 0.979), rgb(56, 0, 78));
-    box-shadow: 0px 1px 3px 1px black, 0px 0px 8px 3px rgb(218, 71, 255) inset;
+    background-image: linear-gradient(rgba(208, 156, 221, 0.699), rgb(56, 0, 78));
+    box-shadow: 0px 1px 3px 1px black, 0px 0px 8px 3px rgb(188, 117, 206) inset;
     border: 1px rgb(116, 0, 139) solid;
 
 }
@@ -723,7 +723,7 @@ body {
 }
 .subTextBox {
     display: grid;
-    grid-template-columns: 50px 50px ;
+    grid-template-columns: 4rem 4rem ;
     row-gap: 0.2rem;
     border-radius: 0.2rem;
     background: repeating-linear-gradient( 120deg, #ffffff25 1px, #ffffff 1px, rgb(255, 255, 255) 1px, rgba(0, 0, 0, 0.575) 1px),
