@@ -149,11 +149,12 @@
 }
 
 #pageHeadline {
-    position: inherit;
+    z-index: -9;
+    position: static;
     width: 100%;
     background:
     repeating-linear-gradient(90deg, rgb(255, 255, 255) 1px, rgba(44, 107, 86, 0.623) 1px, rgb(54, 20, 20) 3px),
-    radial-gradient( #00c3ff, #000000);;
+    radial-gradient( ellipse at bottom,#00c3ff, #000000);;
     background-size: 9% 4%;
     -webkit-animation: BackgroundAnimation 60s ease-in-out infinite;
     -moz-animation: BackgroundAnimation 60s ease-in-out infinite;
@@ -182,16 +183,15 @@
 }
 #pageHeadlineHoloSheen{
     pointer-events: none;
-    position: absolute;
-    z-index: 0;
-    top: -35%;
+    position:absolute;
+    top: -40rem;
     width: 100%;
     height: 20%;
-    background: repeating-linear-gradient(rgb(81, 206, 255) 20%, rgba(255, 255, 255, 0) 20%, rgb(81, 206, 255), rgba(255, 255, 255, 0.021) 20%, rgba(0, 255, 255, 0.212) 20%, rgba(255, 255, 255, 0.349)),
-    linear-gradient(rgba(255, 255, 255, 0.192), rgb(255, 0, 0));
+    background: repeating-linear-gradient(rgba(255, 81, 81, 0.562) 20%, rgba(255, 255, 255, 0) 20%, rgb(255, 81, 81), rgba(255, 255, 255, 0.021) 20%, rgba(255, 0, 0, 0.212) 20%, rgba(255, 255, 255, 0.349)),
+    linear-gradient(rgba(255, 255, 255, 0.192), rgba(0, 255, 76, 0.5));
     background-blend-mode: soft-light;
-    mix-blend-mode: color-dodge;
-    box-shadow: 0px 0px 6px 3px rgba(116, 255, 236, 0.205), 0px 0px 10px 15px rgba(0, 0, 0, 0.952) inset;
+    mix-blend-mode:difference;
+    box-shadow: 0px 0px 6px 3px rgba(255, 116, 116, 0.205), 0px 0px 10px 15px rgba(0, 0, 0, 0.952) inset;
 }
 hr{
     padding-bottom: 3px;
@@ -213,7 +213,6 @@ hr{
 #h1Name{
     position:sticky;
     display: block;
-    top: 60%;
     padding-top: 15%;
     padding-bottom: 5%;
     width:100%;
@@ -311,6 +310,7 @@ hr{
     border-top: 1px solid rgb(155, 41, 41);
 }
 #pageSubHeadBar{
+    z-index: 1;
     border: 1px solid #751818;
     height: 0.8rem;
     width: 100%;
@@ -319,6 +319,7 @@ hr{
     box-shadow: 0px 0px 0px 1px #00000075, 0px 1px 0px 0px #ffc3c35d inset;
 }
 #pageSubHeadInnerBar{
+    z-index: 1;
     border: 1px solid #ff5f5f9a;
     width: 100%;
     height: 3.9rem;
@@ -711,6 +712,7 @@ svg{
 }
 
 body {
+    overflow-x: hidden;
     background: radial-gradient(rgb(65, 0, 0), black);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -861,6 +863,7 @@ body {
     box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 5px 3px #5bff9ac0 inset;
 }
 .subHeader {
+    width: 99%;
     font-size:1.2rem;
     border: 1px solid rgba(255, 46, 46, 0.452);
     color:#ffeb93;

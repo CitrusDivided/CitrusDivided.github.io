@@ -43,22 +43,22 @@ anime({
 })
 
 anime({
-    targets: '#pageHeadlineHoloSheen',
+    targets: ['#pageHeadlineHoloSheen',],
     duration: 5200,
-    top: '15%',
+    top: '10%',
     loop: true,
-    scaleY: .2,
+    scaleY: .8,
     direction: 'alternate',
     easing: 'easeInOutExpo'
 })
 
 var colorsExamples = anime.timeline({
     endDelay: 1000,
-    easing: 'spring(1, 80, 100, 0',
+    easing: 'spring(1, 80, 10, 0',
     direction: 'alternate',
     loop: true,
 })
-.add({ targets: ['#pageHeadlineHoloSheen', 'hr', '#imageDec'], background: 'rgb(150,0,0, .9' }, 0)
+.add({ targets: ['#pageHeadlineHoloSheen', 'hr', '#imageDec',], background: 'rgb(150,0,0, .9' }, 0)
 
 
 
