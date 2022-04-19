@@ -38,9 +38,27 @@ anime({
 anime({
     targets: ['.curtainCenterMass', '.curtainCenterMassHighlight'],
     width: '11%',
-    easing: 'spring(1, 80, 30, 0)'
+    easing: 'spring(1, 80, 15, 0)'
     
 })
+
+anime({
+    targets: '#pageHeadlineHoloSheen',
+    top: '10%',
+    loop: true,
+    direction: 'alternate',
+    easing: 'easeInOutQuad'
+})
+
+var colorsExamples = anime.timeline({
+    endDelay: 1000,
+    easing: 'easeInOutQuad',
+    direction: 'alternate',
+    loop: true
+})
+.add({ targets: '#', background: 'rgb(255,0,0, 1' }, 0)
+
+
 
 var canvas = document.querySelector('canvas');
 
