@@ -709,25 +709,13 @@ svg{
     border-radius: 0.2rem;
 }
 .socialMediaSubGrid:hover{
-    animation-name: button-hover;
-    animation-duration: 5s;
+
     transform: scale(1.2);
     background-image: linear-gradient(rgba(208, 156, 221, 0.699), rgb(56, 0, 78));
     box-shadow: 0px 1px 3px 1px black, 0px 0px 8px 3px rgb(188, 117, 206) inset;
     border: 1px rgb(116, 0, 139) solid;
 }
-@keyframes button-hover {
-    0%{
-        box-shadow: 0px 1px 3px 1px black, 0px 0px 8px 3px rgb(188, 117, 206) inset;
-    }
-    50%{
-        box-shadow: 0px 2px 5px 2px black, 0px 0px 10px 4px rgb(188, 117, 206) inset;
-    }
-    100%{
-        box-shadow: 0px 1px 3px 1px black, 0px 0px 8px 3px rgb(188, 117, 206) inset;
-    }
-    
-}
+
 body {
     background: radial-gradient(rgb(65, 0, 0), black);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
