@@ -1,33 +1,47 @@
 "homepage"; "https://citrusdivided.github.io/"
-$(document).ready(function(){
-    $(".curtainCenterMass, .curtainSlate").click(function(){
-        $(this).filter(':not(:animated)').animate({
-            "height":"3%",
-        },'slow')
+// $(document).ready(function(){
+//     $(".curtainCenterMass, .curtainSlate").click(function(){
+//         $(this).filter(':not(:animated)').animate({
+//             "height":"3%",
+//         },'slow')
 
-    });
-    $(document).ready(function(){
-        $(".curtainCenterMass, .curtainSlate").animate({
-            "height" : "28%",
-            "width" : "10%"}, 'slow')
-    })
-    $(document).ready(function(){
-        function loop(){
-            $('#pageHeadlineHoloSheen').css({top:0});
-            $('#pageHeadlineHoloSheen').animate ({
-                top: '+=10%',
-            }, 5000, 'linear', function(){
-                loop();
-            });
+//     });
+//     $(document).ready(function(){
+//         $(".curtainCenterMass, .curtainSlate").animate({
+//             "height" : "28%",
+//             "width" : "10%"}, 'slow')
+//     })
+//     $(document).ready(function(){
+//         function loop(){
+//             $('#pageHeadlineHoloSheen').css({top:0});
+//             $('#pageHeadlineHoloSheen').animate ({
+//                 top: '+=10%',
+//             }, 5000, 'linear', function(){
+//                 loop();
+//             });
             
-        }
-            loop();
-    })
+//         }
+//             loop();
+//     })
+// });
+
+//     $(".drawRes, .drawInq").click(function() {
+//         alert("Testing button window pop up");
+//     })
+
+anime({
+    targets: ['.curtainRight', '.curtainLeft'],
+    scaleY: 1.5,
+    easing: 'spring(1, 80, 10, 0)'
 });
 
-    $(".drawRes, .drawInq").click(function() {
-        alert("Testing button window pop up");
-    })
+anime({
+    targets: ['.curtainCenterMass', '.curtainCenterMassHighlight'],
+    width: '11%',
+    easing: 'spring(1, 80, 30, 0)'
+    
+})
+
 var canvas = document.querySelector('canvas');
 
 canvas.width = 800;

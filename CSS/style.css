@@ -709,7 +709,6 @@ svg{
     border-radius: 0.2rem;
 }
 .socialMediaSubGrid:hover{
-
     transform: scale(1.2);
     background-image: linear-gradient(rgba(208, 156, 221, 0.699), rgb(56, 0, 78));
     box-shadow: 0px 1px 3px 1px black, 0px 0px 8px 3px rgb(188, 117, 206) inset;
