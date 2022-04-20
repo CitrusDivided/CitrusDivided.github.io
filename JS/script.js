@@ -45,16 +45,16 @@ anime({
 anime({
     targets: ['#pageHeadlineHoloSheen',],
     duration: 5200,
-    top: '10%',
+    top: '70%',
     loop: true,
-    scaleY: .8,
-    direction: 'alternate',
+    scaleY: .3,
+    direction: 'normal',
     easing: 'easeInOutExpo'
 })
 
 var colorsExamples = anime.timeline({
     endDelay: 1000,
-    easing: 'spring(1, 80, 10, 0',
+    easing: 'easeInOutQuad',
     direction: 'alternate',
     loop: true,
 })
