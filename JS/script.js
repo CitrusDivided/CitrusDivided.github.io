@@ -31,7 +31,7 @@
 
 anime({
     targets: ['.curtainRight', '.curtainLeft'],
-    scaleY: 1.5,
+    scaleY: 1.6,
     easing: 'spring(1, 80, 10, 0)'
 });
 

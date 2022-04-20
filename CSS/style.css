@@ -153,18 +153,26 @@
     position: relative;
     width: 100%;
     background:
-    repeating-linear-gradient(90deg, rgb(255, 255, 255) 1px, rgba(44, 107, 86, 0.623) 1px, rgb(54, 20, 20) 3px),
-    radial-gradient( ellipse at bottom,#00c3ff, #000000);;
-    background-size: 9% 4%;
-    -webkit-animation: BackgroundAnimation 60s ease-in-out infinite;
-    -moz-animation: BackgroundAnimation 60s ease-in-out infinite;
-    animation: BackgroundAnimation 60s ease-in-out infinite;
+    repeating-linear-gradient(0deg, rgb(255, 255, 255) 1rem, rgba(83, 0, 104, 0.288) 1rem, rgb(54, 20, 20) 1.1rem),
+    radial-gradient( ellipse at bottom,#00d696c4, #000000);
+    background-size: 20% 30%;
+    -webkit-animation: BackgroundAnimation 30s ease-in-out infinite;
+    -moz-animation: BackgroundAnimation 30s ease-in-out infinite;
+    animation: BackgroundAnimation 30s ease-in-out infinite;
     text-align:center;
     font-size: 4rem;
     border-bottom: 1px dashed rgb(110, 0, 0);;
-    border-radius: 5px;
     box-shadow: 50px 10px 30px 20px rgb(0, 0, 0) inset;
     margin:0px;
+}
+#pageHeadline:hover{
+    background:
+    repeating-linear-gradient(0deg, rgb(255, 255, 255) 1rem, rgba(83, 0, 104, 0.288) 1rem, rgb(54, 20, 20) 1.1rem),
+    radial-gradient( ellipse at bottom,#db0000c7, #000000);
+    background-size: 20% 30%;
+    -webkit-animation: BackgroundAnimation 30s ease-in-out infinite;
+    -moz-animation: BackgroundAnimation 30s ease-in-out infinite;
+    animation: BackgroundAnimation 30s ease-in-out infinite;
 }
 @-webkit-keyframes BackgroundAnimation {
     0%{background-position:0% 25%}
@@ -182,7 +190,6 @@
     100%{background-position:0% 25%}
 }
 #pageHeadlineHoloSheen{
-    pointer-events: none;
     position:absolute;
     z-index: -5;
     top: -30%;
