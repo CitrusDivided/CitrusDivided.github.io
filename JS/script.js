@@ -1,34 +1,4 @@
 "homepage"; "https://citrusdivided.github.io/"
-// $(document).ready(function(){
-//     $(".curtainCenterMass, .curtainSlate").click(function(){
-//         $(this).filter(':not(:animated)').animate({
-//             "height":"3%",
-//         },'slow')
-
-//     });
-//     $(document).ready(function(){
-//         $(".curtainCenterMass, .curtainSlate").animate({
-//             "height" : "28%",
-//             "width" : "10%"}, 'slow')
-//     })
-//     $(document).ready(function(){
-//         function loop(){
-//             $('#pageHeadlineHoloSheen').css({top:0});
-//             $('#pageHeadlineHoloSheen').animate ({
-//                 top: '+=10%',
-//             }, 5000, 'linear', function(){
-//                 loop();
-//             });
-            
-//         }
-//             loop();
-//     })
-// });
-
-//     $(".drawRes, .drawInq").click(function() {
-//         alert("Testing button window pop up");
-//     })
-
 anime({
     targets: ['.curtainRight', '.curtainLeft'],
     scaleY: 1.6,
@@ -61,7 +31,13 @@ var colorsExamples = anime.timeline({
 })
 .add({ targets: ['#pageHeadlineHoloSheen', 'hr', '#imageDec',], background: 'rgb(150,0,0, 1' }, 0)
 
-
+var colorsExamples = anime.timeline({
+    endDelay: 1000,
+    easing: 'easeInOutQuad',
+    direction: 'alternate',
+    loop: true,
+})
+.add({ targets: ['',], background: 'rgb(150,0,0, .1' }, 0)
 
 var canvas = document.querySelector('canvas');
 
