@@ -38,6 +38,7 @@ anime({
 anime({
     targets: ['.curtainCenterMass', '.curtainCenterMassHighlight'],
     width: '11%',
+    height: '50%',
     easing: 'spring(1, 80, 15, 0)'
     
 })
