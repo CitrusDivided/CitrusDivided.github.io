@@ -868,15 +868,19 @@ body {
     position:static;
     width: 100%;
     font-size:1.2rem;
-    border: 1px solid rgb(255, 123, 123);
+    border: 1px solid rgb(216, 100, 100);
+    border-bottom: 1px solid rgb(255, 83, 83);
     color:#ffeb93;
     text-align: center;
     text-shadow: 2px 2px 2px #0000006b;
     background-image:
-    linear-gradient(rgba(255, 96, 96, 0.582),rgba(66, 4, 4, 0.055),rgba(255, 96, 96, 0.582)),
-    repeating-linear-gradient( 120deg, #3d0909, #421919 1px, #420505 1px, #520000 7px);
+    linear-gradient(rgba(255, 96, 96, 0.719),rgba(66, 4, 4, 0.055),rgba(255, 96, 96, 0.712)),
+    repeating-linear-gradient( 120deg, #5e2626, #421919 1px, #420505 1px, #5e2626 2px);
     padding: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin-bottom: 2rem;
+    box-shadow: 1px 1px 1px rgb(133, 69, 69), 1px 1px 2px 1px rgb(216, 107, 107) inset;
 
 }
 #subHeaderBottomBar {
