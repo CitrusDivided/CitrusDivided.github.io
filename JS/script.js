@@ -44,7 +44,7 @@ anime({
 
 anime({
     targets: ['#pageHeadlineHoloSheen',],
-    duration: 5200,
+    duration: 15200,
     top: '70%',
     loop: true,
     scaleY: .3,
@@ -58,7 +58,7 @@ var colorsExamples = anime.timeline({
     direction: 'alternate',
     loop: true,
 })
-.add({ targets: ['#pageHeadlineHoloSheen', 'hr', '#imageDec',], background: 'rgb(150,0,0, .9' }, 0)
+.add({ targets: ['#pageHeadlineHoloSheen', 'hr', '#imageDec',], background: 'rgb(150,0,0, 1' }, 0)
 
 
 

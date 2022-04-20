@@ -188,7 +188,7 @@
     top: -30%;
     width: 100%;
     height: 20%;
-    background: repeating-linear-gradient(rgba(255, 81, 81, 0.562) 20%, rgba(255, 255, 255, 0) 20%, rgb(255, 81, 81), rgba(255, 255, 255, 0.021) 20%, rgba(255, 0, 0, 0.212) 20%, rgba(255, 255, 255, 0.349)),
+    background: repeating-linear-gradient(rgb(255, 81, 81) 20%, rgba(255, 255, 255, 0) 20%, rgb(255, 81, 81), rgba(255, 255, 255, 0.021) 20%, rgba(255, 0, 0, 0.212) 20%, rgba(255, 255, 255, 0.349)),
     linear-gradient(rgba(255, 255, 255, 0.192), rgba(0, 255, 76, 0.5));
     background-blend-mode: soft-light;
     mix-blend-mode:color-dodge;
