@@ -575,9 +575,7 @@ hr{
 }
 .qualificationInfoCategorySpan {
     display: grid;
-    border: 1px solid rgba(255, 255, 255, 0.041);
     margin-top: -1.5rem;
-    
     line-height: 1.5rem;
     color:rgb(177, 59, 59);
 }
@@ -615,7 +613,6 @@ hr{
     display: grid;
     margin-top: -1.5rem;
     margin-bottom: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.034);
     color:rgb(243, 115, 255);
 }
 #aboutMeSocialSpan {
