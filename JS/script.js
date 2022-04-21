@@ -61,7 +61,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
     this.draw = function(){
         c.beginPath();
         c.arc(this.ssi_x,this.ssi_y, this.ssi_radius, 0, Math.PI * 2, false);
-        c.strokeStyle = "rgba(255,255,255,0.2";
+        c.strokeStyle = "rgba(0,0,0,1";
         c.fillStyle = "rgb(255,255,255,0.2";
         c.fill()
         c.stroke();
@@ -91,7 +91,7 @@ function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
 var snow = new Snow (200, 200, 3, 3, 30); //These are coordinates for first orbcation
 //Array creation//
 var snowArray = [];
-for (var i = 0; i < 250; i++){
+for (var i = 0; i < 350; i++){
     var x = Math.random() * 1800;
     var y = Math.random() * 480;
     var z = Math.random() * 8;
@@ -103,16 +103,16 @@ for (var i = 0; i < 250; i++){
     //Array
     var ssi_x = Math.random() * 8;
     var ssi_y = Math.random() * 600;
-    var ssi_dx = (Math.random() -0.5) *2;   //Adjusts the speed vert. entry speed//
-    var ssi_dy = (Math.random() -0.5)  *1;  //Adjusts the speed hori. entry speed//
-    var ssi_radius = Math.random()* 5;
+    var ssi_dx = (Math.random() -0.5) *5;   //Adjusts the speed vert. entry speed//
+    var ssi_dy = (Math.random() -0.5)  *5;  //Adjusts the speed hori. entry speed//
+    var ssi_radius = Math.random()* 2;      //Obviously adjusts the radius//
     //Array Variables -- Snow, end ------//
     var radius = 30
     //Falling Skies Variables
     var fs = 200;
     var fsx = 1;
     //Gradient Box Creation - Staging
-    var box = c.createLinearGradient(5,180,0,480,);
+    var box = c.createLinearGradient(0,180,0,480,);
     //var falling = c.arc(falling,falling,50,0, Math.PI * 2, false);//
     var gradient = c.createRadialGradient(x,y,3, x,y,7);
     snowArray.push(new Snow(ssi_y,ssi_x,ssi_dx, ssi_dy,ssi_radius));
@@ -168,7 +168,7 @@ for (var i = 0; i < 250; i++){
         //Rectangle Gradients//
         
         // Gradient "Box" -- which is the linear gradients for the rectangles//
-        box.addColorStop(.5, "rgb(255,255,255,0.1");
+        box.addColorStop(.5, "rgb(215,15,0,0.1");
         box.addColorStop(.5, 'white');
         box.addColorStop(.3, "rgb(255,255,255,0.9");
         
@@ -176,7 +176,7 @@ for (var i = 0; i < 250; i++){
         c.beginPath();
         c.fillStyle = box;
 
-c.fillRect(t, 115, 100, 100);
+c.fillRect(t, 115, 5, 100);
 c.fillRect(450, 210, 155, 195);
 c.fillRect(245, 255, 100, 100);
 
@@ -187,7 +187,7 @@ c.fillRect(0, 147, 15, 35);
 
 //Stage Flooring
 c.beginPath();
-c.fillStyle = "rgb(255,255,255,0.8";
+c.fillStyle = "rgb(255,255,255,1";
 c.fillRect(0, 380, 800, 100);
 
 //Stage Falling Skies
@@ -202,57 +202,22 @@ c.lineTo(750, 300);
 c.stroke();
 
 // Text
-c.fillStyle = "rgb(255,255,255,0.2)";
+c.fillStyle = "rgb(0,0,0,0.1)";
 c.font = '12px serif';
 c.textAlign = 'left';
-c.fillText('Testing - 0.9a',25,35);
+c.fillText('Testing - 1.0a',25,35);
 
-// -- Text "Character stand in" Keyboard imp -- //
-c.fillStyle = "white";
-c.font = 'bold 10px arial';
-c.textAlign = 'center'
-c.fillText('X',755,300);
 
 // Arc around text "Bubble"//
 c.beginPath();
 
-c.arc(754,297, 15,0, Math.PI * 2, false)
-c.strokeStyle = "rgb(242,255,148,0.3"
+c.arc(765,297, 15,0, Math.PI * 2, false)
+c.strokeStyle = "rgb(255,255,255,1)"
 c.fillStyle = "rgb(255,200,255,0.9";
 c.stroke();
 c.fill();
 
-//Stage End (Unanimated)//
-    //Animation arc//
-        c.beginPath();
-        c.arc(t,300,radius,0, Math.PI * 2, false);
-        c.strokeStyle = "rgb(242,255,148,0.9)";
-        c.stroke();
-    //The Falling Skies
-    c.beginPath();
-    //snow.draw();
-    c.fillStyle = "rgb(255,0,0,0.2";
-//Sand
-c.fillRect(0, 475, 800, 10);
-c.fillRect(0, 400, 190, 1.3);
-c.fillRect(290, 420, 90, 2.5);
-c.fillRect(40, 420, 90, 1.8);
-c.fillRect(0, 475, 800, 10);
-c.fillRect(0, 400, 190, 1.3);
-c.fillRect(411, 469, 90, 2.1);
-c.fillRect(40, 420, 90, 1.8);
-    
- c.arc(falling,ssi_y,falling,0,Math.PI *2,false);
-   // Shadow
-    c.shadowBlur = 10;
-    c.shadowColor = "rgba(255,255,255,0.1";
-    c.shadowOffsetY = 2
 
-    c.strokeStyle = "rgba(1,1,1,0";
-    //snow.draw();
-    c.stroke();
-    c.fillStyle = "rgba(55,55,55,0.3";
-    c.fill();   
 }
     }
     animate();
