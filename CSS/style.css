@@ -892,12 +892,8 @@ body {
 .subHeader {
     position:static;
     width: 100%;
-    font-size:1.3rem;
-    font-weight:bolder;
     border: 1px solid rgb(255, 114, 71);
     border-bottom: 1px solid rgb(255, 146, 83);
-    color:#3a1909;
-    text-align: center;
     text-shadow: 0px 0px 5px #cf9d73;
     background-image:
     linear-gradient(rgba(255, 146, 96, 0.719),rgba(255, 167, 36, 0.055),rgba(255, 146, 96, 0.719)),
@@ -908,6 +904,25 @@ body {
     margin-bottom: 2rem;
     box-shadow: 1px 1px 1px rgb(133, 93, 69), 0px 0px 10px 1px rgb(209, 153, 116) inset;
 
+}
+#subHeaderCenterBar {
+    position:absolute;
+    z-index: 0;
+    height: 0.1rem;
+    width: 20%;
+    left: 35%;
+    text-align: center;
+    line-height: 0.2rem;
+    font-weight: bold;
+    font-size:1.2rem;
+    text-shadow: 0px 0px 5px #ff909073;
+    border-bottom: 1px dashed rgb(97, 0, 0);
+    background-image:
+    radial-gradient( rgba(255, 31, 31, 0.322), rgba(0, 0, 0, 0.158)),
+    linear-gradient(rgb(134, 0, 0) 1%, black 1%, rgb(27, 0, 0) 10%);
+    box-shadow: 1px 1px 1px 1px black, 1px 1px 10px 10px rgba(173, 57, 57, 0.26) inset;
+    padding: 1.2rem;
+    margin-top: -5rem;
 }
 #subHeaderBottomBar {
     position:absolute;
