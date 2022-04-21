@@ -23,21 +23,13 @@ anime({
     easing: 'easeInOutExpo'
 })
 
-var colorsExamples = anime.timeline({
+var scannerColoring = anime.timeline({
     endDelay: 1000,
     easing: 'easeInOutQuad',
     direction: 'alternate',
     loop: true,
 })
 .add({ targets: ['#pageHeadlineHoloSheen', 'hr', '#imageDec',], background: 'rgb(150,0,0, 1' }, 0)
-
-var colorsExamples = anime.timeline({
-    endDelay: 1000,
-    easing: 'easeInOutQuad',
-    direction: 'alternate',
-    loop: true,
-})
-.add({ targets: ['',], background: 'rgb(150,0,0, .1' }, 0)
 
 var canvas = document.querySelector('canvas');
 
