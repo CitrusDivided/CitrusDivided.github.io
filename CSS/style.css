@@ -337,19 +337,19 @@ hr{
 }
 #pageSubHeadBar{
     z-index: 1;
-    border: 1px solid #751818;
+    border: 1px solid #754218;
     height: 0.8rem;
     width: 100%;
-    background: radial-gradient(#fa7e7ead, #6e1818),
-    linear-gradient(90deg, black, rgb(255, 91, 91), black);
-    box-shadow: 0px 0px 0px 1px #000000, 0px 1px 0px 0px #ca6262 inset;
+    background: radial-gradient(#fa7e7ead, #793c0a),
+    linear-gradient(90deg, black, rgb(255, 190, 70), black);
+    box-shadow: 0px 0px 0px 1px #000000, 0px 1px 0px 0px #ff976e inset;
 }
 #pageSubHeadInnerBar{
     z-index: 1;
-    border: 1px solid #853333;
+    border: 1px solid #855833;
     width: 100%;
     height: 3.9rem;
-    box-shadow: 0px 3px 10px 1px #000000, 0px 1px 0px 3px #5a1010 inset;
+    box-shadow: 0px 3px 10px 1px #000000, 0px 1px 0px 3px #5f3512 inset;
     margin-bottom: -5rem;
     
 }
@@ -892,20 +892,21 @@ body {
 .subHeader {
     position:static;
     width: 100%;
-    font-size:1.2rem;
-    border: 1px solid rgb(216, 100, 100);
-    border-bottom: 1px solid rgb(255, 83, 83);
-    color:#ffeb93;
+    font-size:1.3rem;
+    font-weight:bolder;
+    border: 1px solid rgb(255, 151, 103);
+    border-bottom: 1px solid rgb(255, 146, 83);
+    color:#300f00;
     text-align: center;
-    text-shadow: 2px 2px 2px #0000006b;
+    text-shadow: 0px 0px 3px #ffb1716b;
     background-image:
-    linear-gradient(rgba(255, 96, 96, 0.719),rgba(66, 4, 4, 0.055),rgba(255, 96, 96, 0.712)),
-    repeating-linear-gradient( 120deg, #5e2626, #421919 1px, #420505 1px, #5e2626 2px);
+    linear-gradient(rgba(255, 146, 96, 0.719),rgba(255, 167, 36, 0.055),rgba(255, 146, 96, 0.719)),
+    repeating-linear-gradient( 0deg, #793000, #422519 1px, #422519 2px, #5e3126 2px);
     padding: 1.2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
-    box-shadow: 1px 1px 1px rgb(133, 69, 69), 1px 1px 2px 1px rgb(216, 107, 107) inset;
+    box-shadow: 1px 1px 1px rgb(133, 93, 69), 0px 0px 10px 1px rgb(209, 153, 116) inset;
 
 }
 #subHeaderBottomBar {
