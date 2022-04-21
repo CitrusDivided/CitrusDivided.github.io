@@ -366,11 +366,10 @@ hr{
 }
 .grid-container {
     display: grid;
-    grid-template-columns: [About-me-left] minmax(30, 1fr) 300px [Qualification-right] minmax(30, 2fr) 300px;
     justify-items:center;
     justify-content: center;
     align-items: stretch;
-    column-gap: 0.2rem;
+    column-gap: 0.3rem;
     row-gap: 0.1rem;
     grid-template-rows: 0%;
     grid-auto-rows: max-content;
