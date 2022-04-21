@@ -894,11 +894,11 @@ body {
     width: 100%;
     font-size:1.3rem;
     font-weight:bolder;
-    border: 1px solid rgb(255, 151, 103);
+    border: 1px solid rgb(255, 114, 71);
     border-bottom: 1px solid rgb(255, 146, 83);
-    color:#300f00;
+    color:#3a1909;
     text-align: center;
-    text-shadow: 0px 0px 3px #ffb1716b;
+    text-shadow: 0px 0px 5px #cf9d73;
     background-image:
     linear-gradient(rgba(255, 146, 96, 0.719),rgba(255, 167, 36, 0.055),rgba(255, 146, 96, 0.719)),
     repeating-linear-gradient( 0deg, #793000, #422519 1px, #422519 2px, #5e3126 2px);
