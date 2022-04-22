@@ -729,7 +729,6 @@ svg{
 }
 
 body {
-    position: absolute;
     z-index: 0;
     height: 80%;
     overflow-x: hidden;
