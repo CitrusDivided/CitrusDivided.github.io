@@ -212,15 +212,17 @@ hr{
     border: 1px solid rgb(43, 0, 0);
     box-shadow: 0px 1px 1px rgb(0, 0, 0), 0px 0px 0px 1px rgba(255, 255, 255, 0.288) inset;
 }
+h1{
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
 .h1Sheen{
-    color: rgb(29, 255, 59);
-    text-shadow: 0px 0px 8px  #80ffbf;
+    text-shadow: 0px 0px 9px  #80ffbf;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    background-image: radial-gradient(white, black),
-    linear-gradient(rgba(0, 255, 55, 0.589), rgba(255, 255, 255, 0.473));
-    box-shadow: 0px 1px 0px 0px rgb(0, 0, 0);
+    background-image: radial-gradient(rgb(255, 174, 0), black),
+    linear-gradient(rgba(0, 255, 55, 0.589), rgb(57, 255, 172));
     background-blend-mode: color-dodge;
     animation: 1s;
 }
@@ -693,7 +695,9 @@ body {
     height: 80%;
     overflow-x: hidden;
     background: radial-gradient(rgb(65, 0, 0), black);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Merriweather', serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
 }
 .subTextBox {
     display: grid;
