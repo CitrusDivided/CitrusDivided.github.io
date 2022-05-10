@@ -241,10 +241,26 @@ h1{
 #h1Name{
     position:sticky;
     display: block;
-    padding: 15% 0% 5% 0%;
+    border: 1px dashed rgba(255, 255, 255, 0.281);;
+    padding: 15% 0% 8% 0%;
     width:100%;
 }
-
+h2{
+    position: relative;
+    display: block;
+    z-index: 5;
+    font-size: 3rem;
+    top: 0rem;
+    left: 35%;
+    margin: -10rem 0rem 0rem 0rem;
+    color: rgba(240, 222, 123, 0.966);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    mix-blend-mode:color-dodge;
+    border: 1px dashed rgba(255, 255, 255, 0.288);
+    border-radius: 0.2rem;
+    padding: 0rem 0rem 0rem 0rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
 .curtainCenterMass{
     position: absolute;
     z-index: 2;
@@ -299,7 +315,7 @@ h1{
     padding: 1rem 10% 1rem 10%;
     width: 100%;
     margin: -1rem 0rem -3rem 0rem;
-    box-shadow: 0px 1px 1px rgb(0, 0, 0), 0px 1px 12px rgb(134, 44, 44) inset;
+    box-shadow: 0px 1px 50px 15px rgb(0, 0, 0), 0px 1px 12px rgb(134, 44, 44) inset;
     border-top: 1px solid rgb(155, 41, 41);
 }
 
@@ -840,19 +856,19 @@ body {
 .subHeader {
     position:static;
     width: 100%;
-    font-size:1.1rem;
-    font-weight: 400;
+    font-size:1.2rem;
+    font-weight: 900;
     border: 1px solid rgb(216, 100, 100);
-    border-bottom: 1px solid rgb(255, 83, 83);
-    color:#ffe159;
+    border-bottom: 1px solid rgb(112, 47, 47);
+    color:#471717;
     text-align: center;
-    text-shadow: 2px 2px 3px  #000000c9;
+    text-shadow: 0px 0px 3px #ff9090c9;
     background-image:
-    linear-gradient(rgba(255, 96, 96, 0.719),rgba(66, 4, 4, 0.055),rgba(255, 96, 96, 0.712)),
-    repeating-linear-gradient( 120deg, #5e2626, #421919 1px, #420505 1px, #5e2626 2px);
-    padding: 1rem 0rem 1rem 0rem;
-    margin-bottom: 2rem;
-    box-shadow: 1px 1px 1px rgb(133, 69, 69), 1px 1px 2px 1px rgb(216, 107, 107) inset;
+    linear-gradient(rgba(255, 96, 96, 0.192),rgb(58, 0, 0)),
+    radial-gradient(ellipse at top, rgb(255, 143, 143) 50%, rgb(255, 0, 0));
+    padding: 1.2rem 0rem 1.2rem 0rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 0px 1px rgb(255, 0, 0), 1px 1px 2px 1px rgb(43, 7, 7) inset;
 
 }
 #subHeaderBottomBar {
@@ -863,7 +879,7 @@ body {
     font-size:1.2rem;
     border-bottom: 1px dashed rgb(97, 0, 0);
     background-image:
-    radial-gradient( rgba(255, 31, 31, 0.322), rgba(0, 0, 0, 0.158)),
+    radial-gradient(rgba(255, 31, 31, 0.322), rgba(0, 0, 0, 0.158)),
     linear-gradient(rgb(134, 0, 0) 1%, black 1%, rgb(27, 0, 0) 10%);
     box-shadow: 1px 1px 1px 1px black, 1px 1px 10px 10px rgba(173, 57, 57, 0.26) inset;
     padding: 1.2rem;
