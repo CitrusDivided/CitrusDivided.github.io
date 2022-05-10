@@ -250,15 +250,16 @@ h2{
     display: block;
     z-index: 5;
     font-size: 3rem;
-    top: 0rem;
-    left: 35%;
-    margin: -10rem 0rem 0rem 0rem;
+    top: 2rem;
+    text-align: center;
+    width: 100%;
+    margin: -10rem 0rem 2rem 0rem;
     color: rgba(240, 222, 123, 0.966);
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     mix-blend-mode:color-dodge;
-    border: 1px dashed rgba(255, 255, 255, 0.288);
+    border: 1px dashed rgba(255, 255, 255, 0.048);
     border-radius: 0.2rem;
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 .curtainCenterMass{
