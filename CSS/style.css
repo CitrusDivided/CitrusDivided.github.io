@@ -323,9 +323,7 @@ hr{
     width: 100%;
     background-color: rgb(44, 11, 11);
     border: 1px dotted rgb(51, 8, 8);
-    margin-top: -1rem;
-    margin-left: -2060px;
-    margin-bottom: -3rem;
+    margin: -1rem 0rem -3rem -2060px;
     box-shadow: 0px 1px 1px rgb(255, 82, 82), 1px 1px 12px rgb(255, 103, 103) inset;
     border-top: 1px solid rgb(155, 41, 41);
 }
