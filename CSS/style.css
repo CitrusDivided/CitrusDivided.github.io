@@ -161,7 +161,7 @@
     animation: BackgroundAnimation 30s ease-in-out infinite;
     text-align:center;
     font-size: 4rem;
-    border-bottom: 1px dashed rgb(110, 0, 0);;
+    border-bottom: 1px solid rgb(110, 0, 0);;
     box-shadow: 50px 10px 30px 20px rgb(0, 0, 0) inset;
     margin:0px;
     transition: all ease-in-out 0.4s;
@@ -241,7 +241,6 @@ h1{
 #h1Name{
     position:sticky;
     display: block;
-    border: 1px dashed rgba(255, 255, 255, 0.281);;
     padding: 15% 0% 8% 0%;
     width:100%;
 }
@@ -257,7 +256,6 @@ h2{
     color: rgba(240, 222, 123, 0.966);
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     mix-blend-mode:color-dodge;
-    border: 1px dashed rgba(255, 255, 255, 0.048);
     border-radius: 0.2rem;
     padding: 2rem 0rem 2rem 0rem;
     font-family: 'Oleo Script Swash Caps', cursive;
