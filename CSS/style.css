@@ -161,7 +161,7 @@
     animation: BackgroundAnimation 30s ease-in-out infinite;
     text-align:center;
     font-size: 4rem;
-    border-bottom: 1px solid rgb(110, 0, 0);;
+    /*border-bottom: 1px solid rgb(110, 0, 0);*/
     box-shadow: 50px 10px 30px 20px rgb(0, 0, 0) inset;
     margin:0px;
     transition: all ease-in-out 0.4s;
@@ -234,7 +234,7 @@ h1{
     -webkit-background-clip: text;
     color: transparent;
     background-image: radial-gradient(white, black),
-    linear-gradient(rgba(255, 0, 0, 0.589), rgba(255, 255, 255, 0.473));
+    linear-gradient(rgb(255, 0, 0), rgba(255, 255, 255, 0.473));
     box-shadow: 0px 1px 0px 0px rgb(0, 0, 0);
     background-blend-mode: color-dodge;
 }
@@ -267,7 +267,7 @@ h2{
     width: 100%;
     height: 30%;
     box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.692), 1px 2px 30px 2px rgba(255, 74, 74, 0.774) inset;
-    border-bottom: 0.1px solid rgb(95, 22, 22);
+    border-bottom: 1px solid rgb(95, 22, 22);
 }
 .curtainCenterMassHighlight{
     background-image: 
@@ -301,7 +301,7 @@ h2{
     width: 100%;
     height: 30%;
     box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.692), 1px 2px 30px 2px rgba(255, 74, 74, 0.774) inset;
-    border-bottom: 0.1px solid rgb(95, 22, 22);
+    border-bottom: 1px solid rgb(95, 22, 22);
 }
 .feltCardBackground{
     display: grid;
@@ -346,19 +346,20 @@ h2{
 }
 #pageSubHeadBar{
     z-index: 1;
-    border: 1px solid #751818;
+    border: 1px solid #000000;
     height: 0.8rem;
     width: 100%;
-    background: radial-gradient(#fa7e7ead, #6e1818),
+    background: radial-gradient(#fa7e7e, #6e1818),
     linear-gradient(90deg, black, rgb(255, 91, 91), black);
     box-shadow: 0px 0px 0px 1px #000000, 0px 1px 0px 0px #ca6262 inset;
 }
 #pageSubHeadInnerBar{
     z-index: 1;
-    border: 1px solid #853333;
+    border: 1px solid #ff6969;
     width: 100%;
     height: 3.9rem;
-    box-shadow: 0px 3px 10px 1px #000000, 0px 1px 0px 3px #5a1010 inset;
+    background: linear-gradient(to right, rgb(255, 173, 49), rgb(255, 217, 161), rgb(255, 173, 49) );
+    box-shadow: 0px 3px 10px 1px #000000, 1px 0px 0px 0px #ff8585 inset;
     margin-bottom: -5rem;
 }
 
@@ -859,11 +860,11 @@ body {
     font-weight: 900;
     border: 1px solid rgb(216, 100, 100);
     border-bottom: 1px solid rgb(112, 47, 47);
-    color:#471717;
+    color:#420000;
     text-align: center;
-    text-shadow: 0px 0px 3px #ff9090c9;
+    text-shadow: 0px 1px 1px #ff909052;
     background-image:
-    linear-gradient(rgba(255, 96, 96, 0.192),rgb(58, 0, 0)),
+    linear-gradient(rgba(255, 96, 96, 0.473),rgb(58, 0, 0)),
     radial-gradient(ellipse at top, rgb(255, 143, 143) 50%, rgb(255, 0, 0));
     padding: 1.2rem 0rem 1.2rem 0rem;
     margin-bottom: 1.5rem;
