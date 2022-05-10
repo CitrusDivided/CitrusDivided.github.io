@@ -239,8 +239,7 @@ hr{
 #h1Name{
     position:sticky;
     display: block;
-    padding-top: 15%;
-    padding-bottom: 5%;
+    padding: 15% 0% 5% 0%;
     width:100%;
 }
 
@@ -295,12 +294,9 @@ hr{
     z-index: -3;
     background-color: rgb(0, 0, 0);
     border: 0.1px dotted rgb(78, 10, 10);
-    padding: 1rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 1rem 10% 1rem 10%;
     width: 100%;
-    margin-top: -1rem;
-    margin-bottom: -3rem;
+    margin: -1rem 0rem -3rem 0rem;
     box-shadow: 0px 1px 1px rgb(0, 0, 0), 0px 1px 12px rgb(134, 44, 44) inset;
     border-top: 1px solid rgb(155, 41, 41);
 }
@@ -314,9 +310,7 @@ hr{
     width: 100%;
     background-color: rgb(44, 11, 11);
     border: 1px dotted rgb(51, 8, 8);
-    margin-top: -1rem;
-    margin-right: -52px;
-    margin-bottom: -3rem;
+    margin: -1rem -35px -3rem 0rem;
     box-shadow: 0px 1px 1px rgb(255, 82, 82), 1px 1px 12px rgb(255, 103, 103) inset;
     border-top: 1px solid rgb(155, 41, 41);
 }
@@ -998,9 +992,7 @@ a:last-child{
 }
 .shuffleProjectSeperator{
     display: grid;
-    text-decoration: none;
-    padding: 1rem;
-    padding-right: 1.8rem;
+    padding: 1rem 1.8rem 1rem 1rem;
     margin-top: 0rem;
     margin: 1rem;
     background: #2c0e2636;
@@ -1065,15 +1057,11 @@ a:last-child{
         width: 650px;
     }
     #topArrowRight{
-        margin-top: -0.7rem;
-        margin-left: 40.7rem;
-
-        }
-        #bottomArrowRight{
-            margin-top: 14px;
-            margin-left: 40.7rem;
-
-            }
+        margin: -0.7rem 0rem 0rem 40.7rem;
+    }
+    #bottomArrowRight{
+        margin: 14px 0rem 0rem 40.7rem;
+    }
 
 }
 
@@ -1131,13 +1119,9 @@ a:last-child{
         width: 810px;
     }
     #topArrowRight{
-        margin-top: -0.7rem;
-        margin-left: 50.7rem;
-
-        }
-        #bottomArrowRight{
-            margin-top: 14px;
-            margin-left: 50.7rem;
-
-            }
+        margin: -0.7rem 0rem 0rem 50.7rem;
+    }
+    #bottomArrowRight{
+        margin: 14px 0rem 0rem 50.7rem;
+    }
 }
