@@ -533,12 +533,10 @@ hr{
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff5f5f inset;
     border: 1.5px solid rgb(255, 54, 54);
     color:rgb(255, 243, 205);
-    text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 3px #00000063;
     border-radius: 0.2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0rem 2rem 0rem;
 
 }
 .qualificationInfoCardTitle {
@@ -548,12 +546,10 @@ hr{
     font-size: 1.2rem;
     color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
-    padding: 0.5rem;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     border-radius: 2rem;
-    box-shadow: 0px 1px 1px #ff5f5f2d;
-    text-shadow: 1px 1px 1px white inset;
+    box-shadow: 0px 1px 1px #ff5f5f2d, 2px 1px 2px 1px rgba(0, 0, 0, 0.288) inset;
+    text-shadow: 2px 2px 2px rgba(29, 20, 20, 0.637);
     text-align: center;
 }
 .qualificationInfoCategorySpan {
@@ -569,13 +565,10 @@ hr{
     font-size: 1.2rem;
     color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
-    padding: 0.5rem;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     border-radius: 2rem;
-    box-shadow: 0px 1px 1px #ff5fea2d;
-    text-shadow: 1px 1px 1px white inset;
-    background-clip: reverse text;
+    box-shadow: 0px 1px 1px #ff5fea2d, 2px 1px 1px 1px rgba(0, 0, 0, 0.288) inset;
+    text-shadow: 2px 2px 2px rgba(29, 20, 28, 0.637);
     text-align: center;
 }
 .qualificationInfoSubCard {
