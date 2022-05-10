@@ -544,7 +544,8 @@ h1{
     display: grid;
     grid-row: 1;
     margin-top: -1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
     color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
     padding: 0.5rem 0.8rem 0.5rem 0.8rem;
@@ -563,7 +564,8 @@ h1{
     display: grid;
     grid-row: 2;
     margin-top: -1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 300;
     color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
     padding: 0.5rem 0.8rem 0.5rem 0.8rem;
@@ -697,7 +699,8 @@ body {
     background: radial-gradient(rgb(65, 0, 0), black);
     font-family: 'Merriweather', serif;
     font-size: 0.75rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
 }
 .subTextBox {
     display: grid;
@@ -838,12 +841,13 @@ body {
 .subHeader {
     position:static;
     width: 100%;
-    font-size:1.2rem;
+    font-size:1.1rem;
+    font-weight: 400;
     border: 1px solid rgb(216, 100, 100);
     border-bottom: 1px solid rgb(255, 83, 83);
-    color:#ffeb93;
+    color:#ffe159;
     text-align: center;
-    text-shadow: 2px 2px 2px #0000006b;
+    text-shadow: 2px 2px 3px  #000000c9;
     background-image:
     linear-gradient(rgba(255, 96, 96, 0.719),rgba(66, 4, 4, 0.055),rgba(255, 96, 96, 0.712)),
     repeating-linear-gradient( 120deg, #5e2626, #421919 1px, #420505 1px, #5e2626 2px);
