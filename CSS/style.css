@@ -405,7 +405,6 @@ h2{
     max-height:880px;
     overflow-y: hidden;
     padding: 1.3rem;
-    color:rgb(255, 218, 153);
     text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
     line-height: 20pt;
 }
@@ -449,7 +448,6 @@ h2{
     margin-top:5px;
     background: radial-gradient( #3a0101, #000000);
     box-shadow: 0px 0.5px 8px 1px #00000063, -0.1px 0.1px 8px 2px #b93d3d inset;
-    color:rgb(255, 243, 205);
     padding: 4rem;
     text-align: center;
     text-shadow: 1px 1px 3px #00000063;
@@ -461,7 +459,6 @@ h2{
     display: grid;
     grid-row: 1;
     font-size: 1.1rem;
-    color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
     padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     border-radius: 2rem;
@@ -482,7 +479,6 @@ h2{
     background: repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff5f5f inset;
     border-color:rgb(255, 54, 54);
-    color:rgb(255, 243, 205);
     padding: 1.1rem;
     text-align: center;
     text-shadow: 1px 1px 3px #00000063;
@@ -552,7 +548,6 @@ h2{
     background: repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff5f5f inset;
     border: 1.5px solid rgb(255, 54, 54);
-    color:rgb(255, 243, 205);
     text-align: center;
     text-shadow: 1px 1px 3px #00000063;
     border-radius: 0.2rem;
@@ -564,7 +559,6 @@ h2{
     margin-top: -1rem;
     font-size: 1.1rem;
     font-weight: 400;
-    color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
     padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     border-radius: 2rem;
@@ -584,7 +578,6 @@ h2{
     margin-top: -1rem;
     font-size: 1.1rem;
     font-weight: 300;
-    color:#ffe159;
     background: rgba(0, 0, 0, 0.329);
     padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     border-radius: 2rem;
@@ -594,7 +587,6 @@ h2{
 }
 .qualificationInfoSubCard {
     display: grid;
-    color:rgb(255, 225, 161);
     text-shadow: 1px 2px 2px black;
     border:1.1px dotted #a11b1b;
     background: linear-gradient(#180000, #2e0000);
@@ -602,6 +594,8 @@ h2{
     padding: 1.2rem 1.3% 1.2rem 1rem;
     border-radius: 0.2rem;
     line-height: 1.5rem;
+    color:#ffde98;
+
 }
 .aboutMeCategorySpan {
     display: grid;
@@ -673,7 +667,6 @@ ul {
 .aboutDesign {
     display: grid;
     text-align:center;
-    color:rgb(255, 225, 161);
     text-shadow: 1px 2px 2px black;
     border:1.1px dotted #a11b1b;
     border-radius: 0.3rem;
@@ -711,6 +704,7 @@ svg{
 
 body {
     z-index: 0;
+    color:#ffde98;
     height: 80%;
     overflow-x: hidden;
     background: radial-gradient(rgb(65, 0, 0), black);
@@ -749,7 +743,6 @@ body {
 .shuffleSubCardBase{
     transition: 1s;
     display: grid;
-    color:rgb(255, 225, 161);
     text-decoration: none;
     text-shadow: 1px 2px 2px black;
     border:1.5px solid #0c0606;
@@ -824,7 +817,6 @@ body {
     padding: 0.6rem;
     margin-left: 0.6rem;
     border-radius: 0.2rem;
-    color:#ffe159;
     text-shadow: 1px 1px 2px #00000093;
     text-align: center;
 }
@@ -858,13 +850,13 @@ body {
 .subHeader {
     position:static;
     width: 100%;
-    font-size:1.2rem;
+    font-size:1.3rem;
     font-weight: 900;
     border: 1px solid rgb(216, 100, 100);
     border-bottom: 1px solid rgb(112, 47, 47);
-    color:#420000;
+    color:#ffaf68;
     text-align: center;
-    text-shadow: 0px 1px 1px #ff909052;
+    text-shadow: 1px 1px 2px rgb(255, 167, 52), 0px 2px 3px black;
     background-image:
     linear-gradient(rgba(255, 96, 96, 0.473),rgb(58, 0, 0)),
     radial-gradient(ellipse at top, rgb(255, 143, 143) 50%, rgb(255, 0, 0));
@@ -946,7 +938,6 @@ a:last-child{
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff5f5f inset;
     border-color:rgb(255, 54, 54);
     border-radius: 3rem;
-    color:#ffe159;
     text-shadow: 1px 1px 2px #00000093;
     text-align: center;
 }
@@ -976,8 +967,7 @@ a:last-child{
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #b75fff inset;
     border-color:rgb(194, 61, 255);
     border-radius: 3rem;
-    color:#ffe159;
-    text-shadow: 1px 1px 2px #00000093;
+    text-shadow: 1px 1px 2px black;
     text-align: center;
 }
 #canvasCardBase{
