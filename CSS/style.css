@@ -588,11 +588,11 @@ h2{
 .qualificationInfoSubCard {
     display: grid;
     text-shadow: 1px 2px 2px black;
-    border:1.1px dotted #a11b1b;
+    border:1.1px solid #a11b1b;
     background: radial-gradient(ellipse at bottom, #0e1b27, #080000);
-    box-shadow: 0px 0px 2px 1px #ff5f5f, -0.1px 0.1px 5px 2px #000000 inset;
+    box-shadow: 0px 0px 4px 0px #ff5f5fde, 1px 1px 5px 2px #0f0a0a inset;
     padding: 1.2rem 1.3% 1.2rem 1rem;
-    border-radius: 0.2rem;
+    border-radius: 0.1rem;
     line-height: 1.5rem;
     color:#ffde98;
 
@@ -642,7 +642,7 @@ h2{
     display: grid;
     color:rgb(161, 255, 181);
     text-shadow: 1px 2px 2px black;
-    border:1.1px dotted #601ba1;
+    border:1.1px solid #601ba1;
     background: linear-gradient(#180000, #21002e);
     box-shadow: 0px 0px 2px 1px #6636b4, -0.1px 0.1px 5px 2px #000000 inset;
     padding: 1.2rem 1.3% 1.2rem 1rem;
