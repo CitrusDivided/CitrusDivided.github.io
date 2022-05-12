@@ -884,8 +884,9 @@ body {
     display: grid;
     position: absolute;
     width: 30%;
-    left: 50%;
-    padding: 0.5rem 0.1rem 0.5rem 0.1rem;
+    left: 35.5%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: -1rem 1rem 1rem 1rem;
     background:
     radial-gradient(ellipse at bottom, rgba(255, 255, 255, 0.692), rgb(58, 26, 1)),
     linear-gradient(red, rgb(253, 199, 50));
