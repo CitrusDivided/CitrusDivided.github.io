@@ -437,7 +437,13 @@ h2{
     background-image: radial-gradient( rgba(255, 107, 107, 0.151) 20%, rgba(128, 128, 128, 0) 80%),
     repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px);
 }
-
+#pronounBubble{
+    background: rgba(255, 0, 0, 0);
+    border: transparent;
+    transform: scale(0.8);
+    box-shadow: none;
+    line-height: 1rem;
+}
 .drawShowCaseBase{
     display: grid;
     grid-row: content 6;
