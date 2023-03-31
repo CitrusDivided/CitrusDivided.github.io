@@ -1144,4 +1144,72 @@ a:last-child{
     #bottomArrowRight{
         margin: 14px 0rem 0rem 50.7rem;
     }
+    @media screen and (max-width: 600px) {
+        .feltCardBackground{
+                grid-column: 0;
+                opacity: 40%;
+        }
+        .drawInstructionBase{
+            width: 50%;
+        }
+        canvas{
+            margin-bottom: -4.5rem;
+            margin-top: -3rem;
+            transform: scale(70%)
+        }
+        .qualificationInfoCardBase{
+            display: grid;
+            grid-row: 1 / span 4;
+            grid-column: 1 / span 3;
+        }
+        .aboutMeCardBase {
+        display: grid;
+        grid-row: 6;
+        grid-column: 2;
+        }
+        #pronounBubble{
+            margin: -1rem 0rem 1rem 0rem;
+        }
+        h4{
+            margin: 1rem;
+        }
+        .drawRes{
+            display: grid;
+            grid-row:  5 / 5;
+            grid-column:   1 / span 3;
+        }
+        .drawInq{
+            display: grid;
+            grid-row:  8;
+            grid-column:  1 / span 3;
+        }
+        #canvasCardBase{
+            display: grid;
+            grid-row: 9;
+        }
+        .drawInstructionBase{
+            display: grid;
+            grid-row: content 8;
+            grid-column: 1 / span 3;
+        }
+        .drawProjectShuffleBase{
+            display: grid;
+            grid-row: content 9;
+            grid-column: 1 / span 3;
+        }
+        .drawShowCaseBase{
+            margin-top: 1rem;;
+            padding: 1rem;
+        }
+        .drawProjectShuffleBase{
+            width: 650px;
+        }
+        #topArrowRight{
+            margin: -0.7rem 0rem 0rem 40.7rem;
+        }
+        #bottomArrowRight{
+            margin: 14px 0rem 0rem 40.7rem;
+        }
+    
+    }
 }
