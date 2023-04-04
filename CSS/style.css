@@ -297,7 +297,7 @@ h2{
     background-blend-mode: hard-light;
 }
 .curtainSlate{
-    position: absolute;
+    position: fixed;
     z-index: 2;
     left: 0rem;
     width: 100%;
