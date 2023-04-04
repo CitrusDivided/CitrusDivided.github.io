@@ -309,7 +309,6 @@ h2{
     z-index: -3;
     background-color: rgb(0, 0, 0);
     border: 0.1px dotted rgb(78, 10, 10);
-    padding: 1rem 10% 1rem 10%;
     width: 100%;
     margin: -1rem 0rem -3rem 0rem;
     box-shadow: 0px 1px 50px 15px rgb(0, 0, 0), 0px 1px 12px rgb(134, 44, 44) inset;
@@ -319,13 +318,13 @@ h2{
 .feltCardSubBackgroundRight{
     display: grid;
     overflow: hidden;
-    grid-row: 1 / 10;
-    grid-column: span 0 / 1;
+    /* grid-row: 1 / 10; */
+    /* grid-column: span 0 / 1; */
     z-index: -3;
     width: 100%;
     background-color: rgb(44, 11, 11);
     border: 1px dotted rgb(51, 8, 8);
-    margin: -1rem -35px -3rem 0rem;
+    /* margin: -1rem -35px -3rem 0rem; */
     box-shadow: 0px 1px 1px rgb(255, 82, 82), 1px 1px 12px rgb(255, 103, 103) inset;
     border-top: 1px solid rgb(155, 41, 41);
 }
@@ -333,7 +332,7 @@ h2{
     display: grid;
     overflow: hidden;
     grid-row: 1 / 10;
-    grid-column:  0 / -1;
+    /* grid-column:  0 / -1; */
     z-index: -3;
     width: 100%;
     background-color: rgb(44, 11, 11);
