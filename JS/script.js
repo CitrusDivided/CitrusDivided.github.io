@@ -16,7 +16,7 @@ anime({
 anime({
     targets: ['#pageHeadlineHoloSheen',],
     duration: 15200,
-    top: '70%',
+    top: '35%',
     loop: true,
     scaleY: .3,
     direction: 'normal',
