@@ -716,6 +716,7 @@ svg{
 
 body {
     z-index: 0;
+    display: grid;
     color:#ffe2a3;
     overflow-x: hidden;
     background: radial-gradient(rgb(65, 0, 0), black);
