@@ -876,17 +876,16 @@ body {
 
 }
 #subHeaderBottomBar {
-    position:absolute;
+    position: staic;
     z-index: -4;
-    height: 5%;
+    height: 1%;
     width: 100%;
-    font-size:1.2rem;
     border-bottom: 1px dashed rgb(97, 0, 0);
     background-image:
-    radial-gradient(rgba(255, 31, 31, 0.322), rgba(0, 0, 0, 0.158)),
+    radial-gradient(ellipse at top, rgb(255, 61, 61), rgb(0, 0, 0)),
     linear-gradient(rgb(134, 0, 0) 1%, black 1%, rgb(27, 0, 0) 10%);
-    box-shadow: 1px 1px 1px 1px black, 1px 1px 10px 10px rgba(173, 57, 57, 0.26) inset;
-    margin-top: -3.4rem;
+    box-shadow: 1px 1px 1px 1px black, 1px 1px 10px 10px rgb(173, 57, 57) inset;
+    margin: -3.4rem 0rem 1rem 0rem
 }
 #subHeadText{
     display: grid;
