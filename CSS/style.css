@@ -876,7 +876,7 @@ body {
 
 }
 #subHeaderBottomBar {
-    position: staic;
+    position: static;
     z-index: -4;
     height: 1%;
     width: 100%;
