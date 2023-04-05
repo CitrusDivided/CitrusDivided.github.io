@@ -51,11 +51,11 @@ window.addEventListener('mousemove',
 })
 
 const divAnimation = anime({
-    targets: '.stageLightCenter, .stageLightLeft, .stageLightRight',
-    scale: 10,
-    translateX: [0,0,0, 0],
-    translateY: [0,-100,0,0],
-    elasticity: 0,
+    targets: '.curtainBottomLeft, .curtainLeft, .curtainCenterMass, .curtainRight, .curtainBottomRight, .curtainSlate',
+    scale: 1,
+    translateX: [0,0,0,0],
+    translateY: [0,0,300,0],
+    elasticity: 110,
     easing: 'linear',
     autoplay: false,
     opacity: 1
@@ -74,7 +74,7 @@ document.documentElement.clientHeight;
 }
 
 window.onscroll = () => {
-    divAnimation.seek((scrollPercent() / 100) * 
+    divAnimation.seek((scrollPercent() / 50) * 
 divAnimation.duration);
 };
 // Interaction Set -- END //
