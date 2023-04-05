@@ -49,6 +49,34 @@ window.addEventListener('mousemove',
         mouse.x = event.x;
         mouse.y = event.y;
 })
+
+const divAnimation = anime({
+    targets: '.stageLightCenter, .stageLightLeft, .stageLightRight',
+    scale: 10,
+    translateX: [0,0,0, 0],
+    translateY: [0,-100,0,0],
+    elasticity: 0,
+    easing: 'linear',
+    autoplay: false,
+    opacity: 1
+});
+
+const scrollPercent = () => {
+    const bodyST = document.body.scrollTop;
+    const docST =
+document.documentElement.scrollTop;
+    const docSH =
+document.documentElement.scrollHeight;
+    const docCH =
+document.documentElement.clientHeight;
+
+    return (docST + bodyST) / (docSH - docCH) * 100
+}
+
+window.onscroll = () => {
+    divAnimation.seek((scrollPercent() / 100) * 
+divAnimation.duration);
+};
 // Interaction Set -- END //
 // //Snow Skies Imp.
 // function Snow (ssi_x, ssi_y, ssi_dx, ssi_dy, ssi_radius){
