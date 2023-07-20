@@ -355,7 +355,7 @@ h2{
     height: 3rem;
     background-image:
     linear-gradient(rgba(255, 246, 163, 0.863), rgba(0, 0, 0, 0)),
-    radial-gradient(ellipse at top, rgb(255, 0, 13), rgb(77, 0, 19), rgba(255, 81, 81, 0.719) );
+    radial-gradient(ellipse at top, rgb(255, 0, 13), rgb(77, 0, 19), rgba(255, 124, 124, 0.685) );
     box-shadow: 10px 3px 11px 3px #ffad8d, 1px 0px 0px 0px #f34949 inset;
     margin-bottom: -5rem;
 }
