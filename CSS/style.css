@@ -348,7 +348,7 @@ h2{
     justify-content: center;
     column-gap: 0.3rem;
     grid-template-rows: 0%;
-    grid-auto-rows: max-content;
+    /* grid-auto-rows: max-content; */
 }
 .aboutMeCardBase:hover{
     z-index: 4;
@@ -358,8 +358,8 @@ h2{
 }
 .aboutMeCardBase {
     transition: 0.3s;
-    display: grid;
-    align-items: center;
+    /* display: grid; */
+    align-items: start;
     border: 1.5px solid rgba(28, 31, 78, 0.452);
     background-image: radial-gradient( rgba(225, 107, 255, 0.151) 20%, rgba(128, 128, 128, 0) 80%),
     repeating-linear-gradient( 120deg, #0c0014, #2c0049 0.5px, #2c0049 0.5px, #0c0014 2.2px);
@@ -376,7 +376,7 @@ h2{
 
 .qualificationInfoCardBase {
     transition: 0.3s;
-    display: grid;
+    /* display: grid; */
     border: 1.5px solid rgba(235, 100, 100, 0.452);
     background-image: radial-gradient( rgba(255, 107, 107, 0.151) 20%, rgba(128, 128, 128, 0) 80%),
     repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px);
@@ -399,15 +399,20 @@ h2{
     repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px);
 }
 #pronounBubble{
+    padding: 0.8rem;
     color: rgb(252, 165, 255);
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.986);
     background: rgba(255, 0, 0, 0);
     border: transparent;
     box-shadow: none;
+    margin: -3.6rem 0rem 0rem 0rem;
     font-size: 10pt;
     line-height: 0.8rem;
-    background: rgba(139, 0, 0, 0.247);
     padding: 0.8rem;
+}
+#qualificationSeperator{
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    padding: 0;
 }
 .drawShowCaseBase{
     display: grid;
@@ -543,13 +548,11 @@ h2{
     line-height: 1.5rem;
 }
 .aboutMeCardTitle {
-    /* display: grid;
-    grid-row: 2;
-    margin-top: 0rem; */
+    font-weight: normal;
+    margin: -1.2rem 0rem 0rem 0rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
     font-size: 1.1rem;
     background: rgba(0, 0, 0, 0.329);
-    /* padding: 0.5rem 0.8rem 0.5rem 0.8rem; */
-    /* border-radius: 2rem; */
     box-shadow: 0px 1px 1px #ff5fea2d, 2px 1px 1px 1px rgba(0, 0, 0, 0.288) inset;
     text-shadow: 2px 2px 2px rgba(29, 20, 28, 0.637);
     text-align: center;
