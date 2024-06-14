@@ -399,13 +399,15 @@ h2{
     repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px);
 }
 #pronounBubble{
-    color: rgb(201, 102, 204);
+    color: rgb(252, 165, 255);
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.986);
     background: rgba(255, 0, 0, 0);
     border: transparent;
     box-shadow: none;
     font-size: 10pt;
     line-height: 0.8rem;
+    background: rgba(139, 0, 0, 0.247);
+    padding: 0.8rem;
 }
 .drawShowCaseBase{
     display: grid;
@@ -980,9 +982,7 @@ a:last-child{
     grid-column: span 3;
     justify-items: stretch;
     }
-    #pronounBubble{
-        margin: -1rem 0rem 1rem 0rem;
-    }
+
     h4{
         margin: 1rem;
     }
@@ -1054,9 +1054,7 @@ a:last-child{
         grid-row: 1 / span 4;
         grid-column: 2;
     }
-    #pronounBubble{
-        margin: -2rem 0rem 0rem 0rem;
-    }
+
     h4{
         margin: 0rem;
     }
