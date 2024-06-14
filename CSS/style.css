@@ -371,9 +371,7 @@ h2{
     display: grid;
     justify-items:center;
     justify-content: center;
-    align-items: stretch;
     column-gap: 0.3rem;
-    row-gap: 0.1rem;
     grid-template-rows: 0%;
     grid-auto-rows: max-content;
 }
@@ -582,14 +580,12 @@ h2{
 .qualificationInfoSubCard {
     display: grid;
     text-shadow: 1px 2px 2px black;
-    border:1px solid #5a1f1f;
-    background: radial-gradient(ellipse at bottom, #0e1b27, #080000);
-    box-shadow: 1px 1px 1px 1px #ff5f5f, 1px 1px 5px 2px #0f0a0a inset;
-    padding: 1.2rem 1.3% 1.2rem 1.2rem;
-    margin: 0rem -0.5rem 0rem -0.5rem;
-    border-radius: 0.5rem;
-    line-height: 1.5rem;
-    color:#ffde98;
+    border:1px solid #642222;
+    background: radial-gradient(ellipse at bottom, #0c271793, #080000);
+    box-shadow: 1px 1px 5px 2px #0f0a0a inset;
+    padding: 1.2rem 1.3rem 1.2rem 1.2rem;
+    margin: 0rem -1rem 0rem -1rem;
+    line-height: 1.8rem;
 
 }
 .aboutMeCategorySpan {
@@ -642,13 +638,11 @@ h4{
     display: grid;
     text-shadow: 1px 2px 2px black;
     border:1px solid #572264;
-    background: radial-gradient(ellipse at bottom, #0c2717, #080000);
-    box-shadow: 1px 1px 1px 1px #9c5fff, 1px 1px 5px 2px #0f0a0a inset;
-    padding: 1.2rem 1.3% 1.2rem 1.2rem;
-    margin: 0rem -0.5rem 0rem -0.5rem;
-    border-radius: 0.5rem;
-    line-height: 1.5rem;
-    color:#fff7ad;
+    background: radial-gradient(ellipse at bottom, #0c271793, #080000);
+    box-shadow: 1px 1px 5px 2px #0f0a0a inset;
+    padding: 1.2rem 1.3rem 1.2rem 1.2rem;
+    margin: 0rem -1rem 0rem -1rem;
+    line-height: 1.8rem;
 }
 
 .frameVersion {
@@ -668,12 +662,11 @@ ul {
     display: grid;
     text-align:center;
     text-shadow: 1px 2px 2px black;
-    border:1.1px dotted #a11b1b;
-    border-radius: 0.3rem;
-    background: linear-gradient(#180000, #2e0000);
-    box-shadow: 0px 0px 2px 1px #ff5f5f, -0.1px 0.1px 5px 2px #000000 inset;
+    border:1px solid #4d0000;
+    background: linear-gradient(#000000, #200000);
+    box-shadow: 0px 0px 2px 1px #7a2121, -0.1px 0.1px 5px 2px #000000 inset;
     padding: 0.5rem 1rem 2rem 1rem;
-    margin: 0rem 30px 1rem 30px;
+    margin: 0rem 1rem -0.5rem 1rem;
 }
 
 svg{
