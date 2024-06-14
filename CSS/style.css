@@ -562,7 +562,6 @@ h2{
     grid-row: 1;
     margin-top: -1rem;
     font-size: 1.1rem;
-    font-weight: 400;
     background: rgba(0, 0, 0, 0.329);
     padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     border-radius: 2rem;
@@ -575,14 +574,12 @@ h2{
     margin-top: -0.5rem;
     padding: 0rem 0rem 0.5rem 0rem;
     line-height: 1.5rem;
-    font-weight: 900;
 }
 .aboutMeCardTitle {
     display: grid;
     grid-row: 2;
     margin-top: -1rem;
     font-size: 1.1rem;
-    font-weight: 300;
     background: rgba(0, 0, 0, 0.329);
     padding: 0.5rem 0.8rem 0.5rem 0.8rem;
     border-radius: 2rem;
@@ -608,7 +605,6 @@ h2{
     margin-top: -4.5rem;
     padding: 0rem 0rem 0.5rem 0rem;
     line-height: 1.5rem;
-    font-weight: 900;
 }
 h4{
     margin: 0px;
@@ -723,7 +719,6 @@ body {
     font-family: 'Anton', serif;
     font-size: 0.80rem;
     letter-spacing: 0.5px;
-    font-weight: 300;
 }
 .subTextBox {
     display: grid;
@@ -890,7 +885,6 @@ body {
     margin: 0.5rem 0rem 0rem 0rem;
     color: rgb(54, 24, 0);
     text-shadow: 0px 0px 4px rgba(255, 187, 110, 0.671);
-    font-weight: 800;
 }
 #subHeaderBottom {
     position:fixed;
@@ -919,7 +913,6 @@ body {
     font-size: 0.5rem;
 }
 a, a:visited{
-    font-weight: 400;
     text-decoration: none;
     color:#ffe159;
 }
@@ -939,7 +932,6 @@ a:last-child{
     grid-row:  5 / 5;
     grid-column:  1 / 2;
     margin: 0.7rem 0rem 0.7rem 0rem;
-    font-weight: 400;
     min-width:80%;
     padding-bottom: 4px;
     border: 1.5px solid rgba(235, 100, 100, 0.452);
@@ -968,7 +960,6 @@ a:last-child{
     grid-row:  5 / 5;
     grid-column:  2 / 3;
     margin: 0.7rem 0rem 0.7rem 0rem;
-    font-weight: 400;
     min-width:80%;
     padding-bottom: 4px;
     border: 1.5px solid rgba(28, 31, 78, 0.452);
@@ -979,10 +970,10 @@ a:last-child{
     text-shadow: 1px 1px 2px black;
     text-align: center;
 }
-#canvasCardBase{
+/* #canvasCardBase{
     display: grid;
-    grid-row: 6;
-}
+    grid-row: 3;
+} */
 .shuffleProjectSeperator{
     display: grid;
     padding: 1rem 1.8rem 1rem 1rem;
@@ -1048,10 +1039,10 @@ a:last-child{
         grid-row: content 9;
         grid-column: 1 / span 3;
     }
-    .drawShowCaseBase{
+    /* .drawShowCaseBase{
         margin-top: 1rem;;
         padding: 1rem;
-    }
+    } */
     .drawProjectShuffleBase{
         width: 650px;
     }
@@ -1078,10 +1069,10 @@ a:last-child{
         margin-bottom: 0rem;
         transform: scale(1)
     }
-    .drawShowCaseBase{
+    /* .drawShowCaseBase{
         margin-top: 1rem;
         padding: 4rem;
-    }
+    } */
     .qualificationInfoCardBase{
         display: grid;
         grid-row: 1 / span 4;
