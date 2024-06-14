@@ -144,7 +144,7 @@
     border-bottom: 1rem solid rgba(255, 113, 113, 0.596);
     box-shadow: 0px 10px 1px 1px rgba(255, 0, 0, 0.295), 150px 0px 10px 00px rgba(255, 195, 84, 0.089) inset;
     border-radius: 50%;
-    mix-blend-mode: lighten;
+    mix-blend-mode:lighten;
 
 }
 
@@ -162,19 +162,8 @@
     text-align:center;
     font-size: 4rem;
     box-shadow: 50px 10px 30px 20px rgb(0, 0, 0) inset;
-    margin:0px;
+    margin:0;
     transition: all ease-in-out 0.4s;
-}
-#pageHeadline:hover{
-    transition: all ease-in-out 0.4s;
-    box-shadow: 0px 10px 140px 40px rgb(0, 0, 0) inset;
-    background:
-    repeating-linear-gradient(0deg, rgb(255, 255, 255) 1rem, rgba(83, 0, 104, 0.288) 1rem, rgb(54, 20, 20) 1.1rem),
-    radial-gradient( ellipse at bottom,#db0000c7, #000000);
-    background-size: 20% 30%;
-    -webkit-animation: BackgroundAnimation 30s ease-in-out infinite;
-    -moz-animation: BackgroundAnimation 30s ease-in-out infinite;
-    animation: BackgroundAnimation 30s ease-in-out infinite;
 }
 
 @-webkit-keyframes BackgroundAnimation {
@@ -196,11 +185,8 @@
     position:absolute;
     pointer-events: none;
     z-index: -5;
-    top: -30%;
     width: 100%;
     height: 20%;
-    background: repeating-linear-gradient(rgb(255, 81, 81) 20%, rgba(255, 255, 255, 0) 20%, rgb(255, 81, 81), rgba(255, 255, 255, 0.021) 20%, rgba(255, 0, 0, 0.212) 20%, rgba(255, 255, 255, 0.349)),
-    linear-gradient(rgba(255, 255, 255, 0.192), rgb(0, 255, 76));
     background-blend-mode: soft-light;
     mix-blend-mode:color-dodge;
     box-shadow: 0px 0px 6px 3px rgba(255, 116, 116, 0.205), 0px 0px 10px 15px rgba(0, 0, 0, 0.952) inset;
@@ -225,18 +211,6 @@ h1{
     font-size: 0.8em;
     background-image: radial-gradient(rgb(255, 174, 0), black),
     linear-gradient(rgba(103, 255, 136, 0.589), rgb(57, 255, 172));
-    background-blend-mode: color-dodge;
-}
-.h1Sheen:hover{
-    animation: 1s;
-    color: rgb(255, 29, 29);
-    text-shadow: 0px 0px 8px  #ff8080;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-image: radial-gradient(white, black),
-    linear-gradient(rgb(255, 0, 0), rgba(255, 255, 255, 0.473));
-    box-shadow: 0px 1px 0px 0px rgb(0, 0, 0);
     background-blend-mode: color-dodge;
 }
 #h1Name{
@@ -272,7 +246,7 @@ h2{
     repeating-linear-gradient(
       90deg,
       rgb(95, 22, 22),
-      rgba(255, 162, 162, 0.342),
+      rgba(255, 186, 186, 0.342),
       rgb(0, 0, 0) 20px,
       black 5px,
       rgb(95, 22, 22) 30px /* determines size */
@@ -353,8 +327,9 @@ h2{
     width: 100%;
     height: 3rem;
     background-image:
-    linear-gradient(rgba(255, 246, 163, 0.863), rgba(0, 0, 0, 0)),
-    radial-gradient(ellipse at top, rgb(255, 0, 13), rgb(77, 0, 19), rgba(255, 124, 124, 0.685) );
+    radial-gradient(ellipse at top, rgba(255, 181, 85, 0.555) 10%, rgba(156, 0, 0, 0.692)),
+    linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.432)),
+    repeating-linear-gradient( 120deg, burlywood, rgb(172, 132, 80) 0.5px, rgb(172, 132, 80) 0.5px, burlywood 2.2px);
     box-shadow: 10px 3px 11px 3px #ffad8d, 1px 0px 0px 0px #f34949 inset;
     margin-bottom: -5rem;
 }
