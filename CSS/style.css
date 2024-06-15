@@ -674,6 +674,11 @@ svg{
     border: 1px rgb(116, 0, 139) solid;
 }
 
+.socialMediaLinkOut{
+    background: red;
+    text-align: center;
+}
+
 body {
     z-index: 0;
     display: grid;
