@@ -744,19 +744,18 @@ body {
     justify-content: center;
     text-decoration: none;
     text-shadow: 1px 2px 2px black;
-    border:1.5px solid #0c0606;
-    background: radial-gradient(ellipse at top, #ff878775, transparent),
+    border:1px solid #0c0606;
+    background: radial-gradient(ellipse at bottom, #ff878775, transparent),
     radial-gradient(ellipse at bottom, #000000, transparent);
     box-shadow: 0px 0px 2px 1px #ffa3a3a8, 0px 0px 1px 1px #0c0606 inset;
     height: 200px;
-    /* padding: 1rem 0rem 1rem 0rem; */
-    /* margin: 0.3rem; */
+    width: 300px;
+    align-items: baseline;
 }
 #projectSelectOne{
     display: grid;
     grid-row: 9;
     grid-column: 1;
-    width: 300px;
     text-decoration: none;
     background: repeating-linear-gradient( 120deg, #2d0036, #000000 0.5px, #000000 0.5px, #2d0036 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 1px 1px #793b96 inset;
@@ -976,9 +975,6 @@ a:last-child{
     grid-row: 3;
 } */
 .shuffleProjectSeperator{
-    display: grid;
-    padding: 1rem 1.8rem 1rem 1rem;
-    margin-top: 0rem;
     margin: 1rem;
     border: 1px solid white;
 }
