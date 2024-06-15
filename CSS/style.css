@@ -675,7 +675,8 @@ svg{
 }
 
 .socialMediaLinkOut{
-    background: red;
+    margin: -2.6rem;
+    background: transparent;
     text-align: center;
 }
 
