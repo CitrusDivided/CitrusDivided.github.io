@@ -688,12 +688,13 @@ body {
 }
 .subTextBox {
     display: grid;
-    grid-template-columns: 4rem 4rem;
+    width: 400px;
+    grid-template-columns: 1rem 1rem;
     row-gap: 0.2rem;
     border-radius: 0.2rem;
     background: repeating-linear-gradient( 120deg, #ffffff25 1px, #ffffff 1px, rgb(255, 255, 255) 1px, rgba(0, 0, 0, 0.575) 1px),
     radial-gradient(circle at bottom, rgb(247, 25, 255), rgba(0, 0, 0, 0.733));
-    padding: 2rem 0rem 2rem 1.3rem;
+    padding: 0rem 0rem 0rem 0rem;
     box-shadow: 0px 1px 3px 1px #ffaff459, 0px 0px 0px 3px #000000 inset;
 }
 
