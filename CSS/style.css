@@ -136,9 +136,9 @@
 }
 #imageDec{
     position:static;
-    z-index: 1;
-    padding-top: 8%;
-    margin-bottom: -15%;
+    /* z-index: 1; */
+    padding-top: 2%;
+    margin: 5% 0% -15% 0%;
     max-width: 350px;
     max-height: 200px;
     border-bottom: 1rem solid rgba(255, 113, 113, 0.596);
