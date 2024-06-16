@@ -15,14 +15,28 @@ anime({
 })
 
 anime({
-    targets: ['#pageHeadlineHoloSheen',],
-    duration: 5200,
-    top: '300px',
-    loop: true,
+    targets: ['#imageDec'],
+    duration: 10000,
+    rotateY: 360,
+    loop: false,
+    scaleY: 1,
+    direction: 'normal',
+    easing: 'spring(1, 80, 10, 0)'
+
+})
+
+anime({
+    targets: ['#pageHeadlineHoloSheen'],
+    duration: 9200,
+    top: '32%',
+    loop: false,
     scaleY: .3,
     direction: 'alternate',
     easing: 'easeInOutExpo'
 })
+
+
+
 
 var scannerColoring = anime.timeline({
     endDelay: 1000,
@@ -30,7 +44,7 @@ var scannerColoring = anime.timeline({
     direction: 'alternate',
     loop: true,
 })
-.add({ targets: ['#pageHeadlineHoloSheen', 'hr', '#imageDec',], background: 'rgb(150,0,0, 1' }, 0)
+.add({ targets: ['#pageHeadlineHoloSheen', 'hr', '#imageDec',], background: 'rgb(150,0,0, 1' }, 1)
 
 var canvas = document.querySelector('canvas');
 
