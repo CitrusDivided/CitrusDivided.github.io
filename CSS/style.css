@@ -429,9 +429,8 @@ h2{
 }
 .qualificationGridSpacing{
     display: grid;
-    margin:0;
-    background: rgba(0, 0, 0, 0.61);
-    box-shadow: 0px 0px 30px 4px black, 0px 0px 30px 4px rgb(255, 0, 0) inset;
+    /* background: rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 0px 30px 4px black, 0px 0px 30px 4px rgb(255, 0, 0) inset; */
     height: fit-content;
     align-content: center;
     
