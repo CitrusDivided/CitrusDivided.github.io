@@ -15,6 +15,17 @@ anime({
 })
 
 anime({
+    targets: ['#imageDec'],
+    duration: 10000,
+    rotateY: 360,
+    loop: false,
+    scaleY: 1,
+    direction: 'normal',
+    easing: 'spring(1, 80, 10, 0)'
+
+})
+
+anime({
     targets: ['#pageHeadlineHoloSheen'],
     duration: 9200,
     top: '32%',
@@ -23,9 +34,6 @@ anime({
     direction: 'alternate',
     easing: 'easeInOutExpo'
 })
-
-
-
 
 var scannerColoring = anime.timeline({
     endDelay: 1000,
