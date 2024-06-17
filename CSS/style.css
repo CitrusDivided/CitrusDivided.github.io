@@ -387,7 +387,8 @@ h2{
     max-width: 450px;
     height:880px;
     max-height:880px;
-    overflow-y: hidden;
+    overflow: hidden;
+    justify-content: center;
     padding: 1.3rem;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.548);
     line-height: 22pt;
@@ -418,9 +419,14 @@ h2{
 }
 .qualificationGridSpacing{
     display: grid;
+    margin:0;
     background: rgba(0, 0, 0, 0.247);
     box-shadow: 0px 0px 30px 4px black, 0px 0px 30px 4px red inset;
     height: fit-content;
+    align-content: center;
+    
+    
+
     align-content: center;
 }
 .drawShowCaseBase{
@@ -560,7 +566,6 @@ h2{
     width: fit-content;
     padding: 0.5rem;
     line-height: 1.5rem;
-    margin: 0rem 0rem 0rem -1rem;
     height: fit-content;
 }
 .aboutMeCardTitle {
@@ -580,8 +585,9 @@ h2{
     background: rgba(0, 0, 0, 0.719);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.733), 1px 1px 10px 0px #580808 inset;
     padding: 1.2rem 1.3rem 1.2rem 1.2rem;
-    margin: 0rem -1rem 0rem -1rem;
     line-height: 1.8rem;
+    width: 440px;
+
 
 }
 #qualificationCardTitle{
