@@ -369,7 +369,7 @@ h2{
     max-width: 450px;
     height: 880px;
     max-height:880px;
-    overflow-y: hidden;
+    overflow: hidden;
     padding: 1.3rem;
     text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
     line-height: 20pt;
