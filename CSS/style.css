@@ -373,6 +373,7 @@ h2{
     padding: 1.3rem;
     text-shadow: 1px 1px 2.2px rgba(0, 0, 0, 0.548);
     line-height: 20pt;
+    justify-content: center;
 }
 
 .qualificationInfoCardBase {
@@ -618,7 +619,7 @@ padding: 0.2rem 0.2rem 0.2rem 1rem;
 }
 .aboutMeCategorySpan {
     display: grid;
-    margin: -6.9rem 0rem 0rem -0.9rem;
+    margin: -5.5rem 0rem 0rem 0.2rem;
     background: rgba(195, 0, 255, 0.247);
     box-shadow: 0px 0px 0px 1px rgba(172, 30, 255, 0.432) ;
     width: fit-content;
@@ -1038,7 +1039,6 @@ a:last-child{
     display: grid;
     grid-row: 6;
     grid-column: span 3;
-    justify-items: stretch;
     }
 
     h4{
