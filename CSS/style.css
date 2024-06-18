@@ -1075,10 +1075,16 @@ a:last-child{
         width: 650px;
     }
     #topArrowRight{
-        margin: -0.7rem 0rem 0rem 40.7rem;
+        margin: -0.7rem 0rem 0rem 43.8rem;
     }
     #bottomArrowRight{
-        margin: 14px 0rem 0rem 40.7rem;
+        margin: 14px 0rem 0rem 43.8rem;
+    }
+    #topArrowLeft{
+        margin: -0.6rem 0rem 0rem -4.2rem;
+    }
+    #bottomArrowLeft{
+        margin: 0.8rem 0rem 0rem -4.2rem;
     }
 
 }
