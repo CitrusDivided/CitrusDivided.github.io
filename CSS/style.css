@@ -681,8 +681,9 @@ h4{
 
 .frameVersion {
     text-align: left;
-    font-size: 0.8rem;
-    color:rgba(255, 255, 255, 0.192)
+    font-size: 0.7rem;
+    color:rgba(255, 199, 199, 0.349);
+    mix-blend-mode: color-dodge;
 }
 ul {
     list-style: none;
