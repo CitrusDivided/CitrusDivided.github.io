@@ -432,8 +432,6 @@ h2{
 }
 .qualificationGridSpacing{
     display: grid;
-    /* background: rgba(0, 0, 0, 0.61);
-    box-shadow: 0px 0px 30px 4px black, 0px 0px 30px 4px rgb(255, 0, 0) inset; */
     height: fit-content;
     align-content: center;
     
@@ -468,7 +466,7 @@ h2{
     text-shadow: 1px 1px 1px white inset;
     background-clip: reverse text;
     text-align: center;
-    margin: -0.8rem 0rem 1.2rem 0rem;
+    margin: 0rem 0rem 1.2rem 0rem;
 }
 .drawInstructionBase{
     display: grid;
@@ -476,7 +474,7 @@ h2{
     grid-column: 1 / span 3;
     width: 810px;
     border-bottom: 2.5px dotted rgba(36, 0, 0, 0.253);
-    margin-top:-55px;
+    margin-top:-40px;
     border: 1.5px solid rgba(235, 100, 100, 0.452);
     background: repeating-linear-gradient( 120deg, #360000, #220000 0.5px, #220000 0.5px, #360000 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff5f5f inset;
@@ -1005,7 +1003,6 @@ a:last-child{
 }
 .shuffleSubCardBase:hover{
     transition-delay:0.2s;
-    padding-bottom: 30%;
 }
 
 @media (min-width: 0px) {
@@ -1063,8 +1060,8 @@ a:last-child{
         grid-column: 1 / span 3;
     }
     .drawShowCaseBase{
-        margin-top: 1rem;;
-        padding: 0rem;
+        margin-top: 1rem;
+        
     }
     .drawProjectShuffleBase{
         width: 650px;
@@ -1154,4 +1151,5 @@ a:last-child{
     #bottomArrowLeft{
         margin: -0.5rem 0rem 0rem 0.9rem;
     }
+    
 }
