@@ -555,6 +555,13 @@ h2{
     border-radius: 0.2rem;
     margin: 2rem 0rem 2rem 0rem;
 }
+.currentProjectsListed{
+background: transparent;
+padding: 0.2rem 0.2rem 0.2rem 1rem;
+}
+.currentProjectsListed:hover{
+    background: rgba(255, 33, 33, 0.404);
+}
 .qualificationInfoCardTitle {
     display: grid;
     grid-row: 1;
