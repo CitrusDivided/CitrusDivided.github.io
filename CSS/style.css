@@ -162,7 +162,8 @@
     animation: BackgroundAnimation 30s ease-in-out infinite;
     text-align:center;
     font-size: 4rem;
-    box-shadow: 50px 10px 30px 20px rgb(0, 0, 0) inset;
+    border: 1px solid rgba(123, 255, 193, 0.11);
+    box-shadow: 0px 100px 30px 20px rgb(0, 0, 0), 0px 10px 30px 30px rgba(0, 0, 0, 0.384) inset;
     margin:0;
     transition: all ease-in-out 0.4s;
 }
@@ -733,6 +734,7 @@ svg{
 body {
     z-index: 0;
     display: grid;
+    justify-content: center;
     color:#ffe2a3;
     overflow-x: hidden;
     background: radial-gradient(rgb(65, 0, 0), black);
