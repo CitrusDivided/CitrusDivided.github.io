@@ -317,15 +317,18 @@ h2{
     border: 1px solid #000000;
     height: 0.8rem;
     width: 100%;
-    background: radial-gradient(#ff6363, #6e1818),
-    linear-gradient(90deg, black, rgb(255, 91, 91), black);
-    box-shadow: -10px 0px 0px 5px #000000, 0px 1px 0px 0px #ca6262 inset;
+    border-bottom: 2px solid rgb(214, 53, 53);
+    background-image:
+    radial-gradient(ellipse at top, rgba(255, 181, 85, 0.555) 10%, rgba(156, 0, 0, 0.692)),
+    linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.432)),
+    repeating-linear-gradient( 120deg, red, rgb(172, 132, 80) 0.5px, rgb(172, 132, 80) 0.5px, red 2.2px);
 }
 #pageSubHeadInnerBar{
     z-index: 1;
     position: relative;
     top: 2px;
-    border: 2px solid #792222;
+    border-right: 2px solid #792222;
+    border-left: 2px solid #792222;
     box-shadow: 0px 0px 10px 0px black, 0px 0px 10px 0px rgba(255, 137, 137, 0.685) inset;
     height: 3rem;
     background-image:
@@ -893,12 +896,12 @@ body {
     /* z-index: -4; */
     height: 1rem;
     width: 100%;
-    border-bottom: 1px solid rgb(214, 53, 53);
+    border-bottom: 2px solid rgb(214, 53, 53);
     background-image:
     radial-gradient(ellipse at top, rgba(255, 181, 85, 0.555) 10%, rgba(156, 0, 0, 0.692)),
     linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.432)),
     repeating-linear-gradient( 120deg, red, rgb(172, 132, 80) 0.5px, rgb(172, 132, 80) 0.5px, red 2.2px);
-    box-shadow: 10px 3px 11px 3px #00000059, 1px 0px 0px 0px #634b4b inset;
+    box-shadow: 10px 3px 11px 3px #000000, 0px 0px 2px 0px #ff6b6b inset;
     margin: -3.5rem 0rem 2rem 0rem;
 }
 #subHeadText{
