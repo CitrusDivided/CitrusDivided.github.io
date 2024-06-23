@@ -191,7 +191,6 @@
     height: 20%;
     background-blend-mode: soft-light;
     mix-blend-mode:color-dodge;
-    box-shadow: 0px 0px 6px 3px rgba(255, 116, 116, 0.205), 0px 0px 10px 15px rgba(0, 0, 0, 0.952) inset;
 }
 hr{
     width: 50%;
