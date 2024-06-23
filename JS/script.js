@@ -30,7 +30,6 @@ anime({
     duration: 9200,
     top: '32%',
     loop: false,
-    scaleY: .3,
     direction: 'alternate',
     easing: 'easeInOutExpo'
 })
