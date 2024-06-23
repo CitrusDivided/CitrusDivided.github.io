@@ -166,6 +166,7 @@
     box-shadow: 0px 100px 30px 20px rgb(0, 0, 0), 0px 10px 30px 30px rgba(0, 0, 0, 0.384) inset;
     margin:0;
     transition: all ease-in-out 0.4s;
+    animation-duration: 80s;
 }
 
 @-webkit-keyframes BackgroundAnimation {
@@ -909,8 +910,7 @@ body {
     font-size: large;
     width: 100%;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    margin: 0.5rem 0rem 0rem 0rem;
-    color: rgba(0, 0, 0, 0.377);
+    color: rgba(0, 0, 0, 0.37);
     text-shadow: 0px 0px 5px rgb(255, 255, 255);
     mix-blend-mode: color-burn;
 }
