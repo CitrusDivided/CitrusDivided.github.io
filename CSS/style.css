@@ -333,7 +333,6 @@ h2{
     radial-gradient(ellipse at top, rgba(255, 181, 85, 0.555) 10%, rgba(156, 0, 0, 0.692)),
     linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.432)),
     repeating-linear-gradient( 120deg, burlywood, rgb(172, 132, 80) 0.5px, rgb(172, 132, 80) 0.5px, burlywood 2.2px);
-    box-shadow: 10px 3px 11px 3px #ff6161, 1px 0px 0px 0px #000000 inset;
     margin-bottom: -3rem;
 }
 
