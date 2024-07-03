@@ -710,6 +710,8 @@ svg{
     box-shadow: 0px 1px 3px 0px rgba(255, 146, 250, 0.418);
 }
 .socialMediaSubGrid{
+    display: grid;
+    justify-items: center;
     transition: 0.5s;
     height: 65px;
     width:250px;
@@ -730,7 +732,6 @@ svg{
 }
 
 .socialMediaLinkOut{
-    margin: -2.6rem;
     background: transparent;
     text-align: center;
 }
