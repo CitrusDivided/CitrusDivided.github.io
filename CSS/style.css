@@ -714,11 +714,17 @@ h4{
     display:none;
 }
 ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
 .listedItemHighlight{
     background: rgba(153, 0, 0, 0.233);
+}
+
+.listedItemPadding{
+    padding: 1rem;
 }
 
 .listSpecific {
