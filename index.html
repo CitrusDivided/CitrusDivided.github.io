@@ -12,13 +12,26 @@
         <script type="javascript/text" src="JS\script.js"></script>
             <style type="text/css">
                 canvas {
-                    border: 1.5px solid rgba(0, 0, 0, 0.300);
-                    border-radius: 0.5rem;
+                    cursor: pointer;
+                    border: 1.5px solid rgba(223, 64, 255, 0.3);
+                    border-radius: 0.2rem;
                     background-image:
-                    radial-gradient(ellipse at bottom,rgb(0, 32, 90), rgba(0, 0, 0, 0.719)),
-                    linear-gradient(rgb(0, 255, 85), rgb(0, 17, 255));
-                    box-shadow: 0px 0.5px 8px 8px #00000063, 0px 0px 1px 1px #a1b2ff3f inset;
+                    radial-gradient(ellipse at bottom,rgb(49, 0, 33), rgba(0, 0, 0, 0.534)),
+                    linear-gradient(rgb(255, 160, 97), rgb(0, 10, 6));
+                    box-shadow: 0px 0.5px 8px 8px #00000063, 0px 0px 1px 1px #ff9751ef inset;
                 }
+
+                canvas:hover {
+                    transition: 1s;
+                    box-shadow: 0px 0.5px 8px 8px #00000063, 0px 0px 60px 1px #ff6600ef inset;
+                }
+
+                canvas:active {
+                    transition: 1s;
+                    box-shadow: 0px 0.5px 8px 8px #00000063, 0px 0px 60px 1px #522100ef inset;
+                }
+
+
                 body {
                     margin: 0;
                 }
@@ -84,8 +97,8 @@
             </div>
             <div class="aboutMeCardBase"><h4 style="height: 24px; margin: 0; width: 482px;"><span class="aboutMeCardTitle">About me:</span></h4>
                 <div style="display: grid; grid-row: 2; position: relative; top: -38px; justify-content: center;"><span class="aboutMeCardTitle" id="pronounBubble"> Amy Greene <hr id="qualificationSeperator"> She/Her, They/Them</div></span>
-        <p style="margin:0;"><span class="aboutMeCategorySpan">General Information</span><span class="aboutMeSubCard">Self-starter, driven, and self taught; Over the following (time span) Amy's become proficient and excelled in pushing through and solving problems, from common to unconvential. </br>
-        <br>Socialable, team player, etc.<br>Time Management, etc.<br>Social media guru.</p></span>
+        <p style="margin:0;"><span class="aboutMeCategorySpan">General Information</span><span class="aboutMeSubCard">Self-starter, driven, and self taught; Over the following 4 years of experience, Amy's become proficient and excelled in pushing through and solving problems, from common to unconvential. </br>
+        <br>Socialable, she's worked with teams of up to 50 large to collborate and properly deliver various payloads to production.<br>Time Management, etc.<br></p></span>
         
         <div id="socialMediaTag" class="aboutMeCategorySpan">Social media</div>
         <ul span id="aboutMeSocialSpan" class="subTextBox">
