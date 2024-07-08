@@ -647,6 +647,8 @@ h4{
 #aboutMeSocialSpan {
     display: grid;
     grid-row: 4;
+    position: relative;
+    top: -20px;
     grid-column: 1;
     padding: 1rem;
     margin: -1rem;
