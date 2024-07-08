@@ -630,6 +630,13 @@ padding: 0.2rem 0.2rem 0.2rem 1rem;
 h4{
     margin: 0px;
 }
+
+#socialMediaTag{
+    background: black;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    width: 100px;
+}
+
 #aboutMeSocialSpan {
     display: grid;
     cursor: pointer;
