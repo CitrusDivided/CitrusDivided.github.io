@@ -771,10 +771,10 @@ body {
     z-index: 0;
     display: grid;
     justify-content: center;
-    color:#ffe2a3;
+    color:#fff3d8;
     overflow-x: hidden;
     background: radial-gradient(rgb(65, 0, 0), black);
-    font-family: 'Anton', serif;
+    font-family: 'Anton', sans-serif;
     font-size: 0.80rem;
     letter-spacing: 0.5px;
 }
@@ -977,10 +977,10 @@ body {
 }
 a, a:visited{
     text-decoration: none;
-    color:#ffe159;
+    color:#ffe48b;
 }
 a:hover{
-    color:rgb(42, 255, 148);
+    color:rgb(122, 255, 189);
 }
 a:active{
     color:rgb(27, 204, 115);
