@@ -632,9 +632,8 @@ h4{
 }
 
 #socialMediaTag{
-    background: black;
-    padding: 0.5rem 0.5rem 0.5rem 1rem;
-    width: 100px;
+    grid-row: 4;
+    grid-column: 1;
 }
 
 #aboutMeSocialSpan {
