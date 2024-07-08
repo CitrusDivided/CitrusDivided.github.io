@@ -716,6 +716,11 @@ h4{
 ul {
     list-style: none;
 }
+
+.listedItemHighlight{
+    background: rgba(153, 0, 0, 0.233);
+}
+
 .listSpecific {
     line-height: 1.8;
     text-align: left;
