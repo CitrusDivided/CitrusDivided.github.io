@@ -1101,6 +1101,7 @@ a:last-child{
         display: grid;
         justify-content: center;
         grid-row: 9;
+        width: auto;
     }
     .drawInstructionBase{
         display: grid;
