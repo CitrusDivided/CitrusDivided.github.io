@@ -630,7 +630,7 @@ h4{
 
 #socialMediaTag{
     position: relative;
-    top: -95px;
+    top: -135px;
     grid-row: 4;
     grid-column: 1;
 }
@@ -648,7 +648,7 @@ h4{
     display: grid;
     grid-row: 4;
     position: relative;
-    top: -40px;
+    top: -80px;
     grid-column: 1;
     padding: 1rem;
     margin: -1rem;
