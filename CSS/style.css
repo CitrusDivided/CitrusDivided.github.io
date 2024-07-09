@@ -1099,6 +1099,7 @@ a:last-child{
     }
     #canvasCardBase{
         display: grid;
+        justify-content: center;
         grid-row: 9;
     }
     .drawInstructionBase{
