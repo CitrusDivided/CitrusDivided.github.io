@@ -755,6 +755,7 @@ svg{
 }
 .socialMediaSubGrid{
     display: grid;
+    gap: 10px;
     justify-items: center;
     transition: 0.5s;
     height: 55px;
@@ -767,7 +768,7 @@ svg{
     border: 1px rgb(146, 79, 160) solid;
     align-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 .socialMediaSubGrid:hover{
     transition: 0.5s;
