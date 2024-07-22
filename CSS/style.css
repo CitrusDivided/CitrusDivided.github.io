@@ -758,7 +758,7 @@ svg{
     gap: 10px;
     justify-items: center;
     transition: 0.5s;
-    height: 55px;
+    height: 48px;
     width: 225px;
     padding: 0.3rem;
     background-image:
@@ -785,6 +785,10 @@ svg{
     background: transparent;
     text-align: center;
 }
+
+    #social1AFull, #social2AFull, #social3AFull{
+        background: red;
+    }
 
 body {
     z-index: 0;
