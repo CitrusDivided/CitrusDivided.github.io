@@ -860,7 +860,7 @@ body {
     box-shadow: 0px 0px 2px 1px #ffa3a3a8, 0px 0px 1px 1px #0c0606 inset;
     height: 440px;
     width: 800px;
-    align-items: baseline;
+    align-items: end;
 }
 #projectSelectOne{
     display: grid;
@@ -870,6 +870,7 @@ body {
     background: repeating-linear-gradient( 120deg, #2d0036, #000000 0.5px, #000000 0.5px, #2d0036 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 1px 1px #793b96 inset;
     border:1.5px solid rgb(141, 0, 177);
+    padding: 2rem;
 }
 #projectSelectOne:hover{
     background: repeating-linear-gradient( 120deg, #2d0036, #220020 0.5px, #220020 0.5px, #2d0036 2.2px); 
@@ -927,7 +928,6 @@ body {
 }
 .shuffleStartButton{
     padding: 0.6rem;
-    margin-left: 0.6rem;
     border-radius: 0.2rem;
     text-shadow: 1px 1px 2px #00000093;
     text-align: center;
