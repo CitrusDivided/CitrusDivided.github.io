@@ -965,7 +965,6 @@ body {
 .subHeader {
     display: grid;
     align-items: center;
-    /* justify-content: space-evenly; */
     justify-items: center;
     font-size:1.3rem;
     border: 1px solid rgb(216, 100, 100);
@@ -974,7 +973,6 @@ body {
 }
 #subHeaderBottomBar {
     position: static;
-    /* z-index: -4; */
     height: 1rem;
     width: 100%;
     border-bottom: 2px solid rgb(214, 53, 53);
@@ -1141,9 +1139,6 @@ a:last-child{
         width: 100%;
     }
 
-    /* .aboutDesign{
-        width: 100%;
-    } */
     .drawProjectShuffleBase{
         display: grid;
         grid-row: content 9;
@@ -1153,9 +1148,7 @@ a:last-child{
         margin-top: 1rem;
         
     }
-    .drawProjectShuffleBase{
-        width: 650px;
-    }
+
     #topArrowRight{
         margin: -0.7rem 0rem 0rem 43.8rem;
     }
@@ -1185,10 +1178,7 @@ a:last-child{
         margin-bottom: 0rem;
         transform: scale(1)
     }
-    /* .drawShowCaseBase{
-        margin-top: 1rem;
-        padding: 4rem;
-    } */
+
     .qualificationInfoCardBase{
         display: grid;
         grid-row: 1 / span 4;
