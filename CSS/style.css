@@ -739,6 +739,14 @@ ul {
     margin: 0;
 }
 
+    #btnAccessRequest{
+        background: rgb(185, 96, 36);
+        padding: 1rem;
+        color: white;
+        border: 1px solid orange;
+        margin: 1rem;
+    }
+
 svg{
     grid-row: 1;
     background: rgba(0, 0, 0, 0.5);
