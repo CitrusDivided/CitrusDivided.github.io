@@ -1155,7 +1155,7 @@ a:last-child{
         
     }
 
-    #topArrowRight{
+    /* #topArrowRight{
         margin: -0.7rem 0rem 0rem 43.8rem;
     }
     #bottomArrowRight{
@@ -1166,7 +1166,7 @@ a:last-child{
     }
     #bottomArrowLeft{
         margin: 0.8rem 0rem 0rem -4.1rem;
-    }
+    } */
 
 }
 
@@ -1224,7 +1224,7 @@ a:last-child{
         grid-row: content 6;
         grid-column: 1 / span 3;
     }
-    #topArrowRight{
+    /* #topArrowRight{
         margin: -1.7rem 0rem 0rem 48.8rem;
     }
     #bottomArrowRight{
@@ -1235,6 +1235,6 @@ a:last-child{
     }
     #bottomArrowLeft{
         margin: -0.5rem 0rem 0rem 0.9rem;
-    }
+    } */
     
 }
