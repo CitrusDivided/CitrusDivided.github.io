@@ -740,11 +740,19 @@ ul {
 }
 
     #btnAccessRequest{
+        cursor: pointer;
         background: rgb(185, 96, 36);
         padding: 1rem;
         color: white;
         border: 1px solid orange;
         margin: 1rem;
+    }
+    #btnAccessRequest:hover{
+        background: rgb(230, 126, 56);
+    }
+
+    #btnAccessRequest:active{
+        background: rgb(168, 86, 31);
     }
 
 svg{
