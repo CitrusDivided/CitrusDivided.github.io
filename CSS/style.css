@@ -882,7 +882,7 @@ body {
     justify-content: center;
     width: 800px;
     height: 440px;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 134, 128);
 }
 #projectOneTitle{
     grid-row: 2;
