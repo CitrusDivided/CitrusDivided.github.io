@@ -1217,7 +1217,6 @@ a:last-child{
         display: grid;
         grid-row: content 6;
         grid-column: 1 / span 3;
-        width: 810px;
     }
     #topArrowRight{
         margin: -1.7rem 0rem 0rem 48.8rem;
