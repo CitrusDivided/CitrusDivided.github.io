@@ -851,8 +851,6 @@ body {
 .shuffleSubCardBase{
     transition: 0.5s;
     display: grid;
-    grid-row: 1;
-    justify-content: center;
     text-decoration: none;
     text-shadow: 1px 2px 2px black;
     border:1px solid #0c0606;
