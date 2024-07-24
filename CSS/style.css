@@ -876,6 +876,17 @@ body {
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 10px 1px #c161ee inset;
     border:1.5px solid rgb(230, 132, 255);
 }
+
+.video-container{
+    position: relative;
+    top: -38px;
+    grid-column: 1;
+    grid-row: 3;
+    justify-content: center;
+    width: 800px;
+    height: 440px;
+    border: 1px solid red;
+}
 #projectOneTitle{
     grid-row: 2;
     font-size: 1.1rem;
