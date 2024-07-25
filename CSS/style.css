@@ -882,20 +882,17 @@ html {
     display: grid;
     grid-row: 2;
     grid-column: 1;
-    position: relative;
-    top: -100px;
     height: 550px;
     width: 900px;
     text-decoration: none;
     background: repeating-linear-gradient( 120deg, #2d0036, #000000 0.5px, #000000 0.5px, #2d0036 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 1px 1px #793b96 inset;
-    border:1.5px solid rgb(141, 0, 177);
-    padding: 2rem;
+    border: 1px solid rgb(141, 0, 177);
 }
 #projectSelectOne:hover{
     background: repeating-linear-gradient( 120deg, #2d0036, #220020 0.5px, #220020 0.5px, #2d0036 2.2px); 
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 10px 1px #c161ee inset;
-    border:1.5px solid rgb(230, 132, 255);
+    border: 1px solid rgb(230, 132, 255);
 }
 
 
@@ -953,12 +950,12 @@ html {
     grid-column: 1;
     background: repeating-linear-gradient( 120deg, #360000, #000000 0.5px, #000000 0.5px, #360000 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 1px 1px #963b3b inset;
-    border:1.5px solid rgb(255, 54, 54);
+    border: 1px solid rgb(255, 54, 54);
 }
 #projectSelectTwo:hover{
     background: repeating-linear-gradient( 120deg, #360000, #4e0000 0.5px, #4e0000 0.5px, #360000 2.2px);
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #ff3636 inset;
-    border:1.5px solid rgb(255, 84, 84);
+    border: 1px solid rgb(255, 84, 84);
 }
 #projectTwoTitle{
     grid-row: 2;
@@ -978,12 +975,12 @@ html {
     grid-column: 1;
     background: repeating-linear-gradient( 120deg, #003612, #000000 0.5px, #000000 0.5px, #003612 2.2px);
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 1px 1px #3b9652 inset;
-    border: 1.5px solid rgba(74, 255, 104, 0.712);
+    border: 1px solid rgba(74, 255, 104, 0.712);
 }
 #projectSelectThree:hover{
     background: repeating-linear-gradient( 120deg, #003612, #002207 0.5px, #002207 0.5px, #003612 2.2px); height: auto; width: auto;
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 15px 5px #3fff7f inset;
-    border: 1.5px solid rgba(197, 255, 206, 0.712);
+    border: 1px solid rgba(197, 255, 206, 0.712);
 }
 .shuffleStartButton{
     padding: 0.6rem;
@@ -1135,7 +1132,9 @@ a:last-child{
 
 .shuffleProjectSeperator{
     /* margin: 1rem; */
-    border: 1px solid white;
+    position: relative;
+    top: -100px;
+    padding: 2rem;
 }
 .shuffleSubCardBase:hover{
     transition-delay:0.2s;
