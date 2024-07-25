@@ -917,7 +917,7 @@ html {
 .slideShowContainer{
     overflow-x: hidden;
     display: grid;
-    place-items: center;
+    place-items: baseline;
 }
 
 .slideShow{
