@@ -910,7 +910,7 @@ html {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .slideShowContainer{
@@ -921,14 +921,15 @@ html {
 
 .slideShow{
     display: grid;
-    grid-auto-flow: row;
-    overflow-y: auto;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: auto;
     scroll-snap-type: x mandatory;
 }
 
     .slideShow img{
         width: 100%;
-        height; auto;
+        height: auto;
         scroll-snap-align: center;
     }
 
