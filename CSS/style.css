@@ -826,6 +826,7 @@ svg{
     }
 
 body {
+    height: 100%;
     z-index: 0;
     display: grid;
     justify-content: center;
@@ -835,6 +836,10 @@ body {
     font-family: 'Anton', sans-serif;
     font-size: 0.80rem;
     letter-spacing: 0.5px;
+}
+
+html {
+    height: 100%;
 }
 .subTextBox {
     border-radius: 0.2rem;
@@ -892,6 +897,7 @@ body {
     border:1.5px solid rgb(230, 132, 255);
 }
 
+
 .video-container{
     grid-row: 3;
     justify-content: center;
@@ -899,6 +905,34 @@ body {
     height: 440px;
     border: 1px solid rgb(0, 134, 128);
 }
+
+.slideShowBase{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    /* height: 100vh; */
+}
+
+.slideShowContainer{
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.slideShow{
+    display: grid;
+    grid-auto-flow: row;
+    overflow-y: auto;
+    scroll-snap-type: x mandatory;
+}
+
+    .slideShow img{
+        width: 100%;
+        height; auto;
+        scroll-snap-align: center;
+    }
+
+
 #projectOneTitle{
     grid-row: 2;
     font-size: 1.1rem;
