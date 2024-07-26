@@ -1319,6 +1319,10 @@ a:last-child{
         max-width: 800px;
     }
 
+    .qualificationInfoSubCard{
+        width: -webkit-fill-available;
+    }
+
     .aboutMeCardBase{
         width: 600px;
         max-width: 800px;
