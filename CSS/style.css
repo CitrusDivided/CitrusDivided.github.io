@@ -1314,6 +1314,16 @@ a:last-child{
         grid-column: 2;
     }
 
+    .qualificationInfoCardBase{
+        width: 600px;
+        max-width: 800px;
+    }
+
+    .aboutMeCardBase{
+        width: 600px;
+        max-width: 800px;
+    }
+
     .feltCardBackground{
         background-color: red;
         grid-column: 1/3;
