@@ -1293,5 +1293,8 @@ a:last-child{
     .grid-container{
         grid-template-columns: 100%;
     }
-
+    .qualificationInfoCardBase{
+        grid-row: 1;
+        grid-column: 1;
+    }
     }
