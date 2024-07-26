@@ -1286,3 +1286,12 @@ a:last-child{
     } */
     
 }
+
+
+@media (min-width: 2000px) {
+
+    .grid-container{
+        grid-template-columns: 100%;
+    }
+
+    }
