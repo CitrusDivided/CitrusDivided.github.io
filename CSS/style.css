@@ -1339,6 +1339,20 @@ a:last-child{
         max-width: 800px;
     }
 
+    .feltCardSubBackgroundLeft{
+        position: relative;
+        width: 1px;
+        grid-column: 2;
+    }
+
+    
+    .feltCardSubBackgroundRight{
+        position: relative;
+        width: 1px;
+        right: -45px;
+        grid-column: 3;
+    }
+
     .feltCardBackground{
         background-color: black;
         grid-column: 1/3;
