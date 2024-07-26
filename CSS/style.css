@@ -1314,6 +1314,10 @@ a:last-child{
         grid-column: 2;
     }
 
+    h4{
+        width:auto;
+    }
+
     .qualificationInfoCardBase{
         width: 600px;
         max-width: 800px;
