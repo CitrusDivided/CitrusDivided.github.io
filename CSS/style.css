@@ -369,6 +369,64 @@
             margin-bottom: -3rem;
         }
 
+        nav{
+            display: grid;
+            justify-items: center;
+        }
+
+        .navbar{
+            list-style-type: none;
+            margin: 0;
+            padding: 1rem;
+            overflow: hidden;
+            background-color:rgb(41, 5, 5);
+        }
+        
+        .navbar li {
+            float: left;
+            font-size: large;
+            margin: 1rem;
+        }
+
+        .navbar li a, .dropbtn {
+            background-color: rgba(0, 0, 0, 0.178);
+            padding: 1rem;
+        }
+
+        .navbar li a:hover, .dropdown:hover .droptbn {
+            background: teal;
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: teal;
+            margin-top: 1rem;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.123);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color:antiquewhite;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: bisque;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
 .grid-container {
     display: grid;
     justify-items:center;
@@ -1042,7 +1100,6 @@ html {
     font-size:1.3rem;
     border: 1px solid rgb(216, 100, 100);
     text-align: center;
-    margin-bottom: 5.5rem;
 }
 #subHeaderBottomBar {
     position: static;
@@ -1054,7 +1111,6 @@ html {
     linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.432)),
     repeating-linear-gradient( 120deg, red, rgb(172, 132, 80) 0.5px, rgb(172, 132, 80) 0.5px, red 2.2px);
     box-shadow: 10px 3px 11px 3px #000000, 0px 0px 2px 0px #ff6b6b inset;
-    margin: -3.7rem 0rem 2rem 0rem;
 }
 #subHeadText{
     z-index: 1;
