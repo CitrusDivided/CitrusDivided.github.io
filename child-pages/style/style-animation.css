@@ -186,6 +186,10 @@
         }
         
 
+body{
+    background-color: black;
+}
+
 
 .headline-grid-container{
     width: 100vw;
