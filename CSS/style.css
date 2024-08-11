@@ -369,8 +369,47 @@
             margin-bottom: -3rem;
         }
 
+        .subHeader {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            font-size:1.3rem;
+            border: 1px solid rgb(216, 100, 100);
+            text-align: center;
+        }
+        #subHeaderBottomBar {
+            height: 1rem;
+            width: 100%;
+            border-bottom: 2px solid rgb(214, 53, 53);
+            background-image:
+            radial-gradient(ellipse at bottom, rgba(255, 181, 85, 0.555) 10%, rgba(156, 0, 0, 0.692)),
+            linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.432)),
+            repeating-linear-gradient( 120deg, red, rgb(172, 132, 80) 0.5px, rgb(172, 132, 80) 0.5px, red 2.2px);
+            box-shadow: 10px 3px 11px 3px #000000, 0px 0px 2px 0px #ff6b6b inset;
+        }
+        #subHeadText{
+            z-index: 1;
+            position: absolute;
+            font-size: large;
+            width: 100%;
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+            color: rgba(0, 0, 0, 0.37);
+            text-shadow: 0px 0px 5px rgb(255, 255, 255);
+            mix-blend-mode: color-burn;
+        }
+        #subHeaderBottom {
+            z-index: -3;
+            width: 100%;
+            border-bottom: 1px dashed rgb(97, 0, 0);
+            background-image:
+            radial-gradient( rgba(255, 31, 31, 0.322), rgba(0, 0, 0, 0.158)),
+            linear-gradient(rgb(134, 0, 0) 1%, black 1%, rgb(27, 0, 0) 10%);
+            box-shadow: 1px 1px 1px 1px black, 1px 1px 10px 10px rgba(173, 57, 57, 0.26) inset;
+        }
+
         nav{
             display: grid;
+            margin: 0rem 0rem 2rem 0rem;
             justify-items: center;
         }
 
@@ -379,7 +418,8 @@
             margin: 0;
             padding: 1rem;
             overflow: hidden;
-            background-color:rgb(41, 5, 5);
+            background-color:rgb(41, 0, 0);
+            box-shadow: 0px 2px 2px 0px black;
         }
         
         .navbar li {
@@ -391,10 +431,12 @@
         .navbar li a, .dropbtn {
             background-color: rgba(0, 0, 0, 0.178);
             padding: 1rem;
+            color: rgb(255, 213, 159);
         }
 
         .navbar li a:hover, .dropdown:hover .droptbn {
-            background: teal;
+            transition: 0.3s;
+            background-color:rgb(58, 10, 10);
         }
 
         .dropdown {
@@ -404,10 +446,10 @@
         .dropdown-content {
             display: none;
             position: absolute;
-            background: teal;
+            background-color:rgb(58, 10, 10);
             margin-top: 1rem;
             min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.123);
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.418);
             z-index: 1;
         }
 
@@ -1093,43 +1135,7 @@ html {
     background: repeating-linear-gradient( 120deg, #25813b, #093d14 1px, #093d14 1px, #25813b 2px); height: auto; width: auto;
     box-shadow: 0px 3px 5px 4px #00000063, -0.1px 0.1px 5px 3px #5bff9ac0 inset;
 }
-.subHeader {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    font-size:1.3rem;
-    border: 1px solid rgb(216, 100, 100);
-    text-align: center;
-}
-#subHeaderBottomBar {
-    height: 1rem;
-    width: 100%;
-    border-bottom: 2px solid rgb(214, 53, 53);
-    background-image:
-    radial-gradient(ellipse at bottom, rgba(255, 181, 85, 0.555) 10%, rgba(156, 0, 0, 0.692)),
-    linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.432)),
-    repeating-linear-gradient( 120deg, red, rgb(172, 132, 80) 0.5px, rgb(172, 132, 80) 0.5px, red 2.2px);
-    box-shadow: 10px 3px 11px 3px #000000, 0px 0px 2px 0px #ff6b6b inset;
-}
-#subHeadText{
-    z-index: 1;
-    position: absolute;
-    font-size: large;
-    width: 100%;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    color: rgba(0, 0, 0, 0.37);
-    text-shadow: 0px 0px 5px rgb(255, 255, 255);
-    mix-blend-mode: color-burn;
-}
-#subHeaderBottom {
-    z-index: -3;
-    width: 100%;
-    border-bottom: 1px dashed rgb(97, 0, 0);
-    background-image:
-    radial-gradient( rgba(255, 31, 31, 0.322), rgba(0, 0, 0, 0.158)),
-    linear-gradient(rgb(134, 0, 0) 1%, black 1%, rgb(27, 0, 0) 10%);
-    box-shadow: 1px 1px 1px 1px black, 1px 1px 10px 10px rgba(173, 57, 57, 0.26) inset;
-}
+
 #bottomInnerBar{
     display: grid;
     grid-row:  13 / 13;
