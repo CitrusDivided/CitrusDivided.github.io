@@ -12,9 +12,13 @@ body {
     letter-spacing: 0.5px;
 }
 
-
 html {
     height: 100%;
+}
+
+main{
+    display: grid;
+    justify-content: center;
 }
 
 ul {
@@ -509,7 +513,8 @@ body{
 
         .main-top-content-base{
             background: rgb(255, 129, 213);
-            height: -webkit-fill-available;        
+            height: -webkit-fill-available;
+            width: 80vw;  
         }
 
         .main-top-library-base{
