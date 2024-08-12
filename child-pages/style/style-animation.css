@@ -557,6 +557,7 @@ main{
             background: rgb(18, 23, 34);
             height: 200px;
             padding: 1rem;
+            justify-items: center;
         }
 
         .video-thumbnails-listed-base{
@@ -564,6 +565,8 @@ main{
             padding: 1rem;
             background: rgb(17, 0, 24);
             border-radius: 0.4rem;
+            width: 290px;
+            height: 150px;
         }
 
             #video-thumb-one, #video-thumb-two, #video-thumb-three, #video-thumb-four{
