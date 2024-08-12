@@ -573,7 +573,7 @@ main{
         }
 
     .main-content-expansion-base-build{
-        background:rgb(0, 0, 0);
+        background:transparent;
         padding: 1rem;
         height: fit-content;
         display: grid;
@@ -583,20 +583,37 @@ main{
         .expansion-content-banner-blurb{
             grid-row: 1;
             grid-column: span 3;
-            background: tan;
-            color: black;
+            background: rgb(21, 35, 53);
             padding: 2rem;
         }
 
         .expansion-dual-view-launcher-base-build{
+            display: grid;
             grid-row: 2;
             grid-column: span 3;
             background:rgb(35, 73, 54);
-            height: 800px;
+            height: 1000px;
             padding: 1rem;
         }
 
         .dual-view-launcher-base-left{
+            grid-row: 1;
+            grid-column: span 2;
             background: teal;
-            
+            height: 100%;
+            border-top-left-radius: 0.4rem;
+            border-bottom-left-radius: 0.4rem;
         }
+
+        .dual-view-launcher-base-right{
+            grid-row: 1;
+            grid-column: 3;
+            background: rgb(0, 0, 0);
+            height: 100%;
+            border-top-right-radius: 0.4rem;
+            border-bottom-right-radius: 0.4rem;
+        }
+            .dual-view-launcher-base-right, .dual-view-launcher-base-left{
+                height: 100%;
+                padding: 1rem;
+            }
