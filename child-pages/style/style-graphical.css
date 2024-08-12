@@ -512,13 +512,19 @@ body{
 
 
         .main-top-content-base{
-            background: rgb(255, 129, 213);
-            height: -webkit-fill-available;
+            background: transparent;
             width: 80vw;  
         }
 
+        .main-content-headline{
+            padding: 1rem;
+            border-top-left-radius: 0.4rem;
+            border-top-right-radius: 0.4rem;
+            background-color: #5e294e;
+        }
+
         .main-top-library-base{
-            background: rgb(26, 2, 2);
+            background: rgb(23, 9, 29);
             padding: 1rem;
             display: grid;
         }
@@ -554,10 +560,6 @@ body{
         }
             h4{
                 font-size: large;
-            }
-            h3{
-                position:relative;
-                top: -7px;
             }
 
             .btn-expansion{

@@ -551,10 +551,12 @@ body{
                 display: grid;
                 align-content: center;
                 grid-column: span 2;
-                height: 2rem;
+                
                 padding: 1rem;
                 font-size: larger;
                 text-align: center;
+                border-top-left-radius: 0.4rem;
+                border-top-right-radius: 0.4rem;
             }
     
             .main-content-headline{
