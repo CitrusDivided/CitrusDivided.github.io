@@ -12,9 +12,35 @@ body {
 }
 
 
+main{
+    justify-self: center;
+    display: grid;
+    width: 90vw;
+}
+
 html {
     height: 100%;
 }
+
+h2, h3, h4, h5{
+    font-weight: normal;
+    font-size: large;
+    padding: 0;
+    margin: 0;
+}
+    h4{
+        text-align: center;
+    }
+
+    h2{
+        font-size: x-large
+    }
+
+h1{
+    font-size: largest;
+    font-weight: normal;
+}
+
 
 ul {
     margin: 0;
@@ -504,3 +530,168 @@ body{
         .dropdown:hover .dropdown-content {
             display: block;
         }
+
+
+
+        .main-content-grid-container{
+            justify-self: center;
+            background: black;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            box-shadow: 0px 50px 50px 25px black, 0px 0px 1px 1px rgba(81, 36, 107, 0.884) inset;
+            /* grid-template-rows: repeat(3, 250px); */
+    
+        }
+    
+            .main-content-page-headline{
+                background: rgb(43, 26, 59);
+                box-shadow: 0px 0px 25px 0px black, 0px 0px 1px 1px rgba(117, 65, 141, 0.658) inset;
+                grid-row: 1;
+                display: grid;
+                align-content: center;
+                grid-column: span 2;
+                height: 2rem;
+                padding: 1rem;
+                font-size: larger;
+                text-align: center;
+            }
+    
+            .main-content-headline{
+                background: rgb(26, 12, 31);
+                grid-row: 1;
+                display: grid;
+                align-content: center;
+                grid-column: span 2;
+                height: 2rem;
+                padding: 1rem;
+                font-size: larger;
+                text-align: center;
+            }
+    
+            .main-content-base-left{
+                grid-column: 1;
+                grid-row: span 3;
+                background: rgba(61, 31, 45, 0.5);
+                width: 100%;
+                height: 100%;
+                display: grid;
+                justify-items: center;
+            }
+    
+                .main-content-base-left:hover{
+                    background: rgba(78, 38, 57, 0.685);
+                }
+    
+            .main-content-base-right{
+                grid-column: 2;
+                grid-row: span 3;
+                background: rgba(23, 59, 73, 0.5);
+                width: 100%;
+                height: 100%;
+            }
+    
+                .main-content-base-right:hover{
+                    background: rgba(17, 52, 66, 0.5);
+    
+                }
+    
+            .main-content-base-left, .main-content-base-right{
+                position: relative;
+                top: 5px;
+            }
+    
+                .main-content-prio-quote{
+                    width: 100%;
+                    height: 120px;
+                    background: rgba(0, 0, 0, 0.158);
+                    display: grid;
+                    justify-content: center;
+                    align-content: stretch;
+                }
+    
+                .prio-base-paragraph{
+                    padding: 1rem;
+                    text-align: center;
+                    background: black;
+                }
+    
+                .main-content-prio-forms{
+                    grid-row: 3;
+                    column: 1;
+                }
+    
+        .main-contact-neut-base{
+            display: grid;
+            justify-content: space-around;
+        }
+    
+        .neut-input-field-base{
+            display: grid;
+        }
+    
+        .outbound-message-base{
+            background: rgba(13, 9, 22, 0.925);
+            padding: 1rem;
+            text-align: center;
+        }
+    
+        form{
+            display: grid;
+            background-color: rgb(0, 16, 37);
+            align-items: center;
+            width: 700px;
+            height: 700px;
+            align-content: center;
+            justify-content: space-evenly;
+            align-items: center;
+            justify-items: center;
+        }
+    
+            .label-name, .form-name{
+                grid-row: 1;
+            }
+            .label-email, .form-email{
+                grid-row: 2;
+            }
+            .label-subject, .form-subject{
+                grid-row: 3;
+            }
+            .label-message, .form-message{
+                grid-row: 4;
+            }
+    
+            .label-name, .label-email, .label-subject, .label-message{
+                color: rgba(169, 255, 208, 0.685);
+                font-size: 2.5em;
+                width: 200px;
+                padding: 1rem 2rem 1rem 2rem;
+                letter-spacing: 3px;
+            }
+    
+            .form-submit{
+                cursor: pointer;
+                grid-column: 2;
+                grid-row: 5;
+                color:aquamarine
+            }
+    
+                .form-submit:hover{
+                    background-color: rgb(34, 38, 97);
+                }
+    
+                .form-name, .form-email, .form-message, .form-subject, .form-submit{
+                    background: rgba(0, 0, 0, 0.671);
+                    color: rgb(99, 156, 202);
+                    padding: 1rem;
+                    margin: 1rem;
+                    width: 300px;
+                    border: 1px solid black;
+                    border-radius: 0.4rem;
+                }
+
+                .form-name:hover, .form-email:hover, .form-message:hover, .form-subject:hover, .form-submit:hover{
+                    transition: 0.1s;
+                    background: rgba(21, 21, 41, 0.671);
+                    color: rgb(99, 156, 202);
+                }
+
