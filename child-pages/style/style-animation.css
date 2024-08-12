@@ -543,4 +543,11 @@ main{
         grid-column: span 3;
     }
 
+        .video-thumbnails-unlisted{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            background: rgb(88, 16, 16);
+            height: 200px;
+        }
+
         
