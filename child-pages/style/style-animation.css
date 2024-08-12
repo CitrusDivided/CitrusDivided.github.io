@@ -567,6 +567,7 @@ main{
         }
 
             #video-thumb-one, #video-thumb-two, #video-thumb-three, #video-thumb-four{
+                cursor: pointer;
                 box-shadow: 0px 0px 10px 0px black, 0px 0px 1px 1px rgba(99, 36, 107, 0.356) inset;
             }
 
