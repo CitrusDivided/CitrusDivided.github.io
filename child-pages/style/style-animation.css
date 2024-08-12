@@ -603,3 +603,22 @@ main{
                 padding: 1rem;
                 margin: 1rem;
             }
+
+            .resource-column-one-row-one:hover, .resource-column-one-row-two:hover, .resource-column-one-row-three:hover, .resource-column-one-row-four:hover, .resource-column-one-row-five:hover{
+                box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.521), 0px 0px 1px 1px rgb(59, 43, 85) inset;
+                background: rgb(19, 17, 46);
+            }
+
+    .main-resource-right{
+        display: grid;
+        justify-content: center;
+        background: rgb(3, 17, 17);
+        padding: 1rem;
+    }
+
+        .resource-right-title-banner{
+            align-self: start;
+            width: 80%;
+            background:rgb(6, 26, 26);
+            padding: 1rem 4rem 1rem 4rem;
+        }
