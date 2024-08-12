@@ -24,6 +24,11 @@ h2, h3, h4{
         font-size: x-large;
     }
 
+    h4{
+        background-color: #773567;
+        padding: 1rem;
+    }
+
 
 main{
     display: grid;
@@ -610,7 +615,7 @@ main{
             grid-column: span 2;
             background: rgb(59, 24, 49);
             height: 100%;
-            width: 1100px;
+            width: 1000px;
             border-top-left-radius: 0.4rem;
             border-bottom-left-radius: 0.4rem;
         }
