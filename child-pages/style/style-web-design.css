@@ -571,3 +571,32 @@ main{
         .main-content-thumbnail-listed:hover{
             background-color: #193629;
         }
+
+    .main-content-expansion-base-build{
+        background:rgb(0, 0, 0);
+        padding: 1rem;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+        .expansion-content-banner-blurb{
+            grid-row: 1;
+            grid-column: span 3;
+            background: tan;
+            color: black;
+            padding: 2rem;
+        }
+
+        .expansion-dual-view-launcher-base-build{
+            grid-row: 2;
+            grid-column: span 3;
+            background:rgb(35, 73, 54);
+            height: 800px;
+            padding: 1rem;
+        }
+
+        .dual-view-launcher-base-left{
+            background: teal;
+            
+        }
