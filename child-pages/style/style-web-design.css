@@ -526,14 +526,19 @@ main{
 }
 
 .main-content-base-grid-container{
-    background: rgb(46, 163, 46);
+    background: rgb(25, 70, 70);
     height: 80vw;
     width: 80vw;
+    box-shadow: 0px 0px 50px 0px black, 0px 0px 1px 1px rgb(73, 156, 122) inset;
+    border-radius: 0.4rem;
+    padding: 0.1rem;
 }
 
     .main-content-base-build{
         background: rgb(24, 116, 70);
         width: 100%;
+        border-radius: 0.4rem;
+        box-shadow: 0px 0px 1px 1px rgb(44, 121, 121) inset;
     }
 
     .main-content-banner-base{
@@ -542,8 +547,8 @@ main{
     }
 
     .main-content-grid-layout-base{
-        background:rgb(0, 0, 0);
-        height: 400px;
+        background:rgb(24, 54, 39);
+        height: fit-content;
         padding: 1rem;
     }
 
@@ -557,7 +562,12 @@ main{
     }
 
     .main-content-thumbnail-listed{
+        cursor: pointer;
         margin: 1rem;
         padding: 1rem;
         background-color: #12251c;
     }
+
+        .main-content-thumbnail-listed:hover{
+            background-color: #193629;
+        }
