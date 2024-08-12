@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     height: 100%;
     z-index: 0;
     display: grid;
@@ -15,7 +16,7 @@ body {
 main{
     justify-self: center;
     display: grid;
-    width: 90vw;
+    width: 80vw;
 }
 
 html {
@@ -601,7 +602,8 @@ body{
             }
     
                 .main-content-prio-quote{
-                    width: 100%;
+                    width: 80%;
+                    font-size:large;
                     height: 120px;
                     background: rgba(0, 0, 0, 0.158);
                     display: grid;
