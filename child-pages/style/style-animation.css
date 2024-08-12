@@ -419,6 +419,10 @@ body{
             repeating-linear-gradient( 120deg, red, rgb(172, 132, 80) 0.5px, rgb(172, 132, 80) 0.5px, red 2.2px);
             box-shadow: 10px 3px 11px 3px #000000, 0px 0px 2px 0px #ff6b6b inset;
         }
+
+            #subHeaderBottomBar, #pageSubHeadInnerBar, #pageSubHeadBar{
+                filter:hue-rotate(225deg) saturate(70%) contrast(100%);
+            }
         #subHeadText{
             z-index: 1;
             position: absolute;
