@@ -12,6 +12,19 @@ body {
     letter-spacing: 0.5px;
 }
 
+h2, h3, h4{
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    /* height: 2rem; */
+}
+
+
+main{
+    display: grid;
+    justify-content: center;
+}
 
 html {
     height: 100%;
