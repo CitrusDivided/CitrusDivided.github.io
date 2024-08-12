@@ -544,13 +544,14 @@ main{
 }
 
     .main-content-base-build{
-        background: rgb(24, 116, 70);
+        background: rgb(42, 102, 92);
         width: 100%;
         border-radius: 0.4rem;
-        box-shadow: 0px 0px 1px 1px rgb(44, 121, 121) inset;
     }
 
     .main-content-banner-base{
+        background:#13613e;
+        border-top: 1px solid rgb(73, 153, 116);
         padding: 1rem;
         text-align: center;
     }
@@ -569,6 +570,9 @@ main{
         box-shadow: 0px 0px 50px 0px black, 0px 0px 1px 1px rgba(161, 249, 255, 0.589) inset;
         border-radius: 0.4rem;
     }
+        .main-content-thumbnail-unlisted:hover{
+            z-index: 6;
+        }
 
     .main-content-thumbnail-listed{
         cursor: pointer;
@@ -648,3 +652,14 @@ main{
                 margin: 1rem;
                 padding: 1rem;
             }
+
+        .launcher-banner{
+            background-color: #ad2436;
+            padding: 1rem;
+        }
+
+        .launcher-site-iframe-base{
+            padding: 1rem;
+            height: fit-content;
+            background:rgb(20, 9, 19);
+        }
