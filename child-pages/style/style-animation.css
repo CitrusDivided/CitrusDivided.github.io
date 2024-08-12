@@ -505,3 +505,42 @@ body{
         .dropdown:hover .dropdown-content {
             display: block;
         }
+
+
+
+main{
+    display: grid;
+    justify-content: center;
+}
+
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    h1,h2,h3,h4{
+        font-weight: normal;
+    }
+
+    .main-video-grid-container{
+        background: rgb(20, 19, 48);
+        width: 80vw;
+        height: 1400px;
+    }
+
+    .video-grid-base{
+        background:rgba(0, 0, 0, 0.767);
+        width: 100%;
+        padding: 3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .video-title-banner{
+        background:rgb(39, 38, 73);
+        width: 100%;
+        grid-row: 1;
+        grid-column: span 3;
+    }
+
+        
