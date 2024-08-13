@@ -551,7 +551,6 @@ body{
                 display: grid;
                 align-content: center;
                 grid-column: span 2;
-                
                 padding: 1rem;
                 font-size: larger;
                 text-align: center;

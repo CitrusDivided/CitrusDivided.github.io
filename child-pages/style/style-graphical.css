@@ -530,9 +530,12 @@ body{
         }
 
         .library-story-base{
+            display: grid;
+            justify-content: center;
             cursor: pointer;
             background: rgb(0, 0, 0);
-            width: 100%;
+            width: 420px;
+            height: 220px;
             padding: 1rem;
             border-radius: 0.5rem;
             box-shadow: 0px 0px 5px 0px black, 0px 0px 1px 1px rgba(68, 68, 68, 0.37) inset;
@@ -563,12 +566,14 @@ body{
             }
 
             .btn-expansion{
+                justify-self: center;
                 cursor: pointer;
                 background: black;
                 border: 1px solid rgb(26, 26, 26);
                 padding: 1rem;
                 color: rgba(255, 255, 255, 0.363);
                 margin: 1rem;
+                width: 100%;
             }
 
                 .btn-expansion:hover{
