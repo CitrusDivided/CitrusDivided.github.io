@@ -554,8 +554,9 @@ main{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             gap: 10px;
-            background: rgb(18, 23, 34);
+            background-image: linear-gradient(rgb(7, 15, 32), rgb(26, 0, 48));
             height: 250px;
+            border-top: 1px solid rgba(6, 61, 61, 0.384);
             padding: 1rem;
             justify-items: center;
         }
