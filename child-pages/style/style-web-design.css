@@ -12,7 +12,7 @@ body {
     letter-spacing: 0.5px;
 }
 
-h2, h3, h4{
+h2, h3, h4, h5{
     text-align: center;
     font-weight: normal;
     margin: 0;
@@ -20,11 +20,12 @@ h2, h3, h4{
     /* height: 2rem; */
 }
 
-    h3{
+    h4{
         font-size: x-large;
     }
 
-    h4{
+    h5{
+        font-size:large;
         background-color: #773567;
         padding: 1rem;
     }
@@ -557,6 +558,7 @@ main{
     }
 
     .main-content-grid-layout-base{
+        border-top: 1px solid rgb(39, 136, 79);
         background:rgb(24, 54, 39);
         height: fit-content;
         padding: 1rem;
