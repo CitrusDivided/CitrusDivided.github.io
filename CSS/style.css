@@ -719,8 +719,8 @@ main{
     }
 
     .animation-content-grid-container{
-        background: rgb(38, 38, 66);
-        height: 900px;
+        background: rgb(28, 28, 75);
+        height: 1000px;
         width: 90%;
         display: grid;
         justify-items: center;
@@ -733,7 +733,31 @@ main{
         text-align: center;
     }
 
+.content-active-information-base{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 
+    .active-information-unlisted{
+        background: rgb(3, 9, 26);
+        padding: 1rem;
+        width: 80%;
+        justify-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+    }
+
+    .active-information-listed{
+        background-color: #331936;
+        padding: 1rem;
+    }
+
+        .listed-items-pattern{
+            background-color: #47294b;
+        }
+        
 @media (min-width: 0px) {
     
 }
