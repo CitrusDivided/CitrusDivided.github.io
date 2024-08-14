@@ -651,26 +651,26 @@ main{
     }
 
         .blurb-title{
-            grid-row:1;
             position: relative;
-            top: -65px;
+            top: 13px;
             width: fit-content;
             border-top-left-radius: 0.4rem;
             border-top-right-radius: 0.4rem;
-            background: black;
+            background: rgb(24, 24, 24);
             padding: 1rem;
         }
 
         .main-content-listed-item{
-            background: black;
-            border-radius: 0.4rem;
-            padding: 1rem;
+            background: rgba(0, 0, 0, 0.048);
+
         }
 
             .listed-item-paragraph{
-                padding: 1rem;
-                background:rgb(109, 109, 109)
-            }
+                padding: 2rem;
+                background:rgb(7, 7, 7);
+                border-top-right-radius: 0.4rem;
+                border-bottom-left-radius: 0.4rem;
+                border-bottom-right-radius: 0.4rem;            }
 
     .main-content-right-about{
         border-radius: 0.4rem;
