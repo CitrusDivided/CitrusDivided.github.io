@@ -596,17 +596,18 @@ main{
     }
 
     .main-content-unified-base{
-        background-color: #662121;
+        background-color: #1b0303;
         height: 800px;
         padding: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        justify-items: center;
     }
 
     .main-content-top-headline-banner{
         text-align: center;
         background: rgb(134, 16, 16);
-        height: 1rem;
         padding: 1rem;
         grid-column: span 2;
         grid-row: 1;
@@ -615,17 +616,22 @@ main{
     }
 
     .main-content-left-qualification{
+        border-radius: 0.4rem;
+        width: 80%;
         padding: 1rem;
         grid-column: 1;
-        grid-row: 2;
-        background: rgb(146, 33, 33);
+        background: rgb(21, 58, 20);
+        box-shadow: 0px 0px 10px 0px black, 0px 0px 1px 1px rgb(0, 155, 52);
+
     }
 
     .main-content-right-about{
+        border-radius: 0.4rem;
+        width: 80%;
+        box-shadow: 0px 0px 10px 0px black, 0px 0px 1px 1px rgb(170, 44, 196);
         padding: 1rem;
         grid-column: 2;
-        grid-row: 2;
-        background: teal;
+        background: rgb(70, 11, 35);
     }
 
 
