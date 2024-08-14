@@ -714,16 +714,24 @@ main{
                     border-radius: 0.4rem;
                 }
                 .social-media-listed-image{
+                    display: grid;
+                    grid-template-columns: 1fr 50px;
                     cursor: pointer;
-                    height: 20px;
+                    height: 50px;
                     width: 500px;
                     background-color: rgba(31, 80, 35, 0.466);
-                    padding: 1rem;
                 }
 
                     .social-media-listed-image:hover{
                         background-color: rgba(43, 100, 48, 0.651);
                     }
+
+                .social-media-outbound-text{
+                    align-self: center;
+                    background:rgb(29, 77, 45);
+                    text-align: center;
+                    color:#00000088;
+                }
 
                 #exp-grid-sort{
                     grid-template-columns: 1fr;
