@@ -1,5 +1,7 @@
 h1,h2,h3,h4,h5{
     font-weight: normal;
+    margin: 0;
+    padding: 0;
 }
 
 .stage-decorations{
@@ -594,22 +596,33 @@ main{
     }
 
     .main-content-unified-base{
-        background-color: #ff6b6b;
+        background-color: #662121;
         height: 800px;
-        border-top-left-radius: 0.4rem;
-        border-top-right-radius: 0.4rem;
         padding: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
+    .main-content-top-headline-banner{
+        text-align: center;
+        background: rgb(134, 16, 16);
+        height: 1rem;
+        padding: 1rem;
+        grid-column: span 2;
+        grid-row: 1;
+        border-top-left-radius: 0.4rem;
+        border-top-right-radius: 0.4rem;
+    }
+
     .main-content-left-qualification{
+        padding: 1rem;
         grid-column: 1;
         grid-row: 2;
-        background: orangered;
+        background: rgb(146, 33, 33);
     }
 
     .main-content-right-about{
+        padding: 1rem;
         grid-column: 2;
         grid-row: 2;
         background: teal;
