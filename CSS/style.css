@@ -715,6 +715,8 @@ main{
                 }
                 .social-media-listed-image{
                     cursor: pointer;
+                    height: 20px;
+                    width: 500px;
                     background-color: rgba(31, 80, 35, 0.466);
                     padding: 1rem;
                 }
