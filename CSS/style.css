@@ -642,7 +642,16 @@ main{
         font-size: large;
     }
 
-    
+    .main-content-blurb-grid-container{
+        background: rgba(0, 0, 0, 0.63);
+        padding: 1rem;
+        border-radius: 0.4rem;
+    }
+
+        .blurb-title{
+            background: black;
+            padding: 1rem;
+        }
 
     .main-content-right-about{
         border-radius: 0.4rem;
