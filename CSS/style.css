@@ -708,14 +708,29 @@ main{
                 border: 1px solid black;
        
             }
+                #social-grid-sort{
+                    background-color: rgba(14, 87, 56, 0.644);
+                    padding: 0.5rem;
+                    border-radius: 0.4rem;
+                }
+                .social-media-listed-image{
+                    cursor: pointer;
+                    background-color: rgba(31, 80, 35, 0.466);
+                    padding: 1rem;
+                }
 
-            #exp-grid-sort{
-                grid-template-columns: 1fr;
-                grid-template-rows: 1fr 1fr 1fr 1fr;
-            }
-            .exp-grid-fix{
-                height: 15px;
-            }
+                    .social-media-listed-image:hover{
+                        background-color: rgba(43, 100, 48, 0.651);
+                    }
+
+                #exp-grid-sort{
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr 1fr 1fr;
+                }
+                .exp-grid-fix{
+                    height: fit-content;
+                    padding: 1rem;
+                }
 
             .project-unlisted{
                 display: grid;
