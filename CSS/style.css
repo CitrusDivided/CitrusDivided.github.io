@@ -570,7 +570,7 @@ main{
 }
 
     .main-content-grid-container{
-        background-color: red;
+        background-color: rgb(21, 14, 31);
         width: 80vw;
         height: fit-content;
         border-top-left-radius: 0.4rem;
@@ -708,7 +708,15 @@ main{
                 border: 1px solid black;
        
             }
+
+            .social-media-nested-list-base{
+                width: fit-content;
+                height: fit-content;
+                justify-self: center;
+            }
                 #social-grid-sort{
+                    display: grid;
+                    justify-items: center;
                     background-color: rgba(14, 87, 56, 0.644);
                     padding: 0.5rem;
                     border-radius: 0.4rem;
