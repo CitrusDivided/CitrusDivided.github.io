@@ -265,10 +265,11 @@ body{
             text-align:center;
             font-size: 4rem;
             border: 1px solid rgba(123, 255, 193, 0.11);
-            box-shadow: 0px 100px 30px 20px rgb(0, 0, 0), 0px 10px 30px 30px rgba(0, 0, 0, 0.384) inset;
+            box-shadow: 0px 100px 30px 20px rgb(0, 0, 0), 0px 10px 30px 30px rgba(0, 0, 0, 0.76) inset;
             margin:0;
             transition: all ease-in-out 0.4s;
             animation-duration: 80s;
+            mix-blend-mode: difference;
         }
 
             @-webkit-keyframes BackgroundAnimation {
@@ -288,6 +289,7 @@ body{
             }
             #pageHeadlineHoloSheen{
                 position:absolute;
+                top: 24%;
                 pointer-events: none;
                 z-index: -5;
                 width: 100%;

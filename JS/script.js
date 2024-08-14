@@ -23,14 +23,7 @@ anime({
 
 })
 
-anime({
-    targets: ['#pageHeadlineHoloSheen'],
-    duration: 9200,
-    top: '30%',
-    loop: false,
-    direction: 'alternate',
-    easing: 'easeInOutExpo'
-})
+
 
 var scannerColoring = anime.timeline({
     endDelay: 1000,
