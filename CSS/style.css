@@ -8,6 +8,9 @@ h4{
     font-size: large;
 }
 
+li{
+    list-style: none;
+}
 
 
 .stage-decorations{
@@ -648,7 +651,9 @@ main{
             position: relative;
             top: 13px;
             width: fit-content;
-            background-color: rgba(9, 82, 9, 0.295);
+            background-color: rgba(43, 194, 43, 0.39);
+            border-top-right-radius: 0.2rem;
+            border-top-left-radius: 0.2rem;
             box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.397), 0px 0px 3px 0px rgba(255, 255, 255, 0.596) inset;
             padding: 0.5rem 1rem 0.5rem 1rem;
             border-top: 1px solid rgb(0, 0, 0);
@@ -659,8 +664,31 @@ main{
         .main-content-listed-item{
             position: relative;
             top: -100px;
+            display: grid;
 
         }
+
+        .btn-shadow{
+            justify-self: center;
+            cursor: pointer;
+            background:rgb(4, 49, 22);
+            border: 1px solid rgb(0, 0, 0);
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.397), 0px 0px  1px 0px rgb(63, 255, 111) inset;
+            width: 60%;
+            padding: 1rem;
+            color: inherit;
+            border-radius: 0.2rem;
+        }
+
+            .btn-shadow:hover{
+                background:rgb(0, 39, 15);
+            }
+
+            .btn-shadow:active{
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.397), 0px 0px  1px 0px rgb(63, 255, 111) inset;
+                background:rgb(2, 63, 25);
+
+            }
 
             .listed-item-paragraph{
                 padding: 2rem;
