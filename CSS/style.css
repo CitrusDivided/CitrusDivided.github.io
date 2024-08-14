@@ -330,6 +330,7 @@ p{
 
 
         #pageSubHeadBar{
+            scroll-snap-align: start;
             z-index: 1;
             border: 1px solid #000000;
             margin-bottom: -0.1rem;
@@ -356,7 +357,6 @@ p{
 
         .subHeader {
             display: grid;
-            scroll-snap-align: start;
             align-items: center;
             justify-items: center;
             font-size:1.3rem;
