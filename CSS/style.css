@@ -381,7 +381,7 @@ p{
 
         #subHeadText{
             z-index: 1;
-            position: absolute;
+            position: relative;
             font-size: large;
             width: 100%;
             padding: 0.5rem 0.5rem 0.5rem 0.5rem;
