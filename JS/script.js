@@ -40,21 +40,7 @@ var scannerColoring = anime.timeline({
 })
 .add({ targets: ['#pageHeadlineHoloSheen', 'hr', '#imageDec',], background: 'rgb(150,0,0, 1' }, 1)
 
-var canvas = document.querySelector('canvas');
 
-canvas.width = 600;
-canvas.height = 960;
-
-var c = canvas.getContext('2d');
 // Interaction //
 
-var mouse={
-    x: undefined,
-    y: undefined
-}
 
-window.addEventListener('mousemove',
-    function(event) {
-        mouse.x = event.x;
-        mouse.y = event.y;
-});
