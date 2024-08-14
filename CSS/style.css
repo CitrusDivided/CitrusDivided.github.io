@@ -4,6 +4,10 @@ h1,h2,h3,h4,h5,h6{
     padding: 0;
 }
 
+h4{
+    font-size: large;
+}
+
 
 
 .stage-decorations{
@@ -637,14 +641,24 @@ main{
         }
 
     .main-content-title-banner{
+        display: grid;
+        align-content: center;
         grid-row: 1;
-        background:rgba(0, 0, 0, 0.623);
+        background:rgba(0, 0, 0, 0.534);
+        border-bottom: 1px solid rgb(59, 78, 30);
         padding: 1rem;
         width: 100%;
         text-align: center;
         justify-self: center;
         height: 1rem;
     }
+
+        .main-content-title-banner{
+            position: relative;
+            top: -15px;
+            border-top-left-radius: 0.4rem;
+            border-top-right-radius: 0.4rem;
+        }
 
     .main-content-status{
         grid-row: 2;
