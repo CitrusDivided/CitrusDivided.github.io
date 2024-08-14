@@ -38,6 +38,8 @@ main{
 
 html {
     height: 100%;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 
 ul {
@@ -244,6 +246,7 @@ body{
 
 
 .headline-grid-container{
+    scroll-snap-align: start;
     width: 100vw;
 }
 
@@ -429,6 +432,7 @@ body{
 
         .subHeader {
             display: grid;
+            scroll-snap-align: start;
             align-items: center;
             justify-items: center;
             font-size:1.3rem;
