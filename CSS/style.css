@@ -330,7 +330,6 @@ p{
 
 
         #pageSubHeadBar{
-            scroll-snap-align: start;
             z-index: 1;
             border: 1px solid #000000;
             margin-bottom: -0.1rem;
@@ -364,6 +363,7 @@ p{
             text-align: center;
         }
         #subHeaderBottomBar {
+            scroll-snap-align: start;
             height: 1rem;
             width: 100%;
             border-bottom: 2px solid rgb(214, 53, 53);
