@@ -244,6 +244,7 @@ body{
         }
 
         .page-headline-base-container {
+            filter:none;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             justify-items: center;
@@ -282,6 +283,15 @@ body{
                 50%{background-position:100% 76%}
                 100%{background-position:0% 25%}
             }
+
+
+
+            .page-headline-base-container:active {
+                transition: 0.2s;
+                filter: sepia(1);
+            }
+
+
             #pageHeadlineHoloSheen{
                 position:absolute;
                 pointer-events: none;
@@ -676,16 +686,25 @@ main{
         }
 
         .resource-download-base{
-            background: rgb(4, 48, 48);
+            /* background: rgb(4, 48, 48); */
             width: 500px;
-            padding: 1rem;
+            /* padding: 1rem; */
         }
 
         #btn-download, #btn-alt-download{
+            cursor: pointer;
             background: rgba(0, 0, 0, 0.795);
             padding: 1rem;
             border: 1px solid black;
             color: inherit;
             width: 100%;
             margin: 0.2rem 0rem 0.2rem 0rem;
+        }
+            #btn-download:hover, #btn-alt-download:hover{
+                background: rgba(8, 10, 10, 0.795);
+            }
+
+        button{
+            margin: 0;
+            padding: 0;
         }
