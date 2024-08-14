@@ -671,6 +671,7 @@ main{
             position: relative;
             top: -100px;
             display: grid;
+            margin: 20px;
 
         }
 
@@ -724,6 +725,10 @@ main{
                 .project-listed:hover{
                     background: rgb(44, 80, 38);
 
+                }
+
+                .project-listed:active{
+                    background: rgb(26, 46, 22);
                 }
 
 
