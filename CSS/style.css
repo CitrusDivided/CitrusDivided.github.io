@@ -741,8 +741,11 @@ main{
 
     .active-information-unlisted{
         background: rgb(3, 9, 26);
+        border-top-left-radius: 0.4rem;
+        border-top-right-radius: 0.4rem ;
         padding: 1rem;
-        width: 80%;
+        width: 90%;
+        height: 100%;
         justify-self: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -756,6 +759,13 @@ main{
 
         .listed-items-pattern{
             background-color: #47294b;
+        }
+
+        .active-listed-items-header{
+            padding: 1rem;
+            text-align: center;
+            font-size: large;
+            background: rgba(0, 0, 0, 0.603);
         }
         
 @media (min-width: 0px) {
