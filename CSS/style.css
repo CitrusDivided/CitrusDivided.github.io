@@ -12,6 +12,10 @@ li{
     list-style: none;
 }
 
+p{
+    margin: 0;
+}
+
 
 .stage-decorations{
     display: contents;
@@ -585,6 +589,8 @@ main{
     .main-content-top-headline-banner{
         text-align: center;
         background: rgb(134, 16, 16);
+        border-top: 1px solid red;
+        border-bottom: 1px solid rgb(150, 35, 35);
         padding: 1rem;
         grid-column: span 2;
         grid-row: 1;
@@ -604,6 +610,7 @@ main{
         display: grid;
         grid-template-rows: repeat(3, 100px);
         justify-items: stretch;
+        justify-self: end;
         line-height: 2.2em;
     }
 
@@ -635,7 +642,7 @@ main{
     .main-content-status{
         grid-row: 2;
         position: relative;
-        top: -35px;
+        top: -45px;
         text-align: center;
         height: fit-content;
         font-size: large;
@@ -648,8 +655,7 @@ main{
     }
 
         .blurb-title{
-            position: relative;
-            top: 13px;
+        
             width: fit-content;
             background-color: rgba(43, 194, 43, 0.39);
             border-top-right-radius: 0.2rem;
@@ -678,6 +684,7 @@ main{
             padding: 1rem;
             color: inherit;
             border-radius: 0.2rem;
+            margin: 1rem;
         }
 
             .btn-shadow:hover{
@@ -700,6 +707,25 @@ main{
                 border: 1px solid black;
        
             }
+
+            .project-unlisted{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+                .project-listed{
+                    cursor: pointer;
+                    background: rgb(32, 58, 28);
+                    padding: 1rem;
+                    margin: 2px;
+                }
+
+                .project-listed:hover{
+                    background: rgb(44, 80, 38);
+
+                }
+
 
             #qualification-hue{
                 filter: hue-rotate(100deg) contrast(1.1);
