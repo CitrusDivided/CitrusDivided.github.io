@@ -622,8 +622,27 @@ main{
         grid-column: 1;
         background: rgb(21, 58, 20);
         box-shadow: 0px 0px 10px 0px black, 0px 0px 1px 1px rgb(0, 155, 52);
+        display: grid;
+        justify-items: stretch;
 
     }
+
+    .main-content-title-banner{
+        background:rgba(0, 0, 0, 0.384);
+        padding: 1rem;
+        width: 90%;
+        justify-self: center;
+        height: 1rem;
+    }
+
+    .main-content-status{
+        background: rgba(0, 0, 0, 0.267);
+        text-align: center;
+        height: fit-content;
+        font-size: large;
+    }
+
+    
 
     .main-content-right-about{
         border-radius: 0.4rem;
