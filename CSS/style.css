@@ -557,7 +557,7 @@ html {
     height: 100%;
 }
 
-#projectSelectThree{
+/* #projectSelectThree{
     cursor: pointer;
     display: grid;
     grid-row: 4;
@@ -565,7 +565,7 @@ html {
     background: repeating-linear-gradient( 120deg, #003612, #000000 0.5px, #000000 0.5px, #003612 2.2px);
     box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 1px 1px #3b9652 inset;
     border: 1px solid rgba(74, 255, 104, 0.712);
-}
+} */
 a, a:visited{
     text-decoration: none;
     color:#ffe48b;
@@ -620,8 +620,9 @@ main{
         height: 1000px;
         padding: 1rem;
         grid-column: 1;
-        background: rgb(21, 58, 20);
-        box-shadow: 0px 0px 10px 0px black, 0px 0px 1px 1px rgb(0, 155, 52);
+        background: repeating-linear-gradient( 60deg, #054119, #000000 1px, #000000 1px, #054119 1.8px);
+        box-shadow: 0px 0px 10px 0px black, 0px 0px 40px 0px rgb(99, 255, 151) inset;
+        border: 1px solid green;
         display: grid;
         grid-template-rows: repeat(3, 100px);
         justify-items: stretch;
@@ -629,12 +630,13 @@ main{
     }
 
         .main-content-left-qualification:hover{
-            background: rgb(37, 88, 36);
+            transition: 0.4s;
+            box-shadow: 0px 0px 25px 2px black, 0px 0px 60px 0px rgb(99, 255, 151) inset;
         }
 
     .main-content-title-banner{
         grid-row: 1;
-        background:rgba(0, 0, 0, 0.801);
+        background:rgba(0, 0, 0, 0.623);
         padding: 1rem;
         width: 100%;
         text-align: center;
@@ -661,10 +663,11 @@ main{
             position: relative;
             top: 13px;
             width: fit-content;
-            border-top-left-radius: 0.4rem;
-            border-top-right-radius: 0.4rem;
-            background: rgb(24, 24, 24);
-            padding: 1rem;
+            background-color: rgba(9, 82, 9, 0.295);
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.397), 0px 0px 3px 0px rgba(255, 255, 255, 0.596) inset;
+            padding: 0.5rem 1rem 0.5rem 1rem;
+            border-top: 1px solid rgb(0, 0, 0);
+            text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.541);
         }
 
         .main-content-listed-item{
@@ -675,10 +678,21 @@ main{
 
             .listed-item-paragraph{
                 padding: 2rem;
-                background:rgb(7, 7, 7);
+                background:rgb(0, 20, 8);
                 border-top-right-radius: 0.4rem;
                 border-bottom-left-radius: 0.4rem;
-                border-bottom-right-radius: 0.4rem;            
+                border-bottom-right-radius: 0.4rem;
+                box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.397), 0px 0px  1px 0px rgba(63, 255, 111, 0.596) inset;
+                border: 1px solid black;
+       
+            }
+
+            #qualification-hue{
+                filter: hue-rotate(100deg) contrast(1.1);
+            }
+
+            #about-hue{
+                filter: hue-rotate(200deg) contrast(1.1);
             }
 
     .main-content-right-about{
@@ -689,14 +703,17 @@ main{
         line-height: 2.2em;
         border-radius: 0.4rem;
         width: 80%;
-        box-shadow: 0px 0px 10px 0px black, 0px 0px 1px 1px rgb(170, 44, 196);
         padding: 1rem;
         grid-column: 2;
-        background: rgb(70, 11, 35);
+        box-shadow: 0px 0px 10px 0px black, 0px 0px 1px 1px rgb(0, 155, 52);
+        background: repeating-linear-gradient( 60deg, #054119, #000000 1px, #000000 1px, #054119 1.8px);
+        box-shadow: 0px 0px 10px 0px black, 0px 0px 40px 0px rgb(99, 255, 151) inset;
+        border: 1px solid green;
     }
 
         .main-content-right-about:hover{
-            background: rgb(100, 18, 51);
+            transition: 0.4s;
+            box-shadow: 0px 0px 25px 2px black, 0px 0px 60px 0px rgb(99, 255, 151) inset;    
         }
 .secondary-content-grid-container{
     border-radius: 0.4rem;
@@ -749,7 +766,8 @@ main{
         justify-self: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        line-height: 2.2em;
     }
 
     .active-information-listed{
