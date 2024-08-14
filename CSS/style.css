@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5{
+    font-weight: normal;
+}
+
 .stage-decorations{
     display: contents;
 }
@@ -477,7 +481,7 @@
 
 
 
-#aboutMeSocialSpan {
+/* #aboutMeSocialSpan {
     display: grid;
     grid-row: 4;
     position: relative;
@@ -488,7 +492,7 @@
     cursor: pointer;
     row-gap: 0rem;
     border: 1px solid rgba(0, 0, 0, 0.397);
-    /* background-color: rgba(0, 170, 65, 0.301); */
+    background-color: rgba(0, 170, 65, 0.301);
     background-blend-mode: color-burn;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.733), 1px 1px 10px 0px #3f0858 inset;
     font-size: 1rem;
@@ -523,7 +527,7 @@
     100%{
         background-color: rgba(0, 170, 65, 0.301);
     }   
-}
+} */
 
 ul {
     margin: 0;
@@ -573,6 +577,44 @@ a:active{
 a:last-child{
     text-decoration: none;
 }
+
+
+
+main{
+    display: grid;
+    justify-content: center;
+}
+
+    .main-content-grid-container{
+        background-color: red;
+        width: 80vw;
+        height: fit-content;
+        border-top-left-radius: 0.4rem;
+        border-top-right-radius: 0.4rem;
+    }
+
+    .main-content-unified-base{
+        background-color: #ff6b6b;
+        height: 800px;
+        border-top-left-radius: 0.4rem;
+        border-top-right-radius: 0.4rem;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main-content-left-qualification{
+        grid-column: 1;
+        grid-row: 2;
+        background: orangered;
+    }
+
+    .main-content-right-about{
+        grid-column: 2;
+        grid-row: 2;
+        background: teal;
+    }
+
 
 @media (min-width: 0px) {
     
