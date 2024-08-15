@@ -891,6 +891,10 @@ main{
                     background-color: #000000;
                 }
 
+                .menu-collapse{
+                    display: none;
+                }
+
                 
             #qualification-hue{
                 filter: hue-rotate(100deg) contrast(1.1);
