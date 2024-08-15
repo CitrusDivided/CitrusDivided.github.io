@@ -706,7 +706,6 @@ main{
                 border-bottom-right-radius: 0.4rem;
                 box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.397), 0px 0px  1px 0px rgba(63, 255, 111, 0.596) inset;
                 border: 1px solid black;
-       
             }
 
             .social-media-nested-list-base{
@@ -724,7 +723,6 @@ main{
                 .social-media-listed-image{
                     display: grid;
                     /* grid-template-columns: 1fr 50px; */
-                    cursor: pointer;
                     height: 30px;
                     background-color: rgba(31, 80, 35, 0.466);
                 }
@@ -780,8 +778,24 @@ main{
                     grid-template-rows: 1fr 1fr 1fr 1fr;
                 }
                 .exp-grid-fix{
+                    cursor: pointer;
                     height: fit-content;
                     padding: 1rem;
+                }
+
+                .exp-grid-fix:hover{
+                    transition: 0.5s;
+                    background-color: #054119;
+                }
+
+                .social-media-hover{
+                    height: fit-content;
+                    padding: 1rem;
+                }
+
+                .social-media-hover:hover{
+                    transition: 0.5s;
+                    height: 60px;
                 }
 
             .project-unlisted{
