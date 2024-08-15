@@ -800,17 +800,23 @@ main{
                     border-top-right-radius: 0rem;
                 }
 
-                #social-bottom-row-left, #social-bottom-row-right{
+                #social-bottom-row-left, #social-bottom-row-right, #social-bottom-row-center{
                     grid-row: 2;
                     width: 100%;
                     height: 50px;
                     background-color: #133323;
                 }
 
-                #social-bottom-row-left:hover, #social-bottom-row-right:hover{
+                #social-bottom-row-left:hover, #social-bottom-row-right:hover, #social-bottom-row-center:hover{
                     background-color: #297c52;
                 }                
 
+                #social-bottom-row-center{
+                    border-radius: 0rem;
+                    justify-self: unset;
+                    grid-column: 2;
+                    margin: 0;
+                }
                 
                 #social-bottom-row-right{
                     border-top-right-radius: 0rem;
