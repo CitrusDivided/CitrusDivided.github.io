@@ -752,7 +752,7 @@ main{
 
                 #social-grid-sort{
                     display: grid;
-                    grid-template-columns: 100px 100px 100px;
+                    grid-template-columns: 1fr 1fr 1fr;
                     justify-self: center;
                     justify-items: center;
                     padding: 0.5rem;
@@ -781,7 +781,7 @@ main{
                 }
                 #social-top{
                     border-radius: 0.4rem;
-                    width: 122%;
+                    width: 100%;
                     height: 60px;
                     grid-row: 1;
                     border-bottom-right-radius: 0rem;
@@ -802,7 +802,7 @@ main{
 
                 #social-bottom-row-left, #social-bottom-row-right{
                     grid-row: 2;
-                    width: 166%;
+                    width: 100%;
                     height: 50px;
                     background-color: #133323;
                 }
