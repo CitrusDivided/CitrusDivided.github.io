@@ -931,9 +931,14 @@ main{
 
     .content-active-video-banner-base{
         background: rgba(0, 0, 0, 0.548);
-        width: 100%;
+        width: 1350px;
         height: 400px;
         text-align: center;
+    }
+
+    #active-video{
+        width: 1350px;
+        height: 400px;
     }
 
 .content-active-information-base{
