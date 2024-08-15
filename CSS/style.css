@@ -773,12 +773,12 @@ main{
 
                 .social-section-fix{
                     grid-column: span 2;
-                    width:500px;
+                    width:40%;
                     margin: 0.5rem;
                 }
                 #social-top{
                     border-radius: 0.4rem;
-                    width: 515px;
+                    width: 40%;
                     height: 60px;
                     grid-row: 1;
                     border-bottom-right-radius: 0rem;
@@ -799,7 +799,7 @@ main{
 
                 #social-bottom-row-left, #social-bottom-row-right{
                     grid-row: 2;
-                    width: 240px;
+                    width: 50%;
                     height: 50px;
                     background-color: #133323;
                 }
