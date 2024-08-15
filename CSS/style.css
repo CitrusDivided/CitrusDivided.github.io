@@ -748,26 +748,30 @@ main{
                 }
                 #social-top{
                     border-radius: 0.4rem;
-                    width: 90%;
+                    width: 515px;
                     grid-row: 1;
+                    border-bottom-right-radius: 0rem;
+                    border-bottom-left-radius: 0rem;
                     grid-column: span 2;
                     background-color: #133323;
                 }
 
                 #social-bottom-row-left{
                     grid-column: 1;
+                    border-bottom-right-radius: 0rem;
+                    border-top-right-radius: 0rem;
                 }
 
                 #social-bottom-row-left, #social-bottom-row-right{
                     grid-row: 2;
                     width: 240px;
-                    border-radius: 0.4rem;
                     height: 100px;
                     background-color: #133323;
                 }
 
                 
                 #social-bottom-row-right{
+                    border-top-right-radius: 0rem;
                     grid-column: 2;
                 }
 
