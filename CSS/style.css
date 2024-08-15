@@ -751,6 +751,7 @@ main{
 
                 #social-grid-sort{
                     display: grid;
+                    grid-template-columns: 100px 100px 100px;
                     justify-items: center;
                     padding: 0.5rem;
                     border-radius: 0.4rem;
@@ -772,8 +773,8 @@ main{
                 }
 
                 .social-section-fix{
-                    grid-column: span 2;
-                    width:40%;
+                    grid-column: span 3;
+                    width: 80%;
                     margin: 0.5rem;
                 }
                 #social-top{
@@ -783,7 +784,7 @@ main{
                     grid-row: 1;
                     border-bottom-right-radius: 0rem;
                     border-bottom-left-radius: 0rem;
-                    grid-column: span 2;
+                    grid-column: span 3;
                     background-color: #133323;
                 }
 
@@ -812,7 +813,7 @@ main{
                 #social-bottom-row-right{
                     border-top-right-radius: 0rem;
                     border-bottom-left-radius: 0rem;
-                    grid-column: 2;
+                    grid-column: 3;
                 }
 
                 #exp-grid-sort{
