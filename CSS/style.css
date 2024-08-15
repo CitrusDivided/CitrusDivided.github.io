@@ -726,7 +726,7 @@ main{
                     grid-template-columns: 1fr 50px;
                     cursor: pointer;
                     height: 50px;
-                    width: 500px;
+                    width: 250px;
                     background-color: rgba(31, 80, 35, 0.466);
                 }
 
@@ -739,6 +739,32 @@ main{
                     background:rgb(29, 77, 45);
                     text-align: center;
                     color:#00000088;
+                }
+
+                .social-section-fix{
+                    grid-column: span 2;
+                    width:500px;
+                }
+                #social-top{
+                    width: 480px;
+                    grid-row: 1;
+                    grid-column: span 2;
+                }
+
+                #social-bottom-row-left{
+                    grid-row: 2;
+                    grid-column: 1;
+                }
+
+                #social-bottom-row-left, #social-bottom-row-right{
+                    grid-row: 2;
+                    height: 100px;
+                }
+
+                
+                #social-bottom-row-right{
+                    grid-row: 2;
+                    grid-column: 2;
                 }
 
                 #exp-grid-sort{
