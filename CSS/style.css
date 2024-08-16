@@ -1032,13 +1032,18 @@ main{
         justify-self: center;
         width: 100%;
     }
+
+    
+    .main-content-grid-container{
+        width: 100vw;
+    }
     
 }
 
 @media (min-width: 1300px) {
    
     .main-content-unified-base{
-        grid-template-columns: 1fr 10px 1fr;
+        grid-template-columns: 1fr 6px 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 2rem;
     }
@@ -1057,6 +1062,10 @@ main{
         width: 100%;
     }
     
+
+    .main-content-grid-container{
+        width: 90vw;
+    }
 }
 
 
