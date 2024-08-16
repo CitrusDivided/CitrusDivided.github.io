@@ -1038,7 +1038,7 @@ main{
 @media (min-width: 1300px) {
    
     .main-content-unified-base{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 10px 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 2rem;
     }
@@ -1047,12 +1047,13 @@ main{
         grid-row: 1;
         grid-column: 1;
         width: 100%;
+        gap: 1rem;
 
     }
 
     .main-content-right-about{
         grid-row: 1;
-        grid-column: 2;
+        grid-column: 3;
         width: 100%;
     }
     
