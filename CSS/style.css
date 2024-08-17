@@ -274,7 +274,7 @@ p{
             }
             #pageHeadlineHoloSheen{
                 position:absolute;
-                top: 24%;
+                top: 17%;
                 pointer-events: none;
                 z-index: -5;
                 width: 100%;
