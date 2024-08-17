@@ -1040,7 +1040,7 @@ main{
         width: 100vw;
     }
     
-}
+
 
     .navbar{
         display: grid;
@@ -1062,6 +1062,12 @@ main{
             grid-row: 2;
             grid-column: 3;
         }
+
+        .social-media-nested-list-base{
+            width: 55%;
+        }
+
+
 
 @media (min-width: 1300px) {
    
@@ -1111,6 +1117,11 @@ main{
     #navbar-shrink-four{
         grid-row: 1;
         grid-column: 6;
+    }
+
+
+    .social-media-nested-list-base{
+        width: 80%;
     }
 
 
