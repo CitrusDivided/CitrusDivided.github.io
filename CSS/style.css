@@ -892,6 +892,7 @@ main{
                 .project-paragraph-blurb{
                     padding: 1rem;
                     background-color: #000000;
+                    height: 100%;
                 }
 
                 /* .menu-collapse{
