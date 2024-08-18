@@ -891,6 +891,10 @@ main{
                         background: rgb(31, 100, 31);
                     }
 
+                        .project-blurb-title:hover{
+                            background: rgb(50, 141, 50);
+                        }
+
                 .project-paragraph-blurb{
                     padding: 1rem;
                     background-color: #000000;
