@@ -1017,7 +1017,7 @@ main{
 
     .main-content-unified-base{
         grid-template-columns: 0px 1fr 0px;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1.02fr;
         gap: 2rem;
     }
 
@@ -1096,7 +1096,7 @@ main{
    
     .main-content-unified-base{
         grid-template-columns: 1fr 6px 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 50px;
         gap: 2rem;
     }
 
