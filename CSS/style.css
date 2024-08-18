@@ -1074,12 +1074,13 @@ main{
         }
 
         .content-active-video-banner-base{
-            transform: scale(0.6);
+            transform: scale(0.5);
         }
 
 
         
         .secondary-content-grid-container{
+            padding: 0;
             width: auto;
         }
         .animation-content-grid-container{
@@ -1089,7 +1090,7 @@ main{
         }
 
         .content-active-information-base{
-            width: 600px;
+            width: 800px;
         }
 
 @media (min-width: 1300px) {
@@ -1142,6 +1143,9 @@ main{
         grid-column: 6;
     }
 
+    .secondary-content-grid-container{
+        padding: 1rem;
+    }
 
     .social-media-nested-list-base{
         width: 80%;
@@ -1149,6 +1153,10 @@ main{
 
     .content-active-video-banner-base{
         transform: scale(1);
+    }
+
+    .content-active-information-base{
+        width: 100%;
     }
 
 }
