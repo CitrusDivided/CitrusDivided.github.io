@@ -887,6 +887,8 @@ main{
 
                     .project-blurb-title{
                         text-align: center;
+                        padding: 1rem;
+                        background: rgb(31, 100, 31);
                     }
 
                 .project-paragraph-blurb{
