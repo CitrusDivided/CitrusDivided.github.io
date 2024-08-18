@@ -940,11 +940,10 @@ main{
 .secondary-content-grid-container{
     scroll-snap-align: start;
     border-radius: 0.4rem;
-    background: rgb(15, 4, 26);
+    background: rgb(60, 29, 92);
     width: 100%;
     margin: 2rem 0rem 2rem 0rem;
     padding: 1rem;
-    grid-column: span 2;
     height: fit-content;
     display: grid;
     justify-items: center;
@@ -1074,7 +1073,24 @@ main{
             width: 55%;
         }
 
+        .content-active-video-banner-base{
+            transform: scale(0.6);
+        }
 
+
+        
+        .secondary-content-grid-container{
+            width: auto;
+        }
+        .animation-content-grid-container{
+            width: 800px;
+            display: grid;
+            justify-content: center;
+        }
+
+        .content-active-information-base{
+            width: 600px;
+        }
 
 @media (min-width: 1300px) {
    
@@ -1131,6 +1147,9 @@ main{
         width: 80%;
     }
 
+    .content-active-video-banner-base{
+        transform: scale(1);
+    }
 
 }
 
