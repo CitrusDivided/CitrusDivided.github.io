@@ -1126,6 +1126,16 @@ main{
             width: 1000px;
         }
 
+        .paragraph-sub-blurb{
+            display: grid;
+            background: rgba(178, 141, 196, 0.438);
+            padding: 1rem;
+            margin: 1rem;
+            width: auto;
+            text-align: center;
+            border-radius: 0.4rem;
+        }
+
 @media (min-width: 1300px) {
    
     .main-content-unified-base{
