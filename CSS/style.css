@@ -984,7 +984,7 @@ main{
     .active-video{
         width: 1350px;
         height: 400px;
-        mix-blend-mode: color-burn;
+        mix-blend-mode: soft-light;
     }
 
 .content-active-information-base{
