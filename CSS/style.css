@@ -1021,6 +1021,15 @@ main{
             font-size: large;
             background: rgba(0, 0, 0, 0.603);
         }
+
+        #third-section-web{
+            filter: hue-rotate(170deg);
+        }
+
+        
+        #fourth-section-graphical{
+            filter: hue-rotate(270deg);
+        }
         
 @media (min-width: 0px) {
 
