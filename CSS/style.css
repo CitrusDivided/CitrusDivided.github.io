@@ -940,7 +940,7 @@ main{
 .secondary-content-grid-container{
     scroll-snap-align: start;
     border-radius: 0.4rem;
-    background: transparent;
+    background: #1c0020;
     width: 100%;
     margin: 2rem 0rem 50rem 0rem;
     padding: 1rem;
