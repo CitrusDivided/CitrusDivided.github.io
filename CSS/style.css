@@ -981,9 +981,10 @@ main{
         text-align: center;
     }
 
-    #active-video{
+    .active-video{
         width: 1350px;
         height: 400px;
+        mix-blend-mode: color-burn;
     }
 
 .content-active-information-base{
