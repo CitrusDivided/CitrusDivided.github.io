@@ -1110,6 +1110,8 @@ main{
         .secondary-content-grid-container{
             padding: 0;
             width: auto;
+            margin: 2rem 0rem 80rem 0rem;
+
         }
 
         .secondary-content-banner{
@@ -1188,6 +1190,7 @@ main{
 
     .secondary-content-grid-container{
         padding: 1rem;
+        margin: 2rem 0rem 50rem 0rem;
     }
 
     .secondary-content-banner{
