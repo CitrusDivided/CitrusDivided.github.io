@@ -942,7 +942,7 @@ main{
     border-radius: 0.4rem;
     background: transparent;
     width: 100%;
-    margin: 2rem 0rem 2rem 0rem;
+    margin: 2rem 0rem 50rem 0rem;
     padding: 1rem;
     height: fit-content;
     box-shadow: 0px 0px 100px 0px black, 0px 0px 1px 1px rgba(0, 128, 128, 0.212) inset;
@@ -1023,6 +1023,14 @@ main{
             background: rgba(0, 0, 0, 0.603);
             margin-bottom: 1rem;
         }
+
+            .active-listed-paragraph{
+                line-height: 2em;
+                background:rgba(41, 7, 38, 0.548);
+                margin: 1rem;
+                padding: 1rem;
+                border-radius: 0.4rem;
+            }
 
         #third-section-web{
             filter: hue-rotate(170deg);
