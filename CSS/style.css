@@ -545,15 +545,6 @@ html {
     scroll-snap-type: y mandatory;
 }
 
-/* #projectSelectThree{
-    cursor: pointer;
-    display: grid;
-    grid-row: 4;
-    grid-column: 1;
-    background: repeating-linear-gradient( 120deg, #003612, #000000 0.5px, #000000 0.5px, #003612 2.2px);
-    box-shadow: 0px 2px 8px 1px #000000d8, -0.1px 0.1px 1px 1px #3b9652 inset;
-    border: 1px solid rgba(74, 255, 104, 0.712);
-} */
 a, a:visited{
     text-decoration: none;
     color:#ffe48b;
