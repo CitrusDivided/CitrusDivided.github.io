@@ -925,6 +925,7 @@ main{
                     height: 100%;
                 }
 
+                
                 .menu-collapse{
                     transition: 0.5s;
                     display: none;
@@ -932,14 +933,15 @@ main{
 
                 .menu-expand{
                     transition: 0.5s;
-                    display: contents;
+                    display: block;
+                    height: fit-content;
                 }
 
                 
 
-                .menu-collapse-1,.menu-collapse-2,.menu-collapse-3,.menu-collapse-4,{
+                .menu-collapse-1, .menu-collapse-2, .menu-collapse-3, .menu-collapse-4,{
                     grid-template-rows: 1fr 1fr;
-                    height: 50px;
+                    height: 400px;
                 }
 
                 

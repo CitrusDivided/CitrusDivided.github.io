@@ -68,7 +68,7 @@ function toggleClass() {
 function toggleClass2() {
     var elements = document.querySelectorAll('#menu-collapse-1');
     elements.forEach(function(element) {
-        element.classList.toggle('menu-collapse-1');
+        element.classList.toggle('.menu-collapse-1');
     });
 
     
