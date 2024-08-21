@@ -891,13 +891,7 @@ main{
                     margin: 2px;
                     display: grid;
                     grid-template-rows: 50px;
-                    height: 60px;
                 }
-
-                    .experience-banner{
-                        grid-row: 1;
-                        background: red;
-                    }
                 
                 .project-listed:hover{
                     background: rgb(44, 80, 38);
