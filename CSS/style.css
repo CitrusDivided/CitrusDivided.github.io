@@ -646,7 +646,12 @@ main{
             border-top-right-radius: 0.4rem;
         }
 
+        #ping{
+         background: rgb(104, 69, 69);   
+        }
+
     .main-content-status{
+        cursor: pointer;
         grid-row: 2;
         position: relative;
         top: -55px;
