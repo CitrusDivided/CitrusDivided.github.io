@@ -911,7 +911,7 @@ main{
 
                     .project-blurb-title{
                         text-align: center;
-                        padding: 1rem;
+                        padding: 0.75rem 0rem 0.5rem 0rem;
                         background: rgba(6, 54, 6, 0.603);
                     }
 
