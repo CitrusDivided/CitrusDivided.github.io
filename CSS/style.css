@@ -848,7 +848,7 @@ main{
                 }
                 .exp-grid-fix{
                     cursor: pointer;
-                    height: fit-content;
+                    height: 40px;
                     padding: 1rem;
                 }
 

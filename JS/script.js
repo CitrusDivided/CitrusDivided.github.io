@@ -36,4 +36,22 @@ var scannerColoring = anime.timeline({
 
 // Interaction //
 
+// function toggleHeight() {
+//     var element = document.getElementById('collapse');
+//     if (element.style.height === '200px') {
+//         element.style.height = '50px'; //this is the original height
+//     } else {
+//         element.style.height = '200px';
+//     }
+// }
 
+function toggleHeight() {
+    var elements = document.querySelectorAll('.exp-grid-fix');
+    elements.forEach(function(element){
+        if (element.style.height === '200px') {
+            element.style.height = '50px'; //original height
+        } else {
+            element.style.height = '200px';
+        }
+    })
+}
