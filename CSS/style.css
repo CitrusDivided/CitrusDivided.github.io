@@ -864,7 +864,7 @@ main{
                 }
 
                 #menu-collapse-2, #menu-collapse-3{
-                    height: 50px;
+                    /* height: 50px; */
                 }
 
                 .social-media-hover{
@@ -885,6 +885,7 @@ main{
 
             .project-unlisted{
                 display: grid;
+                height: 200px;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr 1fr;
             }
