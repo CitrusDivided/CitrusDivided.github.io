@@ -36,4 +36,23 @@ var scannerColoring = anime.timeline({
 
 // Interaction //
 
+// function toggleVisibility() {
+//     const content = document.getElementById('content1');
+//     content.classList.toggle('menu-collapse');
+// }
 
+function toggleVisibility(id) {
+    const element = document.getElementById(id);
+    if (element) {
+        element.classList.toggle('menu-collapse');
+    } else {
+        console.error(`Element with id '${id}' not found.`);
+    }
+}
+
+function toggleMultipleElements() {
+    toggleVisibility('content1');
+    toggleVisibility('content2');
+    toggleVisibility('content3');
+    toggleVisibility('content4');
+}
