@@ -83,7 +83,7 @@
                     
                     <!-- onclick="document.getElementById('ping').style.height = '200px'"  -->
 
-                    <div onclick="toggleHeight()"  id="ping" class="main-content-status">
+                    <div  id="ping" class="main-content-status">
                         <h5>Founder</h5>
                         <hr>
                         <h5>Blue Note</h5>
@@ -129,18 +129,20 @@
                                     <div class="listed-background listed-item-paragraph">
                                         <ul id="exp-grid-sort" class="project-unlisted">
                                             
-                                            <li onclick="toggleHeight()" class="exp-grid-fix project-listed">
-                                                <div class="experience-banner">
-                                                    <p class="project-blurb-title">Certifications</p>
-                                                </div>
-                                                <div class="menu-collapse project-paragraph-blurb">cert-info</div>
+                                            <li id="menu-collapse-1" onclick="toggleClass(), toggleClass2()" class="exp-grid-fix project-listed">
+                                                <p class="project-blurb-title">Certifications</p>
+                                                <div id="testing" class="menu-collapse project-paragraph-blurb">cert-info</div>
+                                                
+                                                <!-- <div class="experience-banner">
+                                                </div> -->
+
                                             </li>
                                             
-                                            <li onclick="toggleHeight()" class="exp-grid-fix project-listed">
+                                            <li onclick="toggleClass2()" class="exp-grid-fix project-listed">
                                                 <div class="experience-banner">
                                                     <p class="project-blurb-title">Consultation</p>
                                                 </div>
-                                                <div class="menu-collapse project-paragraph-blurb">consult-info</div>
+                                                <div  id="testing2" class=" project-paragraph-blurb">consult-info</div>
                                             </li>
                                         
                                             <li class="exp-grid-fix project-listed">

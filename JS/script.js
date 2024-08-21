@@ -45,13 +45,31 @@ var scannerColoring = anime.timeline({
 //     }
 // }
 
-function toggleHeight() {
-    var elements = document.querySelectorAll('.exp-grid-fix');
-    elements.forEach(function(element){
-        if (element.style.height === '200px') {
-            element.style.height = '50px'; //original height
-        } else {
-            element.style.height = '200px';
-        }
-    })
+// function toggleHeight() {
+//     var elements = document.querySelectorAll('.exp-grid-fix');
+//     elements.forEach(function(element){
+//         if (element.style.height === '200px') {
+//             element.style.height = '50px'; //original height
+//         } else {
+//             element.style.height = '200px';
+//         }
+//     })
+// }
+
+function toggleClass() {
+    var elements = document.querySelectorAll('#testing');
+    elements.forEach(function(element) {
+        element.classList.toggle('menu-expand');
+    });
+
+    
+}
+
+function toggleClass2() {
+    var elements = document.querySelectorAll('#menu-collapse-1');
+    elements.forEach(function(element) {
+        element.classList.toggle('menu-collapse-1');
+    });
+
+    
 }

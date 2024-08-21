@@ -848,6 +848,11 @@ main{
                 }
                 .exp-grid-fix{
                     cursor: pointer;
+                    padding: 1rem;
+                }
+
+                .social-grid-fix{
+                    cursor: pointer;
                     height: 40px;
                     padding: 1rem;
                 }
@@ -884,8 +889,16 @@ main{
                     background: rgb(32, 58, 28);
                     padding: 0.1rem;
                     margin: 2px;
+                    display: grid;
+                    grid-template-rows: 50px;
+                    height: 60px;
                 }
 
+                    .experience-banner{
+                        grid-row: 1;
+                        background: red;
+                    }
+                
                 .project-listed:hover{
                     background: rgb(44, 80, 38);
 
@@ -898,7 +911,7 @@ main{
                     .project-blurb-title{
                         text-align: center;
                         padding: 1rem;
-                        background: rgb(6, 54, 6);
+                        background: rgba(6, 54, 6, 0.603);
                     }
 
                         .project-blurb-title:hover{
@@ -906,13 +919,27 @@ main{
                         }
 
                 .project-paragraph-blurb{
+                    grid-row: 2;
                     padding: 1rem;
-                    background-color: #000000;
+                    background-color: #c27979;
                     height: 100%;
                 }
 
                 .menu-collapse{
+                    transition: 0.5s;
                     display: none;
+                }
+
+                .menu-expand{
+                    transition: 0.5s;
+                    display: contents;
+                }
+
+                
+
+                .menu-collapse-1,.menu-collapse-2,.menu-collapse-3,.menu-collapse-4,{
+                    grid-template-rows: 1fr 1fr;
+                    height: 50px;
                 }
 
                 
