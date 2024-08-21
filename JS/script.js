@@ -56,7 +56,7 @@ var scannerColoring = anime.timeline({
 //     })
 // }
 
-
+//expansion of certification
 
 function toggleExpansionCert() {
     var elements = document.querySelectorAll('#certExpand');
@@ -72,6 +72,8 @@ function toggleCollapseCert() {
     });
 }
 
+//expansion of toolset
+
 function toggleExpansionTool() {
     var elements = document.querySelectorAll('#toolExpand');
     elements.forEach(function(element) {
@@ -83,5 +85,21 @@ function toggleCollapseTool() {
     var elements = document.querySelectorAll('#menu-collapse-2');
     elements.forEach(function(element) {
         element.classList.toggle('.menu-collapse-2');
+    });
+}
+
+//expansion of consult
+
+function toggleExpansionConsult() {
+    var elements = document.querySelectorAll('#consultExpand');
+    elements.forEach(function(element) {
+        element.classList.toggle('menu-expand');
+    });    
+}
+
+function toggleCollapseConsult() {
+    var elements = document.querySelectorAll('#menu-collapse-3');
+    elements.forEach(function(element) {
+        element.classList.toggle('.menu-collapse-3');
     });
 }
