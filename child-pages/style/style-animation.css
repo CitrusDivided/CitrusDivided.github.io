@@ -1,39 +1,27 @@
-body {
-    margin: 0;
-    height: 100%;
-    z-index: 0;
-    display: grid;
-    justify-content: center;
-    color:#fff3d8;
-    overflow-x: hidden;
-    background: radial-gradient(rgb(65, 0, 0), black);
-    font-family: 'Anton', sans-serif;
-    font-size: 0.80rem;
-    letter-spacing: 0.5px;
-}
-
-
-html {
-    height: 100%;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-}
-
-ul {
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
     margin: 0;
     padding: 0;
+}
+
+h4{
+    font-size: large;
+}
+
+li{
     list-style: none;
 }
 
-a{
-    text-decoration: none;
+p{
+    margin: 0;
 }
+
 
 .stage-decorations{
     display: contents;
 }
         .stageGoldBar{
-            position: fixed;
+            position: absolute;
             z-index: 3;
             border: red;
             background-image: linear-gradient( 0deg, rgb(255, 227, 104), rgba(95, 22, 22, 0.418), black, rgb(95, 22, 22));
@@ -43,7 +31,7 @@ a{
             box-shadow: 1px 1px 1px 1px #0a000c71, 0px 0px 1px #ff5f5f inset;
         }
         .stageBar{
-            position: fixed;
+            position: absolute;
             z-index: 3;
             border: red;
             background-image: linear-gradient( 90deg, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22), black, rgb(95, 22, 22));
@@ -53,7 +41,7 @@ a{
         }
         .stageLightLeft{
             z-index: 4;
-            position:fixed;
+            position: absolute;
             top:-4rem;
             left: 0%;
             background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(255, 228, 140, 0.288) 50%, rgba(0, 0, 0, 0));
@@ -66,7 +54,7 @@ a{
         }
         .stageLightRight{
             z-index: 4;
-            position:fixed;
+            position: absolute;
             top:-4rem;
             right: 0%;
             background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(255, 228, 140, 0.288) 50%, rgba(0, 0, 0, 0));
@@ -79,7 +67,7 @@ a{
         }
         .stageLightCenter{
             z-index: 4;
-            position:fixed;
+            position: absolute;
             top: -4rem;
             right: 45%;
             background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(255, 228, 140, 0.288) 50%, rgba(0, 0, 0, 0));
@@ -91,7 +79,7 @@ a{
             border-radius: 60%;
         }
         .curtainLeft{
-            position: fixed;
+            position: absolute;
             z-index: 2;
             transform: skew(1turn, -18deg);
             border: 1px solid rgb(219, 61, 61);
@@ -119,7 +107,7 @@ a{
             box-shadow: 0px 0px 40px 25px rgba(0, 0, 0, 0.767), 1px 2px 30px 2px rgba(255, 74, 74, 0.774) inset;
         }
         .curtainRight{
-            position: fixed;
+            position: absolute;
             z-index: 2;
             transform: skew(1turn, 18deg);
             right: 0rem;
@@ -148,7 +136,7 @@ a{
             box-shadow: 0px 0px 40px 25px rgba(0, 0, 0, 0.767), 1px 2px 30px 2px rgba(255, 74, 74, 0.774) inset;
         }
         .curtainBottomLeft{
-            position: fixed;
+            position: absolute;
             z-index: 3;
             border: 1px outset rgb(119, 31, 31);
             background-image: linear-gradient( 90deg, rgba(95, 22, 22, 0.829), rgb(0, 0, 0), rgba(95, 22, 22, 0.829), rgb(0, 0, 0)),
@@ -158,7 +146,7 @@ a{
             box-shadow: 1px 1px 14px 20px #000000d7, 0px 0px 1px #ff5f5f inset;
         }
         .curtainBottomRight{
-            position: fixed;
+            position: absolute;
             z-index: 3;
             right: 0rem;
             border: 1px outset rgb(119, 31, 31);
@@ -177,7 +165,7 @@ a{
         }
 
         .curtainCenterMass{
-            position: fixed;
+            position: absolute;
             z-index: 2;
             right: 0rem;
             box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.692), 1px 2px 30px 2px rgba(255, 74, 74, 0.774) inset;
@@ -209,7 +197,7 @@ a{
             background-blend-mode: hard-light;
         }
         .curtainSlate{
-            position: fixed;
+            position: absolute;
             z-index: 2;
             left: 0rem;
             box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.692), 1px 2px 30px 2px rgba(255, 74, 74, 0.774) inset;
@@ -217,12 +205,10 @@ a{
         }
         
 
-body{
-    background-color: black;
-}
-
 
 .headline-grid-container{
+    grid-row: 1;
+    grid-column: 2;
     width: 100vw;
     scroll-snap-align: start;
 }
@@ -286,29 +272,20 @@ body{
                 50%{background-position:100% 76%}
                 100%{background-position:0% 25%}
             }
-
-
-
-            .page-headline-base-container:active {
-                transition: 0.2s;
-                filter: sepia(1);
-            }
-
-
             #pageHeadlineHoloSheen{
                 position:absolute;
-                top: 24%;
+                top: 37%;
                 pointer-events: none;
                 z-index: -5;
                 width: 100%;
-                height: 20%;
+                height: 5%;
                 background-blend-mode: soft-light;
                 mix-blend-mode:color-dodge;
             }
 
             hr{
-                width: 100%;
-                height: 0.1rem;
+                width: 30%;
+                height: 1px;
                 border: 1px solid rgba(43, 0, 0, 0.795);
                 box-shadow: 0px 1px 1px rgb(0, 0, 0), 0px 0px 0px 1px rgba(255, 255, 255, 0.288) inset;
             }
@@ -336,12 +313,12 @@ body{
             }
             #h1Name{
                 grid-row: 2;
-                grid-column: 2;
+                grid-column: span 3;
             }
 
             h2{
                 grid-row: 3;
-                grid-column: 3;
+                grid-column: 2;
                 font-size: 0.9em;
                 text-align: center;
                 width: 100%;
@@ -353,44 +330,7 @@ body{
                 font-family: 'Oleo Script Swash Caps', cursive;
             }
 
-        .feltCardBackground{
-            display: grid;
-            overflow: hidden;
-            grid-row: 1 / 10;
-            z-index: -3;
-            background-color: rgb(0, 0, 0);
-            border: 1px solid rgb(78, 10, 10);
-            width: 100%;
-            margin: -1rem 0rem -3rem 0rem;
-            padding: 0rem 0.5rem 0rem 0.5rem;
-            box-shadow: 0px 1px 50px 15px rgb(0, 0, 0), 0px 1px 12px rgb(134, 44, 44) inset;
-            border-top: 1px solid rgb(155, 41, 41);
-        }
 
-        .feltCardSubBackgroundRight{
-            display: grid;
-            overflow: hidden;
-            grid-row: 1 / 10;
-            z-index: -3;
-            width: 100%;
-            background-color: rgb(44, 11, 11);
-            border: 1px dotted rgb(51, 8, 8);
-            margin: -1rem -35px -3rem 0rem;
-            box-shadow: 0px 1px 1px rgb(255, 82, 82), 1px 1px 12px rgb(255, 103, 103) inset;
-            border-top: 1px solid rgb(155, 41, 41);
-        }
-        .feltCardSubBackgroundLeft{
-            display: grid;
-            overflow: hidden;
-            grid-row: 1 / 10;
-            z-index: -3;
-            width: 100%;
-            background-color: rgb(44, 11, 11);
-            border: 1px dotted rgb(51, 8, 8);
-            margin: -1rem 0rem -3rem -2060px;
-            box-shadow: 0px 1px 1px rgb(255, 82, 82), 1px 1px 12px rgb(255, 103, 103) inset;
-            border-top: 1px solid rgb(155, 41, 41);
-        }
         #pageSubHeadBar{
             z-index: 1;
             border: 1px solid #000000;
@@ -418,7 +358,6 @@ body{
 
         .subHeader {
             display: grid;
-            scroll-snap-align: start;
             align-items: center;
             justify-items: center;
             font-size:1.3rem;
@@ -426,6 +365,7 @@ body{
             text-align: center;
         }
         #subHeaderBottomBar {
+            scroll-snap-align: start;
             height: 1rem;
             width: 100%;
             border-bottom: 2px solid rgb(214, 53, 53);
@@ -436,12 +376,14 @@ body{
             box-shadow: 10px 3px 11px 3px #000000, 0px 0px 2px 0px #ff6b6b inset;
         }
 
-            #subHeaderBottomBar, #pageSubHeadInnerBar, #pageSubHeadBar{
-                filter:hue-rotate(225deg) saturate(70%) contrast(100%);
-            }
+        #subHeaderBottomBar, #pageSubHeadInnerBar, #pageSubHeadBar{
+            filter:hue-rotate(5deg) saturate(80%) contrast(100%);
+        }
+
+
         #subHeadText{
             z-index: 1;
-            position: absolute;
+            position: relative;
             font-size: large;
             width: 100%;
             padding: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -472,6 +414,8 @@ body{
             overflow: hidden;
             background-color:rgb(41, 0, 0);
             box-shadow: 0px 2px 2px 0px black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         }
         
         .navbar li {
@@ -523,10 +467,121 @@ body{
 
 
 
+/* #aboutMeSocialSpan {
+    display: grid;
+    grid-row: 4;
+    position: relative;
+    top: -80px;
+    grid-column: 1;
+    padding: 1rem;
+    margin: -1rem;
+    cursor: pointer;
+    row-gap: 0rem;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    background-color: rgba(0, 170, 65, 0.301);
+    background-blend-mode: color-burn;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.733), 1px 1px 10px 0px #3f0858 inset;
+    font-size: 1rem;
+    height: -webkit-fill-available;
+    justify-items: center;
+    animation-name: social-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    overflow:hidden;
+}
+#aboutMeSocialSpan:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 6px black, 0px 0px 10px 1px rgba(218, 31, 255, 0.418) inset;
+}
+@keyframes social-color {
+    0%{
+        background-color: rgba(0, 170, 65, 0.301);
+    }
+    25%{
+        background-color: rgba(235, 87, 255, 0.301);
+    }
+    50%{
+        background-color: rgba(87, 126, 255, 0.301);
+    }
+    51%{
+        background-color: rgba(87, 126, 255, 0.301);
+    }
+    75%{
+        background-color: rgba(235, 87, 255, 0.301);
+    }
+    100%{
+        background-color: rgba(0, 170, 65, 0.301);
+    }   
+} */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    #temp-btn{
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.527);
+        padding: 1rem;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+body {
+    height: 100%;
+    margin: 0;
+    z-index: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    color:#fff3d8;
+    overflow-x: hidden;
+    background: radial-gradient(rgb(65, 0, 0), black);
+    font-family: 'Anton', sans-serif;
+    font-size: 0.80rem;
+    letter-spacing: 0.8px;
+}
+
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color:#ffe48b;
+}
+a:hover{
+    color:rgb(122, 255, 189);
+}
+a:active{
+    color:rgb(27, 204, 115);
+}
+a:last-child{
+    text-decoration: none;
+}
+
+
 main{
     display: grid;
+    grid-row: 2;
+    grid-column: 2;
     justify-content: center;
 }
+
+    .main-content-grid-container{
+        background-color: rgb(21, 14, 31);
+        width: 80vw;
+        height: fit-content;
+        border-top-left-radius: 0.4rem;
+        border-top-right-radius: 0.4rem;
+    }
 
     ul{
         padding: 0;

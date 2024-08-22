@@ -16,6 +16,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="temp-js\global.js"></script>
             <!--Stage Decorations-->
+            <!--Stage Decorations-->
             <div class="stage-decorations">
                 <div class="stageBar">&zwnj;</div>
                 <div class="stageGoldBar">&zwnj;</div>
@@ -29,7 +30,7 @@
                 <div class="curtainCenterMass curtainCenterMassHighlight">&zwnj;</div>
                 <div class="curtainSlate curtainCenterMassHighlight">&zwnj;</div>
             </div>
-
+    
             <div class="headline-grid-container">
                 <div style="display: grid; justify-items: center;">        <!--Page Headline, along with animations set in front script.js-->
                     <div id="pageHeadlineHoloSheen">&zwnj;</div>
@@ -54,11 +55,11 @@
     
                 <nav>
                     <ul class="navbar">
-                        <li><a href="\index.html">Home</a></li>
-                        <li><a href="index-animation.html">Animation</a></li>
-                        <li><a href="index-web.html">Web Design</a></li>
-                        <li><a href="index-graphical.html">Graphic Design</a></li>
-                        <li class="dropdown">
+                        <li id="navbar-shrink-one"><a href="index.html">Home</a></li>
+                        <li id="navbar-shrink-two"><a href="child-pages\index-animation.html">Animation</a></li>
+                        <li id="navbar-shrink-three"><a href="child-pages\index-web.html">Web Design</a></li>
+                        <li id="navbar-shrink-three"><a href="child-pages\index-graphical.html">Graphic Design</a></li>
+                        <li id="navbar-shrink-four" class="dropdown">
                             <a href="javascript:void(0)" class="dropbtn">Other Projects</a>
                             <div class="dropdown-content">
                                 <a href="#link1">The Modern Pancakes</a>
@@ -66,11 +67,12 @@
                                 <a href="#link3">Author Portfolio</a>
                             </div>
                         </li>
-                        <li><a href="index-contact.html">Contact</a></li>
+                        <li id="navbar-shrink-five"><a href="child-pages/index-contact.html">Contact</a></li>
                     </ul>
                     </nav>
     
             </div>
+    
     <main>
 
         <div class="main-video-grid-container">
