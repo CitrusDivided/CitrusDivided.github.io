@@ -966,6 +966,10 @@ main{
                     height: fit-content;
                 }
 
+                #project-menu-id-1, #project-menu-id-2, #project-menu-id-3, #project-menu-id-4{
+                    height: 50px;
+                } 
+
                 .project-menu-collapse{
                     transition: 0.5s;
                     display: block;
