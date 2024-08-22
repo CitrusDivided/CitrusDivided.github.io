@@ -922,8 +922,8 @@ main{
                         .collapse-symbol{
                             background: rgba(0, 0, 0, 0.562);
                             mix-blend-mode: soft-light;
-                            height: 32px;
-                            padding: 0.6rem;
+                            height: 39px;
+                            padding: 0.6rem 0.6rem 0rem 0.6rem;
                         }
 
                         .collapse-title-fix{
@@ -934,7 +934,7 @@ main{
                 .project-paragraph-blurb{
                     grid-row: 2;
                     padding: 1rem;
-                    background-color: #c27979;
+                    background-color: #491818;
                     height: 100%;
                 }
 
