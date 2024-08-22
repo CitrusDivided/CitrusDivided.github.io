@@ -872,7 +872,7 @@ main{
                 }
 
                 #project-collapse-1, #project-collapse-2, #project-collapse-3, #project-collapse-4{
-                    background: rgb(12, 121, 57);
+                    background: rgb(0, 0, 0);
                 }
 
                 #project-collapse-1:hover, #project-collapse-2:hover, #project-collapse-3:hover, #project-collapse-4:hover{
@@ -951,6 +951,7 @@ main{
                     padding: 1rem;
                     background-color: #001602;
                     height: 100%;
+                    display: none;
                 }
 
                 
@@ -960,6 +961,17 @@ main{
                 }
 
                 .menu-expand{
+                    transition: 0.5s;
+                    display: block;
+                    height: fit-content;
+                }
+
+                .project-menu-collapse{
+                    transition: 0.5s;
+                    display: block;
+                }
+
+                .project-menu-expand{
                     transition: 0.5s;
                     display: block;
                     height: fit-content;

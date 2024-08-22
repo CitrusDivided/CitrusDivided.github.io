@@ -36,50 +36,59 @@ var scannerColoring = anime.timeline({
 
 // Interaction //
 
+//expansion of current projects
+
+        function toggleCollapseObsidian(){
+            var elements = document.querySelectorAll('#project-collapse-1');
+            elements.forEach(function(element) {
+                element.classList.toggle('project-menu-collapse');
+            });
+        }
+
 //expansion of certification
 
-function toggleExpansionCert() {
-    var elements = document.querySelectorAll('#certExpand');
-    elements.forEach(function(element) {
-        element.classList.toggle('menu-expand');
-    });    
-}
+        function toggleExpansionCert() {
+            var elements = document.querySelectorAll('#certExpand');
+            elements.forEach(function(element) {
+                element.classList.toggle('menu-expand');
+            });    
+        }
 
-function toggleCollapseCert() {
-    var elements = document.querySelectorAll('#menu-collapse-1');
-    elements.forEach(function(element) {
-        element.classList.toggle('.menu-collapse-1');
-    });
-}
+        function toggleCollapseCert() {
+            var elements = document.querySelectorAll('#menu-collapse-1');
+            elements.forEach(function(element) {
+                element.classList.toggle('.menu-collapse-1');
+            });
+        }
 
-//expansion of toolset
+        //expansion of toolset
 
-function toggleExpansionTool() {
-    var elements = document.querySelectorAll('#toolExpand');
-    elements.forEach(function(element) {
-        element.classList.toggle('menu-expand');
-    });    
-}
+        function toggleExpansionTool() {
+            var elements = document.querySelectorAll('#toolExpand');
+            elements.forEach(function(element) {
+                element.classList.toggle('menu-expand');
+            });    
+        }
 
-function toggleCollapseTool() {
-    var elements = document.querySelectorAll('#menu-collapse-2');
-    elements.forEach(function(element) {
-        element.classList.toggle('.menu-collapse-2');
-    });
-}
+        function toggleCollapseTool() {
+            var elements = document.querySelectorAll('#menu-collapse-2');
+            elements.forEach(function(element) {
+                element.classList.toggle('.menu-collapse-2');
+            });
+        }
 
-//expansion of consult
+        //expansion of consult
 
-function toggleExpansionConsult() {
-    var elements = document.querySelectorAll('#consultExpand');
-    elements.forEach(function(element) {
-        element.classList.toggle('menu-expand');
-    });    
-}
+        function toggleExpansionConsult() {
+            var elements = document.querySelectorAll('#consultExpand');
+            elements.forEach(function(element) {
+                element.classList.toggle('menu-expand');
+            });    
+        }
 
-function toggleCollapseConsult() {
-    var elements = document.querySelectorAll('#menu-collapse-3');
-    elements.forEach(function(element) {
-        element.classList.toggle('.menu-collapse-3');
-    });
-}
+        function toggleCollapseConsult() {
+            var elements = document.querySelectorAll('#menu-collapse-3');
+            elements.forEach(function(element) {
+                element.classList.toggle('.menu-collapse-3');
+            });
+        }
