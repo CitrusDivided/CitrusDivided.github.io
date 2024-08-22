@@ -1169,7 +1169,15 @@ main{
             padding: 0;
             width: auto;
             margin: 2rem 0rem 80rem 0rem;
+        }
 
+        .active-information-unlisted{
+            width: 70%;
+            height: 600px;
+        }
+
+        .content-active-information-base{
+            width: 700px;
         }
 
         .secondary-content-banner{
@@ -1249,6 +1257,15 @@ main{
     .secondary-content-grid-container{
         padding: 1rem;
         margin: 2rem 0rem 50rem 0rem;
+    }
+
+    .active-information-unlisted{
+        width: 900px;
+        height: 600px;
+    }
+
+    .content-active-information-base{
+        width: 500px;
     }
 
     .secondary-content-banner{
