@@ -646,10 +646,6 @@ main{
             border-top-right-radius: 0.4rem;
         }
 
-        #ping{
-         background: rgb(104, 69, 69);   
-        }
-
     .main-content-status{
         cursor: pointer;
         grid-row: 2;
@@ -678,6 +674,7 @@ main{
             text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.541);
         }
         
+
 
         .main-content-listed-item{
             position: relative;
@@ -913,12 +910,21 @@ main{
                         text-align: center;
                         padding: 0.75rem 0rem 0.5rem 0rem;
                         background: rgba(6, 54, 6, 0.603);
+                        display: grid;
+                        grid-template-columns: 50px 1fr;
                     }
 
                         .project-blurb-title:hover{
                             background: rgb(50, 141, 50);
                         }
+                    
+                        .collapse-symbol{
+                            background: rgba(0, 0, 0, 0.562);
+                            mix-blend-mode: soft-light;
+                            height: 50px;
+                        }
 
+                        
                 .project-paragraph-blurb{
                     grid-row: 2;
                     padding: 1rem;
