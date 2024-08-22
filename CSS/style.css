@@ -840,6 +840,7 @@ main{
                 }
 
                 #exp-grid-sort{
+                    height: 177px;
                     grid-template-columns: 1fr;
                     grid-template-rows: 1fr 1fr 1fr 1fr;
                 }
@@ -865,6 +866,11 @@ main{
                     background: rgb(12, 121, 57);
                 }
 
+                #menu-collapse-1:hover, #menu-collapse-2:hover, #menu-collapse-3:hover{
+                    transition: 0.3s;
+                    box-shadow: 0px 0px 50px 0px #95c5a24f, 0px 0px 1px 1px #ffffff24 inset;
+                }
+
                 .social-media-hover{
                     height: fit-content;
                     padding: 1rem;
@@ -883,7 +889,7 @@ main{
 
             .project-unlisted{
                 display: grid;
-                height: 200px;
+                height: 119px;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr 1fr;
             }
