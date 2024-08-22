@@ -862,7 +862,7 @@ main{
 
                 #menu-collapse-1, #menu-collapse-2, #menu-collapse-3{
                     /* height: 50px; */
-                    background: red;
+                    background: rgb(12, 121, 57);
                 }
 
                 .social-media-hover{
@@ -890,7 +890,7 @@ main{
 
                 .project-listed{
                     cursor: pointer;
-                    background: rgb(32, 58, 28);
+                    background: rgb(12, 41, 8);
                     padding: 0.1rem;
                     margin: 2px;
                     display: grid;
@@ -909,7 +909,7 @@ main{
                     .project-blurb-title{
                         text-align: center;
                         padding: 0.75rem 0rem 0.5rem 0rem;
-                        background: rgba(6, 54, 6, 0.603);
+                        background: rgba(6, 54, 8, 0.603);
                         display: grid;
                         grid-template-columns: 50px 1fr;
                         align-content: center;
@@ -934,7 +934,7 @@ main{
                 .project-paragraph-blurb{
                     grid-row: 2;
                     padding: 1rem;
-                    background-color: #491818;
+                    background-color: #001602;
                     height: 100%;
                 }
 
