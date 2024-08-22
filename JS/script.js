@@ -45,6 +45,27 @@ var scannerColoring = anime.timeline({
             });
         }
 
+        function toggleCollapsePancakes(){
+            var elements = document.querySelectorAll('#project-collapse-2');
+            elements.forEach(function(element) {
+                element.classList.toggle('project-menu-collapse');
+            });
+        }
+
+        function toggleCollapseGrand(){
+            var elements = document.querySelectorAll('#project-collapse-3');
+            elements.forEach(function(element) {
+                element.classList.toggle('project-menu-collapse');
+            });
+        }
+
+        function toggleCollapseColor(){
+            var elements = document.querySelectorAll('#project-collapse-4');
+            elements.forEach(function(element) {
+                element.classList.toggle('project-menu-collapse');
+            });
+        }
+
 //expansion of certification
 
         function toggleExpansionCert() {
