@@ -875,6 +875,11 @@ main{
                     background: rgb(12, 121, 57);
                 }
 
+                #project-collapse-1:hover, #project-collapse-2:hover, #project-collapse-3:hover, #project-collapse-4:hover{
+                    transition: 0.3s;
+                    box-shadow: 0px 0px 50px 0px #95c5a24f, 0px 0px 1px 1px #ffffff24 inset;
+                }
+
                 .social-media-hover{
                     height: fit-content;
                     padding: 1rem;
