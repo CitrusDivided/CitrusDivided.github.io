@@ -678,7 +678,7 @@ main{
 
         .main-content-listed-item{
             position: relative;
-            top: -100px;
+            top: -130px;
             display: grid;
             margin: 20px;
 
@@ -873,6 +873,9 @@ main{
 
                 #project-collapse-1, #project-collapse-2, #project-collapse-3, #project-collapse-4{
                     background: rgb(0, 0, 0);
+                    border: 1px solid rgb(56, 78, 24);
+                    padding: 1rem
+                    box-shadow: 0px 0px 10px 5px black;
                 }
 
                 #project-collapse-1:hover, #project-collapse-2:hover, #project-collapse-3:hover, #project-collapse-4:hover{
@@ -966,9 +969,23 @@ main{
                     height: fit-content;
                 }
 
+
                 #project-menu-id-1, #project-menu-id-2, #project-menu-id-3, #project-menu-id-4{
                     height: 50px;
-                } 
+                }
+
+                #project-menu-id-1:hover, #project-menu-id-2:hover, #project-menu-id-3:hover, #project-menu-id-4:hover{
+                    transition: 0.3s;
+                    box-shadow: 0px 0px 50px 0px #95c5a24f, 0px 0px 1px 1px #ffffff24 inset;
+                }
+
+                #project-menu-id-1, #project-menu-id-2{
+                    z-index: 6;
+                }
+
+                #project-menu-id-3, #project-menu-id-4{
+                    z-index: 5;
+                }
 
                 .project-menu-collapse{
                     transition: 0.5s;
