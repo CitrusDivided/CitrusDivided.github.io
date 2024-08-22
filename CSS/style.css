@@ -912,6 +912,7 @@ main{
                         background: rgba(6, 54, 6, 0.603);
                         display: grid;
                         grid-template-columns: 50px 1fr;
+                        align-content: center;
                     }
 
                         .project-blurb-title:hover{
@@ -921,7 +922,12 @@ main{
                         .collapse-symbol{
                             background: rgba(0, 0, 0, 0.562);
                             mix-blend-mode: soft-light;
-                            height: 50px;
+                            height: 32px;
+                            padding: 0.6rem;
+                        }
+
+                        .collapse-title-fix{
+                            align-self: center;
                         }
 
                         
