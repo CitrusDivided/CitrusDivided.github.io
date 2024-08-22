@@ -1174,6 +1174,7 @@ main{
         .active-information-unlisted{
             width: 70%;
             height: 600px;
+            grid-template-columns: 1fr;
         }
 
         .content-active-information-base{
@@ -1290,6 +1291,9 @@ main{
 }
 
 
-@media (min-width: 1800px) {
-
+@media (min-width: 1850px) {
+    .active-information-unlisted{
+        grid-template-columns: 1fr 1fr;
+        width: 1350px;
+    }
     }
