@@ -911,6 +911,7 @@ main{
             .current-projects-unlisted{
                 display: grid;
                 height: 119px;
+                background-color: #00ff2140;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr 1fr;
             }
@@ -947,10 +948,12 @@ main{
                         }
                     
                         .collapse-symbol{
+                            position: relative;
+                            top: -2px;
                             background: rgba(0, 0, 0, 0.562);
                             mix-blend-mode: soft-light;
-                            height: 39px;
-                            padding: 0.6rem 0.6rem 0rem 0.6rem;
+                            height: 36px;
+                            padding: 0.6rem 0.6rem 0.3rem 0.6rem;
                         }
 
                         .collapse-title-fix{
