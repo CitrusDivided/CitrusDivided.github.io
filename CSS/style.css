@@ -729,7 +729,9 @@ main{
                 height: fit-content;
                 justify-self: center;
                 padding: 1rem;
-                box-shadow: 0px 0px 5px 0px black, 0px 0px 1px 1px rgba(255, 255, 255, 0.212) inset;
+                background-color: #0000004f;
+                color: white;
+                box-shadow:0px 0px 5px 0px black, 0px 0px 1px 1px rgb(0 83 70 / 86%) inset;
                 border-radius: 0.4rem;
                 display: grid;
 
@@ -737,7 +739,7 @@ main{
 
             .social-media-nested-list-base:hover{
                 transition: 0.5s;
-                box-shadow: 0px 0px 10px 0px black, 0px 0px 1px 1px rgba(255, 255, 255, 0.212) inset;
+                box-shadow: 0px 0px 5px 0px black, 0px 0px 50px 1px rgb(0 83 70 / 86%) inset;
                 animation-name: social-color;
                 animation-duration: 10s;
                 animation-iteration-count: infinite;
@@ -785,13 +787,23 @@ main{
                     align-self: center;
                     /* background:rgb(29, 77, 45); */
                     text-align: center;
-                    color:#00000088;
+                    color:#e3ffe588;
+                    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.295);
+                    background: rgba(0, 43, 21, 0.356);
+                    margin-top: -0.92rem;
+                    width: 100%;
+                    justify-self: center;
+                    padding: 0.5rem 1rem 0.4rem 1rem;
+                    border-top-left-radius: 0.4rem;
+                    border-top-right-radius: 0.4rem;
+                    border-bottom: 1px solid rgb(36, 82, 43);
                     height: inherit;
                 }
 
                 .social-section-fix{
                     grid-column: span 3;
                     width: 80%;
+                    border-top-left-radius: 0.4rem;
                     margin: 0.5rem;
                 }
                 #social-top{
