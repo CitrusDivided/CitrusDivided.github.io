@@ -874,6 +874,7 @@ main{
                 #project-collapse-1, #project-collapse-2, #project-collapse-3, #project-collapse-4{
                     border: 1px solid rgb(56, 78, 24);
                     padding: 1rem;
+                    margin: 1rem;
                     box-shadow: 0px 0px 10px 5px black;
                 }
 
@@ -899,6 +900,13 @@ main{
                 }
 
             .project-unlisted{
+                display: grid;
+                height: 119px;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+            .current-projects-unlisted{
                 display: grid;
                 height: 119px;
                 grid-template-columns: 1fr 1fr;
@@ -951,7 +959,7 @@ main{
                 .project-paragraph-blurb{
                     grid-row: 2;
                     padding: 1rem;
-                    /* background-color: #001602; */
+                    background-color: #001602;
                     height: 100%;
                     display: none;
                 }
