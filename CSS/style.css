@@ -898,7 +898,7 @@ main{
                 }
 
                 .social-media-hover{
-                    height: fit-content;
+                    height: 3.3rem;
                     padding: 1rem;
                     animation-name: social-color;
                     animation-duration: 100s;
