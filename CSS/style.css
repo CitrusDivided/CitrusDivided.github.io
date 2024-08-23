@@ -872,15 +872,17 @@ main{
                 }
 
                 #project-collapse-1, #project-collapse-2, #project-collapse-3, #project-collapse-4{
-                    border: 1px solid rgb(56, 78, 24);
+                    border: 1px solid rgb(91, 126, 38);
                     padding: 1rem;
                     margin: 1rem;
-                    box-shadow: 0px 0px 10px 5px black;
+                    box-shadow: 0px 0px 10px 5px black, 0px 0px 30px 1px rgba(64, 255, 74, 0.349) inset;
+                    border-radius: 0.4rem;
+                    height: fit-content;
                 }
 
                 #project-collapse-1:hover, #project-collapse-2:hover, #project-collapse-3:hover, #project-collapse-4:hover{
                     transition: 0.3s;
-                    box-shadow: 0px 0px 50px 0px #95c5a24f, 0px 0px 1px 1px #ffffff24 inset;
+                    box-shadow: 0px 0px 10px 5px black, 0px 0px 30px 1px rgba(64, 255, 74, 0.5) inset;
                 }
 
                 .social-media-hover{
