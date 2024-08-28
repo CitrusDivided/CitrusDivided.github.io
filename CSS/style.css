@@ -1361,4 +1361,16 @@ main{
         grid-template-columns: 1fr 1fr;
         width: 1350px;
     }
-    }
+
+        .main-content-unified-base{
+            grid-template-columns: 1fr 0px 1fr;
+        }
+
+        .main-content-left-qualification{
+            width: 80%;
+        }
+        .main-content-right-about{
+            width: 80%;
+        }
+
+}
