@@ -1082,7 +1082,7 @@ main{
         box-shadow: 0px 0px 10px 0px black, 0px 0px 40px 0px rgb(99, 255, 151) inset;
         text-align: center;
         padding: 1rem 0.9rem 1rem 0.9rem;
-        width: 100%;
+        width: 50%;
         align-self: start;
         margin: 0rem 0rem 1rem 0rem;
         border-top: 1px solid rgb(102, 0, 128);
@@ -1093,7 +1093,6 @@ main{
     .animation-content-grid-container{
         background: rgba(28, 28, 75, 0.116);
         height: 1000px;
-        width: 90%;
         display: grid;
         justify-items: center;
     }
@@ -1115,6 +1114,7 @@ main{
     display: grid;
     justify-content: center;
     align-items: center;
+    scroll-snap-align: start;
 }
 
     .active-information-unlisted{
@@ -1248,11 +1248,10 @@ main{
         }
 
         .secondary-content-banner{
-            width: 80%;
-            border-radius: 0.4rem;
+            border-radius: 0rem;
         }
         .animation-content-grid-container{
-            width: 800px;
+            width: -webkit-fill-available;
             display: grid;
             justify-content: center;
         }
@@ -1336,10 +1335,7 @@ main{
     }
 
     .secondary-content-banner{
-        width: 100%;
         border-radius: 0rem;
-        border-top-left-radius: 0.4rem;
-        border-top-right-radius: 0.4rem;
     }
 
     .social-media-nested-list-base{
