@@ -1347,7 +1347,7 @@ main{
     }
 
     .content-active-video-banner-base{
-        transform: scale(1);
+        transform: scale(0.8);
     }
 
     .content-active-information-base{
