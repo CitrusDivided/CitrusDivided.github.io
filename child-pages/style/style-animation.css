@@ -433,7 +433,6 @@ p{
         }
 
         .navbar li a, .dropbtn {
-            background-color: rgba(0, 0, 0, 0.178);
             padding: 1rem;
             color: rgb(255, 213, 159);
         }
