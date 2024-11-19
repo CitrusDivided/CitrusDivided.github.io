@@ -434,7 +434,7 @@ p{
         .navbar li {
             float: left;
             font-size: large;
-            margin: 1rem;
+            margin: 0.1rem;
         }
 
         .navbar li a, .dropbtn {
