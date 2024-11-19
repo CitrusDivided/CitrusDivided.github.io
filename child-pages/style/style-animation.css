@@ -419,7 +419,7 @@ p{
         }
 
             .navbar li:nth-child(odd){
-                background-color: green;
+                background-color: rgb(255, 99, 99);
             }
 
             .navbar-collective-fix{
