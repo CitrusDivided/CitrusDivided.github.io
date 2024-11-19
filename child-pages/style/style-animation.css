@@ -423,7 +423,12 @@ p{
             }
 
             .navbar-collective-fix{
+                display: grid;
                 background-color: red;
+            }
+
+            .navbar-collective-fix a:nth-child(1){
+                justify-self: center;
             }
         
         .navbar li {
