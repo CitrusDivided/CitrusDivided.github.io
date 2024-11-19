@@ -445,7 +445,9 @@ p{
 
         .navbar li a:hover, .dropdown:hover .droptbn {
             transition: 0.3s;
-            background-color:rgb(58, 10, 10);
+            background-color:rgb(255, 0, 0);
+            width: 100%;
+            text-align: center;
         }
 
         .dropdown {
