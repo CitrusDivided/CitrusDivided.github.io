@@ -489,23 +489,51 @@ body{
             overflow: hidden;
             background-color:rgb(41, 0, 0);
             box-shadow: 0px 2px 2px 0px black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         }
+
+            .navbar li:nth-child(odd){
+                background-color: rgba(255, 0, 0, 0.603);
+            }
+
+            .navbar-collective-fix{
+                display: grid;
+                
+                background-color: rgba(255, 0, 0, 0.39);
+            }
+
+                .navbar-collective-fix:hover {
+                    transition: 0.3s;
+
+                    box-shadow: 0px 0px 10px 0px rgb(255, 60, 60), 0px 0px 50px 0px rgb(255, 80, 80) inset;
+                }
+
+            .navbar-collective-fix, a:nth-child(1){
+                justify-self: center;
+            }
         
         .navbar li {
             float: left;
             font-size: large;
-            margin: 1rem;
+            width: 100%;
         }
 
         .navbar li a, .dropbtn {
-            background-color: rgba(0, 0, 0, 0.178);
             padding: 1rem;
             color: rgb(255, 213, 159);
         }
 
+            .dropbtn{
+                position: relative;
+                top: 0.9rem;
+                left: 0.2rem;
+            }
+
         .navbar li a:hover, .dropdown:hover .droptbn {
             transition: 0.3s;
-            background-color:rgb(58, 10, 10);
+            width: 100%;
+            text-align: center;
         }
 
         .dropdown {
@@ -516,11 +544,19 @@ body{
             display: none;
             position: absolute;
             background-color:rgb(58, 10, 10);
-            margin-top: 1rem;
+            margin-top: 2rem;
+            text-align: center;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.418);
             z-index: 1;
         }
+
+            .dropdown-content a:nth-child(1n):hover{
+                text-align: center;
+                justify-self: center;
+                align-self: left;
+                background-color: rgba(255, 0, 0, 0.678);
+            }
 
         .dropdown-content a {
             color:antiquewhite;
@@ -531,7 +567,10 @@ body{
         }
 
         .dropdown-content a:hover {
-            background-color: bisque;
+            
+            box-shadow: 0px 0px 10px 0px rgb(255, 60, 60), 0px 0px 50px 0px rgb(255, 80, 80) inset;
+            background-color: rgba(255, 0, 0, 0.603);
+
         }
 
         .dropdown:hover .dropdown-content {
@@ -704,3 +743,72 @@ body{
                     color: rgb(99, 156, 202);
                 }
 
+                @media (min-width: 0px){
+
+
+                    .navbar{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        grid-template-rows: 1fr 1fr;
+                    }
+                
+                        #navbar-shrink-one{
+                            grid-column: 1;
+                            grid-row: 1; 
+                        }
+                
+                        #navbar-shrink-two{
+                            grid-column: 2;
+                            grid-row: 1;
+                        }
+        
+                        #navbar-shrink-three{
+                            grid-row: 2;
+                            grid-column: 1;
+                        }
+                
+                        #navbar-shrink-four{
+                            grid-row: 2;
+                            grid-column: 2;
+                        }
+        
+
+        
+                }
+
+
+                @media (min-width: 1300px) {
+
+                    .navbar{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                        grid-template-rows: 1fr;
+                        justify-items: center;
+                    }
+                
+                    #navbar-shrink-one{
+                        grid-row: 1;
+                        grid-column: 1; 
+                    }
+                
+                    #navbar-shrink-two{
+                        grid-column: 2;
+                        grid-row: 1;
+                    }
+        
+                    #navbar-shrink-three{
+                        grid-row: 1;
+                        grid-column: 4;
+                    }
+                
+                    
+                    #navbar-shrink-four{
+                        grid-row: 1;
+                        grid-column: 5;
+                    }
+        
+                    #navbar-shrink-five{
+                        grid-column: 6;
+                    }
+                    
+                }
