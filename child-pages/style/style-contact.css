@@ -667,7 +667,7 @@ body{
     
                 .main-content-prio-forms{
                     grid-row: 3;
-                    column: 1;
+                    margin: 10rem 0rem 10rem 0rem;
                 }
     
         .main-contact-neut-base{
