@@ -807,6 +807,7 @@ main{
                     justify-items: center;
                     padding: 0.5rem;
                     border-radius: 0.4rem;
+                    width: 100%;
                 }
                 .social-media-listed-image{
                     display: grid;
@@ -855,7 +856,7 @@ main{
                     }
 
                 #social-bottom-row-left{
-                    grid-column: 2;
+                    grid-column: span 3;
                     border-bottom-right-radius: 0rem;
                     border-top-right-radius: 0rem;
                 }
