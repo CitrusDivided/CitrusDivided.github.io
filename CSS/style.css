@@ -823,7 +823,7 @@ main{
                     text-align: center;
                     color:#e3ffe588;
                     text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.295);
-                    background: rgba(0, 43, 21, 0.356);
+                    /* background: rgba(0, 43, 21, 0.356); */
                     margin-top: -0.92rem;
                     width: 100%;
                     justify-self: center;
