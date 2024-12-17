@@ -285,7 +285,6 @@ p{
 
 
         #pageSubHeadBar{
-            z-index: 1;
             border: 1px solid #000000;
             margin-bottom: -0.1rem;
             height: 0.8rem;
@@ -297,7 +296,6 @@ p{
             repeating-linear-gradient( 120deg, red, rgb(172, 132, 80) 0.5px, rgb(172, 132, 80) 0.5px, red 2.2px);
         }
         #pageSubHeadInnerBar{
-            z-index: 1;
             position: relative;
             top: 2px;
             border: 3px solid #792222;
@@ -460,56 +458,6 @@ p{
         .dropdown:hover .dropdown-content {
             display: block;
         }
-
-
-
-/* #aboutMeSocialSpan {
-    display: grid;
-    grid-row: 4;
-    position: relative;
-    top: -80px;
-    grid-column: 1;
-    padding: 1rem;
-    margin: -1rem;
-    cursor: pointer;
-    row-gap: 0rem;
-    border: 1px solid rgba(0, 0, 0, 0.397);
-    background-color: rgba(0, 170, 65, 0.301);
-    background-blend-mode: color-burn;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.733), 1px 1px 10px 0px #3f0858 inset;
-    font-size: 1rem;
-    height: -webkit-fill-available;
-    justify-items: center;
-    animation-name: social-color;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    overflow:hidden;
-}
-#aboutMeSocialSpan:hover{
-    transition: 0.5s;
-    box-shadow: 0px 0px 10px 6px black, 0px 0px 10px 1px rgba(218, 31, 255, 0.418) inset;
-}
-@keyframes social-color {
-    0%{
-        background-color: rgba(0, 170, 65, 0.301);
-    }
-    25%{
-        background-color: rgba(235, 87, 255, 0.301);
-    }
-    50%{
-        background-color: rgba(87, 126, 255, 0.301);
-    }
-    51%{
-        background-color: rgba(87, 126, 255, 0.301);
-    }
-    75%{
-        background-color: rgba(235, 87, 255, 0.301);
-    }
-    100%{
-        background-color: rgba(0, 170, 65, 0.301);
-    }   
-} */
 
 ul {
     margin: 0;
