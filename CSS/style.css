@@ -819,7 +819,6 @@ main{
                     padding: 0.5rem 1rem 0.4rem 1rem;
                     border-top-left-radius: 0.4rem;
                     border-top-right-radius: 0.4rem;
-                    border-bottom: 1px solid rgb(36, 82, 43);
                     height: inherit;
                 }
 
@@ -832,10 +831,8 @@ main{
                 #social-top{
                     border-radius: 0.4rem;
                     width: 100%;
-                    grid-row: 1;
                     border-bottom-right-radius: 0rem;
                     border-bottom-left-radius: 0rem;
-                    grid-column: span 3;
                     background-color: #133323;
                 }
 
