@@ -801,19 +801,13 @@ main{
             }
 
                 #social-grid-sort{
-                    display: grid;
+                    /* display: grid; */
                     /* grid-template-columns: 5rem 3fr 1fr; */
                     justify-self: center;
                     justify-items: center;
                     /* padding: 0.5rem; */
                     border-radius: 0.4rem;
                     width: 100%;
-                }
-                .social-media-listed-image{
-                    display: grid;
-                    /* grid-template-columns: 1fr 50px; */
-                    height: 30px;
-                    /* background-color: rgba(31, 80, 35, 0.466); */
                 }
 
 
