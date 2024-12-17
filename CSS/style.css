@@ -801,11 +801,8 @@ main{
             }
 
                 #social-grid-sort{
-                    /* display: grid; */
-                    /* grid-template-columns: 5rem 3fr 1fr; */
                     justify-self: center;
                     justify-items: center;
-                    /* padding: 0.5rem; */
                     border-radius: 0.4rem;
                     width: 100%;
                 }
@@ -813,11 +810,9 @@ main{
 
                 .social-media-outbound-text{
                     align-self: center;
-                    /* background:rgb(29, 77, 45); */
                     text-align: center;
                     color:#e3ffe588;
                     text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.295);
-                    /* background: rgba(0, 43, 21, 0.356); */
                     margin-top: -0.92rem;
                     width: 100%;
                     justify-self: center;
@@ -837,7 +832,6 @@ main{
                 #social-top{
                     border-radius: 0.4rem;
                     width: 100%;
-                    /* height: 60px; */
                     grid-row: 1;
                     border-bottom-right-radius: 0rem;
                     border-bottom-left-radius: 0rem;
@@ -856,7 +850,6 @@ main{
                 }
 
                 #social-bottom-row-left, #social-bottom-row-right, #social-bottom-row-center{
-                    /* grid-row: 2; */
                     width: 100%;
                     background-color: #133323;
                 }
@@ -896,7 +889,6 @@ main{
                 }
 
                 #menu-collapse-1, #menu-collapse-2, #menu-collapse-3{
-                    /* height: 50px; */
                     background: rgb(12, 121, 57);
                 }
 
