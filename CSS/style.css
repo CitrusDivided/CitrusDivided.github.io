@@ -802,7 +802,7 @@ main{
 
                 #social-grid-sort{
                     display: grid;
-                    grid-template-columns: 5rem 3fr 1fr;
+                    /* grid-template-columns: 5rem 3fr 1fr; */
                     justify-self: center;
                     justify-items: center;
                     /* padding: 0.5rem; */
