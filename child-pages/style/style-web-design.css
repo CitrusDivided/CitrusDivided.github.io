@@ -675,8 +675,8 @@ main{
         }
 
         .dual-view-launcher-base-right{
-            grid-row: 1;
-            grid-column: 3;
+            grid-row: 2;
+            grid-column: 2;
             background: rgb(20, 9, 19);
             height: 100%;
             max-width: 500px;
