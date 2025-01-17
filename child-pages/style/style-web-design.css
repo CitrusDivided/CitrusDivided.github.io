@@ -678,8 +678,6 @@ main{
             grid-row: 2;
             grid-column: 2;
             background: rgb(20, 9, 19);
-            height: 100%;
-            max-width: 500px;
             border-top-right-radius: 0.4rem;
             border-bottom-right-radius: 0.4rem;
         }
@@ -698,6 +696,7 @@ main{
             }
 
             .blurb-listed{
+                scroll-snap-align: start;
                 background-color: rgb(48, 25, 40);
                 margin: 1rem;
                 padding: 1rem;
