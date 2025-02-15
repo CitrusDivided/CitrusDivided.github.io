@@ -22,7 +22,7 @@ p{
 }
 
         .stageBar, .stageGoldBar{
-            position: absolute;
+            position: fixed;
             z-index: 3;
             border: red;
             width: 100%;
