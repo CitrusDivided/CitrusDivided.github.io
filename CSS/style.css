@@ -317,14 +317,16 @@ p{
         }
         #subHeaderBottomBar {
             scroll-snap-align: start;
-            height: 1rem;
+            position: relative;
+            top: 0.3rem;
+            height: 0.7rem;
             width: 100%;
             border-bottom: 2px solid rgb(214, 53, 53);
             background-image:
             radial-gradient(ellipse at bottom, rgba(255, 181, 85, 0.555) 10%, rgba(156, 0, 0, 0.692)),
             linear-gradient(rgba(255, 255, 255, 0.199), rgba(0, 0, 0, 0.432)),
             repeating-linear-gradient( 120deg, red, rgb(172, 132, 80) 0.5px, rgb(172, 132, 80) 0.5px, red 2.2px);
-            box-shadow: 10px 3px 11px 3px #000000, 0px 0px 2px 0px #ff6b6b inset;
+            box-shadow:0px 4px 2px 0px #0000009c, 0px 0px 2px 0px #ff6b6b inset;
         }
 
         #subHeaderBottomBar, #pageSubHeadInnerBar, #pageSubHeadBar{
